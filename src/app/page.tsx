@@ -1,5 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
+import {
+  Wind,
+  Droplets,
+  Flame,
+  VolumeX,
+  TreePine,
+  Hand,
+  CircleDot,
+  Heart,
+  Layers,
+  Clock,
+  Home,
+  ArrowLeftRight,
+  Hammer,
+  HelpCircle,
+  Leaf,
+  Thermometer,
+  Globe,
+  Recycle,
+} from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Allt om fårull. Från fiber till byggisolering | Farull.se",
@@ -11,33 +32,39 @@ const fordelar = [
   {
     title: "Luften blir renare av sig själv",
     text: "Ullfibrer fångar upp formaldehyd och andra ämnen som frigörs från möbler och byggmaterial. Tester visar att 96\u00a0% av formaldehyden absorberas inom sju timmar.",
+    icon: Wind,
   },
   {
     title: "Ull som andas",
     text: "Fårull kan ta upp nästan hälften av sin egen vikt i fukt. Och här är grejen: den tappar inte isoleringsförmågan. Inget annat material klarar det.",
+    icon: Droplets,
   },
   {
     title: "Brandsäker. Naturligt.",
     text: "Ull antänds inte lätt. Den kolnar, krymper ihop och självslocknar. Brandklass B1 och C, helt utan kemiska flamskyddsmedel.",
+    icon: Flame,
   },
   {
     title: "Tystare rum",
     text: "Den krusiga fiberstrukturen fångar ljudvågor i flera frekvenser. Bra i mellanväggar, bjälklag och överallt där du vill ha lugn och ro.",
+    icon: VolumeX,
   },
   {
     title: "Binder koldioxid istället för att släppa ut",
     text: "Mineralull kräver enorma mängder energi att tillverka. Fårull växer på ryggen av ett får, driven av gräs och solljus. Den binder CO₂ under hela sin livstid.",
+    icon: TreePine,
   },
   {
     title: "Montera med bara händerna",
     text: "Inga handskar. Ingen andningsmask. Inget kliande. Du river eller klipper till rätt mått och trycker in det i regelverket. Klart.",
+    icon: Hand,
   },
 ];
 
 const nyckeltal = [
-  { value: "0,033", label: "W/m·K lambda-värde" },
-  { value: "200 000", label: "ton spillull per år i Europa" },
-  { value: "100 %", label: "cirkulärt material" },
+  { value: "0,033", label: "W/m·K lambda-värde", icon: Thermometer },
+  { value: "200 000", label: "ton spillull per år i Europa", icon: Globe },
+  { value: "100 %", label: "cirkulärt material", icon: Recycle },
 ];
 
 const utforskaFarull = [
@@ -45,21 +72,25 @@ const utforskaFarull = [
     title: "Vad är fårull?",
     href: "/farull",
     text: "Keratin, krusighet och luftfickor. Varför ull isolerar bättre än de flesta syntetiska alternativ.",
+    icon: CircleDot,
   },
   {
     title: "Svenska fårraser",
     href: "/farraser",
     text: "Gutefår, Gotlandsfår, Ryafår. Varje ras ger ull med helt olika karaktär.",
+    icon: Heart,
   },
   {
     title: "Användningsområden",
     href: "/anvandningsomraden",
     text: "Kläder, akustikpaneler, odling, byggisolering. Ull gör mer än du tror.",
+    icon: Layers,
   },
   {
     title: "Ullens historia",
     href: "/ullens-historia",
     text: "Från bronsålderns segelduk till moderna passivhus. 6\u00a0000 år av ull.",
+    icon: Clock,
   },
 ];
 
@@ -68,28 +99,41 @@ const utforskaIsolering = [
     title: "Vad är fårullsisolering?",
     href: "/vad-ar-farullsisolering",
     text: "Hur det tillverkas, hur det fungerar och vad som gör det annorlunda.",
+    icon: Home,
   },
   {
     title: "Fårull vs mineralull",
     href: "/jamforelse",
     text: "Prestanda, pris och miljöpåverkan. Sida vid sida, utan skönmålning.",
+    icon: ArrowLeftRight,
   },
   {
     title: "Monteringsguide",
     href: "/montering",
     text: "Väggar, tak och golv. Steg för steg, utan specialverktyg.",
+    icon: Hammer,
   },
   {
     title: "Vanliga frågor",
     href: "/fragor-och-svar",
     text: "Pris, brandklass, livslängd. De frågor folk faktiskt ställer.",
+    icon: HelpCircle,
   },
   {
     title: "Hållbarhet",
     href: "/hallbarhet",
     text: "CO₂-bindning, cirkulär ekonomi och vad EU-taxonomin säger.",
+    icon: Leaf,
   },
 ];
+
+function SectionDivider() {
+  return (
+    <div className="flex justify-center py-4">
+      <div className="w-24 h-px bg-accent/30" />
+    </div>
+  );
+}
 
 export default function Home() {
   return (
@@ -97,7 +141,7 @@ export default function Home() {
       {/* HERO */}
       <section className="min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="max-w-xl">
               <p className="hero-tag flex items-center gap-3 uppercase text-xs tracking-widest text-accent font-body mb-6">
                 <span className="inline-block w-8 h-[1px] bg-accent" />
@@ -126,10 +170,21 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="hidden lg:block" />
+            <div className="hidden lg:block">
+              <Image
+                src="https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=800&q=80"
+                alt="Fårull - naturlig isolering"
+                width={800}
+                height={600}
+                priority
+                className="object-cover rounded-2xl shadow-2xl w-full h-auto"
+              />
+            </div>
           </div>
         </div>
       </section>
+
+      <SectionDivider />
 
       {/* FÖRDELAR */}
       <section className="reveal py-32">
@@ -146,6 +201,11 @@ export default function Home() {
                 key={item.title}
                 className="card-hover bg-white rounded-lg p-8 border border-foreground/5"
               >
+                <item.icon
+                  size={32}
+                  strokeWidth={1.5}
+                  className="text-accent mb-4"
+                />
                 <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
                   {item.title}
                 </h3>
@@ -158,6 +218,8 @@ export default function Home() {
         </div>
       </section>
 
+      <SectionDivider />
+
       {/* NYCKELTAL */}
       <section className="reveal py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -169,6 +231,16 @@ export default function Home() {
                   i > 0 ? "md:border-l-2 md:border-accent" : ""
                 }`}
               >
+                <div className="flex justify-center mb-3">
+                  <div className="relative">
+                    <div className="absolute inset-0 rounded-full bg-accent/10 scale-150" />
+                    <item.icon
+                      size={28}
+                      strokeWidth={1.5}
+                      className="text-accent relative"
+                    />
+                  </div>
+                </div>
                 <p className="font-heading text-5xl text-primary font-semibold mb-2">
                   {item.value}
                 </p>
@@ -180,6 +252,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <SectionDivider />
 
       {/* UTFORSKA FÅRULL */}
       <section className="reveal py-32">
@@ -197,6 +271,11 @@ export default function Home() {
                 href={item.href}
                 className="group card-hover bg-white/50 border border-foreground/5 rounded-lg p-6 transition-all duration-300"
               >
+                <item.icon
+                  size={24}
+                  strokeWidth={1.5}
+                  className="text-primary mb-3"
+                />
                 <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
                   {item.title}
                 </h3>
@@ -208,6 +287,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <SectionDivider />
 
       {/* UTFORSKA ISOLERING */}
       <section className="reveal py-32">
@@ -225,6 +306,11 @@ export default function Home() {
                 href={item.href}
                 className="group card-hover bg-white/50 border border-foreground/5 rounded-lg p-6 transition-all duration-300"
               >
+                <item.icon
+                  size={24}
+                  strokeWidth={1.5}
+                  className="text-primary mb-3"
+                />
                 <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
                   {item.title}
                 </h3>
@@ -236,6 +322,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <SectionDivider />
 
       {/* AVSLUTANDE */}
       <section className="reveal py-32">
