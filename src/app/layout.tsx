@@ -38,7 +38,7 @@ export default function RootLayout({
         className={`${cormorant.variable} ${outfit.variable} font-body antialiased`}
       >
         <Header />
-        <main className="min-h-screen">{children}</main>
+        <main className="min-h-screen pt-20">{children}</main>
         <Footer />
       </body>
     </html>

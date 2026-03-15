@@ -25,7 +25,7 @@ export function Footer() {
           <div>
             <h2 className="font-heading text-2xl font-bold mb-4">Farull.se</h2>
             <p className="font-body text-white/70 text-sm leading-relaxed">
-              Allt om fårull — från fiber och fårraser till byggisolering, montering och hållbarhet.
+              Allt om fårull som material, svenska fårraser och byggisolering. Från fiber till färdigt hus.
             </p>
           </div>
 
@@ -37,7 +37,7 @@ export function Footer() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-sm font-body text-white/70 hover:text-white transition-colors"
+                  className="text-sm font-body text-white/70 hover:text-white transition-colors link-grow w-fit"
                 >
                   {item.label}
                 </Link>
@@ -53,7 +53,7 @@ export function Footer() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-sm font-body text-white/70 hover:text-white transition-colors"
+                  className="text-sm font-body text-white/70 hover:text-white transition-colors link-grow w-fit"
                 >
                   {item.label}
                 </Link>
@@ -102,7 +102,7 @@ export function Footer() {
             >
               Byeco
             </a>
-            {" "}— Skandinaviens specialistbutik för fårullsisolering
+            , Skandinaviens specialistbutik för fårullsisolering
           </p>
         </div>
       </div>

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const farullNav = [
   { label: "Vad är fårull?", href: "/farull" },
@@ -23,9 +23,22 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [farullOpen, setFarullOpen] = useState(false);
   const [isoleringOpen, setIsoleringOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 20);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <header className="bg-background/95 backdrop-blur-sm border-b border-surface sticky top-0 z-50">
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        scrolled
+          ? "bg-background/80 backdrop-blur-[20px] shadow-sm border-b border-surface/50"
+          : "bg-background/60 backdrop-blur-[12px]"
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-3">
@@ -46,7 +59,7 @@ export function Header() {
                 Fårull
               </button>
               {farullOpen && (
-                <div className="absolute top-full left-0 bg-background border border-surface rounded-soft shadow-lg py-2 min-w-[220px]">
+                <div className="absolute top-full left-0 bg-background/95 backdrop-blur-[16px] border border-surface/60 shadow-lg py-2 min-w-[220px]">
                   {farullNav.map((item) => (
                     <Link
                       key={item.href}
@@ -70,7 +83,7 @@ export function Header() {
                 Isolering
               </button>
               {isoleringOpen && (
-                <div className="absolute top-full left-0 bg-background border border-surface rounded-soft shadow-lg py-2 min-w-[220px]">
+                <div className="absolute top-full left-0 bg-background/95 backdrop-blur-[16px] border border-surface/60 shadow-lg py-2 min-w-[220px]">
                   {isoleringNav.map((item) => (
                     <Link
                       key={item.href}
@@ -131,7 +144,7 @@ export function Header() {
 
         {/* Mobile nav */}
         {isOpen && (
-          <nav className="lg:hidden pb-6 border-t border-surface pt-4">
+          <nav className="lg:hidden pb-6 border-t border-surface/50 pt-4">
             <div className="flex flex-col gap-1">
               <p className="text-xs uppercase tracking-[0.15em] text-foreground/40 font-body px-1 pt-2 pb-1">
                 Fårull
@@ -161,7 +174,7 @@ export function Header() {
                 </Link>
               ))}
 
-              <div className="border-t border-surface mt-3 pt-3">
+              <div className="border-t border-surface/50 mt-3 pt-3">
                 <Link
                   href="/om-oss"
                   onClick={() => setIsOpen(false)}

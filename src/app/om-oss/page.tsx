@@ -1,17 +1,83 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { ScrollReveal } from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
   title: "Om oss",
-  description: "Lär känna teamet bakom Farull.se och Byeco — din partner för naturlig isolering.",
+  description:
+    "Farull.se drivs av Byeco, Skandinaviens specialistbutik för fårullsisolering. Vi sitter i Rävlanda, strax utanför Göteborg.",
 };
 
 export default function OmOss() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-      <h1 className="font-heading text-5xl font-bold text-primary mb-6">
-        Om oss
-      </h1>
-      <p className="font-body text-lg text-foreground/70">Innehåll kommer snart.</p>
+      <ScrollReveal>
+        <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">
+          Om oss
+        </p>
+        <h1 className="font-heading text-4xl sm:text-5xl font-bold text-foreground mb-8 max-w-3xl">
+          Vi tror på material som gör nytta
+        </h1>
+      </ScrollReveal>
+
+      <div className="max-w-3xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
+        <ScrollReveal>
+          <p>
+            Farull.se drivs av Byeco, Skandinaviens specialistbutik för
+            fårullsisolering. Vi säljer produkter från österrikiska Isolena
+            och hjälper byggare, arkitekter och husägare att välja rätt
+            isolering.
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+            Varför den här sajten?
+          </h2>
+          <p>
+            Vi märkte att det saknades bra, samlad information om fårull och
+            fårullsisolering på svenska. Det finns mycket att lära, och mycket
+            att vinna på att fler förstår hur materialet fungerar. Farull.se
+            är vårt sätt att dela den kunskapen.
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+            Byeco
+          </h2>
+          <p>
+            Byeco har kontor i Rävlanda utanför Göteborg och i Helsingfors.
+            Vi erbjuder fri rådgivning, hjälper med beräkningar av
+            isoleringsmängd och har 30 dagars öppet köp på alla produkter.
+          </p>
+          <p className="mt-4">
+            <a
+              href="https://byeco.se"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary/80 link-grow"
+            >
+              Besök Byeco.se
+            </a>
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+            Kontakta oss
+          </h2>
+          <p>
+            Har du frågor om fårullsisolering, materialet eller något du
+            läst här? Hör av dig.
+          </p>
+          <p className="mt-4">
+            <Link href="/kontakt" className="text-primary hover:text-primary/80 link-grow">
+              Till kontaktsidan
+            </Link>
+          </p>
+        </ScrollReveal>
+      </div>
     </div>
   );
 }
