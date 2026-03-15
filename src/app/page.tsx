@@ -12,7 +12,7 @@ import {
   Heart,
   Layers,
   Clock,
-  Home,
+  Home as HomeIcon,
   ArrowLeftRight,
   Hammer,
   HelpCircle,
@@ -99,7 +99,7 @@ const utforskaIsolering = [
     title: "Vad är fårullsisolering?",
     href: "/vad-ar-farullsisolering",
     text: "Hur det tillverkas, hur det fungerar och vad som gör det annorlunda.",
-    icon: Home,
+    icon: HomeIcon,
   },
   {
     title: "Fårull vs mineralull",
