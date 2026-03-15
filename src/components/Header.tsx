@@ -33,38 +33,36 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b ${
         scrolled
-          ? "bg-background/80 backdrop-blur-[20px] shadow-sm border-b border-surface/50"
-          : "bg-background/60 backdrop-blur-[12px]"
+          ? "bg-[rgba(250,247,242,0.8)] backdrop-blur-[20px] border-[rgba(26,25,22,0.06)] shadow-sm"
+          : "bg-[rgba(250,247,242,0.8)] backdrop-blur-[20px] border-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link href="/" className="flex items-center gap-3">
-            <span className="font-heading text-2xl sm:text-3xl font-bold text-primary">
-              Farull.se
-            </span>
+          <Link href="/" className="font-heading text-2xl font-semibold text-foreground">
+            Farull.se
           </Link>
 
           {/* Desktop nav */}
           <nav className="hidden lg:flex items-center gap-1">
             {/* Fårull dropdown */}
             <div
-              className="relative group"
+              className="relative"
               onMouseEnter={() => setFarullOpen(true)}
               onMouseLeave={() => setFarullOpen(false)}
             >
-              <button className="text-sm font-body text-foreground/70 hover:text-primary transition-colors px-3 py-2">
+              <button className="link-grow uppercase text-xs tracking-wider font-body text-foreground/70 hover:text-foreground transition-colors px-4 py-2">
                 Fårull
               </button>
               {farullOpen && (
-                <div className="absolute top-full left-0 bg-background/95 backdrop-blur-[16px] border border-surface/60 shadow-lg py-2 min-w-[220px]">
+                <div className="absolute top-full left-0 bg-[rgba(250,247,242,0.95)] backdrop-blur-[20px] border border-[rgba(26,25,22,0.06)] shadow-lg py-2 min-w-[220px]">
                   {farullNav.map((item) => (
                     <Link
                       key={item.href}
                       href={item.href}
-                      className="block px-4 py-2.5 text-sm font-body text-foreground/70 hover:text-primary hover:bg-surface/50 transition-colors"
+                      className="block px-4 py-2.5 text-sm font-body text-foreground/70 hover:text-foreground hover:bg-foreground/5 transition-colors"
                     >
                       {item.label}
                     </Link>
@@ -75,20 +73,20 @@ export function Header() {
 
             {/* Isolering dropdown */}
             <div
-              className="relative group"
+              className="relative"
               onMouseEnter={() => setIsoleringOpen(true)}
               onMouseLeave={() => setIsoleringOpen(false)}
             >
-              <button className="text-sm font-body text-foreground/70 hover:text-primary transition-colors px-3 py-2">
+              <button className="link-grow uppercase text-xs tracking-wider font-body text-foreground/70 hover:text-foreground transition-colors px-4 py-2">
                 Isolering
               </button>
               {isoleringOpen && (
-                <div className="absolute top-full left-0 bg-background/95 backdrop-blur-[16px] border border-surface/60 shadow-lg py-2 min-w-[220px]">
+                <div className="absolute top-full left-0 bg-[rgba(250,247,242,0.95)] backdrop-blur-[20px] border border-[rgba(26,25,22,0.06)] shadow-lg py-2 min-w-[220px]">
                   {isoleringNav.map((item) => (
                     <Link
                       key={item.href}
                       href={item.href}
-                      className="block px-4 py-2.5 text-sm font-body text-foreground/70 hover:text-primary hover:bg-surface/50 transition-colors"
+                      className="block px-4 py-2.5 text-sm font-body text-foreground/70 hover:text-foreground hover:bg-foreground/5 transition-colors"
                     >
                       {item.label}
                     </Link>
@@ -99,13 +97,13 @@ export function Header() {
 
             <Link
               href="/om-oss"
-              className="text-sm font-body text-foreground/70 hover:text-primary transition-colors px-3 py-2"
+              className="link-grow uppercase text-xs tracking-wider font-body text-foreground/70 hover:text-foreground transition-colors px-4 py-2"
             >
               Om oss
             </Link>
             <Link
               href="/kontakt"
-              className="text-sm font-body text-foreground/70 hover:text-primary transition-colors px-3 py-2"
+              className="link-grow uppercase text-xs tracking-wider font-body text-foreground/70 hover:text-foreground transition-colors px-4 py-2"
             >
               Kontakt
             </Link>
@@ -144,7 +142,7 @@ export function Header() {
 
         {/* Mobile nav */}
         {isOpen && (
-          <nav className="lg:hidden pb-6 border-t border-surface/50 pt-4">
+          <nav className="lg:hidden pb-6 border-t border-[rgba(26,25,22,0.06)] pt-4">
             <div className="flex flex-col gap-1">
               <p className="text-xs uppercase tracking-[0.15em] text-foreground/40 font-body px-1 pt-2 pb-1">
                 Fårull
@@ -154,7 +152,7 @@ export function Header() {
                   key={item.href}
                   href={item.href}
                   onClick={() => setIsOpen(false)}
-                  className="text-base font-body text-foreground/70 hover:text-primary transition-colors py-1.5 px-1"
+                  className="text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
                 >
                   {item.label}
                 </Link>
@@ -168,24 +166,24 @@ export function Header() {
                   key={item.href}
                   href={item.href}
                   onClick={() => setIsOpen(false)}
-                  className="text-base font-body text-foreground/70 hover:text-primary transition-colors py-1.5 px-1"
+                  className="text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
                 >
                   {item.label}
                 </Link>
               ))}
 
-              <div className="border-t border-surface/50 mt-3 pt-3">
+              <div className="border-t border-[rgba(26,25,22,0.06)] mt-3 pt-3">
                 <Link
                   href="/om-oss"
                   onClick={() => setIsOpen(false)}
-                  className="block text-base font-body text-foreground/70 hover:text-primary transition-colors py-1.5 px-1"
+                  className="block text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
                 >
                   Om oss
                 </Link>
                 <Link
                   href="/kontakt"
                   onClick={() => setIsOpen(false)}
-                  className="block text-base font-body text-foreground/70 hover:text-primary transition-colors py-1.5 px-1"
+                  className="block text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
                 >
                   Kontakt
                 </Link>

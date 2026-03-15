@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ScrollReveal } from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
   title: "Allt om fårull. Från fiber till byggisolering | Farull.se",
@@ -10,47 +9,35 @@ export const metadata: Metadata = {
 
 const fordelar = [
   {
-    title: "Renar inomhusluften",
-    text: "Ullens keratin absorberar formaldehyd och andra skadliga ämnen. Luften i rummet blir faktiskt renare med tiden.",
+    title: "Luften blir renare av sig själv",
+    text: "Ullfibrer fångar upp formaldehyd och andra ämnen som frigörs från möbler och byggmaterial. Tester visar att 96\u00a0% av formaldehyden absorberas inom sju timmar.",
   },
   {
     title: "Ull som andas",
-    text: "Buffrar upp till 40 % av sin vikt i fukt utan att tappa isolerförmåga. Släpper ut fukten igen när luften torkar.",
+    text: "Fårull kan ta upp nästan hälften av sin egen vikt i fukt. Och här är grejen: den tappar inte isoleringsförmågan. Inget annat material klarar det.",
   },
   {
-    title: "Brandsäker utan tillsatser",
-    text: "Ull kolnar istället för att brinna. Brandklass B1/C helt utan kemiska flamskyddsmedel.",
+    title: "Brandsäker. Naturligt.",
+    text: "Ull antänds inte lätt. Den kolnar, krymper ihop och självslocknar. Brandklass B1 och C, helt utan kemiska flamskyddsmedel.",
   },
   {
-    title: "Tyst hus",
-    text: "De krusiga fibrerna fångar ljud i breda frekvensomfång. Grannarnas tv hörs inte längre.",
+    title: "Tystare rum",
+    text: "Den krusiga fiberstrukturen fångar ljudvågor i flera frekvenser. Bra i mellanväggar, bjälklag och överallt där du vill ha lugn och ro.",
   },
   {
-    title: "Binder koldioxid",
-    text: "Varje kilo fårull har bundit CO₂ under fårets betessäsong. Mineralull släpper ut den vid tillverkning.",
+    title: "Binder koldioxid istället för att släppa ut",
+    text: "Mineralull kräver enorma mängder energi att tillverka. Fårull växer på ryggen av ett får, driven av gräs och solljus. Den binder CO₂ under hela sin livstid.",
   },
   {
-    title: "Montera utan mask",
-    text: "Ingen klåda, inget damm, ingen skyddsutrustning. Klipp med vanlig sax och tryck på plats.",
+    title: "Montera med bara händerna",
+    text: "Inga handskar. Ingen andningsmask. Inget kliande. Du river eller klipper till rätt mått och trycker in det i regelverket. Klart.",
   },
 ];
 
 const nyckeltal = [
-  {
-    value: "0,033",
-    unit: "W/m·K lambda-värde",
-    description: "Bäst bland biobaserade",
-  },
-  {
-    value: "200 000",
-    unit: "ton spillull per år i Europa",
-    description: "Återanvänd som isolering",
-  },
-  {
-    value: "100 %",
-    unit: "cirkulärt material",
-    description: "Tillbaka till naturen",
-  },
+  { value: "0,033", label: "W/m·K lambda-värde" },
+  { value: "200 000", label: "ton spillull per år i Europa" },
+  { value: "100 %", label: "cirkulärt material" },
 ];
 
 const utforskaFarull = [
@@ -72,7 +59,7 @@ const utforskaFarull = [
   {
     title: "Ullens historia",
     href: "/ullens-historia",
-    text: "Från bronsålderns segelduk till moderna passivhus. 6 000 år av ull.",
+    text: "Från bronsålderns segelduk till moderna passivhus. 6\u00a0000 år av ull.",
   },
 ];
 
@@ -107,197 +94,168 @@ const utforskaIsolering = [
 export default function Home() {
   return (
     <>
-      {/* HERO — asymmetrisk layout */}
-      <section className="bg-primary text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 lg:py-40">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            <div className="lg:col-span-7">
-              <p className="hero-fade-tagline uppercase tracking-[0.12em] text-white/60 text-sm font-body mb-6">
-                100 % naturlig · CO₂-bindande · Tillverkad i Österrike
+      {/* HERO */}
+      <section className="min-h-screen flex items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="max-w-xl">
+              <p className="hero-tag flex items-center gap-3 uppercase text-xs tracking-widest text-accent font-body mb-6">
+                <span className="inline-block w-8 h-[1px] bg-accent" />
+                100% naturlig · CO₂-bindande
               </p>
-              <h1 className="hero-fade-title font-heading text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight max-w-4xl mb-8">
+              <h1 className="hero-title font-heading text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight text-foreground mb-8">
                 Allt om fårull. Från fiber till byggisolering.
               </h1>
-              <p className="hero-fade-text font-body text-lg sm:text-xl text-white/80 max-w-2xl leading-relaxed mb-10">
-                Fårull har isolerat människor i tusentals år. Nu isolerar den
-                ditt hus. Vi berättar allt om materialet, hur det fungerar
-                som isolering, och varför det slår mineralull på punkt efter
-                punkt.
+              <p className="hero-desc text-lg text-foreground/60 max-w-lg leading-relaxed font-body mb-10">
+                Fårull har hållit oss varma i tusentals år. Nu gör den samma sak
+                för våra hus. Här samlar vi allt du behöver veta om materialet,
+                isoleringen och varför det spelar roll.
               </p>
-              <div className="hero-fade-buttons flex flex-col sm:flex-row gap-4">
-                <Link href="/vad-ar-farullsisolering" className="btn-primary">
-                  Vad är fårullsisolering?
+              <div className="hero-actions flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/vad-ar-farullsisolering"
+                  className="inline-block bg-primary text-white uppercase tracking-wider text-sm px-8 py-4 font-body font-medium hover:translate-y-[-2px] hover:shadow-lg transition-all duration-300"
+                >
+                  Utforska isoleringen
                 </Link>
-                <Link href="/jamforelse" className="btn-outline">
-                  Jämför med andra material
+                <Link
+                  href="/jamforelse"
+                  className="inline-block border border-foreground/20 uppercase tracking-wider text-sm px-8 py-4 font-body font-medium text-foreground hover:bg-foreground/5 transition-all duration-300"
+                >
+                  Jämför material
                 </Link>
               </div>
             </div>
-            <div className="hidden lg:flex lg:col-span-5 items-center justify-center">
-              <div className="w-full aspect-square rounded-full bg-white/5 border border-white/10 flex items-center justify-center">
-                <div className="w-3/4 aspect-square rounded-full bg-white/5 border border-white/10 flex items-center justify-center">
-                  <div className="w-1/2 aspect-square rounded-full bg-accent/20 border border-accent/30" />
-                </div>
-              </div>
-            </div>
+            <div className="hidden lg:block" />
           </div>
         </div>
       </section>
 
       {/* FÖRDELAR */}
-      <section className="bg-background py-32 sm:py-40">
+      <section className="reveal py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ScrollReveal>
-            <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">
-              Varför fårull?
-            </p>
-            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-foreground mb-16 max-w-2xl">
-              Sex skäl att välja naturens eget isoleringsmaterial
-            </h2>
-          </ScrollReveal>
-          <ScrollReveal stagger>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {fordelar.map((item) => (
-                <div
-                  key={item.title}
-                  className="card-hover bg-surface/50 p-8 border border-surface"
-                >
-                  <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
-                    {item.title}
-                  </h3>
-                  <p className="font-body text-foreground/70 text-sm leading-relaxed">
-                    {item.text}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </ScrollReveal>
-          <ScrollReveal>
-            <div className="mt-12 text-center">
-              <Link
-                href="/fordelar"
-                className="font-body text-primary hover:text-primary/80 transition-colors text-sm font-medium link-grow"
+          <p className="uppercase tracking-widest text-accent text-sm font-body mb-4">
+            Varför fårull?
+          </p>
+          <h2 className="font-heading text-4xl font-semibold text-foreground mb-16">
+            Sex skäl att byta till ull
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {fordelar.map((item) => (
+              <div
+                key={item.title}
+                className="card-hover bg-white rounded-lg p-8 border border-foreground/5"
               >
-                Läs mer om alla fördelar
-              </Link>
-            </div>
-          </ScrollReveal>
+                <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-foreground/60 leading-relaxed font-body text-sm">
+                  {item.text}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* NYCKELTAL */}
-      <section className="bg-primary text-white py-32 sm:py-40">
+      <section className="reveal py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ScrollReveal stagger>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 text-center">
-              {nyckeltal.map((item) => (
-                <div key={item.value}>
-                  <p className="font-heading text-5xl sm:text-6xl font-bold text-accent mb-3">
-                    {item.value}
-                  </p>
-                  <p className="font-body text-white/90 text-base font-medium mb-1">
-                    {item.unit}
-                  </p>
-                  <p className="font-body text-white/50 text-sm">
-                    {item.description}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </ScrollReveal>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {nyckeltal.map((item, i) => (
+              <div
+                key={item.value}
+                className={`text-center ${
+                  i > 0 ? "md:border-l-2 md:border-accent" : ""
+                }`}
+              >
+                <p className="font-heading text-5xl text-primary font-semibold mb-2">
+                  {item.value}
+                </p>
+                <p className="text-sm text-foreground/50 font-body">
+                  {item.label}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* UTFORSKA FÅRULL */}
-      <section className="bg-background py-32 sm:py-40">
+      <section className="reveal py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ScrollReveal>
-            <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">
-              Fårull som material
-            </p>
-            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-foreground mb-16">
-              Utforska fårullens värld
-            </h2>
-          </ScrollReveal>
-          <ScrollReveal stagger>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {utforskaFarull.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="group card-hover bg-surface/50 p-8 border border-surface"
-                >
-                  <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
-                    {item.title}
-                  </h3>
-                  <p className="font-body text-foreground/60 text-sm leading-relaxed">
-                    {item.text}
-                  </p>
-                </Link>
-              ))}
-            </div>
-          </ScrollReveal>
+          <p className="uppercase tracking-widest text-accent text-sm font-body mb-4">
+            Fårull som material
+          </p>
+          <h2 className="font-heading text-4xl font-semibold text-foreground mb-16">
+            Utforska fårullens värld
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {utforskaFarull.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group card-hover bg-white/50 border border-foreground/5 rounded-lg p-6 transition-all duration-300"
+              >
+                <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
+                  {item.title}
+                </h3>
+                <p className="font-body text-foreground/60 text-sm leading-relaxed">
+                  {item.text}
+                </p>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* UTFORSKA ISOLERING */}
-      <section className="bg-surface/30 py-32 sm:py-40">
+      <section className="reveal py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ScrollReveal>
-            <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">
-              Byggisolering
-            </p>
-            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-foreground mb-16">
-              Fårullsisolering på djupet
-            </h2>
-          </ScrollReveal>
-          <ScrollReveal stagger>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {utforskaIsolering.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="group card-hover bg-background p-8 border border-surface"
-                >
-                  <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
-                    {item.title}
-                  </h3>
-                  <p className="font-body text-foreground/60 text-sm leading-relaxed">
-                    {item.text}
-                  </p>
-                </Link>
-              ))}
-            </div>
-          </ScrollReveal>
+          <p className="uppercase tracking-widest text-accent text-sm font-body mb-4">
+            Byggisolering
+          </p>
+          <h2 className="font-heading text-4xl font-semibold text-foreground mb-16">
+            Lär dig mer om fårullsisolering
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {utforskaIsolering.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group card-hover bg-white/50 border border-foreground/5 rounded-lg p-6 transition-all duration-300"
+              >
+                <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
+                  {item.title}
+                </h3>
+                <p className="font-body text-foreground/60 text-sm leading-relaxed">
+                  {item.text}
+                </p>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* AVSLUTANDE — KÖP */}
-      <section className="bg-background py-32 sm:py-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ScrollReveal>
-            <div className="max-w-2xl mx-auto text-center">
-              <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">
-                Köpa fårullsisolering
-              </p>
-              <h2 className="font-heading text-3xl sm:text-4xl font-bold text-foreground mb-6">
-                Redo att isolera med ull?
-              </h2>
-              <p className="font-body text-foreground/70 text-base leading-relaxed mb-8">
-                I Norden finns fårullsisolering från österrikiska Isolena att
-                beställa via Byeco.se. De sitter i Rävlanda utanför Göteborg
-                och erbjuder fri rådgivning och 30 dagars öppet köp.
-              </p>
-              <a
-                href="https://byeco.se"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-body text-primary hover:text-primary/80 transition-colors text-sm font-medium link-grow"
-              >
-                Besök Byeco.se
-              </a>
-            </div>
-          </ScrollReveal>
+      {/* AVSLUTANDE */}
+      <section className="reveal py-32">
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="font-heading text-4xl font-semibold text-foreground mb-6">
+            Var kan man köpa fårullsisolering?
+          </h2>
+          <p className="font-body text-foreground/60 text-base leading-relaxed mb-8">
+            I Norden säljer Byeco.se fårullsisolering från österrikiska Isolena.
+            De har kontor i Göteborg och Helsingfors, erbjuder fri rådgivning
+            och 30 dagars öppet köp.
+          </p>
+          <a
+            href="https://byeco.se"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-body text-primary hover:text-primary/80 transition-colors text-sm font-medium link-grow"
+          >
+            Besök Byeco.se →
+          </a>
         </div>
       </section>
     </>

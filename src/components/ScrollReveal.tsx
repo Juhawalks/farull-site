@@ -1,45 +1,63 @@
 "use client";
 
-import { useEffect, useRef, type ReactNode } from "react";
+import { useEffect, type ReactNode } from "react";
 
+/**
+ * Global scroll reveal observer — renders nothing, just observes all .reveal elements.
+ * Import once in layout.tsx.
+ */
+export function ScrollRevealObserver() {
+  useEffect(() => {
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    ).matches;
+
+    if (prefersReducedMotion) {
+      document.querySelectorAll(".reveal").forEach((el) => {
+        el.classList.add("visible");
+      });
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
+
+    document.querySelectorAll(".reveal").forEach((el) => {
+      observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
+  return null;
+}
+
+/**
+ * Wrapper component for backwards compatibility with existing pages.
+ * Wraps children in a div with "reveal" class so the global observer picks it up.
+ */
 interface ScrollRevealProps {
   children: ReactNode;
   className?: string;
   stagger?: boolean;
 }
 
-export function ScrollReveal({ children, className = "", stagger = false }: ScrollRevealProps) {
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-
-    // Respect reduced motion
-    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (prefersReducedMotion) {
-      el.classList.add("revealed");
-      return;
-    }
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          el.classList.add("revealed");
-          observer.unobserve(el);
-        }
-      },
-      { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
-    );
-
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  const baseClass = stagger ? "reveal-stagger" : "reveal";
-
+export function ScrollReveal({
+  children,
+  className = "",
+  stagger = false,
+}: ScrollRevealProps) {
   return (
-    <div ref={ref} className={`${baseClass} ${className}`}>
+    <div className={`reveal ${stagger ? "reveal-stagger" : ""} ${className}`.trim()}>
       {children}
     </div>
   );
