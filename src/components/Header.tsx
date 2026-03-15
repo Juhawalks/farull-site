@@ -3,19 +3,26 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const navigation = [
+const farullNav = [
+  { label: "Vad är fårull?", href: "/farull" },
+  { label: "Svenska fårraser", href: "/farraser" },
+  { label: "Användningsområden", href: "/anvandningsomraden" },
+  { label: "Ullens historia", href: "/ullens-historia" },
+];
+
+const isoleringNav = [
   { label: "Vad är fårullsisolering?", href: "/vad-ar-farullsisolering" },
   { label: "Fördelar", href: "/fordelar" },
   { label: "Jämförelse", href: "/jamforelse" },
   { label: "Montering", href: "/montering" },
   { label: "Frågor & svar", href: "/fragor-och-svar" },
   { label: "Hållbarhet", href: "/hallbarhet" },
-  { label: "Om oss", href: "/om-oss" },
-  { label: "Kontakt", href: "/kontakt" },
 ];
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [farullOpen, setFarullOpen] = useState(false);
+  const [isoleringOpen, setIsoleringOpen] = useState(false);
 
   return (
     <header className="bg-background/95 backdrop-blur-sm border-b border-surface sticky top-0 z-50">
@@ -28,24 +35,67 @@ export function Header() {
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden lg:flex items-center gap-6">
-            {navigation.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="text-sm font-body text-foreground/70 hover:text-primary transition-colors"
-              >
-                {item.label}
-              </Link>
-            ))}
-            <a
-              href="https://byeco.se"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ml-2 bg-primary text-white px-5 py-2.5 rounded-soft text-sm font-medium hover:bg-primary/90 transition-colors"
+          <nav className="hidden lg:flex items-center gap-1">
+            {/* Fårull dropdown */}
+            <div
+              className="relative group"
+              onMouseEnter={() => setFarullOpen(true)}
+              onMouseLeave={() => setFarullOpen(false)}
             >
-              Köp isolering
-            </a>
+              <button className="text-sm font-body text-foreground/70 hover:text-primary transition-colors px-3 py-2">
+                Fårull
+              </button>
+              {farullOpen && (
+                <div className="absolute top-full left-0 bg-background border border-surface rounded-soft shadow-lg py-2 min-w-[220px]">
+                  {farullNav.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      className="block px-4 py-2.5 text-sm font-body text-foreground/70 hover:text-primary hover:bg-surface/50 transition-colors"
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* Isolering dropdown */}
+            <div
+              className="relative group"
+              onMouseEnter={() => setIsoleringOpen(true)}
+              onMouseLeave={() => setIsoleringOpen(false)}
+            >
+              <button className="text-sm font-body text-foreground/70 hover:text-primary transition-colors px-3 py-2">
+                Isolering
+              </button>
+              {isoleringOpen && (
+                <div className="absolute top-full left-0 bg-background border border-surface rounded-soft shadow-lg py-2 min-w-[220px]">
+                  {isoleringNav.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      className="block px-4 py-2.5 text-sm font-body text-foreground/70 hover:text-primary hover:bg-surface/50 transition-colors"
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <Link
+              href="/om-oss"
+              className="text-sm font-body text-foreground/70 hover:text-primary transition-colors px-3 py-2"
+            >
+              Om oss
+            </Link>
+            <Link
+              href="/kontakt"
+              className="text-sm font-body text-foreground/70 hover:text-primary transition-colors px-3 py-2"
+            >
+              Kontakt
+            </Link>
           </nav>
 
           {/* Mobile menu button */}
@@ -82,25 +132,51 @@ export function Header() {
         {/* Mobile nav */}
         {isOpen && (
           <nav className="lg:hidden pb-6 border-t border-surface pt-4">
-            <div className="flex flex-col gap-3">
-              {navigation.map((item) => (
+            <div className="flex flex-col gap-1">
+              <p className="text-xs uppercase tracking-[0.15em] text-foreground/40 font-body px-1 pt-2 pb-1">
+                Fårull
+              </p>
+              {farullNav.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
                   onClick={() => setIsOpen(false)}
-                  className="text-base font-body text-foreground/70 hover:text-primary transition-colors py-1"
+                  className="text-base font-body text-foreground/70 hover:text-primary transition-colors py-1.5 px-1"
                 >
                   {item.label}
                 </Link>
               ))}
-              <a
-                href="https://byeco.se"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-2 bg-primary text-white px-5 py-2.5 rounded-soft text-sm font-medium text-center hover:bg-primary/90 transition-colors"
-              >
-                Köp isolering
-              </a>
+
+              <p className="text-xs uppercase tracking-[0.15em] text-foreground/40 font-body px-1 pt-4 pb-1">
+                Isolering
+              </p>
+              {isoleringNav.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setIsOpen(false)}
+                  className="text-base font-body text-foreground/70 hover:text-primary transition-colors py-1.5 px-1"
+                >
+                  {item.label}
+                </Link>
+              ))}
+
+              <div className="border-t border-surface mt-3 pt-3">
+                <Link
+                  href="/om-oss"
+                  onClick={() => setIsOpen(false)}
+                  className="block text-base font-body text-foreground/70 hover:text-primary transition-colors py-1.5 px-1"
+                >
+                  Om oss
+                </Link>
+                <Link
+                  href="/kontakt"
+                  onClick={() => setIsOpen(false)}
+                  className="block text-base font-body text-foreground/70 hover:text-primary transition-colors py-1.5 px-1"
+                >
+                  Kontakt
+                </Link>
+              </div>
             </div>
           </nav>
         )}
