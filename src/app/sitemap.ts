@@ -29,6 +29,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
     },
     { path: "/pris", priority: 0.9, changeFrequency: "monthly" as const },
+    {
+      path: "/teknisk-data",
+      priority: 0.8,
+      changeFrequency: "monthly" as const,
+    },
     { path: "/montering", priority: 0.8, changeFrequency: "monthly" as const },
     {
       path: "/fragor-och-svar",

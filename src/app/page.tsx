@@ -21,6 +21,7 @@ import {
   Globe,
   Recycle,
   Calculator,
+  ClipboardList,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -127,6 +128,12 @@ const utforskaIsolering = [
     href: "/montering",
     text: "Väggar, tak och golv. Steg för steg, utan specialverktyg.",
     icon: Hammer,
+  },
+  {
+    title: "Teknisk data",
+    href: "/teknisk-data",
+    text: "Lambda-värden, brandklass, densitet och certifieringar.",
+    icon: ClipboardList,
   },
   {
     title: "Vanliga frågor",

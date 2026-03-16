@@ -16,6 +16,7 @@ const isoleringNav = [
   { label: "Pris", href: "/pris" },
   { label: "Jämförelse", href: "/jamforelse" },
   { label: "Montering", href: "/montering" },
+  { label: "Teknisk data", href: "/teknisk-data" },
   { label: "Frågor & svar", href: "/fragor-och-svar" },
   { label: "Hållbarhet", href: "/hallbarhet" },
 ];
