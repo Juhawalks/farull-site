@@ -44,6 +44,17 @@ export default function FarullPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Krusigheten gör jobbet
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1560781290-7dc94c0f8f4f?w=800&q=80"
+              alt="Närbild på krusiga ullfibrer"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Ullens naturliga krusighet – nyckeln till dess isoleringsförmåga
+            </figcaption>
+          </figure>
           <p>
             Det som verkligen skiljer fårull från andra fibrer är den naturliga
             krusigheten. På engelska kallas den <em>crimp</em>. Merinoull kan
@@ -60,18 +71,34 @@ export default function FarullPage() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <img
-            src="https://images.unsplash.com/photo-1574181613301-4e7e991e61d4?w=600&q=80"
-            alt="Närbild på ullgarn och fibertextur"
-            loading="lazy"
-            className="w-full max-w-md mx-auto h-56 object-cover rounded-xl mb-8"
-          />
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1574181613301-4e7e991e61d4?w=600&q=80"
+              alt="Närbild på ullgarn och fibertextur"
+              loading="lazy"
+              className="w-full max-w-md mx-auto h-56 object-cover rounded-xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Närbild på ullens naturliga fiberstruktur och textur
+            </figcaption>
+          </figure>
         </ScrollReveal>
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Fukt och värme på samma gång
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80"
+              alt="Dimma över grönt landskap – fukt i naturen"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Ull hanterar fukt som inget annat fibermaterial
+            </figcaption>
+          </figure>
           <p>
             Fårull kan ta upp 35-40 % av sin egen vikt i fukt utan att kännas
             våt. Det beror på att fibrernas kärna är hydrofil och drar till sig
@@ -90,6 +117,17 @@ export default function FarullPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Tre sorters ull
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80"
+              alt="Olika garnnystan i naturliga färger"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Merinoull, crossbred och grovull – tre helt olika karaktärer
+            </figcaption>
+          </figure>
           <p>
             Ullens egenskaper varierar kraftigt beroende på ras.{" "}
             <strong>Merinoull</strong> (under 20 mikron) är extremt fin och
@@ -113,6 +151,17 @@ export default function FarullPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Lanolin skyddar fibern
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=800&q=80"
+              alt="Får i regn – lanolinets naturliga skydd"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Lanolin – fårets eget regnskydd som också skyddar isoleringen
+            </figcaption>
+          </figure>
           <p>
             Lanolin är det fettliknande vax som fåret utsöndrar för att skydda
             sin ull mot regn, UV-strålning och bakterier. I råull utgör det
@@ -130,6 +179,17 @@ export default function FarullPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Från fiber till hus
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+              alt="Byggarbetsplats med träregelverk"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Fårull går från fiber till färdig byggisolering i väggar och tak
+            </figcaption>
+          </figure>
           <p>
             Det mest spännande som händer med fårull just nu är byggisolering.
             Den naturliga fiberstrukturen, fukthanteringen och brandsäkerheten

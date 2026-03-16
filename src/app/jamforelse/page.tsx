@@ -41,6 +41,17 @@ export default function Jamforelse() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Fårull vs mineralull (sten- och glasull)
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+              alt="Byggarbetsplats med isoleringsmaterial"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Mineralull kräver skyddsutrustning – fårull monteras med bara händerna
+            </figcaption>
+          </figure>
           <p>
             <strong>Termisk prestanda:</strong> Jämförbar. Fårull 0,033-0,040
             W/m·K, mineralull 0,032-0,040 W/m·K. Ingen mätbar skillnad i
@@ -75,6 +86,17 @@ export default function Jamforelse() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Fårull vs cellulosa
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80"
+              alt="Naturliga fibrer och material"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Cellulosa och fårull – två biobaserade alternativ med olika styrkor
+            </figcaption>
+          </figure>
           <p>
             Cellulosa (returpapper) är ett annat biobaserat alternativ.
             Lambda-värdet är liknande (0,036-0,040 W/m·K). Cellulosa hanterar
@@ -93,6 +115,17 @@ export default function Jamforelse() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Fårull vs EPS/cellplast
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80"
+              alt="Byggmaterial i jämförelse"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              EPS isolerar termiskt – men saknar fårullens fukt- och brandegenskaper
+            </figcaption>
+          </figure>
           <p>
             EPS (expanderad polystyren) isolerar bra termiskt men saknar
             fuktbuffrande egenskaper helt. Den smälter vid brand och avger
@@ -111,6 +144,17 @@ export default function Jamforelse() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Sammanfattning
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
+              alt="Grönt landskap med betande får"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Fårull kostar mer – men ger mer tillbaka i luftkvalitet, hälsa och hållbarhet
+            </figcaption>
+          </figure>
           <p>
             Fårull kostar mer. Det är ärligt. Men om du väger in luftkvalitet,
             fukthantering, arbetskomfort, livslängd och klimatpåverkan blir

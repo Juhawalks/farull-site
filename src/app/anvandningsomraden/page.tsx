@@ -42,6 +42,17 @@ export default function AnvandningsomradenPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Kläder och textil
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=800&q=80"
+              alt="Ullkläder och textilier"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Merinoull i baslager, grövre ull i kappor och kostymer
+            </figcaption>
+          </figure>
           <p>
             Det mest kända användningsområdet. Merinoull används i baslager
             och sportplagg tack vare sin mjukhet och förmåga att reglera
@@ -58,6 +69,17 @@ export default function AnvandningsomradenPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Möbler och inredning
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80"
+              alt="Skandinavisk inredning med ulldetaljer"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Ullmattor, filtar och akustikpaneler – en nordisk tradition som lever vidare
+            </figcaption>
+          </figure>
           <p>
             Ull har länge använts i möbelklädsel, mattor och gardiner. I
             Skandinavien har ullmattor och ryor en tusenårig tradition. De
@@ -75,6 +97,17 @@ export default function AnvandningsomradenPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Trädgård och odling
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80"
+              alt="Trädgårdsodling med naturliga material"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Ullpellets håller fukten, förhindrar ogräs och ger näring åt jorden
+            </figcaption>
+          </figure>
           <p>
             Ett växande område. Ullpellets och ullmattor används som
             marktäckning i trädgårdar och odlingar. Ullen håller fukten i
@@ -92,6 +125,17 @@ export default function AnvandningsomradenPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Akustik och ljuddämpning
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=800&q=80"
+              alt="Akustikbehandlat rum med mjukt ljus"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Ullbaserade akustikpaneler – effektiv ljuddämpning som är helt biologiskt nedbrytbar
+            </figcaption>
+          </figure>
           <p>
             De krusiga fibrerna gör ull till en utmärkt ljudabsorbent. De
             fångar ljudvågor i ett brett frekvensomfång och omvandlar
@@ -108,6 +152,17 @@ export default function AnvandningsomradenPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Byggisolering. Det mest spännande just nu.
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+              alt="Byggarbetsplats med isoleringsarbete"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Termisk isolering, luftrening, brandsäkerhet och fuktreglering – allt i ett material
+            </figcaption>
+          </figure>
           <p>
             Här lyser fårullens potential verkligen. Fårullsisolering samlar
             alla egenskaper som gör ull speciell i en enda produkt: termisk

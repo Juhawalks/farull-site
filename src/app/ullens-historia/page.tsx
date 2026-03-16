@@ -43,6 +43,17 @@ export default function UllensHistoriaPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Ull i det forntida Sverige
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1533662635784-3180e1612e2f?w=800&q=80"
+              alt="Historiskt hantverk och textiltillverkning"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Vikingarna exporterade ulltyger – vadmal var Nordens viktigaste handelsvara
+            </figcaption>
+          </figure>
           <p>
             I Skandinavien finns spår av fåravel och ullbearbetning sedan
             bronsåldern, cirka 1800 f.Kr. Ullen var avgörande för överlevnad
@@ -61,6 +72,17 @@ export default function UllensHistoriaPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Ull i väggarna. Gammalt knep.
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1510076857177-7470076d4098?w=800&q=80"
+              alt="Gammalt timmerhus med traditionell byggnadsteknik"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              I svenska timmerhus packades ulldrev mellan stockarna för att täta och isolera
+            </figcaption>
+          </figure>
           <p>
             Att använda ull för att isolera byggnader är ingen modern
             uppfinning. I svenska timmerhus packades ull och ulldrev mellan
@@ -79,6 +101,17 @@ export default function UllensHistoriaPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Mineralullen tar över
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80"
+              alt="Industriell tillverkning"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Mineralull blev standard på 1930-talet – men kräver smältning vid 1 400 °C
+            </figcaption>
+          </figure>
           <p>
             Under sent 1800-tal och tidigt 1900-tal förändrades byggsektorn
             i grunden. Mineralull (stenull och glasull) introducerades på
@@ -100,6 +133,17 @@ export default function UllensHistoriaPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Fårullen kommer tillbaka
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
+              alt="Modernt hållbart hus"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Sedan 2010-talet söker klimatmedvetna byggherrar material med lågt koldioxidavtryck
+            </figcaption>
+          </figure>
           <p>
             Sedan 2010-talet har intresset för fårullsisolering ökat ordentligt.
             Flera saker samverkar. Klimatmedvetna byggherrar och arkitekter söker
@@ -124,6 +168,17 @@ export default function UllensHistoriaPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Cirkulär ekonomi och EU-taxonomi
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
+              alt="Grön skog – naturens kretslopp"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              200 000 ton europeisk spillull per år – från avfall till hållbar resurs
+            </figcaption>
+          </figure>
           <p>
             EU:s gröna giv och taxonomiförordningen klassificerar
             byggisolering av naturliga fibrer som en hållbar ekonomisk

@@ -40,6 +40,17 @@ export default function Hallbarhet() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Koldioxid som binds, inte släpps ut
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
+              alt="Grönt beteslandskap med djur"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Gräs binder CO₂, fåret gör det till ull – kolet stannar i byggnaden i 50+ år
+            </figcaption>
+          </figure>
           <p>
             Får äter gräs. Gräset har bundit CO₂ genom fotosyntes. Kolet
             lagras i ullen som keratin. När ullen används som isolering
@@ -53,6 +64,17 @@ export default function Hallbarhet() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Låg energi vid tillverkning
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80"
+              alt="Naturliga fibrer och hållbar process"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Tvätt och mekanisk kardning – ingen smältning, inga höga temperaturer
+            </figcaption>
+          </figure>
           <p>
             Fårullsisolering tillverkas genom tvätt och mekanisk kardning.
             Ingen smältning, inga höga temperaturer, inga komplexa kemiska
@@ -64,6 +86,17 @@ export default function Hallbarhet() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             200 000 ton spillull utan hem
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=800&q=80"
+              alt="Fårflock på betesmark"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Europeisk spillull som idag saknar köpare kan bli morgondagens byggisolering
+            </figcaption>
+          </figure>
           <p>
             Varje år produceras cirka 200 000 ton ull i Europa som inte
             hittar en köpare. Den är för grov för textilmarknaden och
@@ -77,6 +110,17 @@ export default function Hallbarhet() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Cirkulärt från start till slut
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=800&q=80"
+              alt="Grönt kretslopp i naturen"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              100 % biologiskt nedbrytbar – vid rivning komposteras ullen och återgår till jorden
+            </figcaption>
+          </figure>
           <p>
             Fårullsisolering är 100 % biologiskt nedbrytbar. Vid rivning
             kan den komposteras och återgå till jorden som näring. Ingen
@@ -89,6 +133,17 @@ export default function Hallbarhet() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             EU-taxonomin och framtiden
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+              alt="Modern hållbar arkitektur"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              EU:s taxonomiförordning ger starkare incitament att välja biobaserade material
+            </figcaption>
+          </figure>
           <p>
             EU:s taxonomiförordning klassificerar byggisolering av naturliga
             fibrer som en hållbar ekonomisk aktivitet. Det betyder att

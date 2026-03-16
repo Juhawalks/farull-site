@@ -39,6 +39,17 @@ export default function Fordelar() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Renar inomhusluften
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1527015175922-36a306cf0e20?w=800&q=80"
+              alt="Ljust rum med ren luft och naturligt ljus"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Fårull binder formaldehyd och renar luften i hemmet
+            </figcaption>
+          </figure>
           <p>
             Ullens keratin binder formaldehyd och andra flyktiga organiska
             föreningar (VOC) som avges av möbler, lim och färg. Effekten är
@@ -52,6 +63,17 @@ export default function Fordelar() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Hanterar fukt utan problem
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80"
+              alt="Dimma och fukt i naturligt landskap"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Upp till 40 % av sin vikt i fukt – utan att tappa prestanda
+            </figcaption>
+          </figure>
           <p>
             Ull absorberar upp till 40 % av sin vikt i fukt utan att förlora
             isoleringsförmåga. När luften torkar släpper den ut fukten igen.
@@ -65,6 +87,17 @@ export default function Fordelar() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Brandsäker av naturen
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1549740425-5e9ed4d8cd34?w=800&q=80"
+              alt="Eldflamma i närbild"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Ull kolnar och självslocknar – brandklass B1/C utan kemikalier
+            </figcaption>
+          </figure>
           <p>
             Ull kolnar och slocknar själv. Den smälter inte, droppar inte
             och sprider inte brand. Brandklass B1/C uppnås helt utan kemiska
@@ -78,6 +111,17 @@ export default function Fordelar() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Dämpar ljud effektivt
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=800&q=80"
+              alt="Lugnt tyst rum med mjukt ljus"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Krusiga fibrer fångar ljudvågor i ett brett frekvensomfång
+            </figcaption>
+          </figure>
           <p>
             De krusiga fibrerna fångar ljudvågor i ett brett frekvensomfång.
             Från steg ovanpå till grannarnas musik. Fårullsisolering i
@@ -90,6 +134,17 @@ export default function Fordelar() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Binder koldioxid
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
+              alt="Grönt landskap med betande djur"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Gräs binder CO₂, fåret omvandlar det till ull – naturens egen kolsänka
+            </figcaption>
+          </figure>
           <p>
             Varje kilo fårull har bundit CO₂ under fårets betessäsong.
             Tillverkningen av fårullsisolering kräver en bråkdel av den
@@ -102,6 +157,17 @@ export default function Fordelar() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Trevlig att jobba med
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80"
+              alt="Händer som arbetar med naturligt material"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Ingen klåda, inget damm – montering med bara händerna
+            </figcaption>
+          </figure>
           <p>
             Ingen klåda. Inget damm. Ingen skyddsmask behövs. Klipp med
             vanlig sax, tryck på plats. Fibrerna fjädrar och fyller ut
@@ -119,6 +185,17 @@ export default function Fordelar() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Håller hela husets livstid
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
+              alt="Vackert äldre hus i gott skick"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              50+ år utan att sjunka ihop – isolering som håller hela husets livstid
+            </figcaption>
+          </figure>
           <p>
             Fårullsisolering sjunker inte ihop med tiden. Fibrernas naturliga
             fjädring gör att materialet behåller sin form och prestanda i

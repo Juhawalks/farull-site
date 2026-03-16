@@ -42,6 +42,17 @@ export default function VadArFarullsisolering() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Från fårrygg till vägg
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80"
+              alt="Naturliga fibrer i närbild"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Ullen tvättas, kardas och formas till skivor – en enkel process
+            </figcaption>
+          </figure>
           <p>
             Ullen kommer främst från klippning av får vars ull inte når
             textilkvalitet. Den tvättas för att ta bort smuts och överskott av
@@ -58,18 +69,34 @@ export default function VadArFarullsisolering() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <img
-            src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=600&q=80"
-            alt="Naturligt ljus genom ullfibrer"
-            loading="lazy"
-            className="w-full max-w-md mx-auto h-56 object-cover rounded-xl mb-8"
-          />
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=600&q=80"
+              alt="Naturligt ljus genom ullfibrer"
+              loading="lazy"
+              className="w-full max-w-md mx-auto h-56 object-cover rounded-xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Ullfibrer bearbetas mekaniskt – ingen kemikaliecocktail behövs
+            </figcaption>
+          </figure>
         </ScrollReveal>
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Hur den fungerar
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1560781290-7dc94c0f8f4f?w=800&q=80"
+              alt="Närbild på ullfibrer som skapar luftfickor"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Miljontals små luftfickor i fibrerna – det är luften som isolerar
+            </figcaption>
+          </figure>
           <p>
             Fårullens krusiga fibrer skapar miljontals små luftfickor. Det är
             luften som isolerar, inte fibern i sig. Lambda-värdet ligger på
@@ -89,6 +116,17 @@ export default function VadArFarullsisolering() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Var kan den användas?
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80"
+              alt="Husbygge med synligt regelverk"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Ytterväggar, snedtak, golv – fårull fungerar överallt i konstruktionen
+            </figcaption>
+          </figure>
           <p>
             Ytterväggar, innerväggar, mellanbjälklag, snedtak, vindsbjälklag
             och golv. Fårullsisolering fungerar överallt där du annars skulle
@@ -107,6 +145,17 @@ export default function VadArFarullsisolering() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Vad kostar det?
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
+              alt="Modernt hus med hållbar profil"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Högre materialpris – men lägre totalkostnad sett över husets livstid
+            </figcaption>
+          </figure>
           <p>
             Fårullsisolering kostar mer per kvadratmeter än mineralull.
             Materialpriset ligger typiskt 2-3 gånger högre. Men

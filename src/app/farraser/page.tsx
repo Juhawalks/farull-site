@@ -47,6 +47,17 @@ export default function FarraserPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Gutefår
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=800&q=80"
+              alt="Gutefår med horn på naturbete"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Gutefår – Sveriges äldsta fårras med sina karakteristiska horn
+            </figcaption>
+          </figure>
           <p>
             Sveriges äldsta fårras. Härstammar direkt från vikingatida får på
             Gotland. Litet, härdigt djur med horn hos båda könen och en
@@ -69,6 +80,17 @@ export default function FarraserPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Gotlandsfår
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=800&q=80"
+              alt="Gotlandsfår med lockig grå ull"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Gotlandsfårets lockiga, glansiga päls i naturligt grått
+            </figcaption>
+          </figure>
           <p>
             Känt för sin vackra, glansiga och naturligt gråa lockiga ull.
             Fibern är medelfin (runt 30-35 mikron) med en distinkt
@@ -89,6 +111,17 @@ export default function FarraserPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Ryafår
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?w=800&q=80"
+              alt="Får med lång tjock ull"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Ryafårets långa, luggiga ull har använts till ryor i århundraden
+            </figcaption>
+          </figure>
           <p>
             Namnet kommer av att ullen traditionellt användes till ryor. De
             tjocka, luggiga mattor som hängdes på väggar och lades på golv för
@@ -107,6 +140,17 @@ export default function FarraserPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Finullsfår
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1521169738573-dc208dee504e?w=800&q=80"
+              alt="Får med mjuk tät ullpäls"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Finullsfår – den finaste svenska ullen, nära merinoklassen
+            </figcaption>
+          </figure>
           <p>
             Producerar den finaste svenska ullen. Fibertjockleken kan nå ner
             mot 20-22 mikron, inte långt från merinoull. En relativt modern
@@ -123,6 +167,17 @@ export default function FarraserPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Fler raser och en outnyttjad resurs
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
+              alt="Betande fårflock i svenskt landskap"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Svenska lantraser på naturbete – en ullresurs som väntar på att användas
+            </figcaption>
+          </figure>
           <p>
             Utöver dessa fyra finns Värmlandsfår, Roslagsfår, Dalaullsfår
             och Klövsjöfår. Alla med egna ullprofiler och bevarandestatus.

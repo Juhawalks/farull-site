@@ -41,6 +41,17 @@ export default function OmOss() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Varför den här sajten?
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?w=800&q=80"
+              alt="Skrivbord med dator och anteckningar"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Det saknades bra, samlad information om fårull på svenska – så vi byggde den
+            </figcaption>
+          </figure>
           <p>
             Vi märkte att det saknades bra, samlad information om fårull och
             fårullsisolering på svenska. Det finns mycket att lära, och mycket
@@ -53,6 +64,17 @@ export default function OmOss() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Byeco
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+              alt="Modernt kontor med naturligt ljus"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Byeco – kontor i Rävlanda utanför Göteborg och i Helsingfors
+            </figcaption>
+          </figure>
           <p>
             Byeco har kontor i Rävlanda utanför Göteborg och i Helsingfors.
             Vi erbjuder fri rådgivning, hjälper med beräkningar av
@@ -74,6 +96,17 @@ export default function OmOss() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Kontakta oss
           </h2>
+          <figure className="my-8">
+            <img
+              src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=800&q=80"
+              alt="Kommunikation och kontakt"
+              loading="lazy"
+              className="w-full h-64 object-cover rounded-2xl"
+            />
+            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              Vi svarar gärna på frågor om fårullsisolering och materialet
+            </figcaption>
+          </figure>
           <p>
             Har du frågor om fårullsisolering, materialet eller något du
             läst här? Hör av dig.
