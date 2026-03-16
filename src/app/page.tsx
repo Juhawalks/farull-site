@@ -20,6 +20,7 @@ import {
   Thermometer,
   Globe,
   Recycle,
+  Calculator,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -108,6 +109,12 @@ const utforskaIsolering = [
     href: "/vad-ar-farullsisolering",
     text: "Hur det tillverkas, hur det fungerar och vad som gör det annorlunda.",
     icon: HomeIcon,
+  },
+  {
+    title: "Vad kostar det?",
+    href: "/pris",
+    text: "Materialpris, totalkostnad och räkneexempel. Ärliga siffror.",
+    icon: Calculator,
   },
   {
     title: "Fårull vs mineralull",

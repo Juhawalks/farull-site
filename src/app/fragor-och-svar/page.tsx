@@ -21,7 +21,7 @@ const faq: { q: string; a: React.ReactNode; aText: string }[] = [
   {
     q: "Vad kostar fårullsisolering?",
     aText: "Materialet kostar typiskt 2-3 gånger mer per kvadratmeter än mineralull. Men du sparar på skyddsutrustning, monteringstid och slipper byta isolering under husets livstid. Totalkalkylen ser bättre ut än man tror vid första anblick.",
-    a: <>Materialet kostar typiskt 2-3 gånger mer per kvadratmeter än mineralull. Men du sparar på skyddsutrustning, monteringstid och slipper byta isolering under husets livstid. Totalkalkylen ser bättre ut än man tror vid första anblick. Se vår <Link href="/jamforelse" className="text-primary hover:text-primary/80 link-grow">detaljerade jämförelse</Link>.</>,
+    a: <>Materialet kostar typiskt 2-3 gånger mer per kvadratmeter än mineralull. Men du sparar på skyddsutrustning, monteringstid och slipper byta isolering under husets livstid. Totalkalkylen ser bättre ut än man tror vid första anblick. Se vår <Link href="/pris" className="text-primary hover:text-primary/80 link-grow">fullständiga prisguide</Link>.</>,
   },
   {
     q: "Vilken brandklass har det?",

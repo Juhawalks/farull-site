@@ -13,6 +13,7 @@ const farullNav = [
 const isoleringNav = [
   { label: "Vad är fårullsisolering?", href: "/vad-ar-farullsisolering" },
   { label: "Fördelar", href: "/fordelar" },
+  { label: "Pris", href: "/pris" },
   { label: "Jämförelse", href: "/jamforelse" },
   { label: "Montering", href: "/montering" },
   { label: "Frågor & svar", href: "/fragor-och-svar" },
