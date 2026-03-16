@@ -4,6 +4,9 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ScrollRevealObserver } from "@/components/ScrollReveal";
+import { GoogleTagManager, GoogleTagManagerNoScript } from "@/components/GoogleTagManager";
+import { CookieConsent } from "@/components/CookieConsent";
+import { TrackOutbound } from "@/components/TrackOutbound";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -62,6 +65,7 @@ export default function RootLayout({
   return (
     <html lang="sv">
       <head>
+        <GoogleTagManager />
         <meta name="theme-color" content="#FAF7F2" />
         <script
           type="application/ld+json"
@@ -100,10 +104,13 @@ export default function RootLayout({
         >
           Hoppa till innehåll
         </a>
+        <GoogleTagManagerNoScript />
         <Header />
         <main id="main" className="min-h-screen pt-20">{children}</main>
         <Footer />
         <ScrollRevealObserver />
+        <TrackOutbound />
+        <CookieConsent />
       </body>
     </html>
   );
