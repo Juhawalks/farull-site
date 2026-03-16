@@ -27,7 +27,7 @@ export default function VadArFarullsisolering() {
         className="w-full h-64 object-cover rounded-2xl mb-12"
       />
 
-      <div className="max-w-3xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
+      <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p>
             Fårullsisolering är byggisolering gjord av ren fårull. Materialet
@@ -42,133 +42,135 @@ export default function VadArFarullsisolering() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Från fårrygg till vägg
           </h2>
-          <figure className="my-8">
-            <img
-              src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80"
-              alt="Naturliga fibrer i närbild"
-              loading="lazy"
-              className="w-full h-64 object-cover rounded-2xl"
-            />
-            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
-              Ullen tvättas, kardas och formas till skivor – en enkel process
-            </figcaption>
-          </figure>
-          <p>
-            Ullen kommer främst från klippning av får vars ull inte når
-            textilkvalitet. Den tvättas för att ta bort smuts och överskott av
-            lanolin, men en viss mängd lämnas kvar för naturligt skydd mot
-            skadedjur. Sedan kardas fibrerna till en jämn matta och formas till
-            skivor i standardmått.
-          </p>
-          <p className="mt-4">
-            Hela processen kräver en bråkdel av den energi som mineralull
-            behöver. Ingen smältning vid 1 400 °C. Ingen kemikaliecocktail.
-            Bara mekanisk bearbetning av en fiber som redan har alla egenskaper
-            inbyggda.
-          </p>
-        </ScrollReveal>
-
-        <ScrollReveal>
-          <figure className="my-8">
-            <img
-              src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=600&q=80"
-              alt="Naturligt ljus genom ullfibrer"
-              loading="lazy"
-              className="w-full max-w-md mx-auto h-56 object-cover rounded-xl"
-            />
-            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
-              Ullfibrer bearbetas mekaniskt – ingen kemikaliecocktail behövs
-            </figcaption>
-          </figure>
+          <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
+            <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
+              <img
+                src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80"
+                alt="Naturliga fibrer i närbild"
+                loading="lazy"
+                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+              />
+              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+                Ullen tvättas, kardas och formas till skivor – en enkel process
+              </figcaption>
+            </figure>
+            <div className="md:flex-1 min-w-0">
+              <p>
+                Ullen kommer främst från klippning av får vars ull inte når
+                textilkvalitet. Den tvättas för att ta bort smuts och överskott av
+                lanolin, men en viss mängd lämnas kvar för naturligt skydd mot
+                skadedjur. Sedan kardas fibrerna till en jämn matta och formas till
+                skivor i standardmått.
+              </p>
+              <p className="mt-4">
+                Hela processen kräver en bråkdel av den energi som mineralull
+                behöver. Ingen smältning vid 1 400 °C. Ingen kemikaliecocktail.
+                Bara mekanisk bearbetning av en fiber som redan har alla egenskaper
+                inbyggda.
+              </p>
+            </div>
+          </div>
         </ScrollReveal>
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Hur den fungerar
           </h2>
-          <figure className="my-8">
-            <img
-              src="https://images.unsplash.com/photo-1560781290-7dc94c0f8f4f?w=800&q=80"
-              alt="Närbild på ullfibrer som skapar luftfickor"
-              loading="lazy"
-              className="w-full h-64 object-cover rounded-2xl"
-            />
-            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
-              Miljontals små luftfickor i fibrerna – det är luften som isolerar
-            </figcaption>
-          </figure>
-          <p>
-            Fårullens krusiga fibrer skapar miljontals små luftfickor. Det är
-            luften som isolerar, inte fibern i sig. Lambda-värdet ligger på
-            0,033-0,040 W/m·K, jämförbart med stenull och glasull.
-          </p>
-          <p className="mt-4">
-            Men till skillnad från mineralull stannar det inte vid termisk
-            prestanda. Ullen absorberar upp till 40 % av sin vikt i fukt utan
-            att förlora isoleringsförmåga, och släpper ut fukten igen när
-            luften torkar. Den binder formaldehyd och andra flyktiga organiska
-            föreningar ur inomhusluften. Och den är naturligt flamhämmande,
-            helt utan kemiska tillsatser.
-          </p>
+          <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
+            <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
+              <img
+                src="https://images.unsplash.com/photo-1560781290-7dc94c0f8f4f?w=800&q=80"
+                alt="Närbild på ullfibrer som skapar luftfickor"
+                loading="lazy"
+                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+              />
+              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+                Miljontals små luftfickor i fibrerna – det är luften som isolerar
+              </figcaption>
+            </figure>
+            <div className="md:flex-1 min-w-0">
+              <p>
+                Fårullens krusiga fibrer skapar miljontals små luftfickor. Det är
+                luften som isolerar, inte fibern i sig. Lambda-värdet ligger på
+                0,033-0,040 W/m·K, jämförbart med stenull och glasull.
+              </p>
+              <p className="mt-4">
+                Men till skillnad från mineralull stannar det inte vid termisk
+                prestanda. Ullen absorberar upp till 40 % av sin vikt i fukt utan
+                att förlora isoleringsförmåga, och släpper ut fukten igen när
+                luften torkar. Den binder formaldehyd och andra flyktiga organiska
+                föreningar ur inomhusluften. Och den är naturligt flamhämmande,
+                helt utan kemiska tillsatser.
+              </p>
+            </div>
+          </div>
         </ScrollReveal>
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Var kan den användas?
           </h2>
-          <figure className="my-8">
-            <img
-              src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80"
-              alt="Husbygge med synligt regelverk"
-              loading="lazy"
-              className="w-full h-64 object-cover rounded-2xl"
-            />
-            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
-              Ytterväggar, snedtak, golv – fårull fungerar överallt i konstruktionen
-            </figcaption>
-          </figure>
-          <p>
-            Ytterväggar, innerväggar, mellanbjälklag, snedtak, vindsbjälklag
-            och golv. Fårullsisolering fungerar överallt där du annars skulle
-            använda mineralull. Den klipps med vanlig sax, trycker sig själv
-            fast tack vare fibrernas fjädring, och kräver ingen
-            skyddsutrustning vid montering.
-          </p>
-          <p className="mt-4">
-            <Link href="/montering" className="text-primary hover:text-primary/80 link-grow">
-              Se monteringsguiden steg för steg
-            </Link>
-          </p>
+          <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
+            <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
+              <img
+                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80"
+                alt="Husbygge med synligt regelverk"
+                loading="lazy"
+                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+              />
+              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+                Ytterväggar, snedtak, golv – fårull fungerar överallt i konstruktionen
+              </figcaption>
+            </figure>
+            <div className="md:flex-1 min-w-0">
+              <p>
+                Ytterväggar, innerväggar, mellanbjälklag, snedtak, vindsbjälklag
+                och golv. Fårullsisolering fungerar överallt där du annars skulle
+                använda mineralull. Den klipps med vanlig sax, trycker sig själv
+                fast tack vare fibrernas fjädring, och kräver ingen
+                skyddsutrustning vid montering.
+              </p>
+              <p className="mt-4">
+                <Link href="/montering" className="text-primary hover:text-primary/80 link-grow">
+                  Se monteringsguiden steg för steg
+                </Link>
+              </p>
+            </div>
+          </div>
         </ScrollReveal>
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Vad kostar det?
           </h2>
-          <figure className="my-8">
-            <img
-              src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
-              alt="Modernt hus med hållbar profil"
-              loading="lazy"
-              className="w-full h-64 object-cover rounded-2xl"
-            />
-            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
-              Högre materialpris – men lägre totalkostnad sett över husets livstid
-            </figcaption>
-          </figure>
-          <p>
-            Fårullsisolering kostar mer per kvadratmeter än mineralull.
-            Materialpriset ligger typiskt 2-3 gånger högre. Men
-            totalkalkylen ser annorlunda ut. Ingen skyddsutrustning behövs
-            vid montering, arbetet går snabbare, och materialets livslängd
-            (50+ år utan att sjunka ihop) gör att du slipper byta ut
-            isoleringen under husets livstid.
-          </p>
-          <p className="mt-4">
-            <Link href="/jamforelse" className="text-primary hover:text-primary/80 link-grow">
-              Se den fullständiga jämförelsen med andra material
-            </Link>
-          </p>
+          <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
+            <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
+              <img
+                src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
+                alt="Modernt hus med hållbar profil"
+                loading="lazy"
+                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+              />
+              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+                Högre materialpris – men lägre totalkostnad sett över husets livstid
+              </figcaption>
+            </figure>
+            <div className="md:flex-1 min-w-0">
+              <p>
+                Fårullsisolering kostar mer per kvadratmeter än mineralull.
+                Materialpriset ligger typiskt 2-3 gånger högre. Men
+                totalkalkylen ser annorlunda ut. Ingen skyddsutrustning behövs
+                vid montering, arbetet går snabbare, och materialets livslängd
+                (50+ år utan att sjunka ihop) gör att du slipper byta ut
+                isoleringen under husets livstid.
+              </p>
+              <p className="mt-4">
+                <Link href="/jamforelse" className="text-primary hover:text-primary/80 link-grow">
+                  Se den fullständiga jämförelsen med andra material
+                </Link>
+              </p>
+            </div>
+          </div>
         </ScrollReveal>
       </div>
     </div>

@@ -27,7 +27,7 @@ export default function UllensHistoriaPage() {
         className="w-full h-64 object-cover rounded-2xl mb-12"
       />
 
-      <div className="max-w-3xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
+      <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p>
             Fårull är ett av de äldsta materialen i mänsklighetens historia.
@@ -43,160 +43,180 @@ export default function UllensHistoriaPage() {
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Ull i det forntida Sverige
           </h2>
-          <figure className="my-8">
-            <img
-              src="https://images.unsplash.com/photo-1533662635784-3180e1612e2f?w=800&q=80"
-              alt="Historiskt hantverk och textiltillverkning"
-              loading="lazy"
-              className="w-full h-64 object-cover rounded-2xl"
-            />
-            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
-              Vikingarna exporterade ulltyger – vadmal var Nordens viktigaste handelsvara
-            </figcaption>
-          </figure>
-          <p>
-            I Skandinavien finns spår av fåravel och ullbearbetning sedan
-            bronsåldern, cirka 1800 f.Kr. Ullen var avgörande för överlevnad
-            i det nordiska klimatet. Kläder, filtar och väggbonader som
-            isolerade de enkla bostäderna.
-          </p>
-          <p className="mt-4">
-            Vikingarna exporterade ulltyger och ulltextilier. Tyget vadmal
-            (ett valkat, tätt ulltyg) var en av Nordens viktigaste handelsvaror
-            under medeltiden. Det fungerade som betalningsmedel och skattevara
-            i hundratals år.
-          </p>
+          <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
+            <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
+              <img
+                src="https://images.unsplash.com/photo-1533662635784-3180e1612e2f?w=800&q=80"
+                alt="Historiskt hantverk och textiltillverkning"
+                loading="lazy"
+                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+              />
+              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+                Vikingarna exporterade ulltyger – vadmal var Nordens viktigaste handelsvara
+              </figcaption>
+            </figure>
+            <div className="md:flex-1 min-w-0">
+              <p>
+                I Skandinavien finns spår av fåravel och ullbearbetning sedan
+                bronsåldern, cirka 1800 f.Kr. Ullen var avgörande för överlevnad
+                i det nordiska klimatet. Kläder, filtar och väggbonader som
+                isolerade de enkla bostäderna.
+              </p>
+              <p className="mt-4">
+                Vikingarna exporterade ulltyger och ulltextilier. Tyget vadmal
+                (ett valkat, tätt ulltyg) var en av Nordens viktigaste handelsvaror
+                under medeltiden. Det fungerade som betalningsmedel och skattevara
+                i hundratals år.
+              </p>
+            </div>
+          </div>
         </ScrollReveal>
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Ull i väggarna. Gammalt knep.
           </h2>
-          <figure className="my-8">
-            <img
-              src="https://images.unsplash.com/photo-1510076857177-7470076d4098?w=800&q=80"
-              alt="Gammalt timmerhus med traditionell byggnadsteknik"
-              loading="lazy"
-              className="w-full h-64 object-cover rounded-2xl"
-            />
-            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
-              I svenska timmerhus packades ulldrev mellan stockarna för att täta och isolera
-            </figcaption>
-          </figure>
-          <p>
-            Att använda ull för att isolera byggnader är ingen modern
-            uppfinning. I svenska timmerhus packades ull och ulldrev mellan
-            stockarna för att täta springor och minska drag. Under 1700- och
-            1800-talen användes lumppapp, ett material baserat på ullrester
-            och textiltrasor, som isolering i väggar och tak.
-          </p>
-          <p className="mt-4">
-            Ullens förmåga att hantera fukt utan att mögla var välkänd bland
-            äldre generationers byggare. De kunde inte förklara kemin bakom
-            det, men de visste att det fungerade.
-          </p>
+          <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
+            <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
+              <img
+                src="https://images.unsplash.com/photo-1510076857177-7470076d4098?w=800&q=80"
+                alt="Gammalt timmerhus med traditionell byggnadsteknik"
+                loading="lazy"
+                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+              />
+              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+                I svenska timmerhus packades ulldrev mellan stockarna för att täta och isolera
+              </figcaption>
+            </figure>
+            <div className="md:flex-1 min-w-0">
+              <p>
+                Att använda ull för att isolera byggnader är ingen modern
+                uppfinning. I svenska timmerhus packades ull och ulldrev mellan
+                stockarna för att täta springor och minska drag. Under 1700- och
+                1800-talen användes lumppapp, ett material baserat på ullrester
+                och textiltrasor, som isolering i väggar och tak.
+              </p>
+              <p className="mt-4">
+                Ullens förmåga att hantera fukt utan att mögla var välkänd bland
+                äldre generationers byggare. De kunde inte förklara kemin bakom
+                det, men de visste att det fungerade.
+              </p>
+            </div>
+          </div>
         </ScrollReveal>
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Mineralullen tar över
           </h2>
-          <figure className="my-8">
-            <img
-              src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80"
-              alt="Industriell tillverkning"
-              loading="lazy"
-              className="w-full h-64 object-cover rounded-2xl"
-            />
-            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
-              Mineralull blev standard på 1930-talet – men kräver smältning vid 1 400 °C
-            </figcaption>
-          </figure>
-          <p>
-            Under sent 1800-tal och tidigt 1900-tal förändrades byggsektorn
-            i grunden. Mineralull (stenull och glasull) introducerades på
-            1930-talet och blev snabbt standard. Den var billig att tillverka
-            i stora volymer och erbjöd god termisk prestanda.
-          </p>
-          <p className="mt-4">
-            Samtidigt tog syntetiska textilfibrer marknadsandelar från
-            naturull i klädindustrin. Nylon, polyester, akryl. Fårull blev
-            en nischprodukt. Konsekvenserna var tydliga: energiintensiv
-            tillverkning av mineralull (smältning vid 1 400-1 500 °C) bidrog
-            till stora koldioxidutsläpp. Och den syntetiska dominansen ledde
-            till en ullöverproduktion där miljontals ton spillull varje år
-            saknade avsättning.
-          </p>
+          <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
+            <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
+              <img
+                src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80"
+                alt="Industriell tillverkning"
+                loading="lazy"
+                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+              />
+              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+                Mineralull blev standard på 1930-talet – men kräver smältning vid 1 400 °C
+              </figcaption>
+            </figure>
+            <div className="md:flex-1 min-w-0">
+              <p>
+                Under sent 1800-tal och tidigt 1900-tal förändrades byggsektorn
+                i grunden. Mineralull (stenull och glasull) introducerades på
+                1930-talet och blev snabbt standard. Den var billig att tillverka
+                i stora volymer och erbjöd god termisk prestanda.
+              </p>
+              <p className="mt-4">
+                Samtidigt tog syntetiska textilfibrer marknadsandelar från
+                naturull i klädindustrin. Nylon, polyester, akryl. Fårull blev
+                en nischprodukt. Konsekvenserna var tydliga: energiintensiv
+                tillverkning av mineralull (smältning vid 1 400-1 500 °C) bidrog
+                till stora koldioxidutsläpp. Och den syntetiska dominansen ledde
+                till en ullöverproduktion där miljontals ton spillull varje år
+                saknade avsättning.
+              </p>
+            </div>
+          </div>
         </ScrollReveal>
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Fårullen kommer tillbaka
           </h2>
-          <figure className="my-8">
-            <img
-              src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
-              alt="Modernt hållbart hus"
-              loading="lazy"
-              className="w-full h-64 object-cover rounded-2xl"
-            />
-            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
-              Sedan 2010-talet söker klimatmedvetna byggherrar material med lågt koldioxidavtryck
-            </figcaption>
-          </figure>
-          <p>
-            Sedan 2010-talet har intresset för fårullsisolering ökat ordentligt.
-            Flera saker samverkar. Klimatmedvetna byggherrar och arkitekter söker
-            material med lågt koldioxidavtryck. EU:s taxonomiförordning
-            premierar biobaserade och cirkulära material. Och passivhusrörelsen
-            har visat att byggnader behöver &ldquo;andas&rdquo;. Mineralullens
-            oförmåga att hantera fukt har lett till problem med kondens och
-            mögel i täta konstruktioner.
-          </p>
-          <p className="mt-4">
-            Fårull svarar på alla dessa utmaningar. Den binder koldioxid
-            (varje kilo ull har absorberat CO₂ under fårets betessäsong),
-            reglerar fukt utan att förlora isoleringsförmåga, och kan vid
-            livscykelns slut komposteras och återgå till jorden. Österrikiska
-            tillverkare som Isolena har industrialiserat produktionen och
-            levererar isoleringsskivor med lambda-värden som konkurrerar
-            med mineralull.
-          </p>
+          <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
+            <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
+              <img
+                src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
+                alt="Modernt hållbart hus"
+                loading="lazy"
+                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+              />
+              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+                Sedan 2010-talet söker klimatmedvetna byggherrar material med lågt koldioxidavtryck
+              </figcaption>
+            </figure>
+            <div className="md:flex-1 min-w-0">
+              <p>
+                Sedan 2010-talet har intresset för fårullsisolering ökat ordentligt.
+                Flera saker samverkar. Klimatmedvetna byggherrar och arkitekter söker
+                material med lågt koldioxidavtryck. EU:s taxonomiförordning
+                premierar biobaserade och cirkulära material. Och passivhusrörelsen
+                har visat att byggnader behöver &ldquo;andas&rdquo;. Mineralullens
+                oförmåga att hantera fukt har lett till problem med kondens och
+                mögel i täta konstruktioner.
+              </p>
+              <p className="mt-4">
+                Fårull svarar på alla dessa utmaningar. Den binder koldioxid
+                (varje kilo ull har absorberat CO₂ under fårets betessäsong),
+                reglerar fukt utan att förlora isoleringsförmåga, och kan vid
+                livscykelns slut komposteras och återgå till jorden. Österrikiska
+                tillverkare som Isolena har industrialiserat produktionen och
+                levererar isoleringsskivor med lambda-värden som konkurrerar
+                med mineralull.
+              </p>
+            </div>
+          </div>
         </ScrollReveal>
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
             Cirkulär ekonomi och EU-taxonomi
           </h2>
-          <figure className="my-8">
-            <img
-              src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
-              alt="Grön skog – naturens kretslopp"
-              loading="lazy"
-              className="w-full h-64 object-cover rounded-2xl"
-            />
-            <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
-              200 000 ton europeisk spillull per år – från avfall till hållbar resurs
-            </figcaption>
-          </figure>
-          <p>
-            EU:s gröna giv och taxonomiförordningen klassificerar
-            byggisolering av naturliga fibrer som en hållbar ekonomisk
-            aktivitet. Det ger investerare och byggherrar som vill uppfylla
-            hållbarhetskraven starkare incitament att välja biobaserade
-            material. Samtidigt driver den cirkulära ekonomin en omvärdering
-            av spillull. De 200 000 ton europeisk ull som årligen saknar
-            avsättning ses inte längre som avfall utan som en resurs.
-          </p>
-          <p className="mt-4">
-            Ullens historia har kommit full cirkel. Från bronsålderns
-            livsuppehållande fiber, via industrialismens marginalisering,
-            till en framtid där fårull kan bli byggsektorns mest hållbara
-            isoleringsmaterial.{" "}
-            <Link href="/hallbarhet" className="text-primary hover:text-primary/80 link-grow">
-              Läs mer om fårullsisoleringens hållbarhetsprofil
-            </Link>
-          </p>
+          <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
+            <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
+              <img
+                src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
+                alt="Grön skog – naturens kretslopp"
+                loading="lazy"
+                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+              />
+              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+                200 000 ton europeisk spillull per år – från avfall till hållbar resurs
+              </figcaption>
+            </figure>
+            <div className="md:flex-1 min-w-0">
+              <p>
+                EU:s gröna giv och taxonomiförordningen klassificerar
+                byggisolering av naturliga fibrer som en hållbar ekonomisk
+                aktivitet. Det ger investerare och byggherrar som vill uppfylla
+                hållbarhetskraven starkare incitament att välja biobaserade
+                material. Samtidigt driver den cirkulära ekonomin en omvärdering
+                av spillull. De 200 000 ton europeisk ull som årligen saknar
+                avsättning ses inte längre som avfall utan som en resurs.
+              </p>
+              <p className="mt-4">
+                Ullens historia har kommit full cirkel. Från bronsålderns
+                livsuppehållande fiber, via industrialismens marginalisering,
+                till en framtid där fårull kan bli byggsektorns mest hållbara
+                isoleringsmaterial.{" "}
+                <Link href="/hallbarhet" className="text-primary hover:text-primary/80 link-grow">
+                  Läs mer om fårullsisoleringens hållbarhetsprofil
+                </Link>
+              </p>
+            </div>
+          </div>
         </ScrollReveal>
       </div>
     </div>
