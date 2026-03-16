@@ -44,9 +44,9 @@ export default function Montering() {
         <ScrollReveal>
           <p>
             Det enklaste sättet att beskriva monteringen: klipp och tryck.
-            Fårullsisolering kräver inga specialverktyg, ingen
+            <Link href="/vad-ar-farullsisolering" className="text-primary hover:text-primary/80 link-grow">Fårullsisolering</Link> kräver inga specialverktyg, ingen
             skyddsutrustning och inga komplicerade tekniker. Det är en av
-            materialets stora fördelar.
+            materialets stora <Link href="/fordelar" className="text-primary hover:text-primary/80 link-grow">fördelar</Link>.
           </p>
         </ScrollReveal>
 
@@ -227,6 +227,32 @@ export default function Montering() {
           </div>
         </ScrollReveal>
       </div>
+
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
+          <ul className="space-y-4">
+            <li>
+              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-[#1A1916]">
+                Vad är fårullsisolering? →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Bakgrunden till materialet du monterar.</p>
+            </li>
+            <li>
+              <Link href="/fordelar" className="link-grow text-lg font-medium text-[#1A1916]">
+                Fördelar med fårullsisolering →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Därför är ullen så trevlig att jobba med.</p>
+            </li>
+            <li>
+              <Link href="/fragor-och-svar" className="link-grow text-lg font-medium text-[#1A1916]">
+                Frågor och svar →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Vanliga funderingar om montering, pris och livslängd.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
 }

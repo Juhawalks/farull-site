@@ -74,7 +74,7 @@ export default function FarullPage() {
               <p>
                 Det som verkligen skiljer fårull från andra fibrer är den naturliga
                 krusigheten. På engelska kallas den <em>crimp</em>. Merinoull kan
-                ha upp till 100 krusningar per centimeter. Grövre raser har färre
+                ha upp till 100 krusningar per centimeter. <Link href="/farraser" className="text-primary hover:text-primary/80 link-grow">Grövre raser</Link> har färre
                 men tydligare böjningar.
               </p>
               <p className="mt-4">
@@ -146,8 +146,8 @@ export default function FarullPage() {
                 mjuk. Perfekt för kläder närmast huden.{" "}
                 <strong>Crossbred-ull</strong> (25-35 mikron) är starkare och hamnar
                 i mattor, möbeltyger och tekniska textilier.{" "}
-                <strong>Grovull</strong> (över 35 mikron) från lantraser som
-                Gutefåret är tålig och naturligt motståndskraftig.
+                <strong>Grovull</strong> (över 35 mikron) från <Link href="/farraser" className="text-primary hover:text-primary/80 link-grow">lantraser som
+                Gutefåret</Link> är tålig och naturligt motståndskraftig.
               </p>
               <p className="mt-4">
                 Just crossbred- och grovull betraktas ofta som en biprodukt utan
@@ -228,6 +228,32 @@ export default function FarullPage() {
           </div>
         </ScrollReveal>
       </div>
+
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
+          <ul className="space-y-4">
+            <li>
+              <Link href="/farraser" className="link-grow text-lg font-medium text-[#1A1916]">
+                Svenska fårraser →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Gutefår, gotlandsfår och fler – lär känna raserna bakom ullen.</p>
+            </li>
+            <li>
+              <Link href="/fordelar" className="link-grow text-lg font-medium text-[#1A1916]">
+                Fördelar med fårullsisolering →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Från luftrening till fukthantering – åtta skäl att välja ull.</p>
+            </li>
+            <li>
+              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-[#1A1916]">
+                Vad är fårullsisolering? →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Så blir ullen till skivor och rullar för ditt hem.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
 }

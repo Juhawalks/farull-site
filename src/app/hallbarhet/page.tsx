@@ -44,7 +44,7 @@ export default function Hallbarhet() {
         <ScrollReveal>
           <p>
             Fårullsisolering binder mer koldioxid än den släpper ut under sin
-            livscykel. Det är ovanligt bland byggmaterial. Här är varför
+            livscykel. Det är ovanligt bland byggmaterial – och en av de främsta <Link href="/fordelar" className="text-primary hover:text-primary/80 link-grow">fördelarna med fårullsisolering</Link>. Här är varför
             det fungerar.
           </p>
         </ScrollReveal>
@@ -126,7 +126,8 @@ export default function Hallbarhet() {
               <p>
                 Varje år produceras cirka 200 000 ton ull i Europa som inte
                 hittar en köpare. Den är för grov för textilmarknaden och
-                har historiskt betraktats som avfall. Att använda den som
+                har historiskt betraktats som avfall – en <Link href="/farraser" className="text-primary hover:text-primary/80 link-grow">spillull från raser</Link> som
+                förtjänar bättre. Att använda den som
                 byggisolering ger ullproducenter en ny intäktskälla och
                 minskar avfallet.
               </p>
@@ -196,6 +197,32 @@ export default function Hallbarhet() {
           </div>
         </ScrollReveal>
       </div>
+
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
+          <ul className="space-y-4">
+            <li>
+              <Link href="/farraser" className="link-grow text-lg font-medium text-[#1A1916]">
+                Svenska fårraser →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Raserna bakom ullen – och den outnyttjade resursen.</p>
+            </li>
+            <li>
+              <Link href="/fordelar" className="link-grow text-lg font-medium text-[#1A1916]">
+                Fördelar med fårullsisolering →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Från koldioxidbindning till luftrening i praktiken.</p>
+            </li>
+            <li>
+              <Link href="/ullens-historia" className="link-grow text-lg font-medium text-[#1A1916]">
+                Ullens historia →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Tusentals år av isolering – och en modern comeback.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
 }

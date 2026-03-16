@@ -17,41 +17,50 @@ export const metadata: Metadata = {
   },
 };
 
-const faq = [
+const faq: { q: string; a: React.ReactNode; aText: string }[] = [
   {
     q: "Vad kostar fårullsisolering?",
-    a: "Materialet kostar typiskt 2-3 gånger mer per kvadratmeter än mineralull. Men du sparar på skyddsutrustning, monteringstid och slipper byta isolering under husets livstid. Totalkalkylen ser bättre ut än man tror vid första anblick.",
+    aText: "Materialet kostar typiskt 2-3 gånger mer per kvadratmeter än mineralull. Men du sparar på skyddsutrustning, monteringstid och slipper byta isolering under husets livstid. Totalkalkylen ser bättre ut än man tror vid första anblick.",
+    a: <>Materialet kostar typiskt 2-3 gånger mer per kvadratmeter än mineralull. Men du sparar på skyddsutrustning, monteringstid och slipper byta isolering under husets livstid. Totalkalkylen ser bättre ut än man tror vid första anblick. Se vår <Link href="/jamforelse" className="text-primary hover:text-primary/80 link-grow">detaljerade jämförelse</Link>.</>,
   },
   {
     q: "Vilken brandklass har det?",
+    aText: "Brandklass B1/C (svårantändligt). Ull kolnar istället för att brinna, smälter inte och avger inte giftig rök. Det uppnås helt utan kemiska flamskyddsmedel.",
     a: "Brandklass B1/C (svårantändligt). Ull kolnar istället för att brinna, smälter inte och avger inte giftig rök. Det uppnås helt utan kemiska flamskyddsmedel.",
   },
   {
     q: "Hur länge håller det?",
+    aText: "50+ år. Fårullens naturliga fjädring gör att materialet inte sjunker ihop med tiden, till skillnad från vissa mineralullsprodukter som kan komprimeras i vertikala applikationer.",
     a: "50+ år. Fårullens naturliga fjädring gör att materialet inte sjunker ihop med tiden, till skillnad från vissa mineralullsprodukter som kan komprimeras i vertikala applikationer.",
   },
   {
     q: "Kan det mögla?",
+    aText: "Ull absorberar och släpper ut fukt naturligt. Det gör att den inte skapar förutsättningar för mögel på samma sätt som material som inte hanterar fukt. I normala konstruktioner med korrekt ventilation är mögel inget problem.",
     a: "Ull absorberar och släpper ut fukt naturligt. Det gör att den inte skapar förutsättningar för mögel på samma sätt som material som inte hanterar fukt. I normala konstruktioner med korrekt ventilation är mögel inget problem.",
   },
   {
     q: "Lockar det skadedjur? Mal?",
+    aText: "Isoleringsfårull behandlas med borax som skyddar mot mal och andra insekter. Dessutom behålls en viss mängd lanolin i fibrerna, vilket ger ett naturligt skydd. Det är inte samma sak som en ulltröja i garderoben.",
     a: "Isoleringsfårull behandlas med borax som skyddar mot mal och andra insekter. Dessutom behålls en viss mängd lanolin i fibrerna, vilket ger ett naturligt skydd. Det är inte samma sak som en ulltröja i garderoben.",
   },
   {
     q: "Kan jag montera själv?",
-    a: "Ja. Klipp med sax, tryck på plats. Ingen mask, inga handskar, ingen specialutbildning. Det är ett av de enklaste isoleringsmaterialen att arbeta med.",
+    aText: "Ja. Klipp med sax, tryck på plats. Ingen mask, inga handskar, ingen specialutbildning. Det är ett av de enklaste isoleringsmaterialen att arbeta med.",
+    a: <>Ja. Klipp med sax, tryck på plats. Ingen mask, inga handskar, ingen specialutbildning. Det är ett av de enklaste isoleringsmaterialen att arbeta med. Läs vår <Link href="/montering" className="text-primary hover:text-primary/80 link-grow">monteringsguide</Link>.</>,
   },
   {
     q: "Hur bra isolerar det jämfört med mineralull?",
-    a: "Lambda-värdet är 0,033-0,040 W/m·K. Det är i samma intervall som sten- och glasull. Termiskt sett är det ingen praktisk skillnad.",
+    aText: "Lambda-värdet är 0,033-0,040 W/m·K. Det är i samma intervall som sten- och glasull. Termiskt sett är det ingen praktisk skillnad.",
+    a: <>Lambda-värdet är 0,033-0,040 W/m·K. Det är i samma intervall som sten- och glasull. Termiskt sett är det ingen praktisk skillnad. Fårull har däremot andra <Link href="/fordelar" className="text-primary hover:text-primary/80 link-grow">unika fördelar</Link>.</>,
   },
   {
     q: "Kan det användas i våtrum?",
+    aText: "Fårullsisolering rekommenderas inte i direktkontakt med vatten eller i ständigt fuktiga miljöer. Men den hanterar normal byggfukt och säsongsvariationer bättre än de flesta alternativ.",
     a: "Fårullsisolering rekommenderas inte i direktkontakt med vatten eller i ständigt fuktiga miljöer. Men den hanterar normal byggfukt och säsongsvariationer bättre än de flesta alternativ.",
   },
   {
     q: "Var kan jag köpa det i Sverige?",
+    aText: "I Norden säljer Byeco fårullsisolering från österrikiska Isolena. De sitter i Göteborg och Helsingfors, erbjuder fri rådgivning, hjälper med beräkningar och har 30 dagars öppet köp.",
     a: "I Norden säljer Byeco fårullsisolering från österrikiska Isolena. De sitter i Göteborg och Helsingfors, erbjuder fri rådgivning, hjälper med beräkningar och har 30 dagars öppet köp.",
   },
 ];
@@ -70,7 +79,7 @@ export default function FragorOchSvar() {
               name: item.q,
               acceptedAnswer: {
                 "@type": "Answer",
-                text: item.a,
+                text: item.aText,
               },
             })),
           }),
@@ -127,6 +136,32 @@ export default function FragorOchSvar() {
         </div>
       </ScrollReveal>
     </div>
+
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
+          <ul className="space-y-4">
+            <li>
+              <Link href="/montering" className="link-grow text-lg font-medium text-[#1A1916]">
+                Monteringsguide →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Steg för steg – så monterar du fårullsisolering själv.</p>
+            </li>
+            <li>
+              <Link href="/jamforelse" className="link-grow text-lg font-medium text-[#1A1916]">
+                Fårull vs andra material →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Detaljerad jämförelse mot mineralull och cellplast.</p>
+            </li>
+            <li>
+              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-[#1A1916]">
+                Vad är fårullsisolering? →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Allt om materialet, från tillverkning till funktion.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </>
   );
 }

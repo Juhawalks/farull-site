@@ -46,7 +46,7 @@ export default function FarraserPage() {
             Sverige har cirka 20 erkända fårraser. Allt från urnordiska
             lantraser med tusenårig historia till moderna korsningar för
             köttproduktion. Varje ras ger ull med helt egen karaktär:
-            fibertjocklek, längd, krusighet och glans varierar enormt.
+            <Link href="/farull" className="text-primary hover:text-primary/80 link-grow">fibertjocklek, längd, krusighet och glans</Link> varierar enormt.
           </p>
           <p className="mt-4">
             De svenska lantraserna bär ofta en dubbelbeläggning. Ett inre lager
@@ -225,8 +225,8 @@ export default function FarraserPage() {
               <p className="mt-4">
                 Idag importeras isoleringsfårull främst från Österrike och
                 Storbritannien. Men den svenska traditionen att isolera med ull
-                sträcker sig hundratals år bakåt. Med ökande intresse för cirkulär
-                ekonomi finns stor potential att använda mer nordisk ull i{" "}
+                sträcker sig hundratals år bakåt. Med ökande intresse för <Link href="/hallbarhet" className="text-primary hover:text-primary/80 link-grow">cirkulär
+                ekonomi</Link> finns stor potential att använda mer nordisk ull i{" "}
                 <Link href="/fordelar" className="text-primary hover:text-primary/80 link-grow">
                   hållbar byggisolering
                 </Link>{" "}
@@ -236,6 +236,32 @@ export default function FarraserPage() {
           </div>
         </ScrollReveal>
       </div>
+
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
+          <ul className="space-y-4">
+            <li>
+              <Link href="/farull" className="link-grow text-lg font-medium text-[#1A1916]">
+                Vad är fårull? →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Krusighet, keratin och lanolin – fibern som gör allt möjligt.</p>
+            </li>
+            <li>
+              <Link href="/hallbarhet" className="link-grow text-lg font-medium text-[#1A1916]">
+                Hållbarhet →
+              </Link>
+              <p className="text-[#6B6960] mt-1">200 000 ton spillull och vägen mot cirkulär ekonomi.</p>
+            </li>
+            <li>
+              <Link href="/ullens-historia" className="link-grow text-lg font-medium text-[#1A1916]">
+                Ullens historia →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Från bronsåldern till modern byggisolering.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
 }

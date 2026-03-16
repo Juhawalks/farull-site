@@ -69,8 +69,8 @@ export default function OmOss() {
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
-                Vi märkte att det saknades bra, samlad information om fårull och
-                fårullsisolering på svenska. Det finns mycket att lära, och mycket
+                Vi märkte att det saknades bra, samlad information om fårull och{" "}
+                <Link href="/vad-ar-farullsisolering" className="text-primary hover:text-primary/80 link-grow">fårullsisolering</Link> på svenska. Det finns mycket att lära, och mycket
                 att vinna på att fler förstår hur materialet fungerar. Farull.se
                 är vårt sätt att dela den kunskapen.
               </p>
@@ -146,6 +146,32 @@ export default function OmOss() {
           </div>
         </ScrollReveal>
       </div>
+
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
+          <ul className="space-y-4">
+            <li>
+              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-[#1A1916]">
+                Vad är fårullsisolering? →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Lär dig mer om materialet vi brinner för.</p>
+            </li>
+            <li>
+              <Link href="/hallbarhet" className="link-grow text-lg font-medium text-[#1A1916]">
+                Hållbarhet →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Varför fårull är framtidens hållbara val.</p>
+            </li>
+            <li>
+              <Link href="/fragor-och-svar" className="link-grow text-lg font-medium text-[#1A1916]">
+                Frågor och svar →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Vanliga funderingar om fårullsisolering.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
 }

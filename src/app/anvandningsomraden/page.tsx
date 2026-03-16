@@ -175,7 +175,7 @@ export default function AnvandningsomradenPage() {
               </p>
               <p className="mt-4">
                 Till skillnad från syntetiska absorbenter (ofta polyester eller
-                melaminskum) är ullpaneler helt biologiskt nedbrytbara.
+                melaminskum) är ullpaneler helt <Link href="/hallbarhet" className="text-primary hover:text-primary/80 link-grow">biologiskt nedbrytbara</Link>.
               </p>
             </div>
           </div>
@@ -212,7 +212,7 @@ export default function AnvandningsomradenPage() {
                 <Link href="/farull" className="text-primary hover:text-primary/80 link-grow">
                   fårull
                 </Link>{" "}
-                fungerar i väggar, tak, golv och mellanbjälklag. Den monteras utan
+                fungerar i väggar, tak, golv och mellanbjälklag. Den <Link href="/montering" className="text-primary hover:text-primary/80 link-grow">monteras</Link> utan
                 skyddsutrustning, klipps med vanlig sax och anpassar sig efter
                 oregelbundna hålrum tack vare fibrernas naturliga fjädring.
                 Lambda-värdet (0,033-0,040 W/m·K) är jämförbart med mineralull.
@@ -232,6 +232,32 @@ export default function AnvandningsomradenPage() {
           </div>
         </ScrollReveal>
       </div>
+
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
+          <ul className="space-y-4">
+            <li>
+              <Link href="/montering" className="link-grow text-lg font-medium text-[#1A1916]">
+                Monteringsguide →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Steg för steg – så installerar du fårullsisolering.</p>
+            </li>
+            <li>
+              <Link href="/jamforelse" className="link-grow text-lg font-medium text-[#1A1916]">
+                Fårull vs andra material →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Så presterar fårullen jämfört med alternativen.</p>
+            </li>
+            <li>
+              <Link href="/hallbarhet" className="link-grow text-lg font-medium text-[#1A1916]">
+                Hållbarhet →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Biologiskt nedbrytbar, cirkulär och koldioxidbindande.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
 }

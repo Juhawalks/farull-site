@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
@@ -110,6 +111,26 @@ export default function Kontakt() {
           </div>
         </ScrollReveal>
       </div>
+
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
+          <ul className="space-y-4">
+            <li>
+              <Link href="/fragor-och-svar" className="link-grow text-lg font-medium text-[#1A1916]">
+                Frågor och svar →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Kanske hittar du svaret här redan.</p>
+            </li>
+            <li>
+              <Link href="/montering" className="link-grow text-lg font-medium text-[#1A1916]">
+                Monteringsguide →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Steg-för-steg-guide för dig som ska installera.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
 }

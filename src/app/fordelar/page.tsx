@@ -67,7 +67,7 @@ export default function Fordelar() {
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
-                Ullens keratin binder formaldehyd och andra flyktiga organiska
+                <Link href="/farull" className="text-primary hover:text-primary/80 link-grow">Ullens keratin</Link> binder formaldehyd och andra flyktiga organiska
                 föreningar (VOC) som avges av möbler, lim och färg. Effekten är
                 mätbar. I ett nybyggt hus med fårullsisolering sjunker
                 formaldehydhalten i inomhusluften snabbare än med konventionell
@@ -127,7 +127,7 @@ export default function Fordelar() {
               <p>
                 Ull kolnar och slocknar själv. Den smälter inte, droppar inte
                 och sprider inte brand. Brandklass B1/C uppnås helt utan kemiska
-                flamskyddsmedel. Jämför det med cellplast som smälter och
+                flamskyddsmedel. <Link href="/jamforelse" className="text-primary hover:text-primary/80 link-grow">Jämför det med cellplast</Link> som smälter och
                 avger giftig rök, eller mineralull som klarar branden men vars
                 bindemedel brinner.
               </p>
@@ -257,6 +257,32 @@ export default function Fordelar() {
           </div>
         </ScrollReveal>
       </div>
+
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
+          <ul className="space-y-4">
+            <li>
+              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-[#1A1916]">
+                Vad är fårullsisolering? →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Från fårrygg till vägg – så blir ullen till isolering.</p>
+            </li>
+            <li>
+              <Link href="/hallbarhet" className="link-grow text-lg font-medium text-[#1A1916]">
+                Hållbarhet →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Koldioxidbindning, cirkulär ekonomi och EU-taxonomin.</p>
+            </li>
+            <li>
+              <Link href="/jamforelse" className="link-grow text-lg font-medium text-[#1A1916]">
+                Fårull vs andra material →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Så står sig fårullen mot mineralull och cellplast.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
 }

@@ -47,7 +47,7 @@ export default function VadArFarullsisolering() {
             tvättas, kardas till skivor eller rullar och behandlas med en liten
             mängd borax för extra brandskydd. Resultatet är en isolering som
             reglerar fukt, renar luften och isolerar termiskt i klass med
-            mineralull.
+            mineralull. Läs mer om <Link href="/fordelar" className="text-primary hover:text-primary/80 link-grow">fördelarna med fårullsisolering</Link>.
           </p>
         </ScrollReveal>
 
@@ -79,8 +79,8 @@ export default function VadArFarullsisolering() {
               <p className="mt-4">
                 Hela processen kräver en bråkdel av den energi som mineralull
                 behöver. Ingen smältning vid 1 400 °C. Ingen kemikaliecocktail.
-                Bara mekanisk bearbetning av en fiber som redan har alla egenskaper
-                inbyggda.
+                Bara mekanisk bearbetning av en <Link href="/farull" className="text-primary hover:text-primary/80 link-grow">fiber som redan har alla egenskaper
+                inbyggda</Link>.
               </p>
             </div>
           </div>
@@ -213,6 +213,32 @@ export default function VadArFarullsisolering() {
           </div>
         </ScrollReveal>
       </div>
+
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
+          <ul className="space-y-4">
+            <li>
+              <Link href="/fordelar" className="link-grow text-lg font-medium text-[#1A1916]">
+                Fördelar med fårullsisolering →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Åtta konkreta skäl att välja ull framför mineralull.</p>
+            </li>
+            <li>
+              <Link href="/montering" className="link-grow text-lg font-medium text-[#1A1916]">
+                Monteringsguide →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Steg-för-steg: så installerar du fårullsisolering.</p>
+            </li>
+            <li>
+              <Link href="/jamforelse" className="link-grow text-lg font-medium text-[#1A1916]">
+                Fårull vs andra material →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Detaljerad jämförelse mot mineralull, cellulosa och cellplast.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
 }

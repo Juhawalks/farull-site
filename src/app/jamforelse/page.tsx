@@ -45,7 +45,7 @@ export default function Jamforelse() {
           <p>
             Alla isoleringsmaterial isolerar. Det är vad de har gemensamt. Men
             skillnaderna i fukthantering, hälsopåverkan, miljöavtryck och
-            arbetskomfort är stora. Här ställer vi fårull mot de vanligaste
+            arbetskomfort är stora. Här ställer vi <Link href="/farull" className="text-primary hover:text-primary/80 link-grow">fårull</Link> mot de vanligaste
             alternativen.
           </p>
         </ScrollReveal>
@@ -90,7 +90,7 @@ export default function Jamforelse() {
               <p className="mt-3">
                 <strong>Miljö:</strong> Mineralull kräver smältning vid 1 400 °C.
                 Fårull tvättas och kardas mekaniskt. CO₂-avtrycket skiljer sig
-                dramatiskt.
+                dramatiskt. Läs mer om <Link href="/hallbarhet" className="text-primary hover:text-primary/80 link-grow">hållbarhet och klimatpåverkan</Link>.
               </p>
               <p className="mt-3">
                 <strong>Pris:</strong> Fårull kostar 2-3x mer per kvadratmeter.
@@ -126,7 +126,7 @@ export default function Jamforelse() {
                 i vertikala applikationer.
               </p>
               <p className="mt-4">
-                Fårull har fördelar i luftrening (cellulosa binder inte
+                Fårull har fördelar i <Link href="/farull" className="text-primary hover:text-primary/80 link-grow">luftrening</Link> (cellulosa binder inte
                 formaldehyd), brandbeteende (cellulosa kräver kemiska
                 flamskyddsmedel) och formstabilitet.
               </p>
@@ -201,6 +201,32 @@ export default function Jamforelse() {
           </div>
         </ScrollReveal>
       </div>
+
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
+          <ul className="space-y-4">
+            <li>
+              <Link href="/fordelar" className="link-grow text-lg font-medium text-[#1A1916]">
+                Fördelar med fårullsisolering →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Fördjupning i fårullens åtta styrkor.</p>
+            </li>
+            <li>
+              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-[#1A1916]">
+                Vad är fårullsisolering? →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Så tillverkas produkten du jämför.</p>
+            </li>
+            <li>
+              <Link href="/fragor-och-svar" className="link-grow text-lg font-medium text-[#1A1916]">
+                Frågor och svar →
+              </Link>
+              <p className="text-[#6B6960] mt-1">Pris, brandklass och livslängd – raka svar.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
 }
