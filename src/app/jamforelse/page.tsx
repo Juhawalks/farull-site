@@ -202,6 +202,25 @@ export default function Jamforelse() {
         </ScrollReveal>
       </div>
 
+      <ScrollReveal>
+        <aside className="max-w-3xl mx-auto px-6 py-12">
+          <div className="border border-[#e8e4dd] p-6 bg-[#FAF7F2]">
+            <p className="font-body text-foreground/80 text-base leading-relaxed">
+              Funderar du på att byta till fårull? Byeco hjälper dig jämföra alternativ
+              och räkna ut kostnaden för just ditt projekt. Fri rådgivning.{" "}
+              <a
+                href="https://byeco.se"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary/80 link-grow"
+              >
+                Besök Byeco.se →
+              </a>
+            </p>
+          </div>
+        </aside>
+      </ScrollReveal>
+
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>

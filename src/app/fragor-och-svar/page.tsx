@@ -61,7 +61,7 @@ const faq: { q: string; a: React.ReactNode; aText: string }[] = [
   {
     q: "Var kan jag köpa det i Sverige?",
     aText: "I Norden säljer Byeco fårullsisolering från österrikiska Isolena. De sitter i Göteborg och Helsingfors, erbjuder fri rådgivning, hjälper med beräkningar och har 30 dagars öppet köp.",
-    a: "I Norden säljer Byeco fårullsisolering från österrikiska Isolena. De sitter i Göteborg och Helsingfors, erbjuder fri rådgivning, hjälper med beräkningar och har 30 dagars öppet köp.",
+    a: <>I Norden säljer <a href="https://byeco.se" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 link-grow">Byeco</a> fårullsisolering från österrikiska Isolena. De sitter i Göteborg och Helsingfors, erbjuder fri rådgivning, hjälper med beräkningar och har 30 dagars öppet köp.</>,
   },
 ];
 
