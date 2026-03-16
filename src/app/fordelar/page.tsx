@@ -34,6 +34,8 @@ export default function Fordelar() {
         src="https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=1200&q=80"
         alt="Grön natur och hållbar miljö"
         loading="eager"
+        width={800}
+        height={400}
         className="w-full h-64 object-cover rounded-2xl mb-12"
       />
 
@@ -55,6 +57,8 @@ export default function Fordelar() {
                 src="https://images.unsplash.com/photo-1527015175922-36a306cf0e20?w=800&q=80"
                 alt="Ljust rum med ren luft och naturligt ljus"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -83,15 +87,17 @@ export default function Fordelar() {
                 src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80"
                 alt="Dimma och fukt i naturligt landskap"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
-                Upp till 40 % av sin vikt i fukt – utan att tappa prestanda
+                Upp till 40&nbsp;% av sin vikt i fukt – utan att tappa prestanda
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
-                Ull absorberar upp till 40 % av sin vikt i fukt utan att förlora
+                Ull absorberar upp till 40&nbsp;% av sin vikt i fukt utan att förlora
                 isoleringsförmåga. När luften torkar släpper den ut fukten igen.
                 Det betyder att väggar med fårullsisolering buffrar fuktsvängningar
                 naturligt, utan ångspärr i alla tillämpningar. Mineralull tappar
@@ -111,6 +117,8 @@ export default function Fordelar() {
                 src="https://images.unsplash.com/photo-1549740425-5e9ed4d8cd34?w=800&q=80"
                 alt="Eldflamma i närbild"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -139,6 +147,8 @@ export default function Fordelar() {
                 src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=800&q=80"
                 alt="Lugnt tyst rum med mjukt ljus"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -166,6 +176,8 @@ export default function Fordelar() {
                 src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
                 alt="Grönt landskap med betande djur"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -193,6 +205,8 @@ export default function Fordelar() {
                 src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80"
                 alt="Händer som arbetar med naturligt material"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -225,6 +239,8 @@ export default function Fordelar() {
                 src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
                 alt="Vackert äldre hus i gott skick"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">

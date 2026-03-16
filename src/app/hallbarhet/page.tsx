@@ -34,6 +34,8 @@ export default function Hallbarhet() {
         src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
         alt="Grön skog och natur"
         loading="eager"
+        width={800}
+        height={400}
         className="w-full h-64 object-cover rounded-2xl mb-12"
       />
 
@@ -56,6 +58,8 @@ export default function Hallbarhet() {
                 src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
                 alt="Grönt beteslandskap med djur"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -84,6 +88,8 @@ export default function Hallbarhet() {
                 src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80"
                 alt="Naturliga fibrer och hållbar process"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -110,6 +116,8 @@ export default function Hallbarhet() {
                 src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=800&q=80"
                 alt="Fårflock på betesmark"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -138,15 +146,17 @@ export default function Hallbarhet() {
                 src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=800&q=80"
                 alt="Grönt kretslopp i naturen"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
-                100 % biologiskt nedbrytbar – vid rivning komposteras ullen och återgår till jorden
+                100&nbsp;% biologiskt nedbrytbar – vid rivning komposteras ullen och återgår till jorden
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
-                Fårullsisolering är 100 % biologiskt nedbrytbar. Vid rivning
+                Fårullsisolering är 100&nbsp;% biologiskt nedbrytbar. Vid rivning
                 kan den komposteras och återgå till jorden som näring. Ingen
                 deponi, ingen förbränning. Materialet går tillbaka dit det kom
                 ifrån.
@@ -165,6 +175,8 @@ export default function Hallbarhet() {
                 src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
                 alt="Modern hållbar arkitektur"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">

@@ -34,6 +34,8 @@ export default function VadArFarullsisolering() {
         src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
         alt="Byggarbetsplats med isoleringsarbete"
         loading="eager"
+        width={800}
+        height={400}
         className="w-full h-64 object-cover rounded-2xl mb-12"
       />
 
@@ -58,6 +60,8 @@ export default function VadArFarullsisolering() {
                 src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80"
                 alt="Naturliga fibrer i närbild"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -92,6 +96,8 @@ export default function VadArFarullsisolering() {
                 src="https://images.unsplash.com/photo-1560781290-7dc94c0f8f4f?w=800&q=80"
                 alt="Närbild på ullfibrer som skapar luftfickor"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -106,7 +112,7 @@ export default function VadArFarullsisolering() {
               </p>
               <p className="mt-4">
                 Men till skillnad från mineralull stannar det inte vid termisk
-                prestanda. Ullen absorberar upp till 40 % av sin vikt i fukt utan
+                prestanda. Ullen absorberar upp till 40&nbsp;% av sin vikt i fukt utan
                 att förlora isoleringsförmåga, och släpper ut fukten igen när
                 luften torkar. Den binder formaldehyd och andra flyktiga organiska
                 föreningar ur inomhusluften. Och den är naturligt flamhämmande,
@@ -126,6 +132,8 @@ export default function VadArFarullsisolering() {
                 src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80"
                 alt="Husbygge med synligt regelverk"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -159,6 +167,8 @@ export default function VadArFarullsisolering() {
                 src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
                 alt="Modernt hus med hållbar profil"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -180,6 +190,29 @@ export default function VadArFarullsisolering() {
                 </Link>
               </p>
             </div>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <div className="mt-12 p-8 bg-primary/5 border border-primary/10">
+            <h2 className="font-heading text-xl font-semibold text-foreground mb-3">
+              Vill du veta mer eller beställa?
+            </h2>
+            <p className="text-foreground/70 mb-1">
+              I Norden säljer Byeco fårullsisolering från österrikiska Isolena.
+              De hjälper dig med beräkningar, val av produkt och har
+              30&nbsp;dagars öppet köp.
+            </p>
+            <p className="mt-4">
+              <a
+                href="https://byeco.se"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary/80 link-grow text-sm font-medium"
+              >
+                Till Byeco.se →
+              </a>
+            </p>
           </div>
         </ScrollReveal>
       </div>

@@ -34,6 +34,8 @@ export default function OmOss() {
         src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
         alt="Kontor och teamarbete"
         loading="eager"
+        width={800}
+        height={400}
         className="w-full h-64 object-cover rounded-2xl mb-12"
       />
 
@@ -57,6 +59,8 @@ export default function OmOss() {
                 src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?w=800&q=80"
                 alt="Skrivbord med dator och anteckningar"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -84,6 +88,8 @@ export default function OmOss() {
                 src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
                 alt="Modernt kontor med naturligt ljus"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -120,6 +126,8 @@ export default function OmOss() {
                 src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=800&q=80"
                 alt="Kommunikation och kontakt"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">

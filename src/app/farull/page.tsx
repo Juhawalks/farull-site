@@ -34,6 +34,8 @@ export default function FarullPage() {
         src="https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=800&q=80"
         alt="Närbild på ett får med tjock ull"
         loading="eager"
+        width={800}
+        height={400}
         className="w-full h-64 object-cover rounded-2xl mb-12"
       />
 
@@ -60,6 +62,8 @@ export default function FarullPage() {
                 src="https://images.unsplash.com/photo-1560781290-7dc94c0f8f4f?w=800&q=80"
                 alt="Närbild på krusiga ullfibrer"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -94,6 +98,8 @@ export default function FarullPage() {
                 src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80"
                 alt="Dimma över grönt landskap – fukt i naturen"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -102,7 +108,7 @@ export default function FarullPage() {
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
-                Fårull kan ta upp 35-40 % av sin egen vikt i fukt utan att kännas
+                Fårull kan ta upp 35–40&nbsp;% av sin egen vikt i fukt utan att kännas
                 våt. Det beror på att fibrernas kärna är hydrofil och drar till sig
                 vattenmolekyler, medan det yttre fjällskiktet är hydrofobt och
                 stöter bort vätskedroppar.
@@ -127,6 +133,8 @@ export default function FarullPage() {
                 src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80"
                 alt="Olika garnnystan i naturliga färger"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -165,6 +173,8 @@ export default function FarullPage() {
                 src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=800&q=80"
                 alt="Får i regn – lanolinets naturliga skydd"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -175,7 +185,7 @@ export default function FarullPage() {
               <p>
                 Lanolin är det fettliknande vax som fåret utsöndrar för att skydda
                 sin ull mot regn, UV-strålning och bakterier. I råull utgör det
-                5-25 % av vikten. Vid bearbetning tvättas det mesta bort, men en
+                5–25&nbsp;% av vikten. Vid bearbetning tvättas det mesta bort, men en
                 viss mängd lämnas kvar i isoleringsull. Det ger fibern naturlig
                 motståndskraft mot skadedjur och fukt.
               </p>
@@ -197,6 +207,8 @@ export default function FarullPage() {
                 src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
                 alt="Byggarbetsplats med träregelverk"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">

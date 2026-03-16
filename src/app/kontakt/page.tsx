@@ -33,6 +33,8 @@ export default function Kontakt() {
         src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
         alt="Modern byggnad och arkitektur"
         loading="eager"
+        width={800}
+        height={400}
         className="w-full h-56 object-cover rounded-2xl mb-12"
       />
 
@@ -90,11 +92,11 @@ export default function Kontakt() {
         <ScrollReveal>
           <div className="mt-8 p-8 bg-primary/5 border border-primary/10">
             <h2 className="font-heading text-xl font-semibold text-foreground mb-3">
-              Vill du beställa isolering?
+              Redo att beställa isolering?
             </h2>
             <p className="text-foreground/70 mb-4">
-              All försäljning och beställning sker via Byeco.se. Där kan du
-              också boka en kostnadsfri rådgivning.
+              Försäljning och rådgivning sker via Byeco.se. Du kan ringa,
+              mejla eller beställa direkt. Fri rådgivning och 30&nbsp;dagars öppet köp.
             </p>
             <a
               href="https://byeco.se"
@@ -102,7 +104,7 @@ export default function Kontakt() {
               rel="noopener noreferrer"
               className="btn-primary inline-block"
             >
-              Besök Byeco.se
+              Till Byeco.se
             </a>
           </div>
         </ScrollReveal>

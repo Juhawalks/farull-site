@@ -34,6 +34,8 @@ export default function AnvandningsomradenPage() {
         src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80"
         alt="Ullgarn och textilarbete"
         loading="eager"
+        width={800}
+        height={400}
         className="w-full h-64 object-cover rounded-2xl mb-12"
       />
 
@@ -58,6 +60,8 @@ export default function AnvandningsomradenPage() {
                 src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=800&q=80"
                 alt="Ullkläder och textilier"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -89,6 +93,8 @@ export default function AnvandningsomradenPage() {
                 src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80"
                 alt="Skandinavisk inredning med ulldetaljer"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -121,6 +127,8 @@ export default function AnvandningsomradenPage() {
                 src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80"
                 alt="Trädgårdsodling med naturliga material"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -153,6 +161,8 @@ export default function AnvandningsomradenPage() {
                 src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=800&q=80"
                 alt="Akustikbehandlat rum med mjukt ljus"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -184,6 +194,8 @@ export default function AnvandningsomradenPage() {
                 src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
                 alt="Byggarbetsplats med isoleringsarbete"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">

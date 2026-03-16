@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 
 const farullNav = [
   { label: "Vad är fårull?", href: "/farull" },
@@ -19,11 +19,45 @@ const isoleringNav = [
   { label: "Hållbarhet", href: "/hallbarhet" },
 ];
 
+function useDropdown() {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+  const timeoutRef = useRef<ReturnType<typeof setTimeout>>();
+
+  const handleMouseEnter = useCallback(() => {
+    clearTimeout(timeoutRef.current);
+    setOpen(true);
+  }, []);
+
+  const handleMouseLeave = useCallback(() => {
+    timeoutRef.current = setTimeout(() => setOpen(false), 150);
+  }, []);
+
+  const handleKeyDown = useCallback(
+    (e: React.KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setOpen(false);
+        const button = ref.current?.querySelector("button");
+        button?.focus();
+      }
+    },
+    []
+  );
+
+  const handleBlur = useCallback((e: React.FocusEvent) => {
+    if (!ref.current?.contains(e.relatedTarget as Node)) {
+      setOpen(false);
+    }
+  }, []);
+
+  return { open, setOpen, ref, handleMouseEnter, handleMouseLeave, handleKeyDown, handleBlur };
+}
+
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const [farullOpen, setFarullOpen] = useState(false);
-  const [isoleringOpen, setIsoleringOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const farull = useDropdown();
+  const isolering = useDropdown();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -33,7 +67,7 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-[background-color,border-color,box-shadow] duration-300 border-b ${
         scrolled
           ? "bg-[rgba(250,247,242,0.8)] backdrop-blur-[20px] border-[rgba(26,25,22,0.06)] shadow-sm"
           : "bg-[rgba(250,247,242,0.8)] backdrop-blur-[20px] border-transparent"
@@ -46,17 +80,25 @@ export function Header() {
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden lg:flex items-center gap-1">
+          <nav className="hidden lg:flex items-center gap-1" aria-label="Huvudmeny">
             {/* Fårull dropdown */}
             <div
+              ref={farull.ref}
               className="relative"
-              onMouseEnter={() => setFarullOpen(true)}
-              onMouseLeave={() => setFarullOpen(false)}
+              onMouseEnter={farull.handleMouseEnter}
+              onMouseLeave={farull.handleMouseLeave}
+              onKeyDown={farull.handleKeyDown}
+              onBlur={farull.handleBlur}
             >
-              <button className="link-grow uppercase text-xs tracking-wider font-body text-foreground/70 hover:text-foreground transition-colors px-4 py-2">
+              <button
+                className="link-grow uppercase text-xs tracking-wider font-body text-foreground/70 hover:text-foreground transition-colors px-4 py-2"
+                aria-expanded={farull.open}
+                aria-haspopup="true"
+                onClick={() => farull.setOpen(!farull.open)}
+              >
                 Fårull
               </button>
-              {farullOpen && (
+              {farull.open && (
                 <div className="absolute top-full left-0 bg-[rgba(250,247,242,0.95)] backdrop-blur-[20px] border border-[rgba(26,25,22,0.06)] shadow-lg py-2 min-w-[220px]">
                   {farullNav.map((item) => (
                     <Link
@@ -73,14 +115,22 @@ export function Header() {
 
             {/* Isolering dropdown */}
             <div
+              ref={isolering.ref}
               className="relative"
-              onMouseEnter={() => setIsoleringOpen(true)}
-              onMouseLeave={() => setIsoleringOpen(false)}
+              onMouseEnter={isolering.handleMouseEnter}
+              onMouseLeave={isolering.handleMouseLeave}
+              onKeyDown={isolering.handleKeyDown}
+              onBlur={isolering.handleBlur}
             >
-              <button className="link-grow uppercase text-xs tracking-wider font-body text-foreground/70 hover:text-foreground transition-colors px-4 py-2">
+              <button
+                className="link-grow uppercase text-xs tracking-wider font-body text-foreground/70 hover:text-foreground transition-colors px-4 py-2"
+                aria-expanded={isolering.open}
+                aria-haspopup="true"
+                onClick={() => isolering.setOpen(!isolering.open)}
+              >
                 Isolering
               </button>
-              {isoleringOpen && (
+              {isolering.open && (
                 <div className="absolute top-full left-0 bg-[rgba(250,247,242,0.95)] backdrop-blur-[20px] border border-[rgba(26,25,22,0.06)] shadow-lg py-2 min-w-[220px]">
                   {isoleringNav.map((item) => (
                     <Link
@@ -120,6 +170,7 @@ export function Header() {
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
+              aria-hidden="true"
             >
               {isOpen ? (
                 <path
@@ -142,7 +193,7 @@ export function Header() {
 
         {/* Mobile nav */}
         {isOpen && (
-          <nav className="lg:hidden pb-6 border-t border-[rgba(26,25,22,0.06)] pt-4">
+          <nav className="lg:hidden pb-6 border-t border-[rgba(26,25,22,0.06)] pt-4" aria-label="Mobilmeny">
             <div className="flex flex-col gap-1">
               <p className="text-xs uppercase tracking-[0.15em] text-foreground/40 font-body px-1 pt-2 pb-1">
                 Fårull

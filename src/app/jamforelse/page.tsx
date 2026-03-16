@@ -34,6 +34,8 @@ export default function Jamforelse() {
         src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80"
         alt="Olika byggmaterial för jämförelse"
         loading="eager"
+        width={800}
+        height={400}
         className="w-full h-56 object-cover rounded-2xl mb-12"
       />
 
@@ -57,6 +59,8 @@ export default function Jamforelse() {
                 src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
                 alt="Byggarbetsplats med isoleringsmaterial"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -70,7 +74,7 @@ export default function Jamforelse() {
                 praktiken.
               </p>
               <p className="mt-3">
-                <strong>Fukt:</strong> Fårull absorberar upp till 40 % av sin vikt
+                <strong>Fukt:</strong> Fårull absorberar upp till 40&nbsp;% av sin vikt
                 utan att tappa prestanda. Mineralull förlorar isoleringsförmåga
                 redan vid låga fuktnivåer. I täta konstruktioner kan det leda till
                 kondensproblem.
@@ -106,6 +110,8 @@ export default function Jamforelse() {
                 src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80"
                 alt="Naturliga fibrer och material"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -139,6 +145,8 @@ export default function Jamforelse() {
                 src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80"
                 alt="Byggmaterial i jämförelse"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -172,6 +180,8 @@ export default function Jamforelse() {
                 src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
                 alt="Grönt landskap med betande får"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">

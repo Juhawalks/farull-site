@@ -52,7 +52,7 @@ const faq = [
   },
   {
     q: "Var kan jag köpa det i Sverige?",
-    a: "I Norden säljer Byeco.se fårullsisolering från österrikiska Isolena. De erbjuder fri rådgivning och 30 dagars öppet köp.",
+    a: "I Norden säljer Byeco fårullsisolering från österrikiska Isolena. De sitter i Göteborg och Helsingfors, erbjuder fri rådgivning, hjälper med beräkningar och har 30 dagars öppet köp.",
   },
 ];
 
@@ -103,13 +103,26 @@ export default function FragorOchSvar() {
       </div>
 
       <ScrollReveal>
-        <div className="max-w-3xl mt-16">
+        <div className="max-w-3xl mt-16 space-y-4">
           <p className="font-body text-foreground/70 text-base">
             Hittar du inte svaret du söker?{" "}
             <Link href="/kontakt" className="text-primary hover:text-primary/80 link-grow">
-              Kontakta oss
+              Hör av dig
             </Link>
             , så hjälper vi dig.
+          </p>
+          <p className="font-body text-foreground/50 text-sm">
+            Vill du gå vidare och beställa? Försäljning och rådgivning
+            sker via{" "}
+            <a
+              href="https://byeco.se"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary/70 hover:text-primary link-grow"
+            >
+              Byeco.se
+            </a>
+            .
           </p>
         </div>
       </ScrollReveal>

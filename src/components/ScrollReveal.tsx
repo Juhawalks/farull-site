@@ -1,10 +1,15 @@
 "use client";
 
 import { useEffect, type ReactNode } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 /**
- * Global scroll reveal observer — renders nothing, just observes all .reveal elements.
- * Import once in layout.tsx.
+ * Global GSAP ScrollTrigger observer.
+ * Handles .reveal elements, .reveal-stagger containers, and .parallax-img images.
+ * Watches for new elements added by client-side navigation.
  */
 export function ScrollRevealObserver() {
   useEffect(() => {
@@ -12,32 +17,88 @@ export function ScrollRevealObserver() {
       "(prefers-reduced-motion: reduce)"
     ).matches;
 
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-            io.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.15 }
-    );
+    function initAnimations() {
+      // Reveal elements (fade up)
+      gsap.utils.toArray<HTMLElement>(".reveal:not(.gsap-init)").forEach((el) => {
+        el.classList.add("gsap-init");
 
-    function observeAll() {
-      document.querySelectorAll(".reveal:not(.visible)").forEach((el) => {
         if (prefersReducedMotion) {
-          el.classList.add("visible");
-        } else {
-          io.observe(el);
+          gsap.set(el, { opacity: 1, y: 0 });
+          return;
         }
+
+        gsap.fromTo(
+          el,
+          { opacity: 0, y: 40 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 0.8,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: el,
+              start: "top 85%",
+              toggleActions: "play none none none",
+            },
+          }
+        );
       });
+
+      // Stagger containers — animate direct children
+      gsap.utils
+        .toArray<HTMLElement>(".reveal-stagger:not(.gsap-stagger-init)")
+        .forEach((container) => {
+          container.classList.add("gsap-stagger-init");
+          const children = container.children;
+
+          if (prefersReducedMotion) {
+            gsap.set(children, { opacity: 1, y: 0 });
+            return;
+          }
+
+          gsap.fromTo(
+            children,
+            { opacity: 0, y: 30 },
+            {
+              opacity: 1,
+              y: 0,
+              duration: 0.6,
+              stagger: 0.12,
+              ease: "power3.out",
+              scrollTrigger: {
+                trigger: container,
+                start: "top 80%",
+                toggleActions: "play none none none",
+              },
+            }
+          );
+        });
+
+      // Parallax images
+      gsap.utils
+        .toArray<HTMLElement>(".parallax-img:not(.gsap-parallax-init)")
+        .forEach((img) => {
+          img.classList.add("gsap-parallax-init");
+
+          if (prefersReducedMotion) return;
+
+          gsap.to(img, {
+            yPercent: -8,
+            ease: "none",
+            scrollTrigger: {
+              trigger: img.closest(".parallax-wrap") || img.parentElement,
+              start: "top bottom",
+              end: "bottom top",
+              scrub: 0.5,
+            },
+          });
+        });
     }
 
-    // Observe existing elements
-    observeAll();
+    // Initial run
+    initAnimations();
 
-    // Watch for new .reveal elements added by client-side navigation
+    // Watch for new elements added by client-side navigation
     const mo = new MutationObserver((mutations) => {
       let hasNewNodes = false;
       for (const m of mutations) {
@@ -46,14 +107,20 @@ export function ScrollRevealObserver() {
           break;
         }
       }
-      if (hasNewNodes) observeAll();
+      if (hasNewNodes) {
+        // Small delay to let React finish rendering
+        requestAnimationFrame(() => {
+          initAnimations();
+          ScrollTrigger.refresh();
+        });
+      }
     });
 
     mo.observe(document.body, { childList: true, subtree: true });
 
     return () => {
-      io.disconnect();
       mo.disconnect();
+      ScrollTrigger.getAll().forEach((t) => t.kill());
     };
   }, []);
 
@@ -61,8 +128,8 @@ export function ScrollRevealObserver() {
 }
 
 /**
- * Wrapper component for backwards compatibility with existing pages.
- * Wraps children in a div with "reveal" class so the global observer picks it up.
+ * Wrapper component — wraps children in a div with "reveal" class.
+ * GSAP ScrollTrigger picks up .reveal elements automatically.
  */
 interface ScrollRevealProps {
   children: ReactNode;

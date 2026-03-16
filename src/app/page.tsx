@@ -153,7 +153,7 @@ export default function Home() {
             <div className="max-w-xl">
               <p className="hero-tag flex items-center gap-3 uppercase text-xs tracking-widest text-accent font-body mb-6">
                 <span className="inline-block w-8 h-[1px] bg-accent" />
-                100% naturlig · CO₂-bindande
+                100&nbsp;% naturlig · CO₂-bindande
               </p>
               <h1 className="hero-title font-heading text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight text-foreground mb-8">
                 Allt om fårull. Från fiber till byggisolering.
@@ -166,26 +166,26 @@ export default function Home() {
               <div className="hero-actions flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/vad-ar-farullsisolering"
-                  className="inline-block bg-primary text-white uppercase tracking-wider text-sm px-8 py-4 font-body font-medium hover:translate-y-[-2px] hover:shadow-lg transition-all duration-300"
+                  className="inline-block bg-primary text-white uppercase tracking-wider text-sm px-8 py-4 font-body font-medium hover:translate-y-[-2px] hover:shadow-lg transition-[transform,box-shadow] duration-300"
                 >
-                  Utforska isoleringen
+                  Så fungerar isoleringen
                 </Link>
                 <Link
                   href="/jamforelse"
-                  className="inline-block border border-foreground/20 uppercase tracking-wider text-sm px-8 py-4 font-body font-medium text-foreground hover:bg-foreground/5 transition-all duration-300"
+                  className="inline-block border border-foreground/20 uppercase tracking-wider text-sm px-8 py-4 font-body font-medium text-foreground hover:bg-foreground/5 transition-[background-color] duration-300"
                 >
-                  Jämför material
+                  Fårull vs mineralull
                 </Link>
               </div>
             </div>
-            <div className="hidden lg:block">
+            <div className="hidden lg:block parallax-wrap rounded-2xl shadow-2xl">
               <Image
                 src="https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=800&q=80"
                 alt="Fårull - naturlig isolering"
                 width={800}
                 height={600}
                 priority
-                className="object-cover rounded-2xl shadow-2xl w-full h-auto"
+                className="parallax-img object-cover w-full h-auto scale-110"
               />
             </div>
           </div>
@@ -195,15 +195,17 @@ export default function Home() {
       <SectionDivider />
 
       {/* FÖRDELAR */}
-      <section className="reveal py-32">
+      <section className="py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="uppercase tracking-widest text-accent text-sm font-body mb-4">
-            Varför fårull?
-          </p>
-          <h2 className="font-heading text-4xl font-semibold text-foreground mb-16">
-            Sex skäl att byta till ull
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="reveal">
+            <p className="uppercase tracking-widest text-accent text-sm font-body mb-4">
+              Varför fårull?
+            </p>
+            <h2 className="font-heading text-4xl font-semibold text-foreground mb-16">
+              Sex skäl att byta till ull
+            </h2>
+          </div>
+          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-6">
             {fordelar.map((item) => (
               <div
                 key={item.title}
@@ -213,6 +215,7 @@ export default function Home() {
                   size={32}
                   strokeWidth={1.5}
                   className="text-accent mb-4"
+                  aria-hidden="true"
                 />
                 <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
                   {item.title}
@@ -228,12 +231,16 @@ export default function Home() {
 
       {/* BRED BILD - ULL-TEXTUR */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <img
-          src="https://images.unsplash.com/photo-1560781290-7dc94c0f8f4f?w=1200&q=80"
-          alt="Närbild på ullfibrer med naturlig textur"
-          loading="lazy"
-          className="w-full h-64 md:h-80 object-cover rounded-2xl"
-        />
+        <div className="parallax-wrap rounded-2xl h-64 md:h-80">
+          <img
+            src="https://images.unsplash.com/photo-1560781290-7dc94c0f8f4f?w=1200&q=80"
+            alt="Närbild på ullfibrer med naturlig textur"
+            width={1200}
+            height={400}
+            loading="lazy"
+            className="parallax-img w-full h-full object-cover scale-110"
+          />
+        </div>
       </div>
 
       <SectionDivider />
@@ -256,6 +263,7 @@ export default function Home() {
                       size={28}
                       strokeWidth={1.5}
                       className="text-accent relative"
+                      aria-hidden="true"
                     />
                   </div>
                 </div>
@@ -274,31 +282,38 @@ export default function Home() {
       <SectionDivider />
 
       {/* UTFORSKA FÅRULL */}
-      <section className="reveal py-32">
+      <section className="py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="uppercase tracking-widest text-accent text-sm font-body mb-4">
-            Fårull som material
-          </p>
-          <h2 className="font-heading text-4xl font-semibold text-foreground mb-16">
-            Utforska fårullens värld
-          </h2>
-          <img
-            src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=800&q=80"
-            alt="Får som betar på en grön äng i solljus"
-            loading="lazy"
-            className="w-full h-64 md:h-80 object-cover rounded-2xl mb-12"
-          />
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="reveal">
+            <p className="uppercase tracking-widest text-accent text-sm font-body mb-4">
+              Fårull som material
+            </p>
+            <h2 className="font-heading text-4xl font-semibold text-foreground mb-16">
+              Utforska fårullens värld
+            </h2>
+          </div>
+          <div className="parallax-wrap rounded-2xl h-64 md:h-80 mb-12">
+            <img
+              src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=800&q=80"
+              alt="Får som betar på en grön äng i solljus"
+              width={800}
+              height={400}
+              loading="lazy"
+              className="parallax-img w-full h-full object-cover scale-110"
+            />
+          </div>
+          <div className="reveal-stagger grid grid-cols-1 sm:grid-cols-2 gap-6">
             {utforskaFarull.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="group card-hover bg-white/50 border border-foreground/5 rounded-lg p-6 transition-all duration-300"
+                className="group card-hover bg-white/50 border border-foreground/5 rounded-lg p-6 transition-colors duration-300"
               >
                 <item.icon
                   size={24}
                   strokeWidth={1.5}
                   className="text-primary mb-3"
+                  aria-hidden="true"
                 />
                 <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
                   {item.title}
@@ -315,25 +330,28 @@ export default function Home() {
       <SectionDivider />
 
       {/* UTFORSKA ISOLERING */}
-      <section className="reveal py-32">
+      <section className="py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="uppercase tracking-widest text-accent text-sm font-body mb-4">
-            Byggisolering
-          </p>
-          <h2 className="font-heading text-4xl font-semibold text-foreground mb-16">
-            Lär dig mer om fårullsisolering
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="reveal">
+            <p className="uppercase tracking-widest text-accent text-sm font-body mb-4">
+              Byggisolering
+            </p>
+            <h2 className="font-heading text-4xl font-semibold text-foreground mb-16">
+              Lär dig mer om fårullsisolering
+            </h2>
+          </div>
+          <div className="reveal-stagger grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {utforskaIsolering.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="group card-hover bg-white/50 border border-foreground/5 rounded-lg p-6 transition-all duration-300"
+                className="group card-hover bg-white/50 border border-foreground/5 rounded-lg p-6 transition-colors duration-300"
               >
                 <item.icon
                   size={24}
                   strokeWidth={1.5}
                   className="text-primary mb-3"
+                  aria-hidden="true"
                 />
                 <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
                   {item.title}
@@ -355,10 +373,15 @@ export default function Home() {
           <h2 className="font-heading text-4xl font-semibold text-foreground mb-6">
             Var kan man köpa fårullsisolering?
           </h2>
-          <p className="font-body text-foreground/60 text-base leading-relaxed mb-8">
-            I Norden säljer Byeco.se fårullsisolering från österrikiska Isolena.
+          <p className="font-body text-foreground/60 text-base leading-relaxed mb-4">
+            I Norden säljer Byeco fårullsisolering från österrikiska Isolena.
             De har kontor i Göteborg och Helsingfors, erbjuder fri rådgivning
-            och 30 dagars öppet köp.
+            och 30&nbsp;dagars öppet köp.
+          </p>
+          <p className="font-body text-foreground/60 text-sm leading-relaxed mb-8">
+            Farull.se drivs av Byeco. All information här är fristående och
+            faktabaserad, men vill du gå vidare och beställa isolering
+            är det hos dem du hamnar.
           </p>
           <a
             href="https://byeco.se"
@@ -366,7 +389,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="font-body text-primary hover:text-primary/80 transition-colors text-sm font-medium link-grow"
           >
-            Besök Byeco.se →
+            Till Byeco.se →
           </a>
         </div>
       </section>

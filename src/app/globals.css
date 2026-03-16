@@ -47,55 +47,44 @@ body::after {
 
 .hero-tag {
   opacity: 0;
-  animation: fadeUp 1s 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) both;
+  animation: fadeUp 1s 0.3s var(--ease-premium) both;
 }
 
 .hero-title {
   opacity: 0;
-  animation: fadeUp 1s 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) both;
+  animation: fadeUp 1s 0.5s var(--ease-premium) both;
 }
 
 .hero-desc {
   opacity: 0;
-  animation: fadeUp 1s 0.7s cubic-bezier(0.25, 0.1, 0.25, 1) both;
+  animation: fadeUp 1s 0.7s var(--ease-premium) both;
 }
 
 .hero-actions {
   opacity: 0;
-  animation: fadeUp 1s 0.9s cubic-bezier(0.25, 0.1, 0.25, 1) both;
+  animation: fadeUp 1s 0.9s var(--ease-premium) both;
 }
 
-/* ——— SCROLL REVEAL ——— */
+/* ——— GSAP SCROLL REVEAL ——— */
+/* Initial hidden state — GSAP animates from this */
 .reveal {
   opacity: 0;
   transform: translateY(40px);
-  transition: opacity 0.8s cubic-bezier(0.25, 0.1, 0.25, 1),
-    transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.reveal.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Staggered children */
 .reveal-stagger > * {
   opacity: 0;
   transform: translateY(24px);
-  transition: opacity 0.6s var(--ease-premium), transform 0.6s var(--ease-premium);
 }
 
-.reveal-stagger.visible > * {
-  opacity: 1;
-  transform: translateY(0);
+/* ——— PARALLAX IMAGE WRAPPER ——— */
+.parallax-wrap {
+  overflow: hidden;
 }
 
-.reveal-stagger.visible > *:nth-child(1) { transition-delay: 0.05s; }
-.reveal-stagger.visible > *:nth-child(2) { transition-delay: 0.1s; }
-.reveal-stagger.visible > *:nth-child(3) { transition-delay: 0.15s; }
-.reveal-stagger.visible > *:nth-child(4) { transition-delay: 0.2s; }
-.reveal-stagger.visible > *:nth-child(5) { transition-delay: 0.25s; }
-.reveal-stagger.visible > *:nth-child(6) { transition-delay: 0.3s; }
+.parallax-img {
+  will-change: transform;
+}
 
 /* ——— CARD HOVER ——— */
 .card-hover {
@@ -160,7 +149,6 @@ body::after {
   }
 
   .reveal {
-    transition: none;
     opacity: 1;
     transform: none;
   }
@@ -168,7 +156,6 @@ body::after {
   .reveal-stagger > * {
     opacity: 1;
     transform: none;
-    transition: none;
   }
 
   .card-hover {

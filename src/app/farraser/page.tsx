@@ -34,6 +34,8 @@ export default function FarraserPage() {
         src="https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?w=800&q=80"
         alt="Fårflock som betar på en äng"
         loading="eager"
+        width={800}
+        height={400}
         className="w-full h-64 object-cover rounded-2xl mb-12"
       />
 
@@ -63,6 +65,8 @@ export default function FarraserPage() {
                 src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=800&q=80"
                 alt="Gutefår med horn på naturbete"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -100,6 +104,8 @@ export default function FarraserPage() {
                 src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=800&q=80"
                 alt="Gotlandsfår med lockig grå ull"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -135,6 +141,8 @@ export default function FarraserPage() {
                 src="https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?w=800&q=80"
                 alt="Får med lång tjock ull"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -168,6 +176,8 @@ export default function FarraserPage() {
                 src="https://images.unsplash.com/photo-1521169738573-dc208dee504e?w=800&q=80"
                 alt="Får med mjuk tät ullpäls"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -199,6 +209,8 @@ export default function FarraserPage() {
                 src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
                 alt="Betande fårflock i svenskt landskap"
                 loading="lazy"
+                width={800}
+                height={300}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">

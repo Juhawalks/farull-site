@@ -85,7 +85,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/10 mt-12 pt-8 text-center">
+        <div className="border-t border-white/10 mt-12 pt-8 text-center space-y-1">
           <p className="text-xs font-body text-white/40">
             farull.se drivs av{" "}
             <a
@@ -94,8 +94,11 @@ export function Footer() {
               rel="noopener noreferrer"
               className="hover:text-accent transition-colors"
             >
-              Byeco
+              Byeco AB
             </a>
+          </p>
+          <p className="text-xs font-body text-white/30">
+            Org.nr 559346-1488
           </p>
         </div>
       </div>

@@ -62,6 +62,7 @@ export default function RootLayout({
   return (
     <html lang="sv">
       <head>
+        <meta name="theme-color" content="#FAF7F2" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -93,8 +94,14 @@ export default function RootLayout({
       <body
         className={`${cormorant.variable} ${outfit.variable} font-body antialiased`}
       >
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[60] focus:bg-primary focus:text-white focus:px-4 focus:py-2 focus:text-sm focus:font-body"
+        >
+          Hoppa till innehåll
+        </a>
         <Header />
-        <main className="min-h-screen pt-20">{children}</main>
+        <main id="main" className="min-h-screen pt-20">{children}</main>
         <Footer />
         <ScrollRevealObserver />
       </body>
