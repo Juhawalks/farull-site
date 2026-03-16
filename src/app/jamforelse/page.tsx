@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -30,12 +31,12 @@ export default function Jamforelse() {
         </h1>
       </ScrollReveal>
 
-      <img
+      <Image
         src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80"
         alt="Olika byggmaterial för jämförelse"
-        loading="eager"
         width={800}
-        height={400}
+        height={533}
+        priority
         className="w-full h-56 object-cover rounded-2xl mb-12"
       />
 
@@ -55,12 +56,11 @@ export default function Jamforelse() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
                 alt="Byggarbetsplats med isoleringsmaterial"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -106,12 +106,11 @@ export default function Jamforelse() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80"
                 alt="Naturliga fibrer och material"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -141,12 +140,11 @@ export default function Jamforelse() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80"
                 alt="Byggmaterial i jämförelse"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -176,12 +174,11 @@ export default function Jamforelse() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
                 alt="Grönt landskap med betande får"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">

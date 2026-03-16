@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -30,12 +31,12 @@ export default function UllensHistoriaPage() {
         </h1>
       </ScrollReveal>
 
-      <img
+      <Image
         src="https://images.unsplash.com/photo-1533662635784-3180e1612e2f?w=800&q=80"
         alt="Gammalt hantverk och textiltillverkning"
-        loading="eager"
         width={800}
-        height={400}
+        height={533}
+        priority
         className="w-full h-64 object-cover rounded-2xl mb-12"
       />
 
@@ -57,12 +58,11 @@ export default function UllensHistoriaPage() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1533662635784-3180e1612e2f?w=800&q=80"
                 alt="Historiskt hantverk och textiltillverkning"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -92,12 +92,11 @@ export default function UllensHistoriaPage() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1510076857177-7470076d4098?w=800&q=80"
                 alt="Gammalt timmerhus med traditionell byggnadsteknik"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -127,12 +126,11 @@ export default function UllensHistoriaPage() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80"
                 alt="Industriell tillverkning"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -165,12 +163,11 @@ export default function UllensHistoriaPage() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
                 alt="Modernt hållbart hus"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -206,12 +203,11 @@ export default function UllensHistoriaPage() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
                 alt="Grön skog – naturens kretslopp"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">

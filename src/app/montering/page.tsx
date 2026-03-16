@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -30,12 +31,12 @@ export default function Montering() {
         </h1>
       </ScrollReveal>
 
-      <img
+      <Image
         src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80"
         alt="Händer som arbetar med hantverk och montering"
-        loading="eager"
         width={800}
-        height={400}
+        height={533}
+        priority
         className="w-full h-64 object-cover rounded-2xl mb-12"
       />
 
@@ -55,12 +56,11 @@ export default function Montering() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=800&q=80"
                 alt="Enkla handverktyg – sax och måttband"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -87,12 +87,11 @@ export default function Montering() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80"
                 alt="Väggkonstruktion med regelverk"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -120,12 +119,11 @@ export default function Montering() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1632759145351-1d592919f522?w=800&q=80"
                 alt="Takkonstruktion med synliga takstolar"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -149,12 +147,11 @@ export default function Montering() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1513467535987-db81bc0d11f6?w=800&q=80"
                 alt="Öppet vindsutrymme"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -177,12 +174,11 @@ export default function Montering() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=800&q=80"
                 alt="Golvkonstruktion med reglar"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -205,12 +201,11 @@ export default function Montering() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1507206130118-b5907f817163?w=800&q=80"
                 alt="Noggrant hantverksarbete"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">

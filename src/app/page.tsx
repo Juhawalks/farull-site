@@ -232,12 +232,11 @@ export default function Home() {
       {/* BRED BILD - ULL-TEXTUR */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="parallax-wrap rounded-2xl h-64 md:h-80">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1560781290-7dc94c0f8f4f?w=1200&q=80"
             alt="Närbild på ullfibrer med naturlig textur"
             width={1200}
             height={400}
-            loading="lazy"
             className="parallax-img w-full h-full object-cover scale-110"
           />
         </div>
@@ -293,12 +292,11 @@ export default function Home() {
             </h2>
           </div>
           <div className="parallax-wrap rounded-2xl h-64 md:h-80 mb-12">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=800&q=80"
               alt="Får som betar på en grön äng i solljus"
               width={800}
-              height={400}
-              loading="lazy"
+              height={533}
               className="parallax-img w-full h-full object-cover scale-110"
             />
           </div>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
@@ -30,12 +31,12 @@ export default function Fordelar() {
         </h1>
       </ScrollReveal>
 
-      <img
+      <Image
         src="https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=1200&q=80"
         alt="Grön natur och hållbar miljö"
-        loading="eager"
         width={800}
-        height={400}
+        height={533}
+        priority
         className="w-full h-64 object-cover rounded-2xl mb-12"
       />
 
@@ -53,12 +54,11 @@ export default function Fordelar() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1527015175922-36a306cf0e20?w=800&q=80"
                 alt="Ljust rum med ren luft och naturligt ljus"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -83,12 +83,11 @@ export default function Fordelar() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80"
                 alt="Dimma och fukt i naturligt landskap"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -113,12 +112,11 @@ export default function Fordelar() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1549740425-5e9ed4d8cd34?w=800&q=80"
                 alt="Eldflamma i närbild"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -143,12 +141,11 @@ export default function Fordelar() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=800&q=80"
                 alt="Lugnt tyst rum med mjukt ljus"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -172,12 +169,11 @@ export default function Fordelar() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
                 alt="Grönt landskap med betande djur"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -201,12 +197,11 @@ export default function Fordelar() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80"
                 alt="Händer som arbetar med naturligt material"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -235,12 +230,11 @@ export default function Fordelar() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
                 alt="Vackert äldre hus i gott skick"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">

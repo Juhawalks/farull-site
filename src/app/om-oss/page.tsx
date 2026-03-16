@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -30,12 +31,12 @@ export default function OmOss() {
         </h1>
       </ScrollReveal>
 
-      <img
+      <Image
         src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
         alt="Kontor och teamarbete"
-        loading="eager"
         width={800}
-        height={400}
+        height={533}
+        priority
         className="w-full h-64 object-cover rounded-2xl mb-12"
       />
 
@@ -55,12 +56,11 @@ export default function OmOss() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?w=800&q=80"
                 alt="Skrivbord med dator och anteckningar"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -84,12 +84,11 @@ export default function OmOss() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
                 alt="Modernt kontor med naturligt ljus"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
@@ -122,12 +121,11 @@ export default function OmOss() {
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=800&q=80"
                 alt="Kommunikation och kontakt"
-                loading="lazy"
                 width={800}
-                height={300}
+                height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
               <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">

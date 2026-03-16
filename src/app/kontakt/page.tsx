@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
@@ -29,12 +30,12 @@ export default function Kontakt() {
         </h1>
       </ScrollReveal>
 
-      <img
+      <Image
         src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
         alt="Modern byggnad och arkitektur"
-        loading="eager"
         width={800}
-        height={400}
+        height={533}
+        priority
         className="w-full h-56 object-cover rounded-2xl mb-12"
       />
 
