@@ -12,30 +12,49 @@ export function ScrollRevealObserver() {
       "(prefers-reduced-motion: reduce)"
     ).matches;
 
-    if (prefersReducedMotion) {
-      document.querySelectorAll(".reveal").forEach((el) => {
-        el.classList.add("visible");
-      });
-      return;
-    }
-
-    const observer = new IntersectionObserver(
+    const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("visible");
-            observer.unobserve(entry.target);
+            io.unobserve(entry.target);
           }
         });
       },
       { threshold: 0.15 }
     );
 
-    document.querySelectorAll(".reveal").forEach((el) => {
-      observer.observe(el);
+    function observeAll() {
+      document.querySelectorAll(".reveal:not(.visible)").forEach((el) => {
+        if (prefersReducedMotion) {
+          el.classList.add("visible");
+        } else {
+          io.observe(el);
+        }
+      });
+    }
+
+    // Observe existing elements
+    observeAll();
+
+    // Watch for new .reveal elements added by client-side navigation
+    const mo = new MutationObserver((mutations) => {
+      let hasNewNodes = false;
+      for (const m of mutations) {
+        if (m.addedNodes.length > 0) {
+          hasNewNodes = true;
+          break;
+        }
+      }
+      if (hasNewNodes) observeAll();
     });
 
-    return () => observer.disconnect();
+    mo.observe(document.body, { childList: true, subtree: true });
+
+    return () => {
+      io.disconnect();
+      mo.disconnect();
+    };
   }, []);
 
   return null;
