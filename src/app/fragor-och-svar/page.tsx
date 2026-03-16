@@ -1,11 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Frågor och svar om fårullsisolering",
   description:
     "Vanliga frågor om fårullsisolering: pris, livslängd, brandklass, fukt, skadedjur och mer. Raka svar utan floskler.",
+  openGraph: {
+    title: "Frågor och svar om fårullsisolering",
+    description:
+      "Vanliga frågor om fårullsisolering: pris, livslängd, brandklass, fukt, skadedjur och mer. Raka svar utan floskler.",
+  },
+  alternates: {
+    canonical: "/fragor-och-svar",
+  },
 };
 
 const faq = [
@@ -49,7 +58,26 @@ const faq = [
 
 export default function FragorOchSvar() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faq.map((item) => ({
+              "@type": "Question",
+              name: item.q,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: item.a,
+              },
+            })),
+          }),
+        }}
+      />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <Breadcrumbs items={[{ name: "Hem", href: "/" }, { name: "Frågor och svar" }]} />
       <ScrollReveal>
         <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">
           FAQ
@@ -86,5 +114,6 @@ export default function FragorOchSvar() {
         </div>
       </ScrollReveal>
     </div>
+    </>
   );
 }

@@ -26,6 +26,14 @@ export const metadata: Metadata = {
   title: "Allt om fårull. Från fiber till byggisolering | Farull.se",
   description:
     "Fårull har isolerat människor i tusentals år. Lär dig allt om fårull som material, svenska fårraser och varför fårullsisolering är framtidens hållbara val.",
+  openGraph: {
+    title: "Allt om fårull. Från fiber till byggisolering | Farull.se",
+    description:
+      "Fårull har isolerat människor i tusentals år. Lär dig allt om fårull som material, svenska fårraser och varför fårullsisolering är framtidens hållbara val.",
+  },
+  alternates: {
+    canonical: "/",
+  },
 };
 
 const fordelar = [

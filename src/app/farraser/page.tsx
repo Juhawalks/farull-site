@@ -1,16 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Svenska fårraser och deras ull. Gutefår, Gotlandsfår och fler",
   description:
     "Lär dig om svenska fårraser som Gutefår, Gotlandsfår, Ryafår och Finullsfår. Varje ras producerar ull med unika egenskaper.",
+  openGraph: {
+    title: "Svenska fårraser och deras ull. Gutefår, Gotlandsfår och fler",
+    description:
+      "Lär dig om svenska fårraser som Gutefår, Gotlandsfår, Ryafår och Finullsfår. Varje ras producerar ull med unika egenskaper.",
+  },
+  alternates: {
+    canonical: "/farraser",
+  },
 };
 
 export default function FarraserPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <Breadcrumbs items={[{ name: "Hem", href: "/" }, { name: "Svenska fårraser" }]} />
       <ScrollReveal>
         <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">
           Svenska raser

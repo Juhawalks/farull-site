@@ -1,16 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Montering av fårullsisolering. Steg för steg.",
   description:
     "Steg-för-steg guide för montering av fårullsisolering i väggar, tak och golv. Inga specialverktyg behövs.",
+  openGraph: {
+    title: "Montering av fårullsisolering. Steg för steg.",
+    description:
+      "Steg-för-steg guide för montering av fårullsisolering i väggar, tak och golv. Inga specialverktyg behövs.",
+  },
+  alternates: {
+    canonical: "/montering",
+  },
 };
 
 export default function Montering() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <Breadcrumbs items={[{ name: "Hem", href: "/" }, { name: "Montering" }]} />
       <ScrollReveal>
         <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">
           Guide

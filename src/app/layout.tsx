@@ -19,13 +19,39 @@ const outfit = Outfit({
   display: "swap",
 });
 
+const siteUrl = "https://farull.se";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Fårullsisolering — Naturlig isolering för ditt hem",
     template: "%s — Farull.se",
   },
   description:
     "Allt om fårullsisolering: fördelar, montering, jämförelser och hållbarhet. Naturlig isolering som andas.",
+  openGraph: {
+    type: "website",
+    locale: "sv_SE",
+    siteName: "Farull.se",
+    url: siteUrl,
+    title: "Fårullsisolering — Naturlig isolering för ditt hem",
+    description:
+      "Allt om fårullsisolering: fördelar, montering, jämförelser och hållbarhet. Naturlig isolering som andas.",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=1200&h=630&fit=crop&q=80",
+        width: 1200,
+        height: 630,
+        alt: "Fårull – naturlig isolering",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+  alternates: {
+    canonical: siteUrl,
+  },
 };
 
 export default function RootLayout({
@@ -35,6 +61,35 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="sv">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Farull.se",
+              url: siteUrl,
+              description:
+                "Allt om fårull och fårullsisolering. Drivs av Byeco, Skandinaviens specialistbutik för fårullsisolering.",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "Åvägen 51",
+                addressLocality: "Rävlanda",
+                postalCode: "438 51",
+                addressCountry: "SE",
+              },
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+46313204288",
+                email: "info@byeco.se",
+                contactType: "customer service",
+                availableLanguage: "Swedish",
+              },
+            }),
+          }}
+        />
+      </head>
       <body
         className={`${cormorant.variable} ${outfit.variable} font-body antialiased`}
       >

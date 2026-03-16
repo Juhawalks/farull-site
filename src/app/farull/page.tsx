@@ -1,16 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Vad är fårull? Fibrernas egenskaper och uppbyggnad",
   description:
     "Lär dig allt om fårullens fiberstruktur, keratin, krusighet och naturliga egenskaper. Från lanolin till lambda-värde.",
+  openGraph: {
+    title: "Vad är fårull? Fibrernas egenskaper och uppbyggnad",
+    description:
+      "Lär dig allt om fårullens fiberstruktur, keratin, krusighet och naturliga egenskaper. Från lanolin till lambda-värde.",
+  },
+  alternates: {
+    canonical: "/farull",
+  },
 };
 
 export default function FarullPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <Breadcrumbs items={[{ name: "Hem", href: "/" }, { name: "Vad är fårull?" }]} />
       <ScrollReveal>
         <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">
           Material

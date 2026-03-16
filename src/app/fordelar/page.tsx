@@ -1,16 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Fördelar med fårullsisolering",
   description:
     "Upptäck fördelarna med fårullsisolering: fuktreglering, brandsäkerhet, luftrening, ljudisolering och hälsosamt inomhusklimat.",
+  openGraph: {
+    title: "Fördelar med fårullsisolering",
+    description:
+      "Upptäck fördelarna med fårullsisolering: fuktreglering, brandsäkerhet, luftrening, ljudisolering och hälsosamt inomhusklimat.",
+  },
+  alternates: {
+    canonical: "/fordelar",
+  },
 };
 
 export default function Fordelar() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <Breadcrumbs items={[{ name: "Hem", href: "/" }, { name: "Fördelar" }]} />
       <ScrollReveal>
         <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">
           Fördelar

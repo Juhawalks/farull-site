@@ -1,16 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Vad är fårullsisolering? Så tillverkas och fungerar den",
   description:
     "Lär dig allt om fårullsisolering: hur den tillverkas, hur den fungerar i väggar och tak, och varför den är ett naturligt val för hälsosamma byggnader.",
+  openGraph: {
+    title: "Vad är fårullsisolering? Så tillverkas och fungerar den",
+    description:
+      "Lär dig allt om fårullsisolering: hur den tillverkas, hur den fungerar i väggar och tak, och varför den är ett naturligt val för hälsosamma byggnader.",
+  },
+  alternates: {
+    canonical: "/vad-ar-farullsisolering",
+  },
 };
 
 export default function VadArFarullsisolering() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <Breadcrumbs items={[{ name: "Hem", href: "/" }, { name: "Vad är fårullsisolering?" }]} />
       <ScrollReveal>
         <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">
           Isolering

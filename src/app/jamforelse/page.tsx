@@ -1,16 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Fårull vs mineralull, cellulosa och EPS",
   description:
     "Jämför fårullsisolering med mineralull, cellulosa och EPS. Prestanda, pris, miljöpåverkan och hälsoaspekter sida vid sida.",
+  openGraph: {
+    title: "Fårull vs mineralull, cellulosa och EPS",
+    description:
+      "Jämför fårullsisolering med mineralull, cellulosa och EPS. Prestanda, pris, miljöpåverkan och hälsoaspekter sida vid sida.",
+  },
+  alternates: {
+    canonical: "/jamforelse",
+  },
 };
 
 export default function Jamforelse() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <Breadcrumbs items={[{ name: "Hem", href: "/" }, { name: "Jämförelse" }]} />
       <ScrollReveal>
         <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">
           Jämförelse
