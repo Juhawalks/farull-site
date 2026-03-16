@@ -200,7 +200,7 @@ export default function Hallbarhet() {
 
       <ScrollReveal>
         <aside className="max-w-3xl mx-auto px-6 py-12">
-          <div className="border border-[#e8e4dd] p-6 bg-[#FAF7F2]">
+          <div className="border border-surface p-6 bg-background">
             <p className="font-body text-foreground/80 text-base leading-relaxed">
               Varje hus som isoleras med fårull ger spillull ett hem och binder koldioxid
               i konstruktionen. Byeco hjälper dig komma igång.{" "}
@@ -222,22 +222,22 @@ export default function Hallbarhet() {
           <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
           <ul className="space-y-4">
             <li>
-              <Link href="/farraser" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/farraser" className="link-grow text-lg font-medium text-foreground">
                 Svenska fårraser →
               </Link>
-              <p className="text-[#6B6960] mt-1">Raserna bakom ullen – och den outnyttjade resursen.</p>
+              <p className="text-foreground/50 mt-1">Raserna bakom ullen – och den outnyttjade resursen.</p>
             </li>
             <li>
-              <Link href="/fordelar" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-[#6B6960] mt-1">Från koldioxidbindning till luftrening i praktiken.</p>
+              <p className="text-foreground/50 mt-1">Från koldioxidbindning till luftrening i praktiken.</p>
             </li>
             <li>
-              <Link href="/ullens-historia" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/ullens-historia" className="link-grow text-lg font-medium text-foreground">
                 Ullens historia →
               </Link>
-              <p className="text-[#6B6960] mt-1">Tusentals år av isolering – och en modern comeback.</p>
+              <p className="text-foreground/50 mt-1">Tusentals år av isolering – och en modern comeback.</p>
             </li>
           </ul>
         </div>

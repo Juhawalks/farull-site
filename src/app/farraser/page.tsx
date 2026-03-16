@@ -242,22 +242,22 @@ export default function FarraserPage() {
           <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
           <ul className="space-y-4">
             <li>
-              <Link href="/farull" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/farull" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårull? →
               </Link>
-              <p className="text-[#6B6960] mt-1">Krusighet, keratin och lanolin – fibern som gör allt möjligt.</p>
+              <p className="text-foreground/50 mt-1">Krusighet, keratin och lanolin – fibern som gör allt möjligt.</p>
             </li>
             <li>
-              <Link href="/hallbarhet" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/hallbarhet" className="link-grow text-lg font-medium text-foreground">
                 Hållbarhet →
               </Link>
-              <p className="text-[#6B6960] mt-1">200 000 ton spillull och vägen mot cirkulär ekonomi.</p>
+              <p className="text-foreground/50 mt-1">200 000 ton spillull och vägen mot cirkulär ekonomi.</p>
             </li>
             <li>
-              <Link href="/ullens-historia" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/ullens-historia" className="link-grow text-lg font-medium text-foreground">
                 Ullens historia →
               </Link>
-              <p className="text-[#6B6960] mt-1">Från bronsåldern till modern byggisolering.</p>
+              <p className="text-foreground/50 mt-1">Från bronsåldern till modern byggisolering.</p>
             </li>
           </ul>
         </div>

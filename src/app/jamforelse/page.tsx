@@ -204,7 +204,7 @@ export default function Jamforelse() {
 
       <ScrollReveal>
         <aside className="max-w-3xl mx-auto px-6 py-12">
-          <div className="border border-[#e8e4dd] p-6 bg-[#FAF7F2]">
+          <div className="border border-surface p-6 bg-background">
             <p className="font-body text-foreground/80 text-base leading-relaxed">
               Funderar du på att byta till fårull? Byeco hjälper dig jämföra alternativ
               och räkna ut kostnaden för just ditt projekt. Fri rådgivning.{" "}
@@ -226,22 +226,22 @@ export default function Jamforelse() {
           <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
           <ul className="space-y-4">
             <li>
-              <Link href="/fordelar" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-[#6B6960] mt-1">Fördjupning i fårullens åtta styrkor.</p>
+              <p className="text-foreground/50 mt-1">Fördjupning i fårullens åtta styrkor.</p>
             </li>
             <li>
-              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-[#6B6960] mt-1">Så tillverkas produkten du jämför.</p>
+              <p className="text-foreground/50 mt-1">Så tillverkas produkten du jämför.</p>
             </li>
             <li>
-              <Link href="/fragor-och-svar" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/fragor-och-svar" className="link-grow text-lg font-medium text-foreground">
                 Frågor och svar →
               </Link>
-              <p className="text-[#6B6960] mt-1">Pris, brandklass och livslängd – raka svar.</p>
+              <p className="text-foreground/50 mt-1">Pris, brandklass och livslängd – raka svar.</p>
             </li>
           </ul>
         </div>

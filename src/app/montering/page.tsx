@@ -230,7 +230,7 @@ export default function Montering() {
 
       <ScrollReveal>
         <aside className="max-w-3xl mx-auto px-6 py-12">
-          <div className="border border-[#e8e4dd] p-6 bg-[#FAF7F2]">
+          <div className="border border-surface p-6 bg-background">
             <p className="font-body text-foreground/80 text-base leading-relaxed">
               Behöver du material? Byeco levererar fårullsisolering i skivor och rullar,
               anpassat efter ditt projekt. Ring så hjälper de dig med beräkningen.{" "}
@@ -252,22 +252,22 @@ export default function Montering() {
           <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
           <ul className="space-y-4">
             <li>
-              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-[#6B6960] mt-1">Bakgrunden till materialet du monterar.</p>
+              <p className="text-foreground/50 mt-1">Bakgrunden till materialet du monterar.</p>
             </li>
             <li>
-              <Link href="/fordelar" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-[#6B6960] mt-1">Därför är ullen så trevlig att jobba med.</p>
+              <p className="text-foreground/50 mt-1">Därför är ullen så trevlig att jobba med.</p>
             </li>
             <li>
-              <Link href="/fragor-och-svar" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/fragor-och-svar" className="link-grow text-lg font-medium text-foreground">
                 Frågor och svar →
               </Link>
-              <p className="text-[#6B6960] mt-1">Vanliga funderingar om montering, pris och livslängd.</p>
+              <p className="text-foreground/50 mt-1">Vanliga funderingar om montering, pris och livslängd.</p>
             </li>
           </ul>
         </div>

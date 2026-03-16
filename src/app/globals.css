@@ -81,7 +81,7 @@ body::before {
 .card-hover {
   position: relative;
   overflow: hidden;
-  transition: transform 0.4s var(--ease-premium), box-shadow 0.4s var(--ease-premium);
+  transition: transform 0.3s var(--ease-premium), box-shadow 0.3s var(--ease-premium);
 }
 
 .card-hover::before {
@@ -94,7 +94,7 @@ body::before {
   background: #C8A26B;
   transform: scaleX(0);
   transform-origin: left;
-  transition: transform 0.4s var(--ease-premium);
+  transition: transform 0.3s var(--ease-premium);
 }
 
 .card-hover:hover {

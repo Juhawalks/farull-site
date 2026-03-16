@@ -260,7 +260,7 @@ export default function Fordelar() {
 
       <ScrollReveal>
         <aside className="max-w-3xl mx-auto px-6 py-12">
-          <div className="border border-[#e8e4dd] p-6 bg-[#FAF7F2]">
+          <div className="border border-surface p-6 bg-background">
             <p className="font-body text-foreground/80 text-base leading-relaxed">
               Vill du prova själv? Byeco erbjuder fri rådgivning och hjälper dig räkna ut
               hur mycket material du behöver. 30 dagars öppet köp.{" "}
@@ -282,22 +282,22 @@ export default function Fordelar() {
           <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
           <ul className="space-y-4">
             <li>
-              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-[#6B6960] mt-1">Från fårrygg till vägg – så blir ullen till isolering.</p>
+              <p className="text-foreground/50 mt-1">Från fårrygg till vägg – så blir ullen till isolering.</p>
             </li>
             <li>
-              <Link href="/hallbarhet" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/hallbarhet" className="link-grow text-lg font-medium text-foreground">
                 Hållbarhet →
               </Link>
-              <p className="text-[#6B6960] mt-1">Koldioxidbindning, cirkulär ekonomi och EU-taxonomin.</p>
+              <p className="text-foreground/50 mt-1">Koldioxidbindning, cirkulär ekonomi och EU-taxonomin.</p>
             </li>
             <li>
-              <Link href="/jamforelse" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/jamforelse" className="link-grow text-lg font-medium text-foreground">
                 Fårull vs andra material →
               </Link>
-              <p className="text-[#6B6960] mt-1">Så står sig fårullen mot mineralull och cellplast.</p>
+              <p className="text-foreground/50 mt-1">Så står sig fårullen mot mineralull och cellplast.</p>
             </li>
           </ul>
         </div>

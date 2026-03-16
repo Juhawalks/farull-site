@@ -39,7 +39,7 @@ export function CookieConsent() {
     <div
       role="dialog"
       aria-label="Cookie-samtycke"
-      className="fixed bottom-0 left-0 right-0 z-[9998] bg-[#1A1916] text-[#e8e4dd] px-6 py-4 shadow-lg"
+      className="fixed bottom-0 left-0 right-0 z-[9998] bg-foreground text-background px-6 py-4 shadow-lg"
     >
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-start sm:items-center gap-4">
         <p className="font-body text-sm leading-relaxed flex-1">
@@ -52,13 +52,13 @@ export function CookieConsent() {
         <div className="flex gap-3 shrink-0">
           <button
             onClick={decline}
-            className="font-body text-sm px-4 py-2 border border-[#e8e4dd]/30 hover:border-[#e8e4dd]/60 transition-colors uppercase tracking-[0.08em]"
+            className="font-body text-sm px-4 py-2 border border-background/30 hover:border-background/60 transition-colors uppercase tracking-[0.08em]"
           >
             Avböj
           </button>
           <button
             onClick={accept}
-            className="font-body text-sm px-4 py-2 bg-[#C8A26B] text-[#1A1916] hover:bg-[#d4b07a] transition-colors uppercase tracking-[0.08em] font-medium"
+            className="font-body text-sm px-4 py-2 bg-accent text-foreground hover:bg-accent/80 transition-colors uppercase tracking-[0.08em] font-medium"
           >
             Godkänn
           </button>

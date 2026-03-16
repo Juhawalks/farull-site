@@ -243,22 +243,22 @@ export default function UllensHistoriaPage() {
           <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
           <ul className="space-y-4">
             <li>
-              <Link href="/farraser" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/farraser" className="link-grow text-lg font-medium text-foreground">
                 Svenska fårraser →
               </Link>
-              <p className="text-[#6B6960] mt-1">Raserna som bevarar den nordiska ulltraditionen.</p>
+              <p className="text-foreground/50 mt-1">Raserna som bevarar den nordiska ulltraditionen.</p>
             </li>
             <li>
-              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-[#6B6960] mt-1">Den moderna produkten som fortsätter en tusenårig tradition.</p>
+              <p className="text-foreground/50 mt-1">Den moderna produkten som fortsätter en tusenårig tradition.</p>
             </li>
             <li>
-              <Link href="/hallbarhet" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/hallbarhet" className="link-grow text-lg font-medium text-foreground">
                 Hållbarhet och cirkulär ekonomi →
               </Link>
-              <p className="text-[#6B6960] mt-1">EU-taxonomin och framtidens hållbara byggande.</p>
+              <p className="text-foreground/50 mt-1">EU-taxonomin och framtidens hållbara byggande.</p>
             </li>
           </ul>
         </div>

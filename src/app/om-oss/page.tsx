@@ -152,22 +152,22 @@ export default function OmOss() {
           <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
           <ul className="space-y-4">
             <li>
-              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-[#6B6960] mt-1">Lär dig mer om materialet vi brinner för.</p>
+              <p className="text-foreground/50 mt-1">Lär dig mer om materialet vi brinner för.</p>
             </li>
             <li>
-              <Link href="/hallbarhet" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/hallbarhet" className="link-grow text-lg font-medium text-foreground">
                 Hållbarhet →
               </Link>
-              <p className="text-[#6B6960] mt-1">Varför fårull är framtidens hållbara val.</p>
+              <p className="text-foreground/50 mt-1">Varför fårull är framtidens hållbara val.</p>
             </li>
             <li>
-              <Link href="/fragor-och-svar" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/fragor-och-svar" className="link-grow text-lg font-medium text-foreground">
                 Frågor och svar →
               </Link>
-              <p className="text-[#6B6960] mt-1">Vanliga funderingar om fårullsisolering.</p>
+              <p className="text-foreground/50 mt-1">Vanliga funderingar om fårullsisolering.</p>
             </li>
           </ul>
         </div>

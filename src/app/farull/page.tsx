@@ -234,22 +234,22 @@ export default function FarullPage() {
           <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
           <ul className="space-y-4">
             <li>
-              <Link href="/farraser" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/farraser" className="link-grow text-lg font-medium text-foreground">
                 Svenska fårraser →
               </Link>
-              <p className="text-[#6B6960] mt-1">Gutefår, gotlandsfår och fler – lär känna raserna bakom ullen.</p>
+              <p className="text-foreground/50 mt-1">Gutefår, gotlandsfår och fler – lär känna raserna bakom ullen.</p>
             </li>
             <li>
-              <Link href="/fordelar" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-[#6B6960] mt-1">Från luftrening till fukthantering – åtta skäl att välja ull.</p>
+              <p className="text-foreground/50 mt-1">Från luftrening till fukthantering – åtta skäl att välja ull.</p>
             </li>
             <li>
-              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-[#6B6960] mt-1">Så blir ullen till skivor och rullar för ditt hem.</p>
+              <p className="text-foreground/50 mt-1">Så blir ullen till skivor och rullar för ditt hem.</p>
             </li>
           </ul>
         </div>

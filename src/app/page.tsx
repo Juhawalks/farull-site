@@ -172,7 +172,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href="/jamforelse"
-                  className="inline-block border border-foreground/20 uppercase tracking-wider text-sm px-8 py-4 font-body font-medium text-foreground hover:bg-foreground/5 transition-[background-color] duration-300"
+                  className="inline-block border border-foreground/20 uppercase tracking-wider text-sm px-8 py-4 font-body font-medium text-foreground hover:bg-foreground/5 hover:translate-y-[-2px] transition-[background-color,transform] duration-300"
                 >
                   Fårull vs mineralull
                 </Link>
@@ -310,7 +310,7 @@ export default function Home() {
                 <item.icon
                   size={24}
                   strokeWidth={1.5}
-                  className="text-primary mb-3"
+                  className="text-primary mb-3 group-hover:text-primary/70 transition-colors"
                   aria-hidden="true"
                 />
                 <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
@@ -348,7 +348,7 @@ export default function Home() {
                 <item.icon
                   size={24}
                   strokeWidth={1.5}
-                  className="text-primary mb-3"
+                  className="text-primary mb-3 group-hover:text-primary/70 transition-colors"
                   aria-hidden="true"
                 />
                 <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary transition-colors mb-2">

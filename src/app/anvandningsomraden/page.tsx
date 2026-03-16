@@ -238,22 +238,22 @@ export default function AnvandningsomradenPage() {
           <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
           <ul className="space-y-4">
             <li>
-              <Link href="/montering" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/montering" className="link-grow text-lg font-medium text-foreground">
                 Monteringsguide →
               </Link>
-              <p className="text-[#6B6960] mt-1">Steg för steg – så installerar du fårullsisolering.</p>
+              <p className="text-foreground/50 mt-1">Steg för steg – så installerar du fårullsisolering.</p>
             </li>
             <li>
-              <Link href="/jamforelse" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/jamforelse" className="link-grow text-lg font-medium text-foreground">
                 Fårull vs andra material →
               </Link>
-              <p className="text-[#6B6960] mt-1">Så presterar fårullen jämfört med alternativen.</p>
+              <p className="text-foreground/50 mt-1">Så presterar fårullen jämfört med alternativen.</p>
             </li>
             <li>
-              <Link href="/hallbarhet" className="link-grow text-lg font-medium text-[#1A1916]">
+              <Link href="/hallbarhet" className="link-grow text-lg font-medium text-foreground">
                 Hållbarhet →
               </Link>
-              <p className="text-[#6B6960] mt-1">Biologiskt nedbrytbar, cirkulär och koldioxidbindande.</p>
+              <p className="text-foreground/50 mt-1">Biologiskt nedbrytbar, cirkulär och koldioxidbindande.</p>
             </li>
           </ul>
         </div>
