@@ -218,6 +218,16 @@ export default function Home() {
         </div>
       </section>
 
+      {/* BRED BILD - ULL-TEXTUR */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <img
+          src="https://images.unsplash.com/photo-1560781290-7dc94c0f8f4f?w=1200&q=80"
+          alt="Närbild på ullfibrer med naturlig textur"
+          loading="lazy"
+          className="w-full h-64 md:h-80 object-cover rounded-2xl"
+        />
+      </div>
+
       <SectionDivider />
 
       {/* NYCKELTAL */}
@@ -264,6 +274,12 @@ export default function Home() {
           <h2 className="font-heading text-4xl font-semibold text-foreground mb-16">
             Utforska fårullens värld
           </h2>
+          <img
+            src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=800&q=80"
+            alt="Får som betar på en grön äng i solljus"
+            loading="lazy"
+            className="w-full h-64 md:h-80 object-cover rounded-2xl mb-12"
+          />
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {utforskaFarull.map((item) => (
               <Link

@@ -19,6 +19,13 @@ export default function Kontakt() {
         </h1>
       </ScrollReveal>
 
+      <img
+        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+        alt="Modern byggnad och arkitektur"
+        loading="eager"
+        className="w-full h-56 object-cover rounded-2xl mb-12"
+      />
+
       <div className="max-w-3xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p>

@@ -20,6 +20,13 @@ export default function Hallbarhet() {
         </h1>
       </ScrollReveal>
 
+      <img
+        src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
+        alt="Grön skog och natur"
+        loading="eager"
+        className="w-full h-64 object-cover rounded-2xl mb-12"
+      />
+
       <div className="max-w-3xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p>

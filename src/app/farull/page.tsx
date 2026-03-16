@@ -20,6 +20,13 @@ export default function FarullPage() {
         </h1>
       </ScrollReveal>
 
+      <img
+        src="https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=800&q=80"
+        alt="Närbild på ett får med tjock ull"
+        loading="eager"
+        className="w-full h-64 object-cover rounded-2xl mb-12"
+      />
+
       <div className="max-w-3xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p>
@@ -50,6 +57,15 @@ export default function FarullPage() {
             kompression, en naturlig återhämtningsförmåga som syntetiska fibrer
             helt enkelt saknar.
           </p>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <img
+            src="https://images.unsplash.com/photo-1574181613301-4e7e991e61d4?w=600&q=80"
+            alt="Närbild på ullgarn och fibertextur"
+            loading="lazy"
+            className="w-full max-w-md mx-auto h-56 object-cover rounded-xl mb-8"
+          />
         </ScrollReveal>
 
         <ScrollReveal>

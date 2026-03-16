@@ -20,6 +20,13 @@ export default function Montering() {
         </h1>
       </ScrollReveal>
 
+      <img
+        src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80"
+        alt="Händer som arbetar med hantverk och montering"
+        loading="eager"
+        className="w-full h-64 object-cover rounded-2xl mb-12"
+      />
+
       <div className="max-w-3xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p>

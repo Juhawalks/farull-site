@@ -20,6 +20,13 @@ export default function OmOss() {
         </h1>
       </ScrollReveal>
 
+      <img
+        src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+        alt="Kontor och teamarbete"
+        loading="eager"
+        className="w-full h-64 object-cover rounded-2xl mb-12"
+      />
+
       <div className="max-w-3xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p>

@@ -20,6 +20,13 @@ export default function Fordelar() {
         </h1>
       </ScrollReveal>
 
+      <img
+        src="https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=1200&q=80"
+        alt="Grön natur och hållbar miljö"
+        loading="eager"
+        className="w-full h-64 object-cover rounded-2xl mb-12"
+      />
+
       <div className="max-w-3xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p>

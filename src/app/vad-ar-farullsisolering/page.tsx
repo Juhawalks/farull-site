@@ -20,6 +20,13 @@ export default function VadArFarullsisolering() {
         </h1>
       </ScrollReveal>
 
+      <img
+        src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+        alt="Byggarbetsplats med isoleringsarbete"
+        loading="eager"
+        className="w-full h-64 object-cover rounded-2xl mb-12"
+      />
+
       <div className="max-w-3xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p>
@@ -48,6 +55,15 @@ export default function VadArFarullsisolering() {
             Bara mekanisk bearbetning av en fiber som redan har alla egenskaper
             inbyggda.
           </p>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <img
+            src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=600&q=80"
+            alt="Naturligt ljus genom ullfibrer"
+            loading="lazy"
+            className="w-full max-w-md mx-auto h-56 object-cover rounded-xl mb-8"
+          />
         </ScrollReveal>
 
         <ScrollReveal>

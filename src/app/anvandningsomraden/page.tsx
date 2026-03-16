@@ -20,6 +20,13 @@ export default function AnvandningsomradenPage() {
         </h1>
       </ScrollReveal>
 
+      <img
+        src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80"
+        alt="Ullgarn och textilarbete"
+        loading="eager"
+        className="w-full h-64 object-cover rounded-2xl mb-12"
+      />
+
       <div className="max-w-3xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p>
