@@ -75,7 +75,7 @@ export default function VadArFarullsisolering() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Från fårrygg till vägg
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -110,7 +110,7 @@ export default function VadArFarullsisolering() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Hur den fungerar
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -145,7 +145,7 @@ export default function VadArFarullsisolering() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Var kan den användas?
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -179,7 +179,7 @@ export default function VadArFarullsisolering() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Vad kostar det?
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">

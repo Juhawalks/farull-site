@@ -80,7 +80,7 @@ export default function FarraserPage() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Gutefår
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -118,7 +118,7 @@ export default function FarraserPage() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Gotlandsfår
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -154,7 +154,7 @@ export default function FarraserPage() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Ryafår
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -188,7 +188,7 @@ export default function FarraserPage() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Finullsfår
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -220,7 +220,7 @@ export default function FarraserPage() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Fler raser och en outnyttjad resurs
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">

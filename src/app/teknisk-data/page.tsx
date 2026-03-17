@@ -76,7 +76,7 @@ export default function TekniskData() {
 
         {/* TERMISK PRESTANDA */}
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Termisk prestanda
           </h2>
           <div className="mt-6">
@@ -125,7 +125,7 @@ export default function TekniskData() {
 
         {/* BRANDEGENSKAPER */}
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Brandegenskaper
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -188,7 +188,7 @@ export default function TekniskData() {
 
         {/* FUKTEGENSKAPER */}
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Fuktegenskaper
           </h2>
           <div className="mt-6">
@@ -231,7 +231,7 @@ export default function TekniskData() {
 
         {/* AKUSTIK */}
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Akustiska egenskaper
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -278,7 +278,7 @@ export default function TekniskData() {
 
         {/* FYSISKA EGENSKAPER */}
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Fysiska egenskaper
           </h2>
           <div className="mt-6">
@@ -317,7 +317,7 @@ export default function TekniskData() {
 
         {/* LUFTKVALITET */}
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Luftkvalitet och hälsa
           </h2>
           <div className="mt-6">
@@ -348,7 +348,7 @@ export default function TekniskData() {
 
         {/* MILJÖ OCH HÅLLBARHET */}
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Miljö och hållbarhet
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -403,7 +403,7 @@ export default function TekniskData() {
 
         {/* JÄMFÖRELSETABELL */}
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Jämförelse med andra material
           </h2>
           <div className="mt-6">
@@ -475,7 +475,7 @@ export default function TekniskData() {
 
         {/* STANDARDER */}
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Standarder och certifieringar
           </h2>
           <div className="mt-6">

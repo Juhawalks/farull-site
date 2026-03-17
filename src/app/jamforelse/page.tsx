@@ -74,7 +74,7 @@ export default function Jamforelse() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Fårull vs mineralull (sten- och glasull)
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -124,7 +124,7 @@ export default function Jamforelse() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Fårull vs cellulosa
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -158,7 +158,7 @@ export default function Jamforelse() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Fårull vs EPS/cellplast
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -192,7 +192,7 @@ export default function Jamforelse() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Sammanfattning
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">

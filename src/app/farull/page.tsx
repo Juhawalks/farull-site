@@ -77,7 +77,7 @@ export default function FarullPage() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Krusigheten gör jobbet
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -112,7 +112,7 @@ export default function FarullPage() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Fukt och värme på samma gång
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -146,7 +146,7 @@ export default function FarullPage() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Tre sorters ull
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -185,7 +185,7 @@ export default function FarullPage() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Lanolin skyddar fibern
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -218,7 +218,7 @@ export default function FarullPage() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <h2 className="font-heading text-2xl font-semibold text-foreground pt-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Från fiber till hus
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
