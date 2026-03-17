@@ -100,19 +100,24 @@ export function Header() {
               >
                 Fårull
               </button>
-              {farull.open && (
-                <div className="absolute top-full left-0 bg-[rgba(250,247,242,0.95)] backdrop-blur-[20px] border border-[rgba(26,25,22,0.06)] shadow-lg py-2 min-w-[220px]">
-                  {farullNav.map((item) => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      className="block px-4 py-2.5 text-sm font-body text-foreground/70 hover:text-foreground hover:bg-foreground/5 transition-colors"
-                    >
-                      {item.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
+              <div
+                className={`absolute top-full left-0 bg-[rgba(250,247,242,0.95)] backdrop-blur-[20px] border border-[rgba(26,25,22,0.06)] shadow-lg py-2 min-w-[220px] transition-[opacity,transform] duration-200 origin-top ${
+                  farull.open
+                    ? "opacity-100 translate-y-0 pointer-events-auto"
+                    : "opacity-0 -translate-y-1 pointer-events-none"
+                }`}
+              >
+                {farullNav.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    tabIndex={farull.open ? 0 : -1}
+                    className="block px-4 py-2.5 text-sm font-body text-foreground/70 hover:text-foreground hover:bg-foreground/5 transition-colors"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
             </div>
 
             {/* Isolering dropdown */}
@@ -132,19 +137,24 @@ export function Header() {
               >
                 Isolering
               </button>
-              {isolering.open && (
-                <div className="absolute top-full left-0 bg-[rgba(250,247,242,0.95)] backdrop-blur-[20px] border border-[rgba(26,25,22,0.06)] shadow-lg py-2 min-w-[220px]">
-                  {isoleringNav.map((item) => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      className="block px-4 py-2.5 text-sm font-body text-foreground/70 hover:text-foreground hover:bg-foreground/5 transition-colors"
-                    >
-                      {item.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
+              <div
+                className={`absolute top-full left-0 bg-[rgba(250,247,242,0.95)] backdrop-blur-[20px] border border-[rgba(26,25,22,0.06)] shadow-lg py-2 min-w-[220px] transition-[opacity,transform] duration-200 origin-top ${
+                  isolering.open
+                    ? "opacity-100 translate-y-0 pointer-events-auto"
+                    : "opacity-0 -translate-y-1 pointer-events-none"
+                }`}
+              >
+                {isoleringNav.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    tabIndex={isolering.open ? 0 : -1}
+                    className="block px-4 py-2.5 text-sm font-body text-foreground/70 hover:text-foreground hover:bg-foreground/5 transition-colors"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
             </div>
 
             <Link
@@ -188,49 +198,55 @@ export function Header() {
         </div>
 
         {/* Mobile nav */}
-        {isOpen && (
-          <nav className="lg:hidden pb-6 border-t border-[rgba(26,25,22,0.06)] pt-4" aria-label="Mobilmeny">
-            <div className="flex flex-col gap-1">
-              <p className="text-xs uppercase tracking-[0.15em] text-foreground/50 font-body px-1 pt-2 pb-1">
-                Fårull
-              </p>
-              {farullNav.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  onClick={() => setIsOpen(false)}
-                  className="text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
-                >
-                  {item.label}
-                </Link>
-              ))}
+        <div
+          className={`lg:hidden grid transition-[grid-template-rows] duration-300 ease-[cubic-bezier(0.25,0.1,0.25,1)] ${
+            isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+          }`}
+        >
+          <div className="overflow-hidden">
+            <nav className="pb-6 border-t border-[rgba(26,25,22,0.06)] pt-4" aria-label="Mobilmeny">
+              <div className="flex flex-col gap-1">
+                <p className="text-xs uppercase tracking-[0.15em] text-foreground/50 font-body px-1 pt-2 pb-1">
+                  Fårull
+                </p>
+                {farullNav.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setIsOpen(false)}
+                    className="text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
 
-              <p className="text-xs uppercase tracking-[0.15em] text-foreground/50 font-body px-1 pt-4 pb-1">
-                Isolering
-              </p>
-              {isoleringNav.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  onClick={() => setIsOpen(false)}
-                  className="text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
-                >
-                  {item.label}
-                </Link>
-              ))}
+                <p className="text-xs uppercase tracking-[0.15em] text-foreground/50 font-body px-1 pt-4 pb-1">
+                  Isolering
+                </p>
+                {isoleringNav.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setIsOpen(false)}
+                    className="text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
 
-              <div className="border-t border-[rgba(26,25,22,0.06)] mt-3 pt-3">
-                <Link
-                  href="/om-oss"
-                  onClick={() => setIsOpen(false)}
-                  className="block text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
-                >
-                  Om oss
-                </Link>
+                <div className="border-t border-[rgba(26,25,22,0.06)] mt-3 pt-3">
+                  <Link
+                    href="/om-oss"
+                    onClick={() => setIsOpen(false)}
+                    className="block text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
+                  >
+                    Om oss
+                  </Link>
+                </div>
               </div>
-            </div>
-          </nav>
-        )}
+            </nav>
+          </div>
+        </div>
       </div>
     </header>
   );
