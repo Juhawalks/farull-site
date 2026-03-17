@@ -21,6 +21,29 @@ export const metadata: Metadata = {
 export default function AnvandningsomradenPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "Vad kan fårull användas till? Kläder, isolering och mer",
+            description:
+              "Fårull används till allt från kläder och inredning till trädgård, akustik och byggisolering. Upptäck fårullens mångsidiga användningsområden.",
+            url: "https://farull.se/anvandningsomraden",
+            publisher: {
+              "@type": "Organization",
+              name: "Farull.se",
+              url: "https://farull.se",
+            },
+            author: {
+              "@type": "Organization",
+              name: "Byeco AB",
+              url: "https://byeco.se",
+            },
+          }),
+        }}
+      />
       <Breadcrumbs items={[{ name: "Hem", href: "/" }, { name: "Användningsområden" }]} />
       <ScrollReveal>
         <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">

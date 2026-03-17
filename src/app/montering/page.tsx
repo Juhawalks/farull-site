@@ -21,6 +21,29 @@ export const metadata: Metadata = {
 export default function Montering() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "Montering av fårullsisolering. Steg för steg.",
+            description:
+              "Steg-för-steg guide för montering av fårullsisolering i väggar, tak och golv. Inga specialverktyg behövs.",
+            url: "https://farull.se/montering",
+            publisher: {
+              "@type": "Organization",
+              name: "Farull.se",
+              url: "https://farull.se",
+            },
+            author: {
+              "@type": "Organization",
+              name: "Byeco AB",
+              url: "https://byeco.se",
+            },
+          }),
+        }}
+      />
       <Breadcrumbs items={[{ name: "Hem", href: "/" }, { name: "Montering" }]} />
       <ScrollReveal>
         <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">

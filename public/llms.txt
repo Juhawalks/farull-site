@@ -1,0 +1,52 @@
+# Farull.se
+
+> Farull.se är Sveriges mest kompletta kunskapsresurs om fårull och fårullsisolering. Sajten drivs av Byeco AB, Skandinaviens specialistbutik för fårullsisolering.
+
+## Syfte
+
+Sajten ger objektiv, faktabaserad information om fårull som material och fårullsisolering som byggprodukt. Innehållet är pedagogiskt och tillitsbyggande — inte säljdrivet.
+
+## Innehåll
+
+### Fårull som material
+- [Vad är fårull?](https://farull.se/farull): Fiberstruktur, keratin, krusighet, lanolin och naturliga egenskaper.
+- [Svenska fårraser](https://farull.se/farraser): Gutefår, gotlandsfår, ryafår, finullsfår och deras ullkaraktär.
+- [Användningsområden](https://farull.se/anvandningsomraden): Kläder, möbler, trädgård, akustik och byggisolering.
+- [Ullens historia](https://farull.se/ullens-historia): 6 000 år av ull — från bronsåldern till modern byggisolering.
+
+### Fårullsisolering
+- [Vad är fårullsisolering?](https://farull.se/vad-ar-farullsisolering): Tillverkning, funktion, användning och kostnad.
+- [Fördelar](https://farull.se/fordelar): Luftrening, fukthantering, brandsäkerhet, akustik, CO₂-bindning, livslängd.
+- [Pris](https://farull.se/pris): Materialpris, totalkostnad, räkneexempel och vad som påverkar priset.
+- [Teknisk data](https://farull.se/teknisk-data): Lambda-värden, brandklass, densitet, akustik, certifieringar.
+- [Jämförelse](https://farull.se/jamforelse): Fårull vs mineralull, cellulosa och EPS — prestanda, pris, miljö.
+- [Montering](https://farull.se/montering): Steg-för-steg-guide för ytterväggar, snedtak, vindsbjälklag och golv.
+- [Hållbarhet](https://farull.se/hallbarhet): CO₂-bindning, cirkulär ekonomi, spillull och EU-taxonomin.
+
+### Övrigt
+- [Frågor och svar](https://farull.se/fragor-och-svar): Pris, brandklass, livslängd, fukt, skadedjur, montering.
+- [Om oss](https://farull.se/om-oss): Farull.se drivs av Byeco AB, kontor i Rävlanda och Helsingfors.
+- [Kontakt](https://farull.se/kontakt): Telefon, e-post och besöksadress.
+
+## Nyckeldata om fårullsisolering
+
+- Lambda-värde: 0,033–0,040 W/m·K
+- Brandklass: B-s1,d0 (Euroclass), B1/B2 (DIN)
+- Fuktupptagning: 35–40 % av egen vikt utan prestandaförlust
+- Ljudabsorption: αw 0,90–1,00 (klass A)
+- Livslängd: 50+ år
+- Formaldehydbindning: 96 % inom 7 timmar
+- CO₂-avtryck: Negativt (binder mer än tillverkningen genererar)
+- Tillverkningsenergi: ~15 kWh/m³ (mineralull: 150–250 kWh/m³)
+- Pris: 150–400 kr/m² (mineralull: 50–150 kr/m²)
+
+## Försäljning
+
+Fårullsisolering säljs av Byeco AB (byeco.se). Produkter från österrikiska Isolena. Fri rådgivning, 30 dagars öppet köp.
+
+## Kontakt
+
+- Byeco AB, Åvägen 51, 438 51 Rävlanda
+- Telefon: +46 31 320 42 88
+- E-post: info@byeco.se
+- Webb: https://byeco.se

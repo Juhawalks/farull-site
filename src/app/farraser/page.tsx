@@ -21,6 +21,29 @@ export const metadata: Metadata = {
 export default function FarraserPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "Svenska fårraser och deras ull. Gutefår, Gotlandsfår och fler",
+            description:
+              "Lär dig om svenska fårraser som Gutefår, Gotlandsfår, Ryafår och Finullsfår. Varje ras producerar ull med unika egenskaper.",
+            url: "https://farull.se/farraser",
+            publisher: {
+              "@type": "Organization",
+              name: "Farull.se",
+              url: "https://farull.se",
+            },
+            author: {
+              "@type": "Organization",
+              name: "Byeco AB",
+              url: "https://byeco.se",
+            },
+          }),
+        }}
+      />
       <Breadcrumbs items={[{ name: "Hem", href: "/" }, { name: "Svenska fårraser" }]} />
       <ScrollReveal>
         <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">

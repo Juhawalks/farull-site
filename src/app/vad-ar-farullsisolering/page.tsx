@@ -21,6 +21,29 @@ export const metadata: Metadata = {
 export default function VadArFarullsisolering() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "Vad är fårullsisolering? Så tillverkas och fungerar den",
+            description:
+              "Lär dig allt om fårullsisolering: hur den tillverkas, hur den fungerar i väggar och tak, och varför den är ett naturligt val för hälsosamma byggnader.",
+            url: "https://farull.se/vad-ar-farullsisolering",
+            publisher: {
+              "@type": "Organization",
+              name: "Farull.se",
+              url: "https://farull.se",
+            },
+            author: {
+              "@type": "Organization",
+              name: "Byeco AB",
+              url: "https://byeco.se",
+            },
+          }),
+        }}
+      />
       <Breadcrumbs items={[{ name: "Hem", href: "/" }, { name: "Vad är fårullsisolering?" }]} />
       <ScrollReveal>
         <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">

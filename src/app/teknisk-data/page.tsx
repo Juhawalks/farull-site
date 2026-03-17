@@ -21,6 +21,29 @@ export const metadata: Metadata = {
 export default function TekniskData() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "Teknisk data – fårullsisolering",
+            description:
+              "Lambda-värden, brandklass, densitet, fukthantering, akustik och certifieringar för fårullsisolering. Alla siffror du behöver för projektering.",
+            url: "https://farull.se/teknisk-data",
+            publisher: {
+              "@type": "Organization",
+              name: "Farull.se",
+              url: "https://farull.se",
+            },
+            author: {
+              "@type": "Organization",
+              name: "Byeco AB",
+              url: "https://byeco.se",
+            },
+          }),
+        }}
+      />
       <Breadcrumbs items={[{ name: "Hem", href: "/" }, { name: "Teknisk data" }]} />
       <ScrollReveal>
         <p className="uppercase tracking-[0.12em] text-accent text-sm font-body mb-4">
