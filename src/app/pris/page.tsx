@@ -7,11 +7,11 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "Vad kostar fårullsisolering? Pris per m², totalkalkyl och räkneexempel | Farull.se",
   description:
-    "Fårullsisolering kostar 150–400 kr/m² — 2–3x mer än mineralull. Men sett över 50 år blir totalkostnaden ofta lägre. Räkneexempel, livscykelkalkyl och prisfaktorer.",
+    "Fårullsisolering kostar 150–400 kr/m² – 2–3x mer än mineralull. Men sett över 50 år blir totalkostnaden ofta lägre. Räkneexempel, livscykelkalkyl och prisfaktorer.",
   openGraph: {
     title: "Vad kostar fårullsisolering? Pris per m², totalkalkyl och räkneexempel",
     description:
-      "Fårullsisolering kostar 150–400 kr/m² — 2–3x mer än mineralull. Men sett över 50 år blir totalkostnaden ofta lägre. Räkneexempel, livscykelkalkyl och prisfaktorer.",
+      "Fårullsisolering kostar 150–400 kr/m² – 2–3x mer än mineralull. Men sett över 50 år blir totalkostnaden ofta lägre. Räkneexempel, livscykelkalkyl och prisfaktorer.",
   },
   alternates: {
     canonical: "/pris",
@@ -29,7 +29,7 @@ export default function Pris() {
             "@type": "Article",
             headline: "Vad kostar fårullsisolering? Pris per m², totalkalkyl och räkneexempel",
             description:
-              "Fårullsisolering kostar 150–400 kr/m² — 2–3x mer än mineralull. Men sett över 50 år blir totalkostnaden ofta lägre.",
+              "Fårullsisolering kostar 150–400 kr/m² – 2–3x mer än mineralull. Men sett över 50 år blir totalkostnaden ofta lägre.",
             url: "https://farull.se/pris",
             datePublished: "2025-03-01",
             dateModified: "2026-03-17",
@@ -67,7 +67,7 @@ export default function Pris() {
                 name: "Är fårullsisolering billigare än mineralull på lång sikt?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Ofta ja. Ett räkneexempel för ett typiskt småhus (120 m²): mineralull kostar ~27 500 kr vid montering men kräver byte efter 25–30 år (ytterligare ~35 000 kr), totalt ~62 500 kr över 50 år. Fårull kostar ~42 000 kr vid montering men håller 75 år utan byte — totalkostnaden stannar vid ~42 000 kr. En besparing på ~20 000 kr.",
+                  text: "Ofta ja. Ett räkneexempel för ett typiskt småhus (120 m²): mineralull kostar ~27 500 kr vid montering men kräver byte efter 25–30 år (ytterligare ~35 000 kr), totalt ~62 500 kr över 50 år. Fårull kostar ~42 000 kr vid montering men håller 75 år utan byte – totalkostnaden stannar vid ~42 000 kr. En besparing på ~20 000 kr.",
                 },
               },
               {
@@ -75,7 +75,7 @@ export default function Pris() {
                 name: "Vad påverkar priset på fårullsisolering?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Fem faktorer: tjocklek (50–200 mm), produkttyp (skivor kostar mer än rullar), isoleringsarea (större projekt ger bättre pris/m²), tillgänglighet (snedtak och krypgrunder kräver mer arbetstid) och om du monterar själv eller anlitar hantverkare. DIY kan halvera totalkostnaden — fårull är det enklaste materialet att montera själv.",
+                  text: "Fem faktorer: tjocklek (50–200 mm), produkttyp (skivor kostar mer än rullar), isoleringsarea (större projekt ger bättre pris/m²), tillgänglighet (snedtak och krypgrunder kräver mer arbetstid) och om du monterar själv eller anlitar hantverkare. DIY kan halvera totalkostnaden – fårull är det enklaste materialet att montera själv.",
                 },
               },
               {
@@ -99,7 +99,7 @@ export default function Pris() {
                 name: "Varför kostar fårullsisolering mer än mineralull?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Tre orsaker: råvaran (fårull) kostar mer än sten eller glas, tillverkningsvolymerna är mindre (nischprodukt) och kvalitetskraven är höga (tvättning, kardning, boraxbehandling). I takt med att efterfrågan ökar och fler tillverkare etablerar sig förväntas prisskillnaden minska. Dessutom tas 80 % av svensk fårull inte tillvara idag — ökad användning kan sänka råvarukostnaden.",
+                  text: "Tre orsaker: råvaran (fårull) kostar mer än sten eller glas, tillverkningsvolymerna är mindre (nischprodukt) och kvalitetskraven är höga (tvättning, kardning, boraxbehandling). I takt med att efterfrågan ökar och fler tillverkare etablerar sig förväntas prisskillnaden minska. Dessutom tas 80 % av svensk fårull inte tillvara idag – ökad användning kan sänka råvarukostnaden.",
                 },
               },
             ],
@@ -118,7 +118,7 @@ export default function Pris() {
 
       <Image
         src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80"
-        alt="Kalkyl för isoleringsprojekt — fårullsisolering kostar mer per m² men mindre totalt"
+        alt="Kalkyl för isoleringsprojekt – fårullsisolering kostar mer per m² men mindre totalt"
         width={800}
         height={533}
         priority
@@ -129,7 +129,7 @@ export default function Pris() {
         <ScrollReveal>
           <p className="text-lg leading-relaxed">
             <strong>Fårullsisolering kostar 150–400&nbsp;kr per m²</strong> beroende
-            på tjocklek — ungefär 2–3 gånger mer än mineralull. Det är den
+            på tjocklek – ungefär 2–3 gånger mer än mineralull. Det är den
             siffra de flesta fastnar vid. Men priset per kvadratmeter berättar
             bara en del av historien. Räknar du in arbetskostnad, livslängd
             och frånvaron av byte blir totalkostnaden över 50&nbsp;år ofta{" "}
@@ -139,19 +139,19 @@ export default function Pris() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Materialpris per kvadratmeter — fårull vs mineralull
+            Materialpris per kvadratmeter – fårull vs mineralull
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80"
-                alt="Fårullsisolering i skivor — Isolena-produkter från Byeco"
+                alt="Fårullsisolering i skivor – Isolena-produkter från Byeco"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Isolena-skivor från Byeco — finns i flera tjocklekar och format
+                Isolena-skivor från Byeco – finns i flera tjocklekar och format
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -210,19 +210,19 @@ export default function Pris() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Lägre arbetskostnad — 15–25 % snabbare montering
+            Lägre arbetskostnad – 15–25 % snabbare montering
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1704742950992-9815a104820c?w=800&q=80"
-                alt="Montering av fårullsisolering utan skyddsutrustning — snabbare och enklare"
+                alt="Montering av fårullsisolering utan skyddsutrustning – snabbare och enklare"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Ingen skyddsutrustning — snabbare montering och lägre arbetskostnad
+                Ingen skyddsutrustning – snabbare montering och lägre arbetskostnad
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -243,7 +243,7 @@ export default function Pris() {
                 merkbart.
               </p>
               <p className="mt-4">
-                Många husägare väljer dessutom att montera själva — något som
+                Många husägare väljer dessutom att montera själva – något som
                 är betydligt enklare med fårull. DIY kan halvera
                 totalkostnaden för arbetsmomentet.
               </p>
@@ -253,28 +253,28 @@ export default function Pris() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            75 års livslängd — inget byte under husets livstid
+            75 års livslängd – inget byte under husets livstid
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
-                alt="Äldre hus som håller — fårullsisolering behöver inte bytas under husets livstid"
+                alt="Äldre hus som håller – fårullsisolering behöver inte bytas under husets livstid"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                75 års certifierad livslängd — fårull håller hela husets liv
+                75 års certifierad livslängd – fårull håller hela husets liv
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
-                Fårullens naturliga fjädring — fibrernas{" "}
+                Fårullens naturliga fjädring – fibrernas{" "}
                 <Link href="/farull" className="text-primary hover:text-primary/80 link-grow">
                   disulfidbindningar
                 </Link>{" "}
-                ger permanent elasticitet — gör att den inte komprimeras med
+                ger permanent elasticitet – gör att den inte komprimeras med
                 tiden. Isoleringen har en{" "}
                 <strong>natureplus-certifierad livslängd på 75&nbsp;år</strong>.
               </p>
@@ -290,8 +290,8 @@ export default function Pris() {
                 <li>Återställning av innerbeklädnad</li>
               </ul>
               <p className="mt-4">
-                Den kostnaden — ofta <strong>30&nbsp;000–50&nbsp;000&nbsp;kr</strong> för
-                ett småhus — syns aldrig på den ursprungliga offerten. Men
+                Den kostnaden – ofta <strong>30&nbsp;000–50&nbsp;000&nbsp;kr</strong> för
+                ett småhus – syns aldrig på den ursprungliga offerten. Men
                 den kommer.
               </p>
             </div>
@@ -300,7 +300,7 @@ export default function Pris() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Räkneexempel — typiskt småhus över 50 år
+            Räkneexempel – typiskt småhus över 50 år
           </h2>
           <div className="mt-6">
             <p className="mb-6">
@@ -367,7 +367,7 @@ export default function Pris() {
 
             <p className="mt-6">
               <strong>Besparing med fårull: ~20&nbsp;000&nbsp;kr</strong> över
-              50&nbsp;år — och det är innan du räknar in bättre inomhusluft,
+              50&nbsp;år – och det är innan du räknar in bättre inomhusluft,
               fuktsäkerhet och lägre klimatavtryck.
             </p>
           </div>
@@ -380,7 +380,7 @@ export default function Pris() {
           <div className="mt-6">
             <p>
               Montering av isolering i befintliga bostäder berättigar till{" "}
-              <strong>ROT-avdrag</strong> — 30&nbsp;% av arbetskostnaden, max
+              <strong>ROT-avdrag</strong> – 30&nbsp;% av arbetskostnaden, max
               50&nbsp;000&nbsp;kr per person och år. Det gäller
               arbetskostnaden, inte materialet.
             </p>
@@ -405,7 +405,7 @@ export default function Pris() {
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
-                alt="Husbygge — tjocklek, produkttyp och area avgör priset"
+                alt="Husbygge – tjocklek, produkttyp och area avgör priset"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -417,26 +417,26 @@ export default function Pris() {
             <div className="md:flex-1 min-w-0">
               <ul className="space-y-3">
                 <li>
-                  <strong>Tjocklek</strong> — 50&nbsp;mm kostar naturligtvis
+                  <strong>Tjocklek</strong> – 50&nbsp;mm kostar naturligtvis
                   mindre än 195&nbsp;mm. Vilken tjocklek du behöver beror på
                   konstruktionen och BBR-kraven. I ytterväggar krävs normalt
                   145–195&nbsp;mm, i vindsbjälklag 300–400&nbsp;mm.
                 </li>
                 <li>
-                  <strong>Produkttyp</strong> — skivor (styva, densitet
+                  <strong>Produkttyp</strong> – skivor (styva, densitet
                   ~25&nbsp;kg/m³) kostar mer än rullar (flexibla, ~20&nbsp;kg/m³).
                   Skivor passar bäst i väggar, rullar i vindsbjälklag.
                 </li>
                 <li>
-                  <strong>Area</strong> — större projekt ger ofta bättre pris
+                  <strong>Area</strong> – större projekt ger ofta bättre pris
                   per kvadratmeter. Kontakta Byeco för volympriser.
                 </li>
                 <li>
-                  <strong>Tillgänglighet</strong> — svåråtkomliga utrymmen
+                  <strong>Tillgänglighet</strong> – svåråtkomliga utrymmen
                   (snedtak, krypgrunder) kräver mer arbetstid oavsett material.
                 </li>
                 <li>
-                  <strong>DIY vs hantverkare</strong> — fårull är det
+                  <strong>DIY vs hantverkare</strong> – fårull är det
                   enklaste materialet att{" "}
                   <Link href="/montering" className="text-primary hover:text-primary/80 link-grow">
                     montera själv
@@ -449,22 +449,22 @@ export default function Pris() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Varför kostar fårullsisolering mer — och kommer priset sjunka?
+            Varför kostar fårullsisolering mer – och kommer priset sjunka?
           </h2>
           <div className="mt-6">
             <p>
               Tre orsaker till det högre materialpriset:
             </p>
             <ol className="mt-4 space-y-2 list-decimal list-inside text-foreground/80">
-              <li><strong>Råvarukostnad</strong> — fårull kostar mer än sten eller glas</li>
-              <li><strong>Tillverkningsvolym</strong> — fårullsisolering är fortfarande en nischprodukt med mindre stordriftsfördelar</li>
-              <li><strong>Kvalitetskrav</strong> — tvättning, kardning och boraxbehandling kräver omsorg</li>
+              <li><strong>Råvarukostnad</strong> – fårull kostar mer än sten eller glas</li>
+              <li><strong>Tillverkningsvolym</strong> – fårullsisolering är fortfarande en nischprodukt med mindre stordriftsfördelar</li>
+              <li><strong>Kvalitetskrav</strong> – tvättning, kardning och boraxbehandling kräver omsorg</li>
             </ol>
             <p className="mt-4">
               Men trenden pekar nedåt. I takt med att efterfrågan ökar och
               fler tillverkare etablerar sig förväntas prisskillnaden minska.
               Dessutom tas <strong>80&nbsp;% av svensk fårull</strong> inte
-              tillvara idag — ökad lokal användning kan sänka
+              tillvara idag – ökad lokal användning kan sänka
               råvarukostnaden och samtidigt stärka svensk lantbruksekonomi.
             </p>
           </div>
@@ -481,7 +481,7 @@ export default function Pris() {
             </p>
             <ul className="mt-4 space-y-3">
               <li>
-                <strong>Frisk inomhusluft</strong> — fårull{" "}
+                <strong>Frisk inomhusluft</strong> – fårull{" "}
                 <Link href="/fordelar" className="text-primary hover:text-primary/80 link-grow">
                   binder formaldehyd och VOC
                 </Link>{" "}
@@ -489,13 +489,13 @@ export default function Pris() {
                 vara avgörande för familjens hälsa.
               </li>
               <li>
-                <strong>Fuktsäkerhet</strong> — ull buffrar{" "}
+                <strong>Fuktsäkerhet</strong> – ull buffrar{" "}
                 <strong>35–40&nbsp;% fukt</strong> utan att tappa prestanda.
                 Det kan förebygga fuktskador som kostar tiotusentals kronor
-                att åtgärda — en kostnad som sällan syns i kalkylen.
+                att åtgärda – en kostnad som sällan syns i kalkylen.
               </li>
               <li>
-                <strong>Lägre klimatavtryck</strong> — varje kilo fårull{" "}
+                <strong>Lägre klimatavtryck</strong> – varje kilo fårull{" "}
                 <Link href="/hallbarhet" className="text-primary hover:text-primary/80 link-grow">
                   lagrar 1,8&nbsp;kg CO₂
                 </Link>{" "}
@@ -503,7 +503,7 @@ export default function Pris() {
                 kräver 26&nbsp;MJ/kg och smältning vid 1&nbsp;400&nbsp;°C.
               </li>
               <li>
-                <strong>Tystare hem</strong> — fårull uppnår{" "}
+                <strong>Tystare hem</strong> – fårull uppnår{" "}
                 <Link href="/anvandningsomraden" className="text-primary hover:text-primary/80 link-grow">
                   ljudabsorptionsklass&nbsp;A
                 </Link>{" "}
@@ -515,7 +515,7 @@ export default function Pris() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Sammanfattning — priset i perspektiv
+            Sammanfattning – priset i perspektiv
           </h2>
           <div className="mt-6">
             <p>
@@ -527,7 +527,7 @@ export default function Pris() {
             </p>
             <p className="mt-4">
               Lägg till bättre luftkvalitet, fuktsäkerhet, ljuddämpning och
-              ett negativt klimatavtryck — och frågan blir inte om du har
+              ett negativt klimatavtryck – och frågan blir inte om du har
               råd med fårullsisolering, utan om du har råd att låta bli.
             </p>
           </div>
@@ -571,7 +571,7 @@ export default function Pris() {
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Ungefär 150–400&nbsp;kr/m² beroende på tjocklek och
                   produkttyp. Skivor kostar mer än rullar. Mineralull kostar
-                  50–150&nbsp;kr/m² för motsvarande tjocklek — men
+                  50–150&nbsp;kr/m² för motsvarande tjocklek – men
                   totalkostnaden över husets livstid blir ofta lägre med
                   fårull.
                 </p>
@@ -586,7 +586,7 @@ export default function Pris() {
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Ofta ja. Räkneexempel för 120&nbsp;m²: mineralull kostar
                   ~62&nbsp;500&nbsp;kr över 50&nbsp;år (inklusive byte efter
-                  25–30&nbsp;år). Fårull kostar ~42&nbsp;000&nbsp;kr —
+                  25–30&nbsp;år). Fårull kostar ~42&nbsp;000&nbsp;kr –
                   inget byte behövs tack vare 75&nbsp;års livslängd.
                   En besparing på ~20&nbsp;000&nbsp;kr.
                 </p>
@@ -600,7 +600,7 @@ export default function Pris() {
                 </summary>
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Ja. Montering av isolering i befintliga bostäder
-                  berättigar till ROT-avdrag — 30&nbsp;% av
+                  berättigar till ROT-avdrag – 30&nbsp;% av
                   arbetskostnaden, max 50&nbsp;000&nbsp;kr per person och
                   år. Gäller vid renovering, inte nyproduktion.
                 </p>
@@ -631,7 +631,7 @@ export default function Pris() {
                   Tre orsaker: råvaran kostar mer, tillverkningsvolymerna
                   är mindre och kvalitetskraven höga. Prisskillnaden
                   förväntas minska i takt med ökad efterfrågan. 80&nbsp;%
-                  av svensk fårull tas inte tillvara — ökad användning kan
+                  av svensk fårull tas inte tillvara – ökad användning kan
                   sänka kostnaden.
                 </p>
               </details>
@@ -654,13 +654,13 @@ export default function Pris() {
               <Link href="/montering" className="link-grow text-lg font-medium text-foreground">
                 Monteringsguide →
               </Link>
-              <p className="text-foreground/60 mt-1">Steg för steg — isolera själv och spara arbetskostnaden.</p>
+              <p className="text-foreground/60 mt-1">Steg för steg – isolera själv och spara arbetskostnaden.</p>
             </li>
             <li>
               <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-foreground/60 mt-1">Sju skäl att välja ull — det som inte syns på offerten.</p>
+              <p className="text-foreground/60 mt-1">Sju skäl att välja ull – det som inte syns på offerten.</p>
             </li>
           </ul>
         </div>

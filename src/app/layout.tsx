@@ -27,8 +27,8 @@ const siteUrl = "https://farull.se";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Fårullsisolering — Naturlig isolering för ditt hem",
-    template: "%s — Farull.se",
+    default: "Fårullsisolering – Naturlig isolering för ditt hem",
+    template: "%s – Farull.se",
   },
   description:
     "Allt om fårullsisolering: fördelar, montering, jämförelser och hållbarhet. Naturlig isolering som andas.",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     locale: "sv_SE",
     siteName: "Farull.se",
     url: siteUrl,
-    title: "Fårullsisolering — Naturlig isolering för ditt hem",
+    title: "Fårullsisolering – Naturlig isolering för ditt hem",
     description:
       "Allt om fårullsisolering: fördelar, montering, jämförelser och hållbarhet. Naturlig isolering som andas.",
     images: [

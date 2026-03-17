@@ -5,11 +5,11 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Ullens historia — 6 000 år från bronsålder till byggisolering | Farull.se",
+  title: "Ullens historia – 6 000 år från bronsålder till byggisolering | Farull.se",
   description:
     "Fårullens historia: från Mesopotamien och vikingatiden till modern byggisolering. Ullhandel, vadmal, industrialisering och fårullens comeback.",
   openGraph: {
-    title: "Ullens historia — 6 000 år från bronsålder till byggisolering",
+    title: "Ullens historia – 6 000 år från bronsålder till byggisolering",
     description:
       "Fårullens historia: från Mesopotamien och vikingatiden till modern byggisolering. Ullhandel, vadmal, industrialisering och fårullens comeback.",
   },
@@ -27,7 +27,7 @@ export default function UllensHistoriaPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Ullens historia — 6 000 år från bronsålder till byggisolering",
+            headline: "Ullens historia – 6 000 år från bronsålder till byggisolering",
             description:
               "Fårullens historia: från Mesopotamien och vikingatiden till modern byggisolering. Ullhandel, vadmal, industrialisering och fårullens comeback.",
             url: "https://farull.se/ullens-historia",
@@ -113,7 +113,7 @@ export default function UllensHistoriaPage() {
         <ScrollReveal>
           <p className="text-lg text-foreground/90">
             <strong>Fårull har följt civilisationen i över 6&nbsp;000
-            år</strong> — som kläder, handelsvara, valuta och
+            år</strong> – som kläder, handelsvara, valuta och
             byggnadsmaterial. Det är ett av få material som använts
             oavbrutet sedan bronsåldern. Här berättar vi hur ullen formade
             handel och byggteknik, varför den marginaliserades under
@@ -123,7 +123,7 @@ export default function UllensHistoriaPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Ullens ursprung — Mesopotamien och den antika världen
+            Ullens ursprung – Mesopotamien och den antika världen
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -148,14 +148,14 @@ export default function UllensHistoriaPage() {
                 </Link>{" "}
                 (till skillnad från de tidiga vilda fårens hårliknande
                 täckning) hade då avlats fram genom generationer av
-                selektiv avel. Ullen var avgörande — den möjliggjorde
+                selektiv avel. Ullen var avgörande – den möjliggjorde
                 kläder, tält och filtar som skyddade mot både kyla och
                 hetta.
               </p>
               <p className="mt-4">
                 I antikens Grekland och Rom placerades vävd ull mellan
                 dubbla väggar för att isolera bostäder. Romarna använde
-                filtad ull i militära tillämpningar — som stoppning i
+                filtad ull i militära tillämpningar – som stoppning i
                 rustningar och som tätning i akvedukter. Redan då utnyttjades
                 ullens unika kombination av fukthantering, tålighet och
                 isoleringsförmåga.
@@ -166,7 +166,7 @@ export default function UllensHistoriaPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Vikingatiden — vadmal som valuta och handelsvara
+            Vikingatiden – vadmal som valuta och handelsvara
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -193,7 +193,7 @@ export default function UllensHistoriaPage() {
                 rakt: <em>utan ull, inga vikingar</em>.
               </p>
               <p className="mt-4">
-                <strong>Vadmal</strong> — ett tjockt, valkat ulltyg — var
+                <strong>Vadmal</strong> – ett tjockt, valkat ulltyg – var
                 Nordens viktigaste handelsvara. Tyget tillverkades genom att
                 väva ull och sedan valka (tova) det i varmt vatten, vilket
                 gjorde det tätare och väderbeständigt. På Island användes
@@ -217,7 +217,7 @@ export default function UllensHistoriaPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Medeltiden — ullhandeln som formade Europa
+            Medeltiden – ullhandeln som formade Europa
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -235,7 +235,7 @@ export default function UllensHistoriaPage() {
             <div className="md:flex-1 min-w-0">
               <p>
                 Under medeltiden var ull Europas ekonomiska ryggrad. Englands
-                välstånd byggde på ullexporten — den engelska kronans skatteintäkter
+                välstånd byggde på ullexporten – den engelska kronans skatteintäkter
                 från ull var så betydande att Lord Chancellor i parlamentet
                 fortfarande sitter på en ullsäck (<em>the Woolsack</em>), en
                 tradition sedan 1300-talet.
@@ -250,7 +250,7 @@ export default function UllensHistoriaPage() {
               </p>
               <p className="mt-4">
                 De stora gobeländerna som hängdes på slottsväggar runt om i
-                Europa hade en praktisk funktion utöver det estetiska — de
+                Europa hade en praktisk funktion utöver det estetiska – de
                 fungerade som isolering. Tjocka ullvävnader på stenväggarna
                 minskade drag och kyla avsevärt, en tidig form av{" "}
                 <Link href="/vad-ar-farullsisolering" className="text-primary hover:text-primary/80 link-grow">
@@ -263,7 +263,7 @@ export default function UllensHistoriaPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Fårull i svenska byggnader — ett gammalt knep
+            Fårull i svenska byggnader – ett gammalt knep
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -283,11 +283,11 @@ export default function UllensHistoriaPage() {
                 Att använda ull för att isolera byggnader är ingen modern
                 uppfinning. I svenska timmerhus packades ull och ulldrev
                 mellan stockarna för att täta springor och minska drag. Ryor
-                — tjocka ullmattor vävda av{" "}
+                – tjocka ullmattor vävda av{" "}
                 <Link href="/farraser" className="text-primary hover:text-primary/80 link-grow">
                   Ryafårets
                 </Link>{" "}
-                långa ull — hängdes på väggar och lades på golv som extra
+                långa ull – hängdes på väggar och lades på golv som extra
                 isolering under de kalla vintrarna.
               </p>
               <p className="mt-4">
@@ -299,7 +299,7 @@ export default function UllensHistoriaPage() {
                 <Link href="/farull" className="text-primary hover:text-primary/80 link-grow">
                   naturliga fukthantering
                 </Link>{" "}
-                — den absorberade fukt utan att mögla, något som äldre
+                – den absorberade fukt utan att mögla, något som äldre
                 generationers byggare kände till av erfarenhet, även om de
                 inte kunde förklara den kemiska mekanismen.
               </p>
@@ -314,7 +314,7 @@ export default function UllensHistoriaPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Mineralullen tar över — 1930-talet och framåt
+            Mineralullen tar över – 1930-talet och framåt
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -326,7 +326,7 @@ export default function UllensHistoriaPage() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Mineralull blev standard på 1930-talet — billig, men energikrävande att producera
+                Mineralull blev standard på 1930-talet – billig, men energikrävande att producera
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -340,19 +340,19 @@ export default function UllensHistoriaPage() {
                 isoleringsmetoder nästan helt.
               </p>
               <p className="mt-4">
-                Parallellt tog syntetiska textilfibrer — nylon (1938), polyester
-                (1941), akryl (1950-talet) — marknadsandelar från naturull i
+                Parallellt tog syntetiska textilfibrer – nylon (1938), polyester
+                (1941), akryl (1950-talet) – marknadsandelar från naturull i
                 klädindustrin. Fårull marginaliserades på båda fronterna. Ullen
                 som inte längre behövdes till kläder hade ingen marknad som
                 byggisolering heller.
               </p>
               <p className="mt-4">
                 Konsekvenserna blev tydliga med tiden. Mineralullens tillverkning
-                kräver smältning vid 1&nbsp;400–1&nbsp;500&nbsp;°C — en
+                kräver smältning vid 1&nbsp;400–1&nbsp;500&nbsp;°C – en
                 energiintensiv process med betydande koldioxidutsläpp. Och
                 mineralullens oförmåga att hantera fukt ledde till problem med
                 kondens och mögel i moderna, täta konstruktioner. Samtidigt
-                växte berg av europeisk spillull som saknade avsättning — en
+                växte berg av europeisk spillull som saknade avsättning – en
                 biprodukt utan marknad.
               </p>
             </div>
@@ -361,7 +361,7 @@ export default function UllensHistoriaPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Fårullens comeback — 2010-talet och klimatmedvetenhet
+            Fårullens comeback – 2010-talet och klimatmedvetenhet
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -430,7 +430,7 @@ export default function UllensHistoriaPage() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                200 000 ton europeisk spillull per år — från avfall till hållbar resurs
+                200 000 ton europeisk spillull per år – från avfall till hållbar resurs
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -439,7 +439,7 @@ export default function UllensHistoriaPage() {
                 byggisolering av naturliga fibrer som en hållbar ekonomisk
                 aktivitet. Det ger investerare och byggherrar starkare
                 incitament att välja biobaserade material. Samtidigt driver
-                den cirkulära ekonomin en omvärdering av spillull — de{" "}
+                den cirkulära ekonomin en omvärdering av spillull – de{" "}
                 <Link href="/farraser" className="text-primary hover:text-primary/80 link-grow">
                   200&nbsp;000 ton europeisk ull
                 </Link>{" "}
@@ -452,7 +452,7 @@ export default function UllensHistoriaPage() {
                 isolering och EU-krav på klimatdeklaration av byggnader
                 (som träder i kraft stegvis) finns en tydlig marknad för
                 nordisk spillull. Infrastruktur för insamling och
-                bearbetning är det som saknas — inte råvaran.
+                bearbetning är det som saknas – inte råvaran.
               </p>
               <p className="mt-4">
                 Ullens historia har kommit full cirkel. Från bronsålderns

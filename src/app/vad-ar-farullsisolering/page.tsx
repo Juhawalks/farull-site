@@ -59,7 +59,7 @@ export default function VadArFarullsisolering() {
                 name: "Vad är fårullsisolering gjord av?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Fårullsisolering tillverkas av ren fårull som tvättas, kardas till skivor eller rullar och behandlas med 3–5 % borax för brandskydd. Ullen kommer främst från klippning av får vars ull inte når textilkvalitet — cirka 80 % av svensk fårull används idag inte alls. Hela processen är mekanisk och kräver bara 6 MJ/kg, jämfört med 26 MJ/kg för glasull.",
+                  text: "Fårullsisolering tillverkas av ren fårull som tvättas, kardas till skivor eller rullar och behandlas med 3–5 % borax för brandskydd. Ullen kommer främst från klippning av får vars ull inte når textilkvalitet – cirka 80 % av svensk fårull används idag inte alls. Hela processen är mekanisk och kräver bara 6 MJ/kg, jämfört med 26 MJ/kg för glasull.",
                 },
               },
               {
@@ -67,7 +67,7 @@ export default function VadArFarullsisolering() {
                 name: "Vilket lambda-värde har fårullsisolering?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Fårullsisolering har ett lambda-värde (λ) på 0,033–0,040 W/m·K, jämförbart med stenull (0,034–0,039) och glasull (0,032–0,040). Skillnaden mot mineralull är att fårull behåller sin isoleringsförmåga även vid fukt — mineralull kan tappa upp till 24 gånger i prestanda vid fuktbelastning.",
+                  text: "Fårullsisolering har ett lambda-värde (λ) på 0,033–0,040 W/m·K, jämförbart med stenull (0,034–0,039) och glasull (0,032–0,040). Skillnaden mot mineralull är att fårull behåller sin isoleringsförmåga även vid fukt – mineralull kan tappa upp till 24 gånger i prestanda vid fuktbelastning.",
                 },
               },
               {
@@ -83,7 +83,7 @@ export default function VadArFarullsisolering() {
                 name: "Kan man isolera hela huset med fårull?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Ja. Fårullsisolering fungerar i ytterväggar, innerväggar, mellanbjälklag, snedtak, vindsbjälklag och golv — alltså överallt där du annars skulle använda mineralull. Materialet levereras i standardmått för regelavstånd 450 och 600 mm och klipps enkelt med vanlig sax.",
+                  text: "Ja. Fårullsisolering fungerar i ytterväggar, innerväggar, mellanbjälklag, snedtak, vindsbjälklag och golv – alltså överallt där du annars skulle använda mineralull. Materialet levereras i standardmått för regelavstånd 450 och 600 mm och klipps enkelt med vanlig sax.",
                 },
               },
               {
@@ -118,7 +118,7 @@ export default function VadArFarullsisolering() {
 
       <Image
         src="/images/farull-video-2.png"
-        alt="Fårklippning — första steget i tillverkningen av fårullsisolering"
+        alt="Fårklippning – första steget i tillverkningen av fårullsisolering"
         width={800}
         height={1000}
         priority
@@ -128,7 +128,7 @@ export default function VadArFarullsisolering() {
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p className="text-lg leading-relaxed">
-            <strong>Fårullsisolering är byggisolering tillverkad av ren fårull</strong> —
+            <strong>Fårullsisolering är byggisolering tillverkad av ren fårull</strong> –
             ett naturligt fibermaterial som reglerar fukt, renar inomhusluft och
             isolerar termiskt i klass med mineralull. Med ett lambda-värde på
             0,033–0,040&nbsp;W/m·K presterar den jämbördigt med stenull och glasull,
@@ -142,7 +142,7 @@ export default function VadArFarullsisolering() {
             <Link href="/ullens-historia" className="text-primary hover:text-primary/80 link-grow">
               byggnadsisolering i över tusen år
             </Link>. Modern fårullsisolering kombinerar den beprövade fibern med
-            kontrollerad tillverkning — resultatet är ett{" "}
+            kontrollerad tillverkning – resultatet är ett{" "}
             <Link href="/fordelar" className="text-primary hover:text-primary/80 link-grow">
               högpresterande isoleringsmaterial
             </Link>{" "}
@@ -152,50 +152,50 @@ export default function VadArFarullsisolering() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Så tillverkas fårullsisolering — från fårrygg till vägg
+            Så tillverkas fårullsisolering – från fårrygg till vägg
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="/images/farull-4.jpg"
-                alt="Får under klippning — råmaterial för fårullsisolering"
+                alt="Får under klippning – råmaterial för fårullsisolering"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Ullen tvättas, kardas och formas till skivor — hela processen är mekanisk
+                Ullen tvättas, kardas och formas till skivor – hela processen är mekanisk
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
                 Tillverkningen av fårullsisolering är överraskande enkel. Ullen
                 kommer främst från klippning av får vars ull inte når
-                textilkvalitet — fiber som annars skulle kasseras. Processen
+                textilkvalitet – fiber som annars skulle kasseras. Processen
                 har fyra steg:
               </p>
               <ol className="mt-4 space-y-2 list-decimal list-inside text-foreground/80">
                 <li>
-                  <strong>Tvätt</strong> — smuts och överskott av lanolin
+                  <strong>Tvätt</strong> – smuts och överskott av lanolin
                   avlägsnas. En viss mängd lanolin lämnas kvar som naturligt
                   skydd mot skadedjur.
                 </li>
                 <li>
-                  <strong>Kardning</strong> — fibrerna kammas och riktas till
+                  <strong>Kardning</strong> – fibrerna kammas och riktas till
                   en jämn matta med kontrollerad densitet (typiskt 20–25&nbsp;kg/m³).
                 </li>
                 <li>
-                  <strong>Boraxbehandling</strong> — 3–5&nbsp;% borax tillsätts
+                  <strong>Boraxbehandling</strong> – 3–5&nbsp;% borax tillsätts
                   för brandskydd. Borax är ett naturligt mineral som ger
                   brandklass B‑s1,d0 utan syntetiska flamskyddsmedel.
                 </li>
                 <li>
-                  <strong>Formning</strong> — mattan formas till skivor eller
+                  <strong>Formning</strong> – mattan formas till skivor eller
                   rullar i standardmått för regelavstånd 450 och 600&nbsp;mm.
                 </li>
               </ol>
               <p className="mt-4">
-                Hela processen kräver bara <strong>6&nbsp;MJ energi per kilo</strong> —
+                Hela processen kräver bara <strong>6&nbsp;MJ energi per kilo</strong> –
                 jämfört med 26&nbsp;MJ/kg för glasull och 101&nbsp;MJ/kg för
                 polyuretanskum. Ingen smältning vid 1&nbsp;400&nbsp;°C. Ingen
                 kemikaliecocktail. Bara mekanisk bearbetning av en{" "}
@@ -209,7 +209,7 @@ export default function VadArFarullsisolering() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Hur fårullsisolering fungerar — luftfickor, fukt och luftrening
+            Hur fårullsisolering fungerar – luftfickor, fukt och luftrening
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -221,13 +221,13 @@ export default function VadArFarullsisolering() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Miljontals små luftfickor i fibrerna — det är luften som isolerar
+                Miljontals små luftfickor i fibrerna – det är luften som isolerar
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
-                Fårullens krusiga fibrer — varje fiber har upp till 30
-                böjningar per centimeter — skapar miljontals små luftfickor.
+                Fårullens krusiga fibrer – varje fiber har upp till 30
+                böjningar per centimeter – skapar miljontals små luftfickor.
                 Det är den stillastående luften som isolerar, inte fibern i
                 sig. Lambda-värdet ligger på <strong>0,033–0,040&nbsp;W/m·K</strong>,
                 jämförbart med stenull (0,034–0,039) och glasull
@@ -238,7 +238,7 @@ export default function VadArFarullsisolering() {
               </p>
               <ul className="mt-3 space-y-2 list-disc list-inside text-foreground/80">
                 <li>
-                  <strong>Fuktreglering</strong> — absorberar upp till
+                  <strong>Fuktreglering</strong> – absorberar upp till
                   35–40&nbsp;% av sin vikt i fukt utan att förlora
                   isoleringsförmåga. Mineralull tappar upp till 24 gånger i
                   prestanda vid fuktbelastning. Dessutom frigörs{" "}
@@ -246,13 +246,13 @@ export default function VadArFarullsisolering() {
                   bidrar till uppvärmningen.
                 </li>
                 <li>
-                  <strong>Luftrening</strong> — ullens keratinprotein binder
+                  <strong>Luftrening</strong> – ullens keratinprotein binder
                   formaldehyd, toluen och andra flyktiga organiska föreningar
                   (VOC) kemiskt och permanent. Forskning visar en reduktion på{" "}
                   <strong>80–87&nbsp;%</strong> inom 4&nbsp;timmar.
                 </li>
                 <li>
-                  <strong>Brandskydd</strong> — fårull antänds först vid
+                  <strong>Brandskydd</strong> – fårull antänds först vid
                   560–600&nbsp;°C, kolnar och självslocknar. Den smälter inte
                   och droppar inte brinnande material.
                 </li>
@@ -280,7 +280,7 @@ export default function VadArFarullsisolering() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Ytterväggar, snedtak, golv — fårull fungerar i hela konstruktionen
+                Ytterväggar, snedtak, golv – fårull fungerar i hela konstruktionen
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -289,16 +289,16 @@ export default function VadArFarullsisolering() {
                 använda mineralull:
               </p>
               <ul className="mt-3 space-y-1 list-disc list-inside text-foreground/80">
-                <li><strong>Ytterväggar</strong> — fibrerna fjädrar och fyller ut regelkonstruktionen helt</li>
-                <li><strong>Innerväggar</strong> — utmärkt ljudisolering, absorberar ljud i alla frekvenser</li>
-                <li><strong>Snedtak</strong> — sitter kvar utan nät tack vare fibrernas naturliga friktion</li>
-                <li><strong>Vindsbjälklag</strong> — fuktregulerande i den mest utsatta delen av huset</li>
-                <li><strong>Mellanbjälklag</strong> — dämpar stegljud och luftljud effektivt</li>
-                <li><strong>Golv</strong> — fungerar både i krypgrund och bjälklagskonstruktion</li>
+                <li><strong>Ytterväggar</strong> – fibrerna fjädrar och fyller ut regelkonstruktionen helt</li>
+                <li><strong>Innerväggar</strong> – utmärkt ljudisolering, absorberar ljud i alla frekvenser</li>
+                <li><strong>Snedtak</strong> – sitter kvar utan nät tack vare fibrernas naturliga friktion</li>
+                <li><strong>Vindsbjälklag</strong> – fuktregulerande i den mest utsatta delen av huset</li>
+                <li><strong>Mellanbjälklag</strong> – dämpar stegljud och luftljud effektivt</li>
+                <li><strong>Golv</strong> – fungerar både i krypgrund och bjälklagskonstruktion</li>
               </ul>
               <p className="mt-4">
                 Materialet klipps med vanlig sax, trycks på plats för hand,
-                och kräver <strong>ingen skyddsutrustning</strong> — ingen
+                och kräver <strong>ingen skyddsutrustning</strong> – ingen
                 klåda, inget irriterande damm, ingen skyddsmask. Det gör
                 fårullsisolering till det mest DIY-vänliga isoleringsmaterialet
                 på marknaden.
@@ -324,13 +324,13 @@ export default function VadArFarullsisolering() {
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80"
-                alt="Modernt hus med hållbar profil — investering som håller i 75 år"
+                alt="Modernt hus med hållbar profil – investering som håller i 75 år"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Högre materialpris — men lägre totalkostnad sett över husets livstid
+                Högre materialpris – men lägre totalkostnad sett över husets livstid
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -342,7 +342,7 @@ export default function VadArFarullsisolering() {
               <ul className="mt-3 space-y-1 list-disc list-inside text-foreground/80">
                 <li>Ingen skyddsutrustning vid montering (sparar material och tid)</li>
                 <li><strong>15–25&nbsp;% kortare monteringstid</strong> jämfört med mineralull</li>
-                <li>75 års livslängd utan att sjunka ihop — inget byte under husets livstid</li>
+                <li>75 års livslängd utan att sjunka ihop – inget byte under husets livstid</li>
                 <li>Inga köldbryggor från komprimerad isolering efter 25–30 år</li>
                 <li>Fuktregulerande egenskaper minskar risk för mögel och fuktskador</li>
               </ul>
@@ -366,19 +366,19 @@ export default function VadArFarullsisolering() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Fårullsisolering och hållbarhet — negativt klimatavtryck
+            Fårullsisolering och hållbarhet – negativt klimatavtryck
           </h2>
           <div className="mt-6 flex flex-col md:flex-row md:gap-8 lg:gap-12 md:items-start">
             <div className="md:flex-1 min-w-0">
               <p>
                 50&nbsp;% av ren ulls vikt är biogent kol, bundet från
                 atmosfären via gräset som fåren betar. Varje kilo ull lagrar
-                ungefär <strong>1,8&nbsp;kg CO₂‑ekvivalenter</strong> — kol som
+                ungefär <strong>1,8&nbsp;kg CO₂‑ekvivalenter</strong> – kol som
                 hålls bundet i byggnaden under isoleringens hela livslängd.
               </p>
               <p className="mt-4">
-                Med en tillverkningsenergi på bara 6&nbsp;MJ/kg — en fjärdedel
-                av glasull och en femtondel av polyuretanskum — lagrar
+                Med en tillverkningsenergi på bara 6&nbsp;MJ/kg – en fjärdedel
+                av glasull och en femtondel av polyuretanskum – lagrar
                 fårullsisolering netto mer koldioxid än den släpper ut.
                 Materialet är dessutom <strong>100&nbsp;% biologiskt nedbrytbart</strong>{" "}
                 och kan komposteras när det en dag demonteras.
@@ -398,7 +398,7 @@ export default function VadArFarullsisolering() {
               Vill du veta mer eller beställa fårullsisolering?
             </h2>
             <p className="text-foreground/70 mb-1">
-              I Norden säljer Byeco fårullsisolering från österrikiska Isolena —
+              I Norden säljer Byeco fårullsisolering från österrikiska Isolena –
               Europas ledande tillverkare med över 20&nbsp;års erfarenhet.
               De hjälper dig med beräkningar, val av produkt och har
               30&nbsp;dagars öppet köp.
@@ -435,7 +435,7 @@ export default function VadArFarullsisolering() {
                   Fårullsisolering tillverkas av ren fårull som tvättas, kardas
                   till skivor eller rullar och behandlas med 3–5&nbsp;% borax
                   för brandskydd. Ullen kommer främst från klippning av får vars
-                  ull inte når textilkvalitet — cirka 80&nbsp;% av svensk fårull
+                  ull inte når textilkvalitet – cirka 80&nbsp;% av svensk fårull
                   används idag inte alls. Hela processen är mekanisk och kräver
                   bara 6&nbsp;MJ/kg, jämfört med 26&nbsp;MJ/kg för glasull.
                 </p>
@@ -452,7 +452,7 @@ export default function VadArFarullsisolering() {
                   0,033–0,040&nbsp;W/m·K, jämförbart med stenull
                   (0,034–0,039) och glasull (0,032–0,040). Skillnaden mot
                   mineralull är att fårull behåller sin isoleringsförmåga
-                  även vid fukt — mineralull kan tappa upp till 24 gånger i
+                  även vid fukt – mineralull kan tappa upp till 24 gånger i
                   prestanda vid fuktbelastning.
                 </p>
               </details>
@@ -482,7 +482,7 @@ export default function VadArFarullsisolering() {
                 </summary>
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Ja. Fårullsisolering fungerar i ytterväggar, innerväggar,
-                  mellanbjälklag, snedtak, vindsbjälklag och golv — alltså
+                  mellanbjälklag, snedtak, vindsbjälklag och golv – alltså
                   överallt där du annars skulle använda mineralull. Materialet
                   levereras i standardmått för regelavstånd 450 och
                   600&nbsp;mm och klipps enkelt med vanlig sax.
@@ -532,7 +532,7 @@ export default function VadArFarullsisolering() {
               <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-foreground/60 mt-1">Sju konkreta skäl — från luftrening och brandskydd till 75 års livslängd.</p>
+              <p className="text-foreground/60 mt-1">Sju konkreta skäl – från luftrening och brandskydd till 75 års livslängd.</p>
             </li>
             <li>
               <Link href="/montering" className="link-grow text-lg font-medium text-foreground">

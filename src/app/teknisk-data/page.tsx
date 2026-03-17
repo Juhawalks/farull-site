@@ -5,11 +5,11 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Teknisk data fårullsisolering — lambda, brandklass, µ-värde, certifieringar | Farull.se",
+  title: "Teknisk data fårullsisolering – lambda, brandklass, µ-värde, certifieringar | Farull.se",
   description:
     "Tekniska specifikationer för fårullsisolering: λ 0,033–0,040 W/m·K, Euroclass B-s1,d0, µ-värde 1–2, αw 0,90–1,00. ETA, BBR, natureplus och EPD.",
   openGraph: {
-    title: "Teknisk data fårullsisolering — lambda, brandklass, µ-värde, certifieringar",
+    title: "Teknisk data fårullsisolering – lambda, brandklass, µ-värde, certifieringar",
     description:
       "Tekniska specifikationer: λ 0,033–0,040, Euroclass B-s1,d0, µ-värde 1–2, αw 0,90–1,00. ETA, BBR, natureplus och EPD.",
   },
@@ -27,7 +27,7 @@ export default function TekniskData() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Teknisk data fårullsisolering — lambda, brandklass, µ-värde, certifieringar",
+            headline: "Teknisk data fårullsisolering – lambda, brandklass, µ-värde, certifieringar",
             description:
               "Tekniska specifikationer för fårullsisolering: λ 0,033–0,040 W/m·K, Euroclass B-s1,d0, µ-värde 1–2, αw 0,90–1,00. ETA, BBR, natureplus och EPD.",
             url: "https://farull.se/teknisk-data",
@@ -121,7 +121,7 @@ export default function TekniskData() {
         <ScrollReveal>
           <p className="text-lg text-foreground/90">
             <strong>Fårullsisolering presterar i paritet med
-            mineralull termiskt</strong> — men överträffar den i
+            mineralull termiskt</strong> – men överträffar den i
             fukthantering, luftkvalitet och hållbarhet. Här samlar vi alla
             tekniska specifikationer, certifieringar och BBR-krav du
             behöver för projektering.
@@ -137,13 +137,13 @@ export default function TekniskData() {
         {/* TERMISK PRESTANDA */}
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Termisk prestanda — fårullsisoleringens lambda-värde
+            Termisk prestanda – fårullsisoleringens lambda-värde
           </h2>
           <div className="mt-6">
             <p>
               Fårullens isoleringsförmåga kommer från de stillastående
               luftfickorna som bildas mellan de krusiga fibrerna. Det är
-              luften som isolerar — inte fibern i sig.
+              luften som isolerar – inte fibern i sig.
             </p>
             <div className="overflow-x-auto mt-6">
               <table className="w-full text-left border-collapse">
@@ -175,7 +175,7 @@ export default function TekniskData() {
             </div>
             <p className="mt-4">
               Det som skiljer fårull från mineralull termiskt är inte
-              lambda-värdet — det är att fårull{" "}
+              lambda-värdet – det är att fårull{" "}
               <strong>behåller sin isoleringsförmåga även vid hög
               fukthalt</strong>. Mineralull tappar prestanda redan vid
               1–2&nbsp;% fukthalt.
@@ -186,7 +186,7 @@ export default function TekniskData() {
         {/* BRANDEGENSKAPER */}
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Brandegenskaper — fårullsisolering och Euroclass
+            Brandegenskaper – fårullsisolering och Euroclass
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -198,7 +198,7 @@ export default function TekniskData() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Ull kolnar och självslocknar — sprider inte brand
+                Ull kolnar och självslocknar – sprider inte brand
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -211,7 +211,7 @@ export default function TekniskData() {
                     </tr>
                     <tr className="border-b border-foreground/5">
                       <td className="py-3 pr-4 font-medium text-foreground">Brandklass (DIN)</td>
-                      <td className="py-3">B1/B2 — svårantändligt</td>
+                      <td className="py-3">B1/B2 – svårantändligt</td>
                     </tr>
                     <tr className="border-b border-foreground/5">
                       <td className="py-3 pr-4 font-medium text-foreground">Antändningstemperatur</td>
@@ -227,11 +227,11 @@ export default function TekniskData() {
                     </tr>
                     <tr className="border-b border-foreground/5">
                       <td className="py-3 pr-4 font-medium text-foreground">Giftig rök</td>
-                      <td className="py-3">Nej — ingen giftig rökutveckling</td>
+                      <td className="py-3">Nej – ingen giftig rökutveckling</td>
                     </tr>
                     <tr>
                       <td className="py-3 pr-4 font-medium text-foreground">Flamskyddsmedel</td>
-                      <td className="py-3">Borax (naturligt mineral) — inga kemiska tillsatser</td>
+                      <td className="py-3">Borax (naturligt mineral) – inga kemiska tillsatser</td>
                     </tr>
                   </tbody>
                 </table>
@@ -277,29 +277,29 @@ export default function TekniskData() {
                   </tr>
                   <tr className="border-b border-foreground/5">
                     <td className="py-3 pr-4 font-medium text-foreground">Fuktbuffrande</td>
-                    <td className="py-3">Ja — absorberar och avger fukt efter omgivningens behov</td>
+                    <td className="py-3">Ja – absorberar och avger fukt efter omgivningens behov</td>
                   </tr>
                   <tr className="border-b border-foreground/5">
                     <td className="py-3 pr-4 font-medium text-foreground">Ångspärr</td>
-                    <td className="py-3">Inte alltid nödvändig — beror på konstruktionen</td>
+                    <td className="py-3">Inte alltid nödvändig – beror på konstruktionen</td>
                   </tr>
                   <tr>
                     <td className="py-3 pr-4 font-medium text-foreground">Mögelrisk</td>
-                    <td className="py-3">Mycket låg — keratin motstår mikrobiell nedbrytning</td>
+                    <td className="py-3">Mycket låg – keratin motstår mikrobiell nedbrytning</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <p className="mt-4">
               µ-värdet 1–2 gör fårull till ett av de mest diffusionsöppna
-              isoleringsmaterialen — jämför med EPS (µ&nbsp;=&nbsp;20–100)
+              isoleringsmaterialen – jämför med EPS (µ&nbsp;=&nbsp;20–100)
               och XPS (µ&nbsp;=&nbsp;80–250). Det innebär att fukt passerar
               fritt genom materialet istället för att kondensera inuti
               konstruktionen. Kombinerat med{" "}
               <Link href="/farull" className="text-primary hover:text-primary/80 link-grow">
                 sorptionsvärmen
               </Link>{" "}
-              — som aktivt värmer väggen vid fuktupptagning — gör det
+              – som aktivt värmer väggen vid fuktupptagning – gör det
               fårull idealisk för diffusionsöppna konstruktioner.
             </p>
           </div>
@@ -308,7 +308,7 @@ export default function TekniskData() {
         {/* AKUSTIK */}
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Akustiska egenskaper — fårullens ljudabsorption
+            Akustiska egenskaper – fårullens ljudabsorption
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -345,7 +345,7 @@ export default function TekniskData() {
               <p className="mt-4">
                 Ullens oregelbundna fiberstruktur ger bredbandig
                 ljudabsorption. Den dämpar både stegljud, pratbuller och
-                lågfrekvent infraljud — något som styva
+                lågfrekvent infraljud – något som styva
                 isoleringsmaterial ofta missar.
               </p>
             </div>
@@ -355,7 +355,7 @@ export default function TekniskData() {
         {/* FYSISKA EGENSKAPER */}
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Fysiska egenskaper — densitet, tjocklek och livslängd
+            Fysiska egenskaper – densitet, tjocklek och livslängd
           </h2>
           <div className="mt-6">
             <div className="overflow-x-auto">
@@ -375,11 +375,11 @@ export default function TekniskData() {
                   </tr>
                   <tr className="border-b border-foreground/5">
                     <td className="py-3 pr-4 font-medium text-foreground">Formåterhämtning</td>
-                    <td className="py-3">Mycket god — återtar full tjocklek efter kompression</td>
+                    <td className="py-3">Mycket god – återtar full tjocklek efter kompression</td>
                   </tr>
                   <tr className="border-b border-foreground/5">
                     <td className="py-3 pr-4 font-medium text-foreground">Sättning över tid</td>
-                    <td className="py-3">Minimal — fibrernas naturliga fjädring motverkar kompression</td>
+                    <td className="py-3">Minimal – fibrernas naturliga fjädring motverkar kompression</td>
                   </tr>
                   <tr>
                     <td className="py-3 pr-4 font-medium text-foreground">Livslängd</td>
@@ -394,7 +394,7 @@ export default function TekniskData() {
         {/* LUFTKVALITET */}
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Luftkvalitet och hälsa — fårullens VOC-bindning
+            Luftkvalitet och hälsa – fårullens VOC-bindning
           </h2>
           <div className="mt-6">
             <div className="overflow-x-auto">
@@ -410,7 +410,7 @@ export default function TekniskData() {
                   </tr>
                   <tr className="border-b border-foreground/5">
                     <td className="py-3 pr-4 font-medium text-foreground">Fiberemission</td>
-                    <td className="py-3">Ingen — avger inte irriterande fibrer vid hantering</td>
+                    <td className="py-3">Ingen – avger inte irriterande fibrer vid hantering</td>
                   </tr>
                   <tr>
                     <td className="py-3 pr-4 font-medium text-foreground">Skyddsutrustning</td>
@@ -425,7 +425,7 @@ export default function TekniskData() {
         {/* MILJÖ OCH HÅLLBARHET */}
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Miljö och hållbarhet — fårullsisoleringens klimatprofil
+            Miljö och hållbarhet – fårullsisoleringens klimatprofil
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -446,23 +446,23 @@ export default function TekniskData() {
                   <tbody className="text-sm">
                     <tr className="border-b border-foreground/5">
                       <td className="py-3 pr-4 font-medium text-foreground">CO₂-avtryck</td>
-                      <td className="py-3">Negativt — binder mer koldioxid än tillverkningen genererar</td>
+                      <td className="py-3">Negativt – binder mer koldioxid än tillverkningen genererar</td>
                     </tr>
                     <tr className="border-b border-foreground/5">
                       <td className="py-3 pr-4 font-medium text-foreground">Tillverkningsenergi</td>
-                      <td className="py-3">~15&nbsp;kWh/m³ (~6&nbsp;MJ/kg) — mineralull: ~150–250&nbsp;kWh/m³ (~26&nbsp;MJ/kg)</td>
+                      <td className="py-3">~15&nbsp;kWh/m³ (~6&nbsp;MJ/kg) – mineralull: ~150–250&nbsp;kWh/m³ (~26&nbsp;MJ/kg)</td>
                     </tr>
                     <tr className="border-b border-foreground/5">
                       <td className="py-3 pr-4 font-medium text-foreground">Biogent kol</td>
-                      <td className="py-3">50&nbsp;% av ren ulls vikt — 1&nbsp;kg ull lagrar ~1,8&nbsp;kg CO₂e</td>
+                      <td className="py-3">50&nbsp;% av ren ulls vikt – 1&nbsp;kg ull lagrar ~1,8&nbsp;kg CO₂e</td>
                     </tr>
                     <tr className="border-b border-foreground/5">
                       <td className="py-3 pr-4 font-medium text-foreground">Råvara</td>
-                      <td className="py-3">Förnybar — fåren klipps årligen</td>
+                      <td className="py-3">Förnybar – fåren klipps årligen</td>
                     </tr>
                     <tr className="border-b border-foreground/5">
                       <td className="py-3 pr-4 font-medium text-foreground">Biologiskt nedbrytbar</td>
-                      <td className="py-3">Ja — kan komposteras vid slutet av livscykeln</td>
+                      <td className="py-3">Ja – kan komposteras vid slutet av livscykeln</td>
                     </tr>
                     <tr>
                       <td className="py-3 pr-4 font-medium text-foreground">EU-taxonomi</td>
@@ -581,20 +581,20 @@ export default function TekniskData() {
             </h3>
             <ul className="space-y-3">
               <li>
-                <strong>EN 13162</strong> — Harmoniserad produktstandard
+                <strong>EN 13162</strong> – Harmoniserad produktstandard
                 för mineralullsisolering (tillämpas analogt på fårull
                 i flera EU-länder)
               </li>
               <li>
-                <strong>EN 13501-1</strong> — Brandklassificering
+                <strong>EN 13501-1</strong> – Brandklassificering
                 av byggprodukter (Euroclass-systemet)
               </li>
               <li>
-                <strong>EN 12086</strong> — Bestämning av
+                <strong>EN 12086</strong> – Bestämning av
                 ånggenomsläpplighet (µ-värde)
               </li>
               <li>
-                <strong>EN ISO 354</strong> — Mätning av
+                <strong>EN ISO 354</strong> – Mätning av
                 ljudabsorption i efterklangsrum
               </li>
             </ul>
@@ -628,12 +628,12 @@ export default function TekniskData() {
               <strong>EPD (Environmental Product Declaration)</strong>{" "}
               krävs för beräkning av poäng inom BREEAM och LEED. Flera
               tillverkare har publicerade EPD:er som redovisar
-              livscykelpåverkan från vagga till grav — inklusive det
+              livscykelpåverkan från vagga till grav – inklusive det
               negativa koldioxidavtrycket.
             </p>
 
             <h3 className="font-heading text-lg font-semibold text-foreground mt-8 mb-3">
-              BBR (Boverkets byggregler) — svenska krav
+              BBR (Boverkets byggregler) – svenska krav
             </h3>
             <p>
               BBR ställer krav på brandskydd och energiprestanda.
@@ -706,7 +706,7 @@ export default function TekniskData() {
                   <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
                 </summary>
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
-                  Med boraxbehandling: Euroclass B‑s1,d0 — svårantändlig,
+                  Med boraxbehandling: Euroclass B‑s1,d0 – svårantändlig,
                   minimal rökutveckling, inga brinnande droppar.
                   Antändningstemperatur 560–600&nbsp;°C, mer än dubbelt
                   så hög som trä.

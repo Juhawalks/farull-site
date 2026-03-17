@@ -4,11 +4,11 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Frågor och svar om fårullsisolering — pris, brand, fukt, livslängd | Farull.se",
+  title: "Frågor och svar om fårullsisolering – pris, brand, fukt, livslängd | Farull.se",
   description:
     "12 vanliga frågor om fårullsisolering: pris (150–400 kr/m²), brandklass B-s1,d0, 75 års livslängd, fukthantering 40 %, skadedjur, montering och ROT-avdrag.",
   openGraph: {
-    title: "Frågor och svar om fårullsisolering — pris, brand, fukt, livslängd",
+    title: "Frågor och svar om fårullsisolering – pris, brand, fukt, livslängd",
     description:
       "12 vanliga frågor om fårullsisolering: pris (150–400 kr/m²), brandklass B-s1,d0, 75 års livslängd, fukthantering 40 %, skadedjur, montering och ROT-avdrag.",
   },
@@ -20,33 +20,33 @@ export const metadata: Metadata = {
 const faq: { q: string; aText: string; aJsx: React.ReactNode }[] = [
   {
     q: "Vad kostar fårullsisolering?",
-    aText: "Fårullsisolering kostar ungefär 150–400 kr per m² beroende på tjocklek — 2–3 gånger mer än mineralull. Men totalkalkylen berättar en annan historia: ingen skyddsutrustning, 15–25 % snabbare montering och 75 års livslängd utan byte. Sett över 50 år blir fårull ofta billigare totalt. Ett typiskt småhus (120 m²) kostar ~42 000 kr med fårull mot ~62 500 kr med mineralull inklusive byte.",
-    aJsx: <>Ungefär <strong>150–400&nbsp;kr per m²</strong> beroende på tjocklek — 2–3 gånger mer än mineralull. Men totalkalkylen berättar en annan historia: ingen skyddsutrustning, 15–25&nbsp;% snabbare montering och 75&nbsp;års livslängd utan byte. Sett över 50&nbsp;år blir fårull ofta billigare totalt. Ett typiskt småhus (120&nbsp;m²) kostar ~42&nbsp;000&nbsp;kr med fårull mot ~62&nbsp;500&nbsp;kr med mineralull inklusive byte. <Link href="/pris" className="text-primary hover:text-primary/80 link-grow">Se fullständig prisguide →</Link></>,
+    aText: "Fårullsisolering kostar ungefär 150–400 kr per m² beroende på tjocklek – 2–3 gånger mer än mineralull. Men totalkalkylen berättar en annan historia: ingen skyddsutrustning, 15–25 % snabbare montering och 75 års livslängd utan byte. Sett över 50 år blir fårull ofta billigare totalt. Ett typiskt småhus (120 m²) kostar ~42 000 kr med fårull mot ~62 500 kr med mineralull inklusive byte.",
+    aJsx: <>Ungefär <strong>150–400&nbsp;kr per m²</strong> beroende på tjocklek – 2–3 gånger mer än mineralull. Men totalkalkylen berättar en annan historia: ingen skyddsutrustning, 15–25&nbsp;% snabbare montering och 75&nbsp;års livslängd utan byte. Sett över 50&nbsp;år blir fårull ofta billigare totalt. Ett typiskt småhus (120&nbsp;m²) kostar ~42&nbsp;000&nbsp;kr med fårull mot ~62&nbsp;500&nbsp;kr med mineralull inklusive byte. <Link href="/pris" className="text-primary hover:text-primary/80 link-grow">Se fullständig prisguide →</Link></>,
   },
   {
     q: "Vilken brandklass har fårullsisolering?",
-    aText: "Euroclass B-s1,d0 — svårantändligt material med minimal rökutveckling. Fårull antänds först vid 560–600 °C (jämfört med trä vid 270 °C), kolnar och självslocknar. Den smälter inte och droppar inte brinnande material. Brandskyddet uppnås med enbart naturlig borax — helt utan kemiska flamskyddsmedel.",
-    aJsx: <><strong>Euroclass B‑s1,d0</strong> — svårantändligt material med minimal rökutveckling. Fårull antänds först vid 560–600&nbsp;°C (jämfört med trä vid 270&nbsp;°C), kolnar och självslocknar. Den smälter inte och droppar inte brinnande material. Brandskyddet uppnås med enbart naturlig borax — helt utan kemiska flamskyddsmedel.</>,
+    aText: "Euroclass B-s1,d0 – svårantändligt material med minimal rökutveckling. Fårull antänds först vid 560–600 °C (jämfört med trä vid 270 °C), kolnar och självslocknar. Den smälter inte och droppar inte brinnande material. Brandskyddet uppnås med enbart naturlig borax – helt utan kemiska flamskyddsmedel.",
+    aJsx: <><strong>Euroclass B‑s1,d0</strong> – svårantändligt material med minimal rökutveckling. Fårull antänds först vid 560–600&nbsp;°C (jämfört med trä vid 270&nbsp;°C), kolnar och självslocknar. Den smälter inte och droppar inte brinnande material. Brandskyddet uppnås med enbart naturlig borax – helt utan kemiska flamskyddsmedel.</>,
   },
   {
     q: "Hur länge håller fårullsisolering?",
-    aText: "75 år — certifierat av natureplus. Fårullens disulfidbindningar ger en naturlig elasticitet som gör att materialet behåller sin form och isoleringsförmåga decennium efter decennium. Mineralull kan börja sjunka ihop efter 25–30 år, särskilt i vertikala applikationer som ytterväggar.",
-    aJsx: <><strong>75&nbsp;år</strong> — certifierat av natureplus. Fårullens disulfidbindningar ger en naturlig elasticitet som gör att materialet behåller sin form och isoleringsförmåga decennium efter decennium. Mineralull kan börja sjunka ihop efter 25–30&nbsp;år, särskilt i vertikala applikationer som ytterväggar. <Link href="/teknisk-data" className="text-primary hover:text-primary/80 link-grow">Se teknisk data →</Link></>,
+    aText: "75 år – certifierat av natureplus. Fårullens disulfidbindningar ger en naturlig elasticitet som gör att materialet behåller sin form och isoleringsförmåga decennium efter decennium. Mineralull kan börja sjunka ihop efter 25–30 år, särskilt i vertikala applikationer som ytterväggar.",
+    aJsx: <><strong>75&nbsp;år</strong> – certifierat av natureplus. Fårullens disulfidbindningar ger en naturlig elasticitet som gör att materialet behåller sin form och isoleringsförmåga decennium efter decennium. Mineralull kan börja sjunka ihop efter 25–30&nbsp;år, särskilt i vertikala applikationer som ytterväggar. <Link href="/teknisk-data" className="text-primary hover:text-primary/80 link-grow">Se teknisk data →</Link></>,
   },
   {
     q: "Hur bra isolerar fårull jämfört med mineralull?",
-    aText: "Lambda-värdet är 0,033–0,040 W/m·K — samma intervall som stenull (0,034–0,039) och glasull (0,032–0,040). Termiskt sett ingen praktisk skillnad. Men fårull behåller sin prestanda även vid fuktbelastning — mineralull kan tappa upp till 24 gånger i isoleringsförmåga vid höga fuktnivåer.",
-    aJsx: <>Lambda-värdet är <strong>0,033–0,040&nbsp;W/m·K</strong> — samma intervall som stenull (0,034–0,039) och glasull (0,032–0,040). Termiskt sett ingen praktisk skillnad. Men fårull behåller sin prestanda även vid fuktbelastning — mineralull kan tappa upp till 24 gånger i isoleringsförmåga vid höga fuktnivåer. <Link href="/jamforelse" className="text-primary hover:text-primary/80 link-grow">Se fullständig jämförelse →</Link></>,
+    aText: "Lambda-värdet är 0,033–0,040 W/m·K – samma intervall som stenull (0,034–0,039) och glasull (0,032–0,040). Termiskt sett ingen praktisk skillnad. Men fårull behåller sin prestanda även vid fuktbelastning – mineralull kan tappa upp till 24 gånger i isoleringsförmåga vid höga fuktnivåer.",
+    aJsx: <>Lambda-värdet är <strong>0,033–0,040&nbsp;W/m·K</strong> – samma intervall som stenull (0,034–0,039) och glasull (0,032–0,040). Termiskt sett ingen praktisk skillnad. Men fårull behåller sin prestanda även vid fuktbelastning – mineralull kan tappa upp till 24 gånger i isoleringsförmåga vid höga fuktnivåer. <Link href="/jamforelse" className="text-primary hover:text-primary/80 link-grow">Se fullständig jämförelse →</Link></>,
   },
   {
     q: "Kan fårullsisolering mögla?",
-    aText: "Nej, under normala förhållanden. Fårull absorberar upp till 35–40 % av sin vikt i fukt och släpper ut den igen när luften torkar — den skapar inte förutsättningar för mögel. Dessutom har keratinet naturliga antimikrobiella egenskaper. I extremt fuktiga miljöer utan ventilation kan dock alla organiska material påverkas. Korrekt konstruktion med ventilation är alltid viktigt.",
-    aJsx: <>Nej, under normala förhållanden. Fårull absorberar upp till <strong>35–40&nbsp;%</strong> av sin vikt i fukt och släpper ut den igen när luften torkar — den skapar inte förutsättningar för mögel. Dessutom har keratinet naturliga antimikrobiella egenskaper. I extremt fuktiga miljöer utan ventilation kan dock alla organiska material påverkas. Korrekt konstruktion med ventilation är alltid viktigt.</>,
+    aText: "Nej, under normala förhållanden. Fårull absorberar upp till 35–40 % av sin vikt i fukt och släpper ut den igen när luften torkar – den skapar inte förutsättningar för mögel. Dessutom har keratinet naturliga antimikrobiella egenskaper. I extremt fuktiga miljöer utan ventilation kan dock alla organiska material påverkas. Korrekt konstruktion med ventilation är alltid viktigt.",
+    aJsx: <>Nej, under normala förhållanden. Fårull absorberar upp till <strong>35–40&nbsp;%</strong> av sin vikt i fukt och släpper ut den igen när luften torkar – den skapar inte förutsättningar för mögel. Dessutom har keratinet naturliga antimikrobiella egenskaper. I extremt fuktiga miljöer utan ventilation kan dock alla organiska material påverkas. Korrekt konstruktion med ventilation är alltid viktigt.</>,
   },
   {
     q: "Lockar fårullsisolering skadedjur eller mal?",
-    aText: "Nej. Isoleringsfårull behandlas med 3–5 % borax som skyddar mot mal och andra insekter. Dessutom behålls en viss mängd lanolin i fibrerna, vilket ger ett naturligt skydd. Isoleringsull är inte samma sak som en ulltröja i garderoben — den är behandlad och sitter inbyggd i en konstruktion.",
-    aJsx: <>Nej. Isoleringsfårull behandlas med <strong>3–5&nbsp;% borax</strong> som skyddar mot mal och andra insekter. Dessutom behålls en viss mängd lanolin i fibrerna, vilket ger ett naturligt skydd. Isoleringsull är inte samma sak som en ulltröja i garderoben — den är behandlad och sitter inbyggd i en konstruktion.</>,
+    aText: "Nej. Isoleringsfårull behandlas med 3–5 % borax som skyddar mot mal och andra insekter. Dessutom behålls en viss mängd lanolin i fibrerna, vilket ger ett naturligt skydd. Isoleringsull är inte samma sak som en ulltröja i garderoben – den är behandlad och sitter inbyggd i en konstruktion.",
+    aJsx: <>Nej. Isoleringsfårull behandlas med <strong>3–5&nbsp;% borax</strong> som skyddar mot mal och andra insekter. Dessutom behålls en viss mängd lanolin i fibrerna, vilket ger ett naturligt skydd. Isoleringsull är inte samma sak som en ulltröja i garderoben – den är behandlad och sitter inbyggd i en konstruktion.</>,
   },
   {
     q: "Renar fårullsisolering inomhusluften?",
@@ -55,8 +55,8 @@ const faq: { q: string; aText: string; aJsx: React.ReactNode }[] = [
   },
   {
     q: "Kan jag montera fårullsisolering själv?",
-    aText: "Ja — fårull är det enklaste isoleringsmaterialet att montera själv. Klipp med vanlig sax, tryck på plats mellan reglarna. Ingen mask, inga handskar, ingen specialutbildning. Fibrerna fjädrar och fyller ut hålrummet av sig själva. Monteringen går 15–25 % snabbare än mineralull.",
-    aJsx: <>Ja — fårull är det enklaste isoleringsmaterialet att montera själv. Klipp med vanlig sax, tryck på plats mellan reglarna. Ingen mask, inga handskar, ingen specialutbildning. Fibrerna fjädrar och fyller ut hålrummet av sig själva. Monteringen går <strong>15–25&nbsp;% snabbare</strong> än mineralull. <Link href="/montering" className="text-primary hover:text-primary/80 link-grow">Se monteringsguiden →</Link></>,
+    aText: "Ja – fårull är det enklaste isoleringsmaterialet att montera själv. Klipp med vanlig sax, tryck på plats mellan reglarna. Ingen mask, inga handskar, ingen specialutbildning. Fibrerna fjädrar och fyller ut hålrummet av sig själva. Monteringen går 15–25 % snabbare än mineralull.",
+    aJsx: <>Ja – fårull är det enklaste isoleringsmaterialet att montera själv. Klipp med vanlig sax, tryck på plats mellan reglarna. Ingen mask, inga handskar, ingen specialutbildning. Fibrerna fjädrar och fyller ut hålrummet av sig själva. Monteringen går <strong>15–25&nbsp;% snabbare</strong> än mineralull. <Link href="/montering" className="text-primary hover:text-primary/80 link-grow">Se monteringsguiden →</Link></>,
   },
   {
     q: "Behöver fårullsisolering ångspärr?",
@@ -65,18 +65,18 @@ const faq: { q: string; aText: string; aJsx: React.ReactNode }[] = [
   },
   {
     q: "Kan man använda fårull i våtrum?",
-    aText: "Fårullsisolering rekommenderas inte i direktkontakt med vatten eller i ständigt fuktiga miljöer som badrumsväggar bakom kakel. Men den hanterar normal byggfukt och säsongsvariationer utmärkt — upp till 40 % av sin vikt utan prestandaförlust. I väggar intill våtrum fungerar den bra.",
-    aJsx: <>Fårullsisolering rekommenderas inte i direktkontakt med vatten eller i ständigt fuktiga miljöer som badrumsväggar bakom kakel. Men den hanterar normal byggfukt och säsongsvariationer utmärkt — upp till <strong>40&nbsp;%</strong> av sin vikt utan prestandaförlust. I väggar <em>intill</em> våtrum fungerar den bra.</>,
+    aText: "Fårullsisolering rekommenderas inte i direktkontakt med vatten eller i ständigt fuktiga miljöer som badrumsväggar bakom kakel. Men den hanterar normal byggfukt och säsongsvariationer utmärkt – upp till 40 % av sin vikt utan prestandaförlust. I väggar intill våtrum fungerar den bra.",
+    aJsx: <>Fårullsisolering rekommenderas inte i direktkontakt med vatten eller i ständigt fuktiga miljöer som badrumsväggar bakom kakel. Men den hanterar normal byggfukt och säsongsvariationer utmärkt – upp till <strong>40&nbsp;%</strong> av sin vikt utan prestandaförlust. I väggar <em>intill</em> våtrum fungerar den bra.</>,
   },
   {
     q: "Kan man få ROT-avdrag för fårullsisolering?",
-    aText: "Ja. Montering av isolering i befintliga bostäder berättigar till ROT-avdrag — 30 % av arbetskostnaden, max 50 000 kr per person och år. Det gäller vid renovering, inte nyproduktion. Kontrollera aktuella regler på Skatteverkets webbplats.",
-    aJsx: <>Ja. Montering av isolering i befintliga bostäder berättigar till <strong>ROT-avdrag — 30&nbsp;%</strong> av arbetskostnaden, max 50&nbsp;000&nbsp;kr per person och år. Det gäller vid renovering, inte nyproduktion. <Link href="/pris" className="text-primary hover:text-primary/80 link-grow">Se prisguiden för räkneexempel →</Link></>,
+    aText: "Ja. Montering av isolering i befintliga bostäder berättigar till ROT-avdrag – 30 % av arbetskostnaden, max 50 000 kr per person och år. Det gäller vid renovering, inte nyproduktion. Kontrollera aktuella regler på Skatteverkets webbplats.",
+    aJsx: <>Ja. Montering av isolering i befintliga bostäder berättigar till <strong>ROT-avdrag – 30&nbsp;%</strong> av arbetskostnaden, max 50&nbsp;000&nbsp;kr per person och år. Det gäller vid renovering, inte nyproduktion. <Link href="/pris" className="text-primary hover:text-primary/80 link-grow">Se prisguiden för räkneexempel →</Link></>,
   },
   {
     q: "Var kan jag köpa fårullsisolering i Sverige?",
-    aText: "I Norden säljer Byeco fårullsisolering från österrikiska Isolena — Europas ledande tillverkare med över 20 års erfarenhet. Byeco sitter i Göteborg och Helsingfors, erbjuder fri rådgivning, hjälper med beräkningar och har 30 dagars öppet köp.",
-    aJsx: <>I Norden säljer <a href="https://byeco.se" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 link-grow">Byeco</a> fårullsisolering från österrikiska Isolena — Europas ledande tillverkare med över 20&nbsp;års erfarenhet. Byeco sitter i Göteborg och Helsingfors, erbjuder fri rådgivning, hjälper med beräkningar och har 30&nbsp;dagars öppet köp.</>,
+    aText: "I Norden säljer Byeco fårullsisolering från österrikiska Isolena – Europas ledande tillverkare med över 20 års erfarenhet. Byeco sitter i Göteborg och Helsingfors, erbjuder fri rådgivning, hjälper med beräkningar och har 30 dagars öppet köp.",
+    aJsx: <>I Norden säljer <a href="https://byeco.se" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 link-grow">Byeco</a> fårullsisolering från österrikiska Isolena – Europas ledande tillverkare med över 20&nbsp;års erfarenhet. Byeco sitter i Göteborg och Helsingfors, erbjuder fri rådgivning, hjälper med beräkningar och har 30&nbsp;dagars öppet köp.</>,
   },
 ];
 
@@ -89,7 +89,7 @@ export default function FragorOchSvar() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Frågor och svar om fårullsisolering — pris, brand, fukt, livslängd",
+            headline: "Frågor och svar om fårullsisolering – pris, brand, fukt, livslängd",
             description:
               "12 vanliga frågor om fårullsisolering med raka svar: pris, brandklass, livslängd, fukthantering, skadedjur, montering och ROT-avdrag.",
             url: "https://farull.se/fragor-och-svar",
@@ -137,7 +137,7 @@ export default function FragorOchSvar() {
 
       <ScrollReveal>
         <p className="max-w-3xl font-body text-foreground/80 text-lg leading-relaxed mb-12">
-          <strong>Fårullsisolering väcker frågor — bra frågor.</strong> Här
+          <strong>Fårullsisolering väcker frågor – bra frågor.</strong> Här
           har vi samlat de 12 vanligaste, med raka svar och konkreta siffror.
           Hittar du inte det du söker? Kontakta{" "}
           <a href="https://byeco.se" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 link-grow">
@@ -167,7 +167,7 @@ export default function FragorOchSvar() {
         <aside className="max-w-3xl mt-16 border-l-2 border-accent p-6 bg-primary/5">
           <p className="font-body text-foreground/80 text-base leading-relaxed">
             Hittar du inte svaret du söker? Byeco erbjuder fri rådgivning
-            om fårullsisolering — produktval, beräkningar och
+            om fårullsisolering – produktval, beräkningar och
             konstruktionslösningar. 30&nbsp;dagars öppet köp.{" "}
             <a
               href="https://byeco.se"
@@ -195,7 +195,7 @@ export default function FragorOchSvar() {
               <Link href="/montering" className="link-grow text-lg font-medium text-foreground">
                 Monteringsguide →
               </Link>
-              <p className="text-foreground/60 mt-1">Steg för steg — väggar, tak, golv och vanliga misstag.</p>
+              <p className="text-foreground/60 mt-1">Steg för steg – väggar, tak, golv och vanliga misstag.</p>
             </li>
             <li>
               <Link href="/jamforelse" className="link-grow text-lg font-medium text-foreground">

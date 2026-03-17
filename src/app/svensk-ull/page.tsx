@@ -5,13 +5,13 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Svensk ull — produktion, innovation och framtid | Farull.se",
+  title: "Svensk ull – produktion, innovation och framtid | Farull.se",
   description:
-    "Sverige producerar ~1 000 ton råull per år. Mer än hälften har gått till spillo — men nu växer en svensk ullindustri fram med isolering, fibersand och textil.",
+    "Sverige producerar ~1 000 ton råull per år. Mer än hälften har gått till spillo – men nu växer en svensk ullindustri fram med isolering, fibersand och textil.",
   openGraph: {
-    title: "Svensk ull — produktion, innovation och framtid",
+    title: "Svensk ull – produktion, innovation och framtid",
     description:
-      "Sverige producerar ~1 000 ton råull per år. Mer än hälften har gått till spillo — men nu växer en svensk ullindustri fram med isolering, fibersand och textil.",
+      "Sverige producerar ~1 000 ton råull per år. Mer än hälften har gått till spillo – men nu växer en svensk ullindustri fram med isolering, fibersand och textil.",
   },
   alternates: {
     canonical: "/svensk-ull",
@@ -27,9 +27,9 @@ export default function SvenskUllPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Svensk ull — produktion, innovation och framtid",
+            headline: "Svensk ull – produktion, innovation och framtid",
             description:
-              "Sverige producerar ~1 000 ton råull per år. Mer än hälften har gått till spillo — men nu växer en svensk ullindustri fram med isolering, fibersand och textil.",
+              "Sverige producerar ~1 000 ton råull per år. Mer än hälften har gått till spillo – men nu växer en svensk ullindustri fram med isolering, fibersand och textil.",
             url: "https://farull.se/svensk-ull",
             datePublished: "2025-03-01",
             dateModified: "2026-03-18",
@@ -67,7 +67,7 @@ export default function SvenskUllPage() {
                 name: "Varför har svensk ull inte använts mer?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Svenska får hålls primärt för kött, inte ull. Den svenska ullen är för grov för textilmarknaden som domineras av merinoull. Dessutom har infrastrukturen saknats — tvätterier, kardverk och sorteringsanläggningar. Men grovullen är perfekt för byggisolering och andra tekniska tillämpningar.",
+                  text: "Svenska får hålls primärt för kött, inte ull. Den svenska ullen är för grov för textilmarknaden som domineras av merinoull. Dessutom har infrastrukturen saknats – tvätterier, kardverk och sorteringsanläggningar. Men grovullen är perfekt för byggisolering och andra tekniska tillämpningar.",
                 },
               },
               {
@@ -104,7 +104,7 @@ export default function SvenskUllPage() {
           Svensk ullproduktion
         </p>
         <h1 className="font-heading text-4xl sm:text-5xl font-bold text-foreground mb-8 max-w-3xl">
-          Svensk ull — från spillprodukt till framtidsmaterial
+          Svensk ull – från spillprodukt till framtidsmaterial
         </h1>
       </ScrollReveal>
 
@@ -122,7 +122,7 @@ export default function SvenskUllPage() {
           <p className="text-lg text-foreground/90">
             <strong>Sverige har cirka 600&nbsp;000 får</strong> som producerar
             ungefär 1&nbsp;000 ton råull per år. Mer än hälften har historiskt
-            bränts eller slängts — ull som saknat köpare. Men något håller på
+            bränts eller slängts – ull som saknat köpare. Men något håller på
             att förändras. Svensk ull hittar nya användningsområden, ny
             infrastruktur byggs upp och en hel industri växer fram. Den här
             sidan berättar om var den svenska ullen befinner sig idag och vart
@@ -138,13 +138,13 @@ export default function SvenskUllPage() {
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="/images/farull-4.jpg"
-                alt="Får under klippning — ullen skiljs från kroppen"
+                alt="Får under klippning – ullen skiljs från kroppen"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Klippning av svensk ull — varje tacka ger cirka 4 kg per år
+                Klippning av svensk ull – varje tacka ger cirka 4 kg per år
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -183,7 +183,7 @@ export default function SvenskUllPage() {
               Den viktigaste orsaken är enkel:{" "}
               <strong>svenska får hålls primärt för kött</strong>. Ullen har
               varit en biprodukt utan marknad. Den globala textilmarknaden
-              domineras av merinoull — en finfiber som svenska raser inte
+              domineras av merinoull – en finfiber som svenska raser inte
               producerar. Svensk ull, med sin grövre fiber, har helt enkelt inte
               kunnat konkurrera.
             </p>
@@ -199,7 +199,7 @@ export default function SvenskUllPage() {
               <Link href="/vad-ar-farullsisolering" className="text-primary hover:text-primary/80 link-grow">
                 isoleringsegenskaper
               </Link>{" "}
-              — termiskt, akustiskt och fuktreglerande. Den svenska grovullen är
+              – termiskt, akustiskt och fuktreglerande. Den svenska grovullen är
               med andra ord perfekt för byggisolering.
             </p>
           </div>
@@ -207,19 +207,19 @@ export default function SvenskUllPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Arena Svensk Ull — en ny tid för svensk ull
+            Arena Svensk Ull – en ny tid för svensk ull
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="/images/farull-video.png"
-                alt="Får som klias — svensk fårskötsel i praktiken"
+                alt="Får som klias – svensk fårskötsel i praktiken"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Svensk fårhållning — grunden för en växande ullindustri
+                Svensk fårhållning – grunden för en växande ullindustri
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -227,7 +227,7 @@ export default function SvenskUllPage() {
                 <strong>Arena Svensk Ull</strong> är ett treårigt projekt
                 (2026–2028) med stöd från Tillväxtverket och Västra
                 Götalandsregionen. Syftet är att skapa förutsättningar för en
-                fungerande svensk ullmarknad — från fårgård till färdig produkt.
+                fungerande svensk ullmarknad – från fårgård till färdig produkt.
               </p>
               <p className="mt-4">
                 Projektet arbetar inom fem områden: rådgivning till
@@ -239,7 +239,7 @@ export default function SvenskUllPage() {
               </p>
               <p className="mt-4">
                 En av de viktigaste insatserna är arbetet med en{" "}
-                <strong>svensk ullstandard</strong> — ett gemensamt
+                <strong>svensk ullstandard</strong> – ett gemensamt
                 klassificeringssystem som gör det möjligt att handla med svensk
                 ull på industriell skala. Utan en standard är varje ullflock
                 unik. Med en standard kan ullens egenskaper kommuniceras på ett
@@ -256,7 +256,7 @@ export default function SvenskUllPage() {
           <div className="mt-6">
             <p>
               I Sörforsa utanför Hudiksvall har en modern{" "}
-              <strong>ullstation</strong> etablerats — en ny typ av
+              <strong>ullstation</strong> etablerats – en ny typ av
               infrastruktur för insamling, sortering och kvalitetssäkring av
               svensk ull. Stationen är en av flera satsningar som visar att den
               fysiska kedjan håller på att byggas upp igen.
@@ -272,7 +272,7 @@ export default function SvenskUllPage() {
             <p className="mt-4">
               I Hälsingland planeras nu en storskalig svensk värdekedja som ska
               kunna hantera större volymer. Målet är att skapa kapacitet för att
-              bearbeta en betydande del av den svenska ullen — ull som idag
+              bearbeta en betydande del av den svenska ullen – ull som idag
               saknar en väg till marknaden.
             </p>
           </div>
@@ -312,15 +312,14 @@ export default function SvenskUllPage() {
               </p>
               <p className="mt-4">
                 <strong>Fibersand</strong> för hästsport är en prisbelönad
-                innovation utvecklad av Equestrian Wool Arena AB. Ullfibrer
-                blandas med sand för att skapa en elastisk och dränerad
-                ridbanebotten. Produkten vann ett pris på 50&nbsp;000 kronor i
-                en nationell innovationstävling.
+                innovation. Ullfibrer blandas med sand för att skapa en
+                elastisk och dränerad ridbanebotten som har uppmärksammats
+                i nationella innovationstävlingar.
               </p>
               <p className="mt-4">
-                <strong>Oljeabsorbenter</strong> av ull har testats i ett
-                studentprojekt av Sebastian Fältström — ullen absorberar olja
-                effektivt tack vare lanolinets naturliga fettbindande egenskaper.
+                <strong>Oljeabsorbenter</strong> av ull har testats i flera
+                projekt. Ullen absorberar olja effektivt tack vare lanolinets
+                naturliga fettbindande egenskaper.
                 Dessutom används svensk ull i{" "}
                 <strong>trädgårdspellets</strong> (näringsgivande och
                 fuktreglerande), <strong>skyddshandskar</strong> för industrin
@@ -338,7 +337,7 @@ export default function SvenskUllPage() {
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="/images/farull-5.jpg"
-                alt="Närbild på fåransikte — svensk fårhållning"
+                alt="Närbild på fåransikte – svensk fårhållning"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -380,7 +379,7 @@ export default function SvenskUllPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Framtiden — en helsvensk ullindustri
+            Framtiden – en helsvensk ullindustri
           </h2>
           <div className="mt-6">
             <p>
@@ -388,7 +387,7 @@ export default function SvenskUllPage() {
               <strong>&quot;Svensk ull: Framtidens textil&quot;</strong>{" "}
               (2026–2028) samlar forskare, producenter och företag kring målet
               att bygga en komplett svensk värdekedja för ull. Från klippning
-              till färdig produkt — utan att råvaran lämnar landet.
+              till färdig produkt – utan att råvaran lämnar landet.
             </p>
             <p className="mt-4">
               I Hälsingland planeras en storskalig anläggning som ska kunna
@@ -397,18 +396,17 @@ export default function SvenskUllPage() {
               decennier och en milstolpe för den inhemska ullindustrin.
             </p>
             <p className="mt-4">
-              Intresset för svensk ull syns också i kulturen. Boken{" "}
-              <strong>&quot;Mer ull åt folket&quot;</strong> av Pia Mattzon och
-              Anna Sigge har bidragit till att sprida kunskap om ullens
-              potential till en bredare publik. Budskapet är tydligt: svensk ull
-              är inte en restprodukt — den är ett framtidsmaterial.
+              Intresset för svensk ull syns också i kulturen. Böcker och
+              dokumentärer om svensk ull har bidragit till att sprida kunskap
+              om ullens potential till en bredare publik. Budskapet är tydligt:
+              svensk ull är inte en restprodukt, den är ett framtidsmaterial.
             </p>
             <p className="mt-4">
               Med Arena Svensk Ull, nya ullstationer, innovativa produkter och
               ett växande intresse från både konsumenter och byggindustrin finns
               nu reella förutsättningar för att svensk ull ska gå från
               spillprodukt till premiumråvara. Det som saknas är inte material
-              — det är medvetenhet.
+              – det är medvetenhet.
             </p>
           </div>
         </ScrollReveal>
@@ -445,7 +443,7 @@ export default function SvenskUllPage() {
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Svenska får hålls primärt för kött, inte ull. Ullen är för
                   grov för textilmarknaden som domineras av merinoull. Dessutom
-                  har infrastrukturen saknats — tvätterier, kardverk och
+                  har infrastrukturen saknats – tvätterier, kardverk och
                   sorteringsanläggningar. Men grovullen är perfekt för
                   byggisolering och andra tekniska tillämpningar.
                 </p>
@@ -508,13 +506,13 @@ export default function SvenskUllPage() {
               <Link href="/farull" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårull? →
               </Link>
-              <p className="text-foreground/60 mt-1">Krusighet, keratin och lanolin — fibern som gör allt möjligt.</p>
+              <p className="text-foreground/60 mt-1">Krusighet, keratin och lanolin – fibern som gör allt möjligt.</p>
             </li>
             <li>
               <Link href="/farraser" className="link-grow text-lg font-medium text-foreground">
                 Svenska fårraser →
               </Link>
-              <p className="text-foreground/60 mt-1">Gutefår, Gotlandsfår, Ryafår och Finullsfår — raserna och deras ull.</p>
+              <p className="text-foreground/60 mt-1">Gutefår, Gotlandsfår, Ryafår och Finullsfår – raserna och deras ull.</p>
             </li>
             <li>
               <Link href="/hallbarhet" className="link-grow text-lg font-medium text-foreground">

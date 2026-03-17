@@ -5,11 +5,11 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Fördelar med fårullsisolering — luftrening, fukt, brand och ljud | Farull.se",
+  title: "Fördelar med fårullsisolering – luftrening, fukt, brand och ljud | Farull.se",
   description:
     "Sju fördelar med fårullsisolering: binder formaldehyd på 4 timmar, absorberar 40 % fukt, brandklass B-s1 utan kemikalier, ljudklass A och 75 års livslängd.",
   openGraph: {
-    title: "Fördelar med fårullsisolering — luftrening, fukt, brand och ljud",
+    title: "Fördelar med fårullsisolering – luftrening, fukt, brand och ljud",
     description:
       "Sju fördelar med fårullsisolering: binder formaldehyd på 4 timmar, absorberar 40 % fukt, brandklass B-s1 utan kemikalier, ljudklass A och 75 års livslängd.",
   },
@@ -27,7 +27,7 @@ export default function Fordelar() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Fördelar med fårullsisolering — luftrening, fukt, brand och ljud",
+            headline: "Fördelar med fårullsisolering – luftrening, fukt, brand och ljud",
             description:
               "Sju fördelar med fårullsisolering: binder formaldehyd på 4 timmar, absorberar 40 % fukt, brandklass B-s1 utan kemikalier, ljudklass A och 75 års livslängd.",
             url: "https://farull.se/fordelar",
@@ -102,7 +102,7 @@ export default function Fordelar() {
 
       <Image
         src="/images/farull-6.jpg"
-        alt="Fårflock i snölandskap — ullen skyddar fåren i alla väderförhållanden"
+        alt="Fårflock i snölandskap – ullen skyddar fåren i alla väderförhållanden"
         width={800}
         height={1200}
         priority
@@ -112,7 +112,7 @@ export default function Fordelar() {
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p className="text-lg text-foreground/90">
-            <strong>De flesta isoleringsmaterial gör en sak</strong> — de
+            <strong>De flesta isoleringsmaterial gör en sak</strong> – de
             isolerar termiskt. Fårull gör sju saker samtidigt: renar luft,
             hanterar fukt, motstår eld, dämpar ljud, binder koldioxid, är
             behaglig att arbeta med och håller i 75 år. Här går vi igenom
@@ -134,7 +134,7 @@ export default function Fordelar() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Fårull binder formaldehyd och renar luften i hemmet — effekten varar i 30 år
+                Fårull binder formaldehyd och renar luften i hemmet – effekten varar i 30 år
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -169,7 +169,7 @@ export default function Fordelar() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Fårullens fukthantering — överlägsen prestanda
+            Fårullens fukthantering – överlägsen prestanda
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -181,7 +181,7 @@ export default function Fordelar() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Upp till 40&nbsp;% av sin vikt i fukt — utan att tappa prestanda
+                Upp till 40&nbsp;% av sin vikt i fukt – utan att tappa prestanda
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -190,7 +190,7 @@ export default function Fordelar() {
                 vikt</strong> i fukt utan att förlora isoleringsförmåga. Vid
                 normala inomhusförhållanden (20&nbsp;°C, 65&nbsp;% RH) har ull
                 en standardåterfuktning på 16&nbsp;%. När luften torkar
-                släpper fibern ut fukten igen — en naturlig buffring som
+                släpper fibern ut fukten igen – en naturlig buffring som
                 stabiliserar inomhusklimatet.
               </p>
               <p className="mt-4">
@@ -198,7 +198,7 @@ export default function Fordelar() {
                 <Link href="/farull" className="text-primary hover:text-primary/80 link-grow">
                   sorptionsvärme
                 </Link>{" "}
-                — cirka <strong>1,1&nbsp;kJ per gram absorberad fukt</strong>.
+                – cirka <strong>1,1&nbsp;kJ per gram absorberad fukt</strong>.
                 Det innebär att fårullsisolering aktivt värmer väggen vid
                 fuktiga väderförhållanden. Ullens ånggenomsläpplighet
                 (µ-värde 1–2) gör den dessutom till ett av de mest
@@ -228,19 +228,19 @@ export default function Fordelar() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Ull antänds först vid 560–600&nbsp;°C — kolnar och självslocknar
+                Ull antänds först vid 560–600&nbsp;°C – kolnar och självslocknar
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
                 Fårull är naturligt flamhämmande. Fibern antänds först vid{" "}
-                <strong>560–600&nbsp;°C</strong> — mer än dubbelt så högt som
+                <strong>560–600&nbsp;°C</strong> – mer än dubbelt så högt som
                 trä (270&nbsp;°C). Vid brand kolnar ullen och självslocknar.
                 Den smälter inte, droppar inte brinnande material och sprider
                 inte flamman vidare.
               </p>
               <p className="mt-4">
-                Med boraxbehandling — ett naturligt mineral — uppnår
+                Med boraxbehandling – ett naturligt mineral – uppnår
                 fårullsisolering <strong>Euroclass B‑s1,d0</strong> enligt
                 EN&nbsp;13501‑1. Det innebär: svårantändlig, minimal
                 rökutveckling, inga brinnande droppar. Allt utan kemiska
@@ -261,7 +261,7 @@ export default function Fordelar() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Ljudisolering med fårull — klass A
+            Ljudisolering med fårull – klass A
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -273,7 +273,7 @@ export default function Fordelar() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Ljudabsorptionskoefficient αw 0,90–1,00 — klass A
+                Ljudabsorptionskoefficient αw 0,90–1,00 – klass A
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -281,7 +281,7 @@ export default function Fordelar() {
                 Ullens krusiga fibrer fångar ljudvågor i ett brett
                 frekvensomfång. Mätningar visar en{" "}
                 <strong>ljudabsorptionskoefficient (αw) på
-                0,90–1,00</strong>, vilket motsvarar ljudabsorptionsklass A —
+                0,90–1,00</strong>, vilket motsvarar ljudabsorptionsklass A –
                 den högsta klassen. Vid frekvenser över 2&nbsp;000&nbsp;Hz når
                 absorptionskoefficienten 0,96–0,98.
               </p>
@@ -293,7 +293,7 @@ export default function Fordelar() {
                 </Link>{" "}
                 dämpar allt från steg och samtal till musik och
                 trafikbuller. Ullens ljuddämpning är särskilt effektiv i
-                medel- och högfrekvensområdet — precis de frekvenser som
+                medel- och högfrekvensområdet – precis de frekvenser som
                 upplevs mest störande i bostadsmiljöer.
               </p>
               <p className="mt-4">
@@ -302,7 +302,7 @@ export default function Fordelar() {
                 <Link href="/farull" className="text-primary hover:text-primary/80 link-grow">
                   biologiskt nedbrytbara
                 </Link>{" "}
-                — samma prestanda utan miljöskuld.
+                – samma prestanda utan miljöskuld.
               </p>
             </div>
           </div>
@@ -310,7 +310,7 @@ export default function Fordelar() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Fårull binder koldioxid — negativt klimatavtryck
+            Fårull binder koldioxid – negativt klimatavtryck
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -322,7 +322,7 @@ export default function Fordelar() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                1 kg ull lagrar 1,8 kg CO₂ — negativt klimatavtryck
+                1 kg ull lagrar 1,8 kg CO₂ – negativt klimatavtryck
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -330,19 +330,19 @@ export default function Fordelar() {
                 <strong>50&nbsp;% av ren ulls vikt är biogent kol</strong>,
                 bundet från atmosfären via gräset som fåren betar. Det
                 innebär att varje kilo ull lagrar ungefär{" "}
-                <strong>1,8&nbsp;kg CO₂‑ekvivalenter</strong> — kol som
+                <strong>1,8&nbsp;kg CO₂‑ekvivalenter</strong> – kol som
                 hålls bundet i byggnaden under isoleringens hela livslängd.
               </p>
               <p className="mt-4">
                 Tillverkningen av fårullsisolering kräver cirka{" "}
-                <strong>6&nbsp;MJ per kilo</strong> — en bråkdel av glasull
+                <strong>6&nbsp;MJ per kilo</strong> – en bråkdel av glasull
                 (26&nbsp;MJ/kg) och en femtondel av polyuretanskum
                 (101&nbsp;MJ/kg). Den mekaniska processen (tvätt, kardning,
                 pressning) kräver ingen smältning vid 1&nbsp;400&nbsp;°C.
               </p>
               <p className="mt-4">
                 Netto lagrar fårullsisolering mer koldioxid än den släpper
-                ut under sin livscykel — ett negativt klimatavtryck som få
+                ut under sin livscykel – ett negativt klimatavtryck som få
                 byggmaterial kan matcha.{" "}
                 <Link href="/hallbarhet" className="text-primary hover:text-primary/80 link-grow">
                   Läs mer om hållbarhetsprofilen →
@@ -354,7 +354,7 @@ export default function Fordelar() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Enkel montering — ingen skyddsutrustning
+            Enkel montering – ingen skyddsutrustning
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -366,7 +366,7 @@ export default function Fordelar() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Ingen klåda, inget damm — montering med bara händerna
+                Ingen klåda, inget damm – montering med bara händerna
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -396,7 +396,7 @@ export default function Fordelar() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            75 års livslängd — håller hela husets liv
+            75 års livslängd – håller hela husets liv
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -426,7 +426,7 @@ export default function Fordelar() {
                 Mineralull kan efter 25–30 år börja sjunka ihop, särskilt i
                 vertikala applikationer som ytterväggar. Det leder till
                 köldbryggor och försämrad energiprestanda. Fårull komprimeras
-                inte — fibrerna fjädrar tillbaka.
+                inte – fibrerna fjädrar tillbaka.
               </p>
               <p className="mt-4">
                 Ur ett{" "}

@@ -5,11 +5,11 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Svenska fårraser och deras ull — från Gutefår till Finullsfår | Farull.se",
+  title: "Svenska fårraser och deras ull – från Gutefår till Finullsfår | Farull.se",
   description:
     "Guide till Sveriges fårraser och deras ull. Gutefår, Gotlandsfår, Ryafår, Finullsfår och lantraser. Svensk och global ullproduktion i siffror.",
   openGraph: {
-    title: "Svenska fårraser och deras ull — från Gutefår till Finullsfår",
+    title: "Svenska fårraser och deras ull – från Gutefår till Finullsfår",
     description:
       "Guide till Sveriges fårraser och deras ull. Gutefår, Gotlandsfår, Ryafår, Finullsfår och lantraser. Svensk och global ullproduktion i siffror.",
   },
@@ -27,7 +27,7 @@ export default function FarraserPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Svenska fårraser och deras ull — från Gutefår till Finullsfår",
+            headline: "Svenska fårraser och deras ull – från Gutefår till Finullsfår",
             description:
               "Guide till Sveriges fårraser och deras ull. Gutefår, Gotlandsfår, Ryafår, Finullsfår och lantraser. Svensk och global ullproduktion i siffror.",
             url: "https://farull.se/farraser",
@@ -75,7 +75,7 @@ export default function FarraserPage() {
                 name: "Hur mycket ull produceras i Sverige?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Sverige producerar 1 200–1 800 ton råull per år från cirka 600 000 får. Ungefär 80 % av denna ull bränns eller slängs eftersom den saknar kommersiell avsättning — en outnyttjad resurs med stor potential för bland annat byggisolering.",
+                  text: "Sverige producerar 1 200–1 800 ton råull per år från cirka 600 000 får. Ungefär 80 % av denna ull bränns eller slängs eftersom den saknar kommersiell avsättning – en outnyttjad resurs med stor potential för bland annat byggisolering.",
                 },
               },
               {
@@ -102,7 +102,7 @@ export default function FarraserPage() {
 
       <Image
         src="/images/farull-3.jpg"
-        alt="Klassisk illustration av ledande fårraser — Southdown, Hampshire, Merino med flera"
+        alt="Klassisk illustration av ledande fårraser – Southdown, Hampshire, Merino med flera"
         width={800}
         height={1100}
         priority
@@ -113,7 +113,7 @@ export default function FarraserPage() {
         <ScrollReveal>
           <p className="text-lg text-foreground/90">
             <strong>Sverige har cirka 600&nbsp;000 får</strong> fördelade på
-            runt 20 erkända raser — från urnordiska lantraser med tusenårig
+            runt 20 erkända raser – från urnordiska lantraser med tusenårig
             historia till moderna korsningar. Tillsammans producerar de
             1&nbsp;200–1&nbsp;800 ton råull per år. Men ungefär 80&nbsp;% av
             den ullen bränns eller slängs. På den här sidan går vi igenom
@@ -126,7 +126,7 @@ export default function FarraserPage() {
               fibertjocklek, krusighet och glans
             </Link>{" "}
             varierar enormt. De svenska lantraserna bär ofta en
-            dubbelbeläggning — ett inre lager mjuk underull och ett yttre lager
+            dubbelbeläggning – ett inre lager mjuk underull och ett yttre lager
             grövre täckhår som skyddar mot väta och vind. Det är den
             variationen som gör svensk ull så mångsidig.
           </p>
@@ -134,13 +134,13 @@ export default function FarraserPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Gutefår — Sveriges äldsta fårras
+            Gutefår – Sveriges äldsta fårras
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1661967898208-d90eb31d6223?w=800&q=80"
-                alt="Bagge med stora spiralhorn på naturbete — typisk för primitiva lantraser som Gutefår"
+                alt="Bagge med stora spiralhorn på naturbete – typisk för primitiva lantraser som Gutefår"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -160,7 +160,7 @@ export default function FarraserPage() {
               </p>
               <p className="mt-4">
                 Historiskt användes Gutefårets ull till segelduk, rep och
-                ytterplagg — material som behövde tåla Nordsjöns stormar. På
+                ytterplagg – material som behövde tåla Nordsjöns stormar. På
                 vikingatiden var vadmal (tjockt vävt ulltyg) en handelsvara av
                 sådan betydelse att det användes som valuta på Island.
               </p>
@@ -172,7 +172,7 @@ export default function FarraserPage() {
                 <Link href="/vad-ar-farullsisolering" className="text-primary hover:text-primary/80 link-grow">
                   byggisolering
                 </Link>{" "}
-                — en ny marknad som kan bidra till rasens överlevnad.
+                – en ny marknad som kan bidra till rasens överlevnad.
               </p>
             </div>
           </div>
@@ -180,7 +180,7 @@ export default function FarraserPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Gotlandsfår — den glansiga pälsrasen
+            Gotlandsfår – den glansiga pälsrasen
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -213,7 +213,7 @@ export default function FarraserPage() {
               </p>
               <p className="mt-4">
                 Den lockiga strukturen gör ullen intressant även för akustiska
-                applikationer — lockarna fångar ljud effektivt på ett sätt som
+                applikationer – lockarna fångar ljud effektivt på ett sätt som
                 påminner om kommersiell{" "}
                 <Link href="/anvandningsomraden" className="text-primary hover:text-primary/80 link-grow">
                   ljudisolering
@@ -226,7 +226,7 @@ export default function FarraserPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Ryafår — ullen bakom den svenska ryan
+            Ryafår – ullen bakom den svenska ryan
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -243,7 +243,7 @@ export default function FarraserPage() {
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
-                Namnet kommer av ryorna — de tjocka, luggiga mattor som hängdes
+                Namnet kommer av ryorna – de tjocka, luggiga mattor som hängdes
                 på väggar och lades på golv för värme under den svenska vintern.
                 Ryafårets ull är bland den längsta i Sverige: ofta 15–25&nbsp;cm
                 vid klippning, grov och extremt tålig. Varje djur ger cirka{" "}
@@ -252,8 +252,8 @@ export default function FarraserPage() {
               <p className="mt-4">
                 Liksom Gutefåret har Ryafåret en dubbelbeläggning, men med ännu
                 längre täckhår. Den grova fibern (35–60 mikron) gör ullen
-                idealisk för textila applikationer som kräver slitstyrka —
-                mattor, väskor och utomhustextilier — men för grov för kläder
+                idealisk för textila applikationer som kräver slitstyrka –
+                mattor, väskor och utomhustextilier – men för grov för kläder
                 närmast huden.
               </p>
               <p className="mt-4">
@@ -271,7 +271,7 @@ export default function FarraserPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Finullsfår — Sveriges finaste ull
+            Finullsfår – Sveriges finaste ull
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -289,7 +289,7 @@ export default function FarraserPage() {
             <div className="md:flex-1 min-w-0">
               <p>
                 Producerar den finaste svenska ullen, med fibertjocklek ner mot
-                20–22 mikron — inte långt från merinoull. En relativt modern
+                20–22 mikron – inte långt från merinoull. En relativt modern
                 ras, framavlad för att kombinera nordisk härdighet med en mjukare
                 fiber. Varje djur ger{" "}
                 <strong>2–3&nbsp;kg ull per år</strong>, och den lämpar sig
@@ -299,13 +299,13 @@ export default function FarraserPage() {
                 Finullsfåret har fått en renässans bland svenska ullproducenter
                 som vill erbjuda ett inhemskt alternativ till importerad
                 merinoull. Den mjuka fibern ger plagg som kan bäras direkt mot
-                huden utan att stickas — en egenskap som normalt förknippas med
+                huden utan att stickas – en egenskap som normalt förknippas med
                 dyrare importull.
               </p>
               <p className="mt-4">
                 Från ett isoleringsperspektiv är finullen egentligen för
-                värdefull att använda i väggar. Det är de grövre raserna —
-                Gutefår, Ryafår och crossbred-korsningar — vars ull saknar
+                värdefull att använda i väggar. Det är de grövre raserna –
+                Gutefår, Ryafår och crossbred-korsningar – vars ull saknar
                 textilmarknad och därmed lämpar sig bäst för{" "}
                 <Link href="/vad-ar-farullsisolering" className="text-primary hover:text-primary/80 link-grow">
                   byggisolering
@@ -317,25 +317,25 @@ export default function FarraserPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Fler svenska lantraser — Värmlandsfår, Roslagsfår, Dalaullsfår och Klövsjöfår
+            Fler svenska lantraser – Värmlandsfår, Roslagsfår, Dalaullsfår och Klövsjöfår
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="/images/farull-4.jpg"
-                alt="Får under klippning — ullen skiljs från kroppen"
+                alt="Får under klippning – ullen skiljs från kroppen"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Svenska lantraser på naturbete — varje ras har sin egen ullprofil
+                Svenska lantraser på naturbete – varje ras har sin egen ullprofil
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
                 <strong>Värmlandsfåret</strong> är en medelstor lantras med
-                dubbelbeläggning och ull i varierande färger — vitt, grått,
+                dubbelbeläggning och ull i varierande färger – vitt, grått,
                 brunt och svart. Fibern är medelfin till grov och lämpar sig för
                 tovning och hantverk. Rasen är klassad som uthotad.
               </p>
@@ -348,7 +348,7 @@ export default function FarraserPage() {
               </p>
               <p className="mt-4">
                 <strong>Dalaullsfåret</strong> avlades i Dalarna specifikt för
-                ullkvalitet — det enda svenska lantras som selekterats primärt
+                ullkvalitet – det enda svenska lantras som selekterats primärt
                 för sin ull snarare än kött. Fibern är medelfin (25–30 mikron)
                 med god stapellängd och lämpar sig för garn och textil.
               </p>
@@ -406,13 +406,13 @@ export default function FarraserPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Global ullproduktion — Sverige i ett världsperspektiv
+            Global ullproduktion – Sverige i ett världsperspektiv
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1772215842204-3e5838af499c?w=800&q=80"
-                alt="Får som betar på gröna betesmarker — global ullproduktion"
+                alt="Får som betar på gröna betesmarker – global ullproduktion"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -426,7 +426,7 @@ export default function FarraserPage() {
                 Världen producerar cirka{" "}
                 <strong>2,1 miljoner ton råull per år</strong>.{" "}
                 <strong>Australien</strong> dominerar med ungefär 25&nbsp;% av
-                global produktion — främst högkvalitativ merinoull för
+                global produktion – främst högkvalitativ merinoull för
                 textilmarknaden. <strong>Kina</strong> står för omkring 19&nbsp;%,
                 och <strong>Nya Zeeland</strong> är tredje störst med fokus på
                 crossbred-ull.
@@ -435,7 +435,7 @@ export default function FarraserPage() {
                 Ullmängden per får varierar enormt beroende på ras.
                 Merinobesättningar kan producera <strong>5–13&nbsp;kg per djur
                 och år</strong>, medan köttraser ger 1–4&nbsp;kg. Svenska raser
-                ligger på 2–4&nbsp;kg — lägre volym, men fullt tillräcklig
+                ligger på 2–4&nbsp;kg – lägre volym, men fullt tillräcklig
                 fiberkvalitet för isolering.
               </p>
               <p className="mt-4">
@@ -447,7 +447,7 @@ export default function FarraserPage() {
                 <Link href="/hallbarhet" className="text-primary hover:text-primary/80 link-grow">
                   cirkulär byggisolering
                 </Link>{" "}
-                — istället för att hamna på deponi.
+                – istället för att hamna på deponi.
               </p>
             </div>
           </div>
@@ -482,7 +482,7 @@ export default function FarraserPage() {
               Potentialen är konkret: med 600&nbsp;000 får och
               1&nbsp;200–1&nbsp;800 ton årlig ull räcker den svenska
               produktionen till att isolera{" "}
-              <strong>flera tusen villor per år</strong> — ull som idag till
+              <strong>flera tusen villor per år</strong> – ull som idag till
               stor del går till spillo.
             </p>
           </div>
@@ -533,7 +533,7 @@ export default function FarraserPage() {
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Sverige producerar 1&nbsp;200–1&nbsp;800 ton råull per år från
                   cirka 600&nbsp;000 får. Ungefär 80&nbsp;% av denna ull bränns
-                  eller slängs — en outnyttjad resurs med stor potential för
+                  eller slängs – en outnyttjad resurs med stor potential för
                   bland annat byggisolering.
                 </p>
               </details>

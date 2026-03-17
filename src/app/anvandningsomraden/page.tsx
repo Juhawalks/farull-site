@@ -5,13 +5,13 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Vad kan fårull användas till? 5 områden — från kläder till isolering | Farull.se",
+  title: "Vad kan fårull användas till? 5 områden – från kläder till isolering | Farull.se",
   description:
-    "Fårull används inom textil, inredning, trädgård, akustik och byggisolering. 10 000 års användning — ingen syntetisk fiber matchar ullens kombination av egenskaper.",
+    "Fårull används inom textil, inredning, trädgård, akustik och byggisolering. 10 000 års användning – ingen syntetisk fiber matchar ullens kombination av egenskaper.",
   openGraph: {
-    title: "Vad kan fårull användas till? 5 områden — från kläder till isolering",
+    title: "Vad kan fårull användas till? 5 områden – från kläder till isolering",
     description:
-      "Fårull används inom textil, inredning, trädgård, akustik och byggisolering. 10 000 års användning — ingen syntetisk fiber matchar ullens kombination av egenskaper.",
+      "Fårull används inom textil, inredning, trädgård, akustik och byggisolering. 10 000 års användning – ingen syntetisk fiber matchar ullens kombination av egenskaper.",
   },
   alternates: {
     canonical: "/anvandningsomraden",
@@ -27,9 +27,9 @@ export default function AnvandningsomradenPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Vad kan fårull användas till? 5 områden — från kläder till isolering",
+            headline: "Vad kan fårull användas till? 5 områden – från kläder till isolering",
             description:
-              "Fårull används inom textil, inredning, trädgård, akustik och byggisolering. 10 000 års användning — ingen syntetisk fiber matchar ullens kombination av egenskaper.",
+              "Fårull används inom textil, inredning, trädgård, akustik och byggisolering. 10 000 års användning – ingen syntetisk fiber matchar ullens kombination av egenskaper.",
             url: "https://farull.se/anvandningsomraden",
             datePublished: "2025-03-01",
             dateModified: "2026-03-17",
@@ -75,7 +75,7 @@ export default function AnvandningsomradenPage() {
                 name: "Kan fårull användas i trädgården?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Ja. Ullpellets och ullmattor används som marktäckning i trädgårdar och odlingar. Ullen håller fukten i jorden, förhindrar ogräs och bryter långsamt ner till näring. Keratin innehåller 16 % kväve, samt svavel, fosfor och kalium — mineraler som gynnar växtligheten. Ull absorberar också upp till 30 % mer vatten än sin vikt, vilket minskar behovet av bevattning.",
+                  text: "Ja. Ullpellets och ullmattor används som marktäckning i trädgårdar och odlingar. Ullen håller fukten i jorden, förhindrar ogräs och bryter långsamt ner till näring. Keratin innehåller 16 % kväve, samt svavel, fosfor och kalium – mineraler som gynnar växtligheten. Ull absorberar också upp till 30 % mer vatten än sin vikt, vilket minskar behovet av bevattning.",
                 },
               },
               {
@@ -91,7 +91,7 @@ export default function AnvandningsomradenPage() {
                 name: "Vad är det mest lovande användningsområdet för fårull?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Byggisolering. Fårullsisolering samlar alla ullens unika egenskaper i en produkt: termisk isolering (λ 0,033–0,040 W/m·K), fuktreglering (40 % absorption), luftrening (binder formaldehyd), brandskydd (B-s1,d0) och ljuddämpning (klass A). Dessutom binder den mer koldioxid än den släpper ut vid tillverkning. Cirka 80 % av svensk fårull används idag inte — byggisolering kan ge denna resurs nytt liv.",
+                  text: "Byggisolering. Fårullsisolering samlar alla ullens unika egenskaper i en produkt: termisk isolering (λ 0,033–0,040 W/m·K), fuktreglering (40 % absorption), luftrening (binder formaldehyd), brandskydd (B-s1,d0) och ljuddämpning (klass A). Dessutom binder den mer koldioxid än den släpper ut vid tillverkning. Cirka 80 % av svensk fårull används idag inte – byggisolering kan ge denna resurs nytt liv.",
                 },
               },
             ],
@@ -110,7 +110,7 @@ export default function AnvandningsomradenPage() {
 
       <Image
         src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80"
-        alt="Ullgarn och textilarbete — fårull har använts av människan i över 10 000 år"
+        alt="Ullgarn och textilarbete – fårull har använts av människan i över 10 000 år"
         width={800}
         height={533}
         priority
@@ -120,7 +120,7 @@ export default function AnvandningsomradenPage() {
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p className="text-lg leading-relaxed">
-            <strong>Fårull är en av mänsklighetens äldsta och mest mångsidiga råvaror</strong> —
+            <strong>Fårull är en av mänsklighetens äldsta och mest mångsidiga råvaror</strong> –
             använd i minst 10&nbsp;000 år, från de första filtade plaggen till
             moderna byggisoleringar. Trots alla syntetiska alternativ som dök upp
             under 1900-talet har ingen konstgjord fiber lyckats kopiera{" "}
@@ -131,20 +131,20 @@ export default function AnvandningsomradenPage() {
             antimikrobiell verkan och biologisk nedbrytbarhet. Allt i samma fiber.
           </p>
           <p className="mt-4">
-            Idag används fårull inom fem huvudområden — från det mest traditionella
+            Idag används fårull inom fem huvudområden – från det mest traditionella
             till det mest innovativa.
           </p>
         </ScrollReveal>
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Kläder och textil — ullens mest kända användning
+            Kläder och textil – ullens mest kända användning
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=800&q=80"
-                alt="Ullkläder — merinoull i baslager och grövre ull i kappor"
+                alt="Ullkläder – merinoull i baslager och grövre ull i kappor"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -155,7 +155,7 @@ export default function AnvandningsomradenPage() {
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
-                Det mest traditionella användningsområdet — och fortfarande
+                Det mest traditionella användningsområdet – och fortfarande
                 det största. Merinoull (fiberdiameter 15–24&nbsp;µm) används i
                 baslager och sportplagg tack vare sin mjukhet och förmåga att
                 reglera kroppstemperatur. Grövre ullsorter (25–40&nbsp;µm)
@@ -167,13 +167,13 @@ export default function AnvandningsomradenPage() {
                 upp till <strong>30&nbsp;% fukt utan att kännas blöt</strong>,
                 skyddar mot UV-strålning (UPF&nbsp;30+) och motstår lukt
                 naturligt. Keratinet i ullen har antimikrobiella egenskaper
-                som hämmar bakterietillväxt — därför kan ullplagg användas
+                som hämmar bakterietillväxt – därför kan ullplagg användas
                 betydligt längre mellan tvättar.
               </p>
               <p className="mt-4">
                 Det har gjort ull populärt inom hållbart mode. Färre tvättar
                 betyder lägre energiförbrukning, och när plagget är utslitet
-                är det <strong>100&nbsp;% biologiskt nedbrytbart</strong> —
+                är det <strong>100&nbsp;% biologiskt nedbrytbart</strong> –
                 till skillnad från polyester som tar hundratals år att brytas
                 ner och släpper mikroplast vid varje tvätt.
               </p>
@@ -183,19 +183,19 @@ export default function AnvandningsomradenPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Möbler och inredning — nordisk tradition med moderna tillämpningar
+            Möbler och inredning – nordisk tradition med moderna tillämpningar
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80"
-                alt="Skandinavisk inredning med ulldetaljer — mattor, klädsel och akustikpaneler"
+                alt="Skandinavisk inredning med ulldetaljer – mattor, klädsel och akustikpaneler"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Ullmattor, filtar och akustikpaneler — en nordisk tradition som lever vidare
+                Ullmattor, filtar och akustikpaneler – en nordisk tradition som lever vidare
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -212,14 +212,14 @@ export default function AnvandningsomradenPage() {
                 Ull som inredningsmaterial har flera praktiska fördelar:
               </p>
               <ul className="mt-3 space-y-1 list-disc list-inside text-foreground/80">
-                <li><strong>Brandsäkerhet</strong> — kolnar istället för att smälta och brinna, säkert i offentliga miljöer</li>
-                <li><strong>Slitstyrka</strong> — ullfiber kan böjas 20&nbsp;000 gånger utan att brytas (bomull: 3&nbsp;000)</li>
-                <li><strong>Smuts- och fläckavvisande</strong> — lanolinrester gör ytan naturligt vattenavvisande</li>
-                <li><strong>Luftrening</strong> — ullmattor och textilier binder formaldehyd och VOC ur inomhusluften</li>
+                <li><strong>Brandsäkerhet</strong> – kolnar istället för att smälta och brinna, säkert i offentliga miljöer</li>
+                <li><strong>Slitstyrka</strong> – ullfiber kan böjas 20&nbsp;000 gånger utan att brytas (bomull: 3&nbsp;000)</li>
+                <li><strong>Smuts- och fläckavvisande</strong> – lanolinrester gör ytan naturligt vattenavvisande</li>
+                <li><strong>Luftrening</strong> – ullmattor och textilier binder formaldehyd och VOC ur inomhusluften</li>
               </ul>
               <p className="mt-4">
                 Akustikpaneler i pressfilt av ull blir allt vanligare i kontor och
-                skolor — effektiv ljuddämpning som dessutom renar luften.
+                skolor – effektiv ljuddämpning som dessutom renar luften.
               </p>
             </div>
           </div>
@@ -227,7 +227,7 @@ export default function AnvandningsomradenPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Trädgård och odling — ullens mest förbisedda potential
+            Trädgård och odling – ullens mest förbisedda potential
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -249,15 +249,15 @@ export default function AnvandningsomradenPage() {
                 och jordbruk. Fördelarna är flera:
               </p>
               <ul className="mt-3 space-y-1 list-disc list-inside text-foreground/80">
-                <li><strong>Fukthållning</strong> — absorberar upp till 30&nbsp;% mer vatten än sin vikt, minskar behovet av bevattning</li>
-                <li><strong>Ogräshämning</strong> — ullmattan kväver ogräs utan kemikalier</li>
-                <li><strong>Långsam näringsfrisättning</strong> — keratin innehåller 16&nbsp;% kväve, plus svavel, fosfor och kalium</li>
-                <li><strong>Jordförbättring</strong> — ullen bryter ner på 6–12 månader och förbättrar markstrukturen</li>
+                <li><strong>Fukthållning</strong> – absorberar upp till 30&nbsp;% mer vatten än sin vikt, minskar behovet av bevattning</li>
+                <li><strong>Ogräshämning</strong> – ullmattan kväver ogräs utan kemikalier</li>
+                <li><strong>Långsam näringsfrisättning</strong> – keratin innehåller 16&nbsp;% kväve, plus svavel, fosfor och kalium</li>
+                <li><strong>Jordförbättring</strong> – ullen bryter ner på 6–12 månader och förbättrar markstrukturen</li>
               </ul>
               <p className="mt-4">
                 Spillull som inte håller kvalitetskrav för textil eller isolering
                 får här nytt syfte. Det är cirkulär ekonomi i sin enklaste
-                form — en restprodukt som blir en resurs. Cirka{" "}
+                form – en restprodukt som blir en resurs. Cirka{" "}
                 <strong>80&nbsp;% av svensk fårull</strong> används idag inte alls,
                 och trädgårdsprodukter kan vara en del av lösningen.
               </p>
@@ -267,25 +267,25 @@ export default function AnvandningsomradenPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Akustik och ljuddämpning — naturlig absorption i klass A
+            Akustik och ljuddämpning – naturlig absorption i klass A
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=800&q=80"
-                alt="Akustikbehandlat rum med ullpaneler — ljudabsorptionsklass A"
+                alt="Akustikbehandlat rum med ullpaneler – ljudabsorptionsklass A"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Ullbaserade akustikpaneler — klass A-absorption som är 100 % biologiskt nedbrytbar
+                Ullbaserade akustikpaneler – klass A-absorption som är 100 % biologiskt nedbrytbar
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
-                Fårullens krusiga fibrer — med upp till 30 böjningar per
-                centimeter — gör den till en utmärkt ljudabsorbent. Fibrerna
+                Fårullens krusiga fibrer – med upp till 30 böjningar per
+                centimeter – gör den till en utmärkt ljudabsorbent. Fibrerna
                 fångar ljudvågor i ett brett frekvensomfång
                 (<strong>250–4&nbsp;000&nbsp;Hz</strong>) och omvandlar
                 rörelseenergin till en liten mängd värme.
@@ -308,7 +308,7 @@ export default function AnvandningsomradenPage() {
                 <Link href="/hallbarhet" className="text-primary hover:text-primary/80 link-grow">
                   biologiskt nedbrytbara
                 </Link>. De renar dessutom luften genom att binda formaldehyd och
-                andra VOC — en bonus som inget syntetiskt alternativ erbjuder.
+                andra VOC – en bonus som inget syntetiskt alternativ erbjuder.
               </p>
             </div>
           </div>
@@ -316,19 +316,19 @@ export default function AnvandningsomradenPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Byggisolering — fårullens mest spännande användning
+            Byggisolering – fårullens mest spännande användning
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1704742950992-9815a104820c?w=800&q=80"
-                alt="Fårullsisolering i regelvägg — termisk isolering, luftrening och fuktreglering i ett material"
+                alt="Fårullsisolering i regelvägg – termisk isolering, luftrening och fuktreglering i ett material"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Termisk isolering, luftrening, brandsäkerhet och fuktreglering — allt i ett material
+                Termisk isolering, luftrening, brandsäkerhet och fuktreglering – allt i ett material
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -338,12 +338,12 @@ export default function AnvandningsomradenPage() {
                 prestanda gör fårullsisolering allt samtidigt:
               </p>
               <ul className="mt-3 space-y-1 list-disc list-inside text-foreground/80">
-                <li><strong>Termisk isolering</strong> — λ-värde 0,033–0,040&nbsp;W/m·K, jämförbart med mineralull</li>
-                <li><strong>Fuktreglering</strong> — absorberar 35–40&nbsp;% fukt och frigör sorptionsvärme</li>
-                <li><strong>Luftrening</strong> — binder formaldehyd och VOC permanent (80–87&nbsp;% reduktion)</li>
-                <li><strong>Brandskydd</strong> — Euroclass B‑s1,d0 utan kemiska flamskyddsmedel</li>
-                <li><strong>Ljuddämpning</strong> — absorptionsklass&nbsp;A i alla frekvenser</li>
-                <li><strong>Koldioxidbindning</strong> — lagrar 1,8&nbsp;kg CO₂ per kg ull</li>
+                <li><strong>Termisk isolering</strong> – λ-värde 0,033–0,040&nbsp;W/m·K, jämförbart med mineralull</li>
+                <li><strong>Fuktreglering</strong> – absorberar 35–40&nbsp;% fukt och frigör sorptionsvärme</li>
+                <li><strong>Luftrening</strong> – binder formaldehyd och VOC permanent (80–87&nbsp;% reduktion)</li>
+                <li><strong>Brandskydd</strong> – Euroclass B‑s1,d0 utan kemiska flamskyddsmedel</li>
+                <li><strong>Ljuddämpning</strong> – absorptionsklass&nbsp;A i alla frekvenser</li>
+                <li><strong>Koldioxidbindning</strong> – lagrar 1,8&nbsp;kg CO₂ per kg ull</li>
               </ul>
               <p className="mt-4">
                 Fårullsisolering fungerar i väggar, tak, golv och
@@ -490,7 +490,7 @@ export default function AnvandningsomradenPage() {
                   (40&nbsp;% absorption), luftrening (binder formaldehyd),
                   brandskydd (B‑s1,d0) och ljuddämpning (klass&nbsp;A).
                   Dessutom binder den mer koldioxid än den släpper ut.
-                  Cirka 80&nbsp;% av svensk fårull används idag inte —
+                  Cirka 80&nbsp;% av svensk fårull används idag inte –
                   byggisolering kan ge denna resurs nytt liv.
                 </p>
               </details>
@@ -507,13 +507,13 @@ export default function AnvandningsomradenPage() {
               <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-foreground/60 mt-1">Så tillverkas och fungerar fårullsisolering — från fårrygg till vägg.</p>
+              <p className="text-foreground/60 mt-1">Så tillverkas och fungerar fårullsisolering – från fårrygg till vägg.</p>
             </li>
             <li>
               <Link href="/montering" className="link-grow text-lg font-medium text-foreground">
                 Monteringsguide →
               </Link>
-              <p className="text-foreground/60 mt-1">Steg för steg — så installerar du fårullsisolering utan skyddsutrustning.</p>
+              <p className="text-foreground/60 mt-1">Steg för steg – så installerar du fårullsisolering utan skyddsutrustning.</p>
             </li>
             <li>
               <Link href="/hallbarhet" className="link-grow text-lg font-medium text-foreground">

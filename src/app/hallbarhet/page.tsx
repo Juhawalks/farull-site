@@ -5,11 +5,11 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Hållbarhet och fårullsisolering — koldioxid, LCA, metan och cirkulär ekonomi | Farull.se",
+  title: "Hållbarhet och fårullsisolering – koldioxid, LCA, metan och cirkulär ekonomi | Farull.se",
   description:
     "Fårullsisoleringens klimatprofil: 1 kg ull lagrar 1,8 kg CO₂, embodied energy 6 MJ/kg, 100 % biologiskt nedbrytbar. Metan-frågan, vattenavtryck och EU-taxonomi.",
   openGraph: {
-    title: "Hållbarhet och fårullsisolering — koldioxid, LCA, metan och cirkulär ekonomi",
+    title: "Hållbarhet och fårullsisolering – koldioxid, LCA, metan och cirkulär ekonomi",
     description:
       "Fårullsisoleringens klimatprofil: 1 kg ull lagrar 1,8 kg CO₂, embodied energy 6 MJ/kg, 100 % biologiskt nedbrytbar. Metan-frågan och EU-taxonomi.",
   },
@@ -27,7 +27,7 @@ export default function Hallbarhet() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Hållbarhet och fårullsisolering — koldioxid, LCA, metan och cirkulär ekonomi",
+            headline: "Hållbarhet och fårullsisolering – koldioxid, LCA, metan och cirkulär ekonomi",
             description:
               "Fårullsisoleringens klimatprofil: 1 kg ull lagrar 1,8 kg CO₂, embodied energy 6 MJ/kg, 100 % biologiskt nedbrytbar. Metan-frågan, vattenavtryck och EU-taxonomi.",
             url: "https://farull.se/hallbarhet",
@@ -59,7 +59,7 @@ export default function Hallbarhet() {
                 name: "Hur mycket koldioxid binder fårullsisolering?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "50 % av ren ulls vikt är biogent kol. 1 kg ull lagrar cirka 1,8 kg CO₂-ekvivalenter. Kolet hålls bundet i byggnaden under isoleringens livslängd (75 år). Netto lagrar fårullsisolering mer koldioxid än den släpper ut — ett negativt klimatavtryck.",
+                  text: "50 % av ren ulls vikt är biogent kol. 1 kg ull lagrar cirka 1,8 kg CO₂-ekvivalenter. Kolet hålls bundet i byggnaden under isoleringens livslängd (75 år). Netto lagrar fårullsisolering mer koldioxid än den släpper ut – ett negativt klimatavtryck.",
                 },
               },
               {
@@ -67,7 +67,7 @@ export default function Hallbarhet() {
                 name: "Hur mycket energi krävs för att tillverka fårullsisolering?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Fårullsisolering kräver cirka 6 MJ/kg (15 kWh/m³) — mekanisk tvätt och kardning utan höga temperaturer. Glasull kräver 26 MJ/kg och polyuretanskum 101 MJ/kg, båda med smältning vid 1 400+ °C.",
+                  text: "Fårullsisolering kräver cirka 6 MJ/kg (15 kWh/m³) – mekanisk tvätt och kardning utan höga temperaturer. Glasull kräver 26 MJ/kg och polyuretanskum 101 MJ/kg, båda med smältning vid 1 400+ °C.",
                 },
               },
               {
@@ -75,7 +75,7 @@ export default function Hallbarhet() {
                 name: "Släpper inte får ut metan som är dåligt för klimatet?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Ja, får producerar metan (ca 30 liter/dag). Men ullisoleringens ull kommer från får som redan hålls för köttproduktion — ullen är en biprodukt. Metanutsläppen ska fördelas på alla produkter (kött, mjölk, ull, lanolin). En IWTO-finansierad LCA visar att ansvarsfullt producerad ull närmar sig koldioxidneutralitet när markens kolbindning räknas in.",
+                  text: "Ja, får producerar metan (ca 30 liter/dag). Men ullisoleringens ull kommer från får som redan hålls för köttproduktion – ullen är en biprodukt. Metanutsläppen ska fördelas på alla produkter (kött, mjölk, ull, lanolin). En IWTO-finansierad LCA visar att ansvarsfullt producerad ull närmar sig koldioxidneutralitet när markens kolbindning räknas in.",
                 },
               },
               {
@@ -83,7 +83,7 @@ export default function Hallbarhet() {
                 name: "Är fårullsisolering biologiskt nedbrytbar?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Ja, fårull är 100 % biologiskt nedbrytbar. I fuktig jord bryts ullfibrer ned inom 3–6 månader och frigör kväve, svavel och näringsämnen. Vid rivning kan isoleringen komposteras istället för att deponeras — till skillnad från mineralull och EPS.",
+                  text: "Ja, fårull är 100 % biologiskt nedbrytbar. I fuktig jord bryts ullfibrer ned inom 3–6 månader och frigör kväve, svavel och näringsämnen. Vid rivning kan isoleringen komposteras istället för att deponeras – till skillnad från mineralull och EPS.",
                 },
               },
               {
@@ -121,7 +121,7 @@ export default function Hallbarhet() {
         <ScrollReveal>
           <p className="text-lg text-foreground/90">
             <strong>Fårullsisolering lagrar mer koldioxid än den släpper
-            ut</strong> under sin livscykel — ett negativt klimatavtryck
+            ut</strong> under sin livscykel – ett negativt klimatavtryck
             som få byggmaterial kan matcha. Men hållbarhet handlar om mer
             än koldioxid. Här går vi igenom hela bilden: kolbindning,
             energi, metan, vattenavtryck, biologisk nedbrytning och
@@ -131,7 +131,7 @@ export default function Hallbarhet() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Fårullens kolbindning — negativt klimatavtryck
+            Fårullens kolbindning – negativt klimatavtryck
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -143,7 +143,7 @@ export default function Hallbarhet() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Gräs binder CO₂, fåret gör det till ull — kolet stannar i byggnaden i 75 år
+                Gräs binder CO₂, fåret gör det till ull – kolet stannar i byggnaden i 75 år
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -154,7 +154,7 @@ export default function Hallbarhet() {
                   keratin
                 </Link>{" "}
                 i ullfibern. <strong>50&nbsp;% av ren ulls vikt är biogent
-                kol</strong> — kol som hämtats från nuvarande atmosfäriskt
+                kol</strong> – kol som hämtats från nuvarande atmosfäriskt
                 CO₂, inte från fossila källor.
               </p>
               <p className="mt-4">
@@ -168,7 +168,7 @@ export default function Hallbarhet() {
               </p>
               <p className="mt-4">
                 Netto lagrar fårullsisolering mer koldioxid än den släpper
-                ut under hela sin livscykel — från fårbete till kompostering.
+                ut under hela sin livscykel – från fårbete till kompostering.
                 Det är vad som kallas ett <strong>negativt
                 klimatavtryck</strong>.
               </p>
@@ -178,7 +178,7 @@ export default function Hallbarhet() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Embodied energy — energi vid tillverkning
+            Embodied energy – energi vid tillverkning
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -190,7 +190,7 @@ export default function Hallbarhet() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Mekanisk process utan smältning — en bråkdel av mineralullens energibehov
+                Mekanisk process utan smältning – en bråkdel av mineralullens energibehov
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -222,7 +222,7 @@ export default function Hallbarhet() {
               </ul>
               <p className="mt-4">
                 Fårull kräver alltså mindre än en fjärdedel av den energi
-                som glasull behöver — och en femtondel av
+                som glasull behöver – och en femtondel av
                 polyuretanskummet.
               </p>
             </div>
@@ -231,7 +231,7 @@ export default function Hallbarhet() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Metan-frågan — den vanligaste invändningen
+            Metan-frågan – den vanligaste invändningen
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -243,13 +243,13 @@ export default function Hallbarhet() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Metan är en giltig invändning — men helhetsbilden är mer nyanserad
+                Metan är en giltig invändning – men helhetsbilden är mer nyanserad
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
                 En vanlig och berättigad invändning: får är idisslare och
-                producerar metan — en potent växthusgas. Ett får avger
+                producerar metan – en potent växthusgas. Ett får avger
                 uppskattningsvis <strong>30 liter metan per dag</strong>.
                 Det är ett faktum vi inte vill undvika.
               </p>
@@ -260,7 +260,7 @@ export default function Hallbarhet() {
                 <strong>1. Ullen är en biprodukt.</strong> Fåren som
                 levererar ull till isolering hålls primärt för
                 köttproduktion. Metanutsläppen ska fördelas på{" "}
-                <em>alla</em> produkter — kött, mjölk, ull och lanolin.
+                <em>alla</em> produkter – kött, mjölk, ull och lanolin.
                 Att använda en biprodukt som annars slängs lägger inte
                 till nya utsläpp.
               </p>
@@ -289,7 +289,7 @@ export default function Hallbarhet() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Vattenavtryck — en nyanserad bild
+            Vattenavtryck – en nyanserad bild
           </h2>
           <div className="mt-6">
             <p>
@@ -299,7 +299,7 @@ export default function Hallbarhet() {
             </p>
             <p className="mt-4">
               Av det totala vattenavtrycket är{" "}
-              <strong>87&nbsp;% grönt vatten</strong> — regnvatten som
+              <strong>87&nbsp;% grönt vatten</strong> – regnvatten som
               faller på betesmark och som skulle falla oavsett om det finns
               får eller inte. Ytterligare 12&nbsp;% kommer från
               foderproduktion. Bara <strong>cirka 1&nbsp;%</strong> är
@@ -308,7 +308,7 @@ export default function Hallbarhet() {
             <p className="mt-4">
               Ullbearbetningen (tvätt, färgning) kräver 200–300&nbsp;kg
               vatten per kilo färdigt tyg. Men för isoleringsull är
-              processen enklare — ullen tvättas och kardas, utan
+              processen enklare – ullen tvättas och kardas, utan
               färgningssteg.
             </p>
             <p className="mt-4">
@@ -323,7 +323,7 @@ export default function Hallbarhet() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            200&nbsp;000 ton europeisk spillull — från avfall till resurs
+            200&nbsp;000 ton europeisk spillull – från avfall till resurs
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -363,7 +363,7 @@ export default function Hallbarhet() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Cirkulär livscykel — biologiskt nedbrytbar isolering
+            Cirkulär livscykel – biologiskt nedbrytbar isolering
           </h2>
           <div className="mt-6">
             <p>
@@ -420,7 +420,7 @@ export default function Hallbarhet() {
                 byggnader</strong> stegvis. Byggherrar måste redovisa
                 byggnadens klimatpåverkan under hela livscykeln.
                 Fårullsisoleringens negativa klimatavtryck blir en direkt
-                fördel i dessa beräkningar — varje kilo ull förbättrar
+                fördel i dessa beräkningar – varje kilo ull förbättrar
                 byggnadens totala klimatprofil.
               </p>
               <p className="mt-4">
@@ -468,7 +468,7 @@ export default function Hallbarhet() {
                   <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
                 </summary>
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
-                  Cirka 6&nbsp;MJ/kg — mekanisk tvätt och kardning utan
+                  Cirka 6&nbsp;MJ/kg – mekanisk tvätt och kardning utan
                   höga temperaturer. Glasull kräver 26&nbsp;MJ/kg och
                   polyuretanskum 101&nbsp;MJ/kg.
                 </p>
@@ -482,7 +482,7 @@ export default function Hallbarhet() {
                 </summary>
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Ja, men ullisoleringens ull är en biprodukt från
-                  köttproduktion — ull som annars slängs. Metanutsläppen
+                  köttproduktion – ull som annars slängs. Metanutsläppen
                   fördelas på alla produkter. Forskning visar dessutom
                   att adaptivt bete ökar markens kolbindning med
                   8–30&nbsp;%, och en IWTO-LCA visar att ansvarsfullt
@@ -512,7 +512,7 @@ export default function Hallbarhet() {
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Totalt ~170&nbsp;000 liter/kg, men 87&nbsp;% är
                   regnvatten som faller oavsett. Det blå vattenavtrycket
-                  (faktisk förbrukning) är lågt — får betar på naturligt
+                  (faktisk förbrukning) är lågt – får betar på naturligt
                   bevattnade marker.
                 </p>
               </details>

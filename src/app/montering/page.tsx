@@ -5,13 +5,13 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Montera fårullsisolering — steg-för-steg i väggar, tak och golv | Farull.se",
+  title: "Montera fårullsisolering – steg-för-steg i väggar, tak och golv | Farull.se",
   description:
-    "Komplett monteringsguide för fårullsisolering: verktyg, tillskärning, ytterväggar, snedtak, vindsbjälklag och golv. Ingen skyddsutrustning — klipp med sax, tryck på plats.",
+    "Komplett monteringsguide för fårullsisolering: verktyg, tillskärning, ytterväggar, snedtak, vindsbjälklag och golv. Ingen skyddsutrustning – klipp med sax, tryck på plats.",
   openGraph: {
-    title: "Montera fårullsisolering — steg-för-steg i väggar, tak och golv",
+    title: "Montera fårullsisolering – steg-för-steg i väggar, tak och golv",
     description:
-      "Komplett monteringsguide för fårullsisolering: verktyg, tillskärning, ytterväggar, snedtak, vindsbjälklag och golv. Ingen skyddsutrustning — klipp med sax, tryck på plats.",
+      "Komplett monteringsguide för fårullsisolering: verktyg, tillskärning, ytterväggar, snedtak, vindsbjälklag och golv. Ingen skyddsutrustning – klipp med sax, tryck på plats.",
   },
   alternates: {
     canonical: "/montering",
@@ -27,7 +27,7 @@ export default function Montering() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Montera fårullsisolering — steg-för-steg i väggar, tak och golv",
+            headline: "Montera fårullsisolering – steg-för-steg i väggar, tak och golv",
             description:
               "Komplett monteringsguide för fårullsisolering: verktyg, tillskärning, ytterväggar, snedtak, vindsbjälklag och golv. Ingen skyddsutrustning behövs.",
             url: "https://farull.se/montering",
@@ -53,7 +53,7 @@ export default function Montering() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "HowTo",
-            name: "Montera fårullsisolering — steg för steg",
+            name: "Montera fårullsisolering – steg för steg",
             description: "Så monterar du fårullsisolering i väggar, tak och golv. Ingen skyddsutrustning behövs.",
             totalTime: "PT4H",
             tool: [
@@ -99,7 +99,7 @@ export default function Montering() {
                 name: "Behöver man skyddsutrustning vid montering av fårullsisolering?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Nej. Fårullsisolering kräver ingen skyddsutrustning — ingen mask, inga handskar, ingen skyddsoverall. Materialet kliar inte, dammar inte och avger inga hälsoskadliga fibrer. Det gör fårull till det mest DIY-vänliga isoleringsmaterialet på marknaden och sparar uppskattningsvis 15–25 % av monteringstiden jämfört med mineralull.",
+                  text: "Nej. Fårullsisolering kräver ingen skyddsutrustning – ingen mask, inga handskar, ingen skyddsoverall. Materialet kliar inte, dammar inte och avger inga hälsoskadliga fibrer. Det gör fårull till det mest DIY-vänliga isoleringsmaterialet på marknaden och sparar uppskattningsvis 15–25 % av monteringstiden jämfört med mineralull.",
                 },
               },
               {
@@ -152,13 +152,13 @@ export default function Montering() {
           Guide
         </p>
         <h1 className="font-heading text-4xl sm:text-5xl font-bold text-foreground mb-8 max-w-3xl">
-          Montera fårullsisolering — steg för steg
+          Montera fårullsisolering – steg för steg
         </h1>
       </ScrollReveal>
 
       <Image
         src="/images/farull-video-2.png"
-        alt="Fårklippning — ullen som blir till isolering"
+        alt="Fårklippning – ullen som blir till isolering"
         width={800}
         height={1000}
         priority
@@ -169,13 +169,13 @@ export default function Montering() {
         <ScrollReveal>
           <p className="text-lg leading-relaxed">
             <strong>Montering av fårullsisolering kan beskrivas i tre ord: mät, klipp, tryck.</strong>{" "}
-            Ingen skyddsutrustning behövs — ingen mask, inga handskar, ingen
+            Ingen skyddsutrustning behövs – ingen mask, inga handskar, ingen
             skyddsoverall. Materialet kliar inte, dammar inte och avger inga
             hälsoskadliga fibrer. Det gör{" "}
             <Link href="/vad-ar-farullsisolering" className="text-primary hover:text-primary/80 link-grow">
               fårullsisolering
             </Link>{" "}
-            till det mest DIY-vänliga isoleringsmaterialet på marknaden — och
+            till det mest DIY-vänliga isoleringsmaterialet på marknaden – och
             sparar uppskattningsvis{" "}
             <strong>15–25&nbsp;% av monteringstiden</strong> jämfört med mineralull.
           </p>
@@ -189,7 +189,7 @@ export default function Montering() {
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=800&q=80"
-                alt="Enkla handverktyg — sax och måttband räcker för montering av fårullsisolering"
+                alt="Enkla handverktyg – sax och måttband räcker för montering av fårullsisolering"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -204,10 +204,10 @@ export default function Montering() {
                 inblåsningsmaskin, ingen avancerad utrustning:
               </p>
               <ul className="list-disc pl-6 space-y-2 mt-4">
-                <li><strong>Sax eller brödskniv</strong> — för tillskärning. Vanlig hushållssax fungerar utmärkt, brödskniv för tjockare skivor</li>
-                <li><strong>Måttband</strong> — för att mäta regelavstånd</li>
-                <li><strong>Rak linjal eller bräda</strong> — som guide vid raka snitt</li>
-                <li><strong>Häftpistol</strong> — för att fästa i snedtak (vid behov)</li>
+                <li><strong>Sax eller brödskniv</strong> – för tillskärning. Vanlig hushållssax fungerar utmärkt, brödskniv för tjockare skivor</li>
+                <li><strong>Måttband</strong> – för att mäta regelavstånd</li>
+                <li><strong>Rak linjal eller bräda</strong> – som guide vid raka snitt</li>
+                <li><strong>Häftpistol</strong> – för att fästa i snedtak (vid behov)</li>
               </ul>
               <p className="mt-4">
                 Jämför med mineralull som kräver skyddsmask (P2), handskar,
@@ -221,7 +221,7 @@ export default function Montering() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Grundprincipen — klipp 10–20 mm bredare
+            Grundprincipen – klipp 10–20 mm bredare
           </h2>
           <div className="mt-6">
             <p>
@@ -229,23 +229,23 @@ export default function Montering() {
             </p>
             <ol className="mt-4 space-y-4 list-decimal list-inside text-foreground/80">
               <li>
-                <strong>Mät regelavståndet</strong> — standardmått är 450&nbsp;mm
+                <strong>Mät regelavståndet</strong> – standardmått är 450&nbsp;mm
                 eller 600&nbsp;mm c/c, men mät alltid det faktiska avståndet.
                 Äldre hus kan ha oregelbundna regelavstånd.
               </li>
               <li>
-                <strong>Klipp 10–20&nbsp;mm bredare</strong> — det extra
+                <strong>Klipp 10–20&nbsp;mm bredare</strong> – det extra
                 måttet ger fårullens fibrer utrymme att komprimeras och
                 trycka sig mot reglarna. Resultatet: inga springor, inga
                 köldbryggor.
               </li>
               <li>
-                <strong>Tryck in isoleringen</strong> — fibrerna fjädrar av
+                <strong>Tryck in isoleringen</strong> – fibrerna fjädrar av
                 sig själva och fyller ut hålrummet helt. Ingen fixering behövs
-                i väggar — friktionen håller skivan på plats.
+                i väggar – friktionen håller skivan på plats.
               </li>
               <li>
-                <strong>Kontrollera</strong> — känn efter med handen att
+                <strong>Kontrollera</strong> – känn efter med handen att
                 isoleringen sitter tätt mot reglarna utan springor. Vid
                 ojämna hålrum: stoppa in en extra bit ull.
               </li>
@@ -253,26 +253,26 @@ export default function Montering() {
             <p className="mt-4">
               <strong>Tumregel:</strong> hellre 10&nbsp;mm för brett än
               5&nbsp;mm för smalt. En lätt komprimering skadar inte
-              isoleringen — men en springa skapar en köldbrygga.
+              isoleringen – men en springa skapar en köldbrygga.
             </p>
           </div>
         </ScrollReveal>
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Montering i ytterväggar — den vanligaste applikationen
+            Montering i ytterväggar – den vanligaste applikationen
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80"
-                alt="Ytterväggskonstruktion med regelverk — fårullsisolering klipps bredare och trycks in"
+                alt="Ytterväggskonstruktion med regelverk – fårullsisolering klipps bredare och trycks in"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Klipp 10–20 mm bredare — fibrerna fyller ut och eliminerar köldbryggor
+                Klipp 10–20 mm bredare – fibrerna fyller ut och eliminerar köldbryggor
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -283,24 +283,24 @@ export default function Montering() {
               <ol className="mt-3 space-y-2 list-decimal list-inside text-foreground/80">
                 <li>Mät regelavståndet (vanligtvis 450 eller 600&nbsp;mm c/c)</li>
                 <li>Klipp skivan 10–20&nbsp;mm bredare</li>
-                <li>Tryck in mellan reglarna — fibrerna fjädrar och fyller ut</li>
+                <li>Tryck in mellan reglarna – fibrerna fjädrar och fyller ut</li>
                 <li>Lägg nästa skiva direkt ovanpå utan mellanrum</li>
               </ol>
               <p className="mt-4">
                 <strong>Konstruktionsdetaljer att tänka på:</strong>
               </p>
               <ul className="mt-2 space-y-1 list-disc list-inside text-foreground/80">
-                <li>Vindskyddsskiva på utsidan — normalt med luftspalt bakom fasadmaterialet</li>
-                <li>Ångbroms på insidan — rekommenderas i de flesta konstruktioner (se nedan)</li>
-                <li>Kring fönster och dörrar — fyll alla hålrum noggrant, stoppa in extra bitar vid oregelbundna utrymmen</li>
-                <li>Rör och elledningar — klipp isoleringen runt genomföringar, fårull är lätt att forma</li>
+                <li>Vindskyddsskiva på utsidan – normalt med luftspalt bakom fasadmaterialet</li>
+                <li>Ångbroms på insidan – rekommenderas i de flesta konstruktioner (se nedan)</li>
+                <li>Kring fönster och dörrar – fyll alla hålrum noggrant, stoppa in extra bitar vid oregelbundna utrymmen</li>
+                <li>Rör och elledningar – klipp isoleringen runt genomföringar, fårull är lätt att forma</li>
               </ul>
               <p className="mt-4">
                 Fårullens förmåga att absorbera{" "}
                 <strong>35–40&nbsp;% fukt utan prestandaförlust</strong> gör
                 den särskilt lämpad för ytterväggar, där fuktvandring är en
                 ständig utmaning. Men fukt behöver fortfarande kunna
-                ventileras bort — en luftspalt på utsidan är alltid viktig.
+                ventileras bort – en luftspalt på utsidan är alltid viktig.
               </p>
             </div>
           </div>
@@ -308,19 +308,19 @@ export default function Montering() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Montering i snedtak — lätt material, enkel fixering
+            Montering i snedtak – lätt material, enkel fixering
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1632759145351-1d592919f522?w=800&q=80"
-                alt="Takkonstruktion med takstolar — fårullsisolering sitter med minimal fixering"
+                alt="Takkonstruktion med takstolar – fårullsisolering sitter med minimal fixering"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Låg vikt (20–25 kg/m³) — fårullen sitter bra med häftklamrar eller nät
+                Låg vikt (20–25 kg/m³) – fårullen sitter bra med häftklamrar eller nät
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -330,7 +330,7 @@ export default function Montering() {
                 det:
               </p>
               <ul className="mt-3 space-y-2 list-disc list-inside text-foreground/80">
-                <li>Klipp skivorna 10–20&nbsp;mm bredare — friktionen mot reglarna håller ofta materialet på plats</li>
+                <li>Klipp skivorna 10–20&nbsp;mm bredare – friktionen mot reglarna håller ofta materialet på plats</li>
                 <li>I branta lutningar: fäst med <strong>häftklamrar mot reglarna</strong> eller spåna ett snöre sicksack mellan spikar</li>
                 <li>Alternativt: spänn ett <strong>nät underifrån</strong> (plastnet eller ståltråd) som bäring</li>
               </ul>
@@ -338,12 +338,12 @@ export default function Montering() {
                 Fårullens låga densitet (<strong>20–25&nbsp;kg/m³</strong>,
                 jämfört med mineralull på 25–40&nbsp;kg/m³) gör att den
                 sitter bra med minimal fixering. Materialet sjunker inte ihop
-                med åren tack vare fibrernas naturliga elasticitet — en
+                med åren tack vare fibrernas naturliga elasticitet – en
                 egenskap som är särskilt viktig i snedtak.
               </p>
               <p className="mt-4">
                 Ventilation under takpannor/takplåt och en luftspalt mellan
-                isoleringen och undertaket är standard — samma som med
+                isoleringen och undertaket är standard – samma som med
                 mineralull.
               </p>
             </div>
@@ -352,19 +352,19 @@ export default function Montering() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Montering i vindsbjälklag — enklast av alla
+            Montering i vindsbjälklag – enklast av alla
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1513467535987-db81bc0d11f6?w=800&q=80"
-                alt="Öppet vindsutrymme — fårullsisolering läggs direkt på bjälklaget"
+                alt="Öppet vindsutrymme – fårullsisolering läggs direkt på bjälklaget"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Lägg skivorna direkt på bjälklaget — fårull hanterar fukten naturligt
+                Lägg skivorna direkt på bjälklaget – fårull hanterar fukten naturligt
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -374,12 +374,12 @@ export default function Montering() {
                 bjälkarna:
               </p>
               <ul className="mt-3 space-y-2 list-disc list-inside text-foreground/80">
-                <li><strong>Första lagret</strong> — mellan bjälkarna, klippt 10–20&nbsp;mm bredare</li>
-                <li><strong>Andra lagret</strong> — tvärs över bjälkarna för att eliminera köldbryggor vid träregel</li>
+                <li><strong>Första lagret</strong> – mellan bjälkarna, klippt 10–20&nbsp;mm bredare</li>
+                <li><strong>Andra lagret</strong> – tvärs över bjälkarna för att eliminera köldbryggor vid träregel</li>
                 <li>Totalt rekommenderas minst <strong>300–400&nbsp;mm</strong> isoleringstjocklek för att uppfylla BBR-krav</li>
               </ul>
               <p className="mt-4">
-                Vinden är husets mest fuktutsatta plats —
+                Vinden är husets mest fuktutsatta plats –
                 temperaturskillnader och fuktdrivande tryck är som störst
                 här. Fårullens förmåga att{" "}
                 <Link href="/fordelar" className="text-primary hover:text-primary/80 link-grow">
@@ -398,19 +398,19 @@ export default function Montering() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Montering i golv och mellanbjälklag — termisk och akustisk isolering
+            Montering i golv och mellanbjälklag – termisk och akustisk isolering
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=800&q=80"
-                alt="Golvkonstruktion med reglar — fårull ger termisk och akustisk isolering"
+                alt="Golvkonstruktion med reglar – fårull ger termisk och akustisk isolering"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Fårull i mellanbjälklag — dämpar stegljud och luftljud effektivt
+                Fårull i mellanbjälklag – dämpar stegljud och luftljud effektivt
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -425,9 +425,9 @@ export default function Montering() {
                 </Link>.
               </p>
               <ul className="mt-3 space-y-2 list-disc list-inside text-foreground/80">
-                <li><strong>Golv mot krypgrund</strong> — klipp och lägg mellan golvreglarna. Fårullens fukttålighet är en fördel i fuktiga krypgrunder</li>
-                <li><strong>Mellanbjälklag</strong> — fokus på ljuddämpning. Dämpar både stegljud (via massa) och luftburet ljud (via absorption)</li>
-                <li><strong>Innerväggar</strong> — samma princip, primärt för ljudisolering mellan rum</li>
+                <li><strong>Golv mot krypgrund</strong> – klipp och lägg mellan golvreglarna. Fårullens fukttålighet är en fördel i fuktiga krypgrunder</li>
+                <li><strong>Mellanbjälklag</strong> – fokus på ljuddämpning. Dämpar både stegljud (via massa) och luftburet ljud (via absorption)</li>
+                <li><strong>Innerväggar</strong> – samma princip, primärt för ljudisolering mellan rum</li>
               </ul>
               <p className="mt-4">
                 Tips: i mellanbjälklag kan du kombinera fårull med elastiska
@@ -439,7 +439,7 @@ export default function Montering() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Ångspärr eller ångbroms — vad behövs?
+            Ångspärr eller ångbroms – vad behövs?
           </h2>
           <div className="mt-6">
             <p>
@@ -449,18 +449,18 @@ export default function Montering() {
             </p>
             <ul className="mt-4 space-y-3 list-none">
               <li>
-                <strong>Variabel ångbroms (rekommenderas)</strong> — en
+                <strong>Variabel ångbroms (rekommenderas)</strong> – en
                 fuktvariabel folie som släpper igenom mer fukt när det är
                 torrt och stänger till vid hög fuktnivå. Fungerar optimalt
                 tillsammans med fårullens egna fuktbuffrande egenskaper.
               </li>
               <li className="mt-3">
-                <strong>Tät ångspärr (traditionell)</strong> — fungerar men
+                <strong>Tät ångspärr (traditionell)</strong> – fungerar men
                 utnyttjar inte fårullens fulla potential. Förhindrar fuktvandring
                 helt, vilket kan vara motiverat i extrema klimatzoner.
               </li>
               <li className="mt-3">
-                <strong>Utan ångspärr</strong> — möjligt i vissa
+                <strong>Utan ångspärr</strong> – möjligt i vissa
                 konstruktioner (t.ex. innerväggar, mellanbjälklag) men kräver
                 fuktsimulering för att verifiera. Kontakta alltid en
                 konstruktör.
@@ -481,42 +481,42 @@ export default function Montering() {
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1507206130118-b5907f817163?w=800&q=80"
-                alt="Noggrant isoleringsarbete — undvik springor och komprimering"
+                alt="Noggrant isoleringsarbete – undvik springor och komprimering"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Hellre för brett än för smalt — och komprimera aldrig materialet
+                Hellre för brett än för smalt – och komprimera aldrig materialet
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
               <ul className="space-y-4 mt-2">
                 <li>
-                  <strong>Klipp inte för smalt</strong> — en springa på bara
+                  <strong>Klipp inte för smalt</strong> – en springa på bara
                   5&nbsp;mm skapar en köldbrygga. Hellre 10–20&nbsp;mm för
                   brett. Fibrerna komprimeras lätt utan att tappa
                   isoleringsförmåga.
                 </li>
                 <li>
-                  <strong>Komprimera inte materialet kraftigt</strong> —
+                  <strong>Komprimera inte materialet kraftigt</strong> –
                   isoleringen fungerar tack vare luftfickorna i fibrerna.
                   Lätt komprimering (10–20&nbsp;mm) är OK, men att pressa ner
                   en 145&nbsp;mm skiva till 95&nbsp;mm halverar prestandan.
                 </li>
                 <li>
-                  <strong>Glöm inte ventilation</strong> — fårull hanterar
+                  <strong>Glöm inte ventilation</strong> – fårull hanterar
                   fukt bättre än alla syntetiska alternativ, men fukt behöver
                   fortfarande kunna ventileras bort. Luftspalt på utsidan av
                   ytterväggar och under tak är alltid viktig.
                 </li>
                 <li>
-                  <strong>Lämna inte hålrum kring fönster och dörrar</strong> —
+                  <strong>Lämna inte hålrum kring fönster och dörrar</strong> –
                   fyll noggrant runt karm och regel. Fårull är lätt att riva
                   av i mindre bitar och stoppa in i oregelbundna utrymmen.
                 </li>
                 <li>
-                  <strong>Förvara torrt</strong> — fårull kan absorbera
+                  <strong>Förvara torrt</strong> – fårull kan absorbera
                   mycket fukt, men leverera den inte genomblöt. Förvara
                   inomhus eller under tak innan montering.
                 </li>
@@ -562,7 +562,7 @@ export default function Montering() {
                   <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
                 </summary>
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
-                  Nej. Fårullsisolering kräver ingen skyddsutrustning —
+                  Nej. Fårullsisolering kräver ingen skyddsutrustning –
                   ingen mask, inga handskar, ingen skyddsoverall. Materialet
                   kliar inte, dammar inte och avger inga hälsoskadliga
                   fibrer. Det sparar uppskattningsvis 15–25&nbsp;% av
@@ -605,7 +605,7 @@ export default function Montering() {
                 </summary>
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Det beror på konstruktionen. En variabel ångbroms
-                  rekommenderas i de flesta ytterväggar och tak — den
+                  rekommenderas i de flesta ytterväggar och tak – den
                   samarbetar optimalt med fårullens fuktbuffrande egenskaper.
                   Tät ångspärr fungerar men utnyttjar inte fårullens fulla
                   potential. Kontakta Byeco för fri rådgivning.
@@ -653,13 +653,13 @@ export default function Montering() {
               <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-foreground/60 mt-1">Bakgrunden till materialet du monterar — tillverkning och funktion.</p>
+              <p className="text-foreground/60 mt-1">Bakgrunden till materialet du monterar – tillverkning och funktion.</p>
             </li>
             <li>
               <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-foreground/60 mt-1">Sju skäl att välja ull — från luftrening till 75 års livslängd.</p>
+              <p className="text-foreground/60 mt-1">Sju skäl att välja ull – från luftrening till 75 års livslängd.</p>
             </li>
             <li>
               <Link href="/pris" className="link-grow text-lg font-medium text-foreground">

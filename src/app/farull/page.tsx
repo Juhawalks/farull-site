@@ -67,7 +67,7 @@ export default function FarullPage() {
                 name: "Hur mycket fukt kan fårull absorbera?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Fårull kan ta upp 35–40 % av sin egen vikt i fukt utan att kännas våt. Vid absorption frigörs sorptionsvärme — cirka 1,1 kJ per gram fukt — vilket gör att ullen aktivt värmer när den tar upp fukt.",
+                  text: "Fårull kan ta upp 35–40 % av sin egen vikt i fukt utan att kännas våt. Vid absorption frigörs sorptionsvärme – cirka 1,1 kJ per gram fukt – vilket gör att ullen aktivt värmer när den tar upp fukt.",
                 },
               },
               {
@@ -138,13 +138,13 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Fårullens kemi — keratin och disulfidbindningar
+            Fårullens kemi – keratin och disulfidbindningar
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="/images/farull-1.jpg"
-                alt="Ullfibrens anatomi — keratin, cortex, kutikula och protofibriller"
+                alt="Ullfibrens anatomi – keratin, cortex, kutikula och protofibriller"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -183,7 +183,7 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Ullens krusighet — nyckeln till isolering
+            Ullens krusighet – nyckeln till isolering
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -218,7 +218,7 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Tovning av fårull — hur fibrer låser sig
+            Tovning av fårull – hur fibrer låser sig
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -236,7 +236,7 @@ export default function FarullPage() {
             <div className="md:flex-1 min-w-0">
               <p>
                 En av ullens mest fascinerande egenskaper är dess förmåga att tova.
-                Ullens kutikula — det yttre fjällskiktet — har fjäll som
+                Ullens kutikula – det yttre fjällskiktet – har fjäll som
                 överlappar som tegelpannor på ett tak, alla riktade från rot till
                 spets. Det skapar vad forskare kallar <em>directional friction
                 effect</em>: mer friktion i en riktning än den andra.
@@ -246,7 +246,7 @@ export default function FarullPage() {
                 fibrerna och fjällen reser sig. Fibrer som rör sig hakar i
                 varandras fjäll som en spärrhake. Nya vätebindningar bildas
                 mellan fibrerna och låser dem i ett kompakt nätverk. Processen
-                är irreversibel — väl tovad ull kan inte tovas upp igen.
+                är irreversibel – väl tovad ull kan inte tovas upp igen.
               </p>
               <p className="mt-4">
                 Tovning har använts i tusentals år för att skapa filt, hattar
@@ -286,7 +286,7 @@ export default function FarullPage() {
               </p>
               <p className="mt-4">
                 När vattenmolekylerna absorberas av keratinet frigörs värme i en
-                exoterm reaktion — den så kallade <strong>sorptionsvärmen</strong>.
+                exoterm reaktion – den så kallade <strong>sorptionsvärmen</strong>.
                 Forskning visar att ull frigör cirka <strong>1,1&nbsp;kJ värme per
                 gram absorberad fukt</strong>. I praktiken innebär det att 1&nbsp;kg
                 torr ull som placeras i fuktig luft avger ungefär lika mycket
@@ -306,7 +306,7 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Tre typer av fårull — merino, crossbred och grovull
+            Tre typer av fårull – merino, crossbred och grovull
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -318,7 +318,7 @@ export default function FarullPage() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Olika djur, olika ull — från lamm till merino och alpaca
+                Olika djur, olika ull – från lamm till merino och alpaca
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -350,13 +350,13 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Lanolin — fårullens naturliga skyddsvax
+            Lanolin – fårullens naturliga skyddsvax
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="/images/farull-video.png"
-                alt="Får som klias — lanolinets fettskikt känns tydligt i ullen"
+                alt="Får som klias – lanolinets fettskikt känns tydligt i ullen"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -376,7 +376,7 @@ export default function FarullPage() {
               <p className="mt-4">
                 Lanolin är också en värdefull biprodukt i sig. Det används i
                 hudvård, läkemedel och smörjmedel. Kemiskt är lanolin en komplex
-                blandning av vaxestrar, fettsyror och alkoholer — inte ett
+                blandning av vaxestrar, fettsyror och alkoholer – inte ett
                 vanligt fett, utan ett vax som smälter vid hudtemperatur. Det är
                 anledningen till att lanolin är så effektivt i hudvårdsprodukter
                 och varför det ger ullfibern ett naturligt vattenavvisande skikt.
@@ -393,7 +393,7 @@ export default function FarullPage() {
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1642752054841-23ca828680d1?w=800&q=80"
-                alt="Närbild på vit fårull — naturligt motståndskraftig mot bakterier"
+                alt="Närbild på vit fårull – naturligt motståndskraftig mot bakterier"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -408,14 +408,14 @@ export default function FarullPage() {
                 Verkligheten är mer nyanserad: ullens hydrofoba ytskikt skapar
                 en miljö där bakterier trivs dåligt. Istället för att föröka sig
                 fritt fastnar bakterierna på fiberytan och lyfts bort från huden
-                — ungefär som en mjuk skrubbing vid varje rörelse.
+                – ungefär som en mjuk skrubbing vid varje rörelse.
               </p>
               <p className="mt-4">
                 Vad ull däremot gör exceptionellt bra är att{" "}
                 <strong>binda luktmolekyler kemiskt</strong>. Forskning från
                 AgResearch i Nya Zeeland visar att ullens reaktiva aminosyragrupper
                 permanent binder de ämnen som orsakar lukt. Det förklarar varför
-                ullplagg luktar mindre än syntetiska efter en dag — och varför{" "}
+                ullplagg luktar mindre än syntetiska efter en dag – och varför{" "}
                 <Link href="/fordelar" className="text-primary hover:text-primary/80 link-grow">
                   fårullsisolering renar inomhusluften
                 </Link>{" "}
@@ -455,7 +455,7 @@ export default function FarullPage() {
                 keratinproteinet, samt naturliga pigment i fibern. Mörkare ull
                 ger betydligt högre skydd. Det är en av anledningarna till att
                 fårets egen päls skyddar det effektivt mot intensiv sol, och
-                varför ullplagg är populära inom friluftsliv — de ger ett
+                varför ullplagg är populära inom friluftsliv – de ger ett
                 inbyggt solskydd som syntetiska fibrer saknar.
               </p>
             </div>
@@ -517,13 +517,13 @@ export default function FarullPage() {
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="/images/farull-video-2.png"
-                alt="Fårklippning pågår — ullen tas tillvara för vidare bearbetning"
+                alt="Fårklippning pågår – ullen tas tillvara för vidare bearbetning"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Fårklippning — första steget mot byggisolering
+                Fårklippning – första steget mot byggisolering
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -535,12 +535,12 @@ export default function FarullPage() {
                 för extra brandskydd. Alla naturliga egenskaper finns kvar.
               </p>
               <p className="mt-4">
-                Att isolera ett helt svenskt hus — väggar, tak och golv —
+                Att isolera ett helt svenskt hus – väggar, tak och golv –
                 kräver den årliga ullklippet från ungefär 150–300 får, beroende
                 på husets storlek och isoleringstjocklek. Det sätter ullens
                 potential i perspektiv: med cirka 600&nbsp;000 får i Sverige
                 finns det tillräckligt med ull för att isolera tusentals hus
-                varje år — ull som idag till stor del går till spillo.
+                varje år – ull som idag till stor del går till spillo.
               </p>
               <p className="mt-4">
                 <Link href="/vad-ar-farullsisolering" className="text-primary hover:text-primary/80 link-grow">
@@ -583,8 +583,8 @@ export default function FarullPage() {
                 </summary>
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Fårull kan ta upp 35–40&nbsp;% av sin egen vikt i fukt utan att
-                  kännas våt. Vid absorption frigörs sorptionsvärme — cirka 1,1&nbsp;kJ
-                  per gram fukt — vilket gör att ullen aktivt värmer när den tar upp
+                  kännas våt. Vid absorption frigörs sorptionsvärme – cirka 1,1&nbsp;kJ
+                  per gram fukt – vilket gör att ullen aktivt värmer när den tar upp
                   fukt. Vid standardförhållanden (20&nbsp;°C, 65&nbsp;% RH) har ull
                   en återfuktning på 16&nbsp;%.
                 </p>
@@ -626,7 +626,7 @@ export default function FarullPage() {
                   <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
                 </summary>
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
-                  Merinoull (under 20 mikron) är extremt fin och mjuk — perfekt
+                  Merinoull (under 20 mikron) är extremt fin och mjuk – perfekt
                   för kläder närmast huden. Crossbred-ull (25–35 mikron) är
                   starkare och används i mattor och möbeltyger. Grovull (över
                   35 mikron) från lantraser som Gutefåret är tålig och lämpar

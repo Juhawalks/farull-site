@@ -5,11 +5,11 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Fårklippning — från fårrygg till råvara | Farull.se",
+  title: "Fårklippning – från fårrygg till råvara | Farull.se",
   description:
     "Allt om fårklippning: varför får klipps, hur processen går till, ullens kvalitet och vad som händer med ullen efteråt. 2–4 kg ull per djur och år.",
   openGraph: {
-    title: "Fårklippning — från fårrygg till råvara",
+    title: "Fårklippning – från fårrygg till råvara",
     description:
       "Allt om fårklippning: varför får klipps, hur processen går till, ullens kvalitet och vad som händer med ullen efteråt. 2–4 kg ull per djur och år.",
   },
@@ -27,7 +27,7 @@ export default function FarklippningPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Fårklippning — från fårrygg till råvara",
+            headline: "Fårklippning – från fårrygg till råvara",
             description:
               "Allt om fårklippning: varför får klipps, hur processen går till, ullens kvalitet och vad som händer med ullen efteråt. 2–4 kg ull per djur och år.",
             url: "https://farull.se/farklippning",
@@ -59,7 +59,7 @@ export default function FarklippningPage() {
                 name: "Hur ofta klipps ett får?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "De flesta svenska får klipps 1–2 gånger per år — vanligtvis på våren innan sommarvärmen och ibland även på hösten. Exakt frekvens beror på ras och ulltyp. Merinofår med tät ull behöver klippas minst en gång per år, medan vissa pälsraser fäller naturligt.",
+                  text: "De flesta svenska får klipps 1–2 gånger per år – vanligtvis på våren innan sommarvärmen och ibland även på hösten. Exakt frekvens beror på ras och ulltyp. Merinofår med tät ull behöver klippas minst en gång per år, medan vissa pälsraser fäller naturligt.",
                 },
               },
               {
@@ -67,7 +67,7 @@ export default function FarklippningPage() {
                 name: "Gör det ont för fåret att klippas?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Nej, fårklippning gör inte ont. Det kan jämföras med en hårklippning — klipparen skär ullen nära huden utan att skada den. Får kan bli stressade av hanteringen, men en erfaren klippare arbetar lugnt och effektivt så att proceduren tar 3–5 minuter per djur.",
+                  text: "Nej, fårklippning gör inte ont. Det kan jämföras med en hårklippning – klipparen skär ullen nära huden utan att skada den. Får kan bli stressade av hanteringen, men en erfaren klippare arbetar lugnt och effektivt så att proceduren tar 3–5 minuter per djur.",
                 },
               },
               {
@@ -75,7 +75,7 @@ export default function FarklippningPage() {
                 name: "Hur mycket ull ger ett får per klippning?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Ett svenskt får ger i genomsnitt 2–4 kg ull per klippning. Mängden varierar med ras — Finullsfår ger 2–3 kg, Gotlandsfår 2–4 kg och Gutefår 1,5–2,5 kg. Merinobesättningar i andra länder kan ge upp till 5–13 kg per djur.",
+                  text: "Ett svenskt får ger i genomsnitt 2–4 kg ull per klippning. Mängden varierar med ras – Finullsfår ger 2–3 kg, Gotlandsfår 2–4 kg och Gutefår 1,5–2,5 kg. Merinobesättningar i andra länder kan ge upp till 5–13 kg per djur.",
                 },
               },
               {
@@ -83,7 +83,7 @@ export default function FarklippningPage() {
                 name: "Vad händer om man inte klipper ett får?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Ullen slutar aldrig växa hos de flesta tamfårsraser. Utan klippning kan fåret drabbas av överhettning, hudinfektioner, parasitangrepp och rörelseproblem. Det kända fallet Chris — ett australiskt merinofår som inte klipptes på fem år — hade ackumulerat över 40 kg ull och var i livshotande tillstånd.",
+                  text: "Ullen slutar aldrig växa hos de flesta tamfårsraser. Utan klippning kan fåret drabbas av överhettning, hudinfektioner, parasitangrepp och rörelseproblem. Det kända fallet Chris – ett australiskt merinofår som inte klipptes på fem år – hade ackumulerat över 40 kg ull och var i livshotande tillstånd.",
                 },
               },
               {
@@ -104,13 +104,13 @@ export default function FarklippningPage() {
           Hantverk
         </p>
         <h1 className="font-heading text-4xl sm:text-5xl font-bold text-foreground mb-8 max-w-3xl">
-          Fårklippning — från fårrygg till råvara
+          Fårklippning – från fårrygg till råvara
         </h1>
       </ScrollReveal>
 
       <Image
         src="/images/farull-video-2.png"
-        alt="Fårklippning pågår — klipparen arbetar med att ta av ullen i ett stycke"
+        alt="Fårklippning pågår – klipparen arbetar med att ta av ullen i ett stycke"
         width={800}
         height={1000}
         priority
@@ -120,7 +120,7 @@ export default function FarklippningPage() {
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p className="text-lg text-foreground/90">
-            <strong>Varje klippning ger 2–4&nbsp;kg ull per djur</strong> — en
+            <strong>Varje klippning ger 2–4&nbsp;kg ull per djur</strong> – en
             råvara som kopplar samman djurhållning med materialtillverkning.
             Fårklippning är det ögonblick då ull övergår från att vara en del av
             ett levande djur till att bli ett material vi kan använda. Processen
@@ -159,7 +159,7 @@ export default function FarklippningPage() {
                 Till skillnad från vildfår, vars päls regleras naturligt genom
                 fällning, har tamfår avlats för att producera ull som{" "}
                 <strong>aldrig slutar växa</strong>. Det innebär att fåret är
-                beroende av människan för att bli av med sin ull — annars
+                beroende av människan för att bli av med sin ull – annars
                 fortsätter den att ackumuleras.
               </p>
               <p className="mt-4">
@@ -171,7 +171,7 @@ export default function FarklippningPage() {
                 röra sig, se och äta.
               </p>
               <p className="mt-4">
-                Det mest kända exemplet är <strong>Chris</strong> — ett
+                Det mest kända exemplet är <strong>Chris</strong> – ett
                 australiskt merinofår som hittades i vildmarken utanför Canberra
                 2015. Chris hade inte klippts på uppskattningsvis fem år och bar
                 på över <strong>40&nbsp;kg ull</strong>. Han var uttorkad,
@@ -180,9 +180,9 @@ export default function FarklippningPage() {
               </p>
               <p className="mt-4">
                 De flesta svenska får klipps{" "}
-                <strong>1–2 gånger per år</strong> — på våren innan
+                <strong>1–2 gånger per år</strong> – på våren innan
                 sommarvärmen, och ibland även på hösten. Klippningen är alltså
-                inte bara en skörd — den är en grundläggande djurhälsoåtgärd.
+                inte bara en skörd – den är en grundläggande djurhälsoåtgärd.
               </p>
             </div>
           </div>
@@ -196,7 +196,7 @@ export default function FarklippningPage() {
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="/images/farull-video.png"
-                alt="Får som klias — ullen lossnar i hela sjok"
+                alt="Får som klias – ullen lossnar i hela sjok"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -210,14 +210,14 @@ export default function FarklippningPage() {
                 Fårklippning utförs nästan alltid med{" "}
                 <strong>elektrisk klippmaskin</strong>, även om handklippning med
                 sax fortfarande förekommer inom hantverkssammanhang. Klipparen
-                placerar fåret i specifika positioner — oftast sittande på
-                bakdelen — som gör att djuret blir lugnt och stilla.
+                placerar fåret i specifika positioner – oftast sittande på
+                bakdelen – som gör att djuret blir lugnt och stilla.
               </p>
               <p className="mt-4">
                 Tekniken följer ett systematiskt mönster: klipparen börjar vid
                 buken, fortsätter med benen, och arbetar sedan uppåt längs
                 sidor och rygg. Målet är att ta av hela fällen i{" "}
-                <strong>ett sammanhängande stycke</strong> — som en tröja som
+                <strong>ett sammanhängande stycke</strong> – som en tröja som
                 dras av. Det ger den renaste ullen och underlättar sorteringen
                 efteråt.
               </p>
@@ -226,7 +226,7 @@ export default function FarklippningPage() {
                 <strong>100–200 får per dag</strong> och lägger ner cirka 3–5
                 minuter per djur. Världsrekordet i fårklippning ligger på under
                 40 sekunder för ett enda djur. I Sverige finns det dock relativt
-                få professionella klippare — en utmaning vi återkommer till
+                få professionella klippare – en utmaning vi återkommer till
                 längre ned.
               </p>
             </div>
@@ -240,7 +240,7 @@ export default function FarklippningPage() {
           <div className="mt-6">
             <p>
               Hur klippningen utförs påverkar ullens kvalitet direkt. Ren, torr
-              ull utan föroreningar — gödsel, halm, burrar — ger en{" "}
+              ull utan föroreningar – gödsel, halm, burrar – ger en{" "}
               <strong>betydligt bättre råvara</strong> än ull som blivit
               smutsig eller våt. Därför klipps får helst inomhus, efter att de
               stått torrt minst ett dygn.
@@ -277,7 +277,7 @@ export default function FarklippningPage() {
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Från råull till färdig produkt — en process i flera steg
+                Från råull till färdig produkt – en process i flera steg
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -286,8 +286,8 @@ export default function FarklippningPage() {
                 Först <strong>sorteras</strong> den efter kvalitet, sedan{" "}
                 <strong>tvättas</strong> den för att avlägsna lanolin, smuts och
                 fett (råull innehåller 30–70&nbsp;% föroreningar). Därefter{" "}
-                <strong>kardas</strong> fibrerna — de kammas ut och ordnas i
-                samma riktning — innan de kan spinnas, filtas eller bearbetas
+                <strong>kardas</strong> fibrerna – de kammas ut och ordnas i
+                samma riktning – innan de kan spinnas, filtas eller bearbetas
                 vidare.
               </p>
               <p className="mt-4">
@@ -303,7 +303,7 @@ export default function FarklippningPage() {
                   byggisolering
                 </Link>, trädgårdspellets, skyddshandskar och oljeabsorbenter.
                 Ull som tidigare var en kostnad för fåruppfödaren kan bli en
-                intäktskälla — om infrastrukturen för insamling och
+                intäktskälla – om infrastrukturen för insamling och
                 bearbetning fortsätter att utvecklas.
               </p>
             </div>
@@ -318,8 +318,8 @@ export default function FarklippningPage() {
             <p>
               Sverige har en <strong>brist på professionella fårklippare</strong>.
               Många gårdar är beroende av klippare som importeras från{" "}
-              <strong>Nya Zeeland och Australien</strong> — länder med stark
-              klippartradition — under den svenska klippsäsongen vår och höst.
+              <strong>Nya Zeeland och Australien</strong> – länder med stark
+              klippartradition – under den svenska klippsäsongen vår och höst.
               Det är en situation som gör fåruppfödare sårbara och ökar
               kostnaderna.
             </p>
@@ -333,7 +333,7 @@ export default function FarklippningPage() {
             <p className="mt-4">
               <strong>Klippsäsongen</strong> följer årstiderna: vårklippningen
               sker i april–maj innan sommarvärmen, och höstklippningen i
-              september–oktober. Tidpunkten är viktig — klipps fåren för sent
+              september–oktober. Tidpunkten är viktig – klipps fåren för sent
               på våren riskerar de att brännas av solen, och klipps de för
               tidigt på hösten hinner inte ullen växa ut tillräckligt innan
               vintern.
@@ -369,7 +369,7 @@ export default function FarklippningPage() {
                   <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
                 </summary>
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
-                  De flesta svenska får klipps 1–2 gånger per år — vanligtvis på
+                  De flesta svenska får klipps 1–2 gånger per år – vanligtvis på
                   våren innan sommarvärmen och ibland även på hösten. Exakt
                   frekvens beror på ras och ulltyp. Merinofår med tät ull behöver
                   klippas minst en gång per år, medan vissa pälsraser fäller
@@ -385,7 +385,7 @@ export default function FarklippningPage() {
                 </summary>
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Nej, fårklippning gör inte ont. Det kan jämföras med en
-                  hårklippning — klipparen skär ullen nära huden utan att skada
+                  hårklippning – klipparen skär ullen nära huden utan att skada
                   den. Får kan bli stressade av hanteringen, men en erfaren
                   klippare arbetar lugnt och effektivt så att proceduren tar
                   3–5 minuter per djur.
@@ -400,7 +400,7 @@ export default function FarklippningPage() {
                 </summary>
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Ett svenskt får ger i genomsnitt 2–4&nbsp;kg ull per klippning.
-                  Mängden varierar med ras — Finullsfår ger 2–3&nbsp;kg,
+                  Mängden varierar med ras – Finullsfår ger 2–3&nbsp;kg,
                   Gotlandsfår 2–4&nbsp;kg och Gutefår 1,5–2,5&nbsp;kg.
                   Merinobesättningar i andra länder kan ge upp till 5–13&nbsp;kg
                   per djur.
@@ -416,8 +416,8 @@ export default function FarklippningPage() {
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Ullen slutar aldrig växa hos de flesta tamfårsraser. Utan
                   klippning kan fåret drabbas av överhettning, hudinfektioner,
-                  parasitangrepp och rörelseproblem. Det kända fallet Chris — ett
-                  australiskt merinofår — hade ackumulerat över 40&nbsp;kg ull
+                  parasitangrepp och rörelseproblem. Det kända fallet Chris – ett
+                  australiskt merinofår – hade ackumulerat över 40&nbsp;kg ull
                   efter fem år utan klippning.
                 </p>
               </details>
@@ -449,13 +449,13 @@ export default function FarklippningPage() {
               <Link href="/farull" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårull? →
               </Link>
-              <p className="text-foreground/60 mt-1">Krusighet, keratin och lanolin — fibern som gör allt möjligt.</p>
+              <p className="text-foreground/60 mt-1">Krusighet, keratin och lanolin – fibern som gör allt möjligt.</p>
             </li>
             <li>
               <Link href="/farraser" className="link-grow text-lg font-medium text-foreground">
                 Svenska fårraser →
               </Link>
-              <p className="text-foreground/60 mt-1">Gutefår, Gotlandsfår, Finullsfår — raserna och deras ull.</p>
+              <p className="text-foreground/60 mt-1">Gutefår, Gotlandsfår, Finullsfår – raserna och deras ull.</p>
             </li>
             <li>
               <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">

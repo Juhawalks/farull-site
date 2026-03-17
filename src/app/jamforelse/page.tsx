@@ -5,11 +5,11 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Fårull vs mineralull, cellulosa och EPS — isolering jämförd punkt för punkt | Farull.se",
+  title: "Fårull vs mineralull, cellulosa och EPS – isolering jämförd punkt för punkt | Farull.se",
   description:
     "Jämför fårullsisolering med mineralull, cellulosa och EPS: λ-värde, fukt, brand, luftrening, pris och livslängd. Tabell och fakta för rätt val av isolering.",
   openGraph: {
-    title: "Fårull vs mineralull, cellulosa och EPS — isolering jämförd punkt för punkt",
+    title: "Fårull vs mineralull, cellulosa och EPS – isolering jämförd punkt för punkt",
     description:
       "Jämför fårullsisolering med mineralull, cellulosa och EPS: λ-värde, fukt, brand, luftrening, pris och livslängd. Tabell och fakta för rätt val av isolering.",
   },
@@ -27,7 +27,7 @@ export default function Jamforelse() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Fårull vs mineralull, cellulosa och EPS — isolering jämförd punkt för punkt",
+            headline: "Fårull vs mineralull, cellulosa och EPS – isolering jämförd punkt för punkt",
             description:
               "Jämför fårullsisolering med mineralull, cellulosa och EPS: λ-värde, fukt, brand, luftrening, pris och livslängd.",
             url: "https://farull.se/jamforelse",
@@ -91,7 +91,7 @@ export default function Jamforelse() {
                 name: "Kan man jämföra fårull med EPS/cellplast?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Bara delvis. EPS har bättre λ-värde (0,030–0,038) och är billigare, men saknar helt fuktbuffrande egenskaper, smälter vid brand med giftig rök, är fossilbaserad och bryts inte ner biologiskt. EPS fungerar bäst under mark och i grundkonstruktioner — i väggar, tak och bjälklag erbjuder fårull ett helt annat paket av egenskaper.",
+                  text: "Bara delvis. EPS har bättre λ-värde (0,030–0,038) och är billigare, men saknar helt fuktbuffrande egenskaper, smälter vid brand med giftig rök, är fossilbaserad och bryts inte ner biologiskt. EPS fungerar bäst under mark och i grundkonstruktioner – i väggar, tak och bjälklag erbjuder fårull ett helt annat paket av egenskaper.",
                 },
               },
               {
@@ -112,13 +112,13 @@ export default function Jamforelse() {
           Jämförelse
         </p>
         <h1 className="font-heading text-4xl sm:text-5xl font-bold text-foreground mb-8 max-w-3xl">
-          Fårull mot resten — isolering jämförd punkt för punkt
+          Fårull mot resten – isolering jämförd punkt för punkt
         </h1>
       </ScrollReveal>
 
       <Image
         src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80"
-        alt="Olika isoleringsmaterial sida vid sida — fårull, mineralull, cellulosa och EPS"
+        alt="Olika isoleringsmaterial sida vid sida – fårull, mineralull, cellulosa och EPS"
         width={800}
         height={533}
         priority
@@ -128,20 +128,20 @@ export default function Jamforelse() {
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
           <p className="text-lg leading-relaxed">
-            <strong>Alla isoleringsmaterial isolerar — det är vad de har gemensamt.</strong>{" "}
+            <strong>Alla isoleringsmaterial isolerar – det är vad de har gemensamt.</strong>{" "}
             Men skillnaderna i fukthantering, luftrening, hälsopåverkan,
             brandskydd, miljöavtryck och arbetskomfort är stora. Här ställer vi{" "}
             <Link href="/farull" className="text-primary hover:text-primary/80 link-grow">
               fårull
             </Link>{" "}
             mot de tre vanligaste alternativen: mineralull, cellulosa och
-            EPS/cellplast — egenskap för egenskap, med konkreta siffror.
+            EPS/cellplast – egenskap för egenskap, med konkreta siffror.
           </p>
         </ScrollReveal>
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-8">
-            Jämförelsetabell — fårull vs mineralull vs cellulosa vs EPS
+            Jämförelsetabell – fårull vs mineralull vs cellulosa vs EPS
           </h2>
           <div className="mt-6 overflow-x-auto -mx-4 px-4">
             <table className="w-full text-sm border-collapse min-w-[640px]">
@@ -225,19 +225,19 @@ export default function Jamforelse() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-8">
-            Fårull vs mineralull — den vanligaste jämförelsen
+            Fårull vs mineralull – den vanligaste jämförelsen
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1704742950992-9815a104820c?w=800&q=80"
-                alt="Isoleringsarbete — mineralull kräver skyddsutrustning, fårull monteras med bara händerna"
+                alt="Isoleringsarbete – mineralull kräver skyddsutrustning, fårull monteras med bara händerna"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Mineralull kräver skyddsutrustning — fårull monteras med bara händerna
+                Mineralull kräver skyddsutrustning – fårull monteras med bara händerna
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -247,7 +247,7 @@ export default function Jamforelse() {
                 jämförelsen med fårull avslöjar flera begränsningar:
               </p>
               <p className="mt-4">
-                <strong>Termisk prestanda</strong> — jämförbar. Fårull
+                <strong>Termisk prestanda</strong> – jämförbar. Fårull
                 0,033–0,040&nbsp;W/m·K, mineralull 0,032–0,040. Ingen mätbar
                 skillnad i praktiken. Men vid fuktbelastning kollapsar
                 mineralullens prestanda: studier visar upp till{" "}
@@ -256,36 +256,36 @@ export default function Jamforelse() {
                 65&nbsp;% relativ fuktighet i fibrerna.
               </p>
               <p className="mt-4">
-                <strong>Luftkvalitet</strong> — här finns ingen jämförelse.
+                <strong>Luftkvalitet</strong> – här finns ingen jämförelse.
                 Fårullens keratinprotein binder formaldehyd, toluen och andra
-                VOC kemiskt och permanent —{" "}
+                VOC kemiskt och permanent –{" "}
                 <strong>80–87&nbsp;% reduktion inom 4&nbsp;timmar</strong>.
                 Mineralull har ingen luftrenande effekt. I nybyggda hus med
                 höga formaldehydnivåer är detta en avgörande skillnad.
               </p>
               <p className="mt-4">
-                <strong>Montering</strong> — fårull kräver ingen
+                <strong>Montering</strong> – fårull kräver ingen
                 skyddsutrustning. Ingen klåda, inget irriterande damm, ingen
                 skyddsmask. Mineralull kräver mask, handskar och
                 skyddskläder. Fårull monteras{" "}
                 <strong>15–25&nbsp;% snabbare</strong> i praktiken.
               </p>
               <p className="mt-4">
-                <strong>Miljö</strong> — mineralull tillverkas genom smältning
+                <strong>Miljö</strong> – mineralull tillverkas genom smältning
                 vid 1&nbsp;400&nbsp;°C och kräver 26&nbsp;MJ/kg.
                 Fårullsisolering tillverkas mekaniskt och kräver bara
                 6&nbsp;MJ/kg. Fårull lagrar dessutom 1,8&nbsp;kg CO₂ per kilo
-                — mineralull har inga koldioxidbindande egenskaper.
+                – mineralull har inga koldioxidbindande egenskaper.
               </p>
               <p className="mt-4">
-                <strong>Livslängd</strong> — fårull har{" "}
+                <strong>Livslängd</strong> – fårull har{" "}
                 <Link href="/teknisk-data" className="text-primary hover:text-primary/80 link-grow">
                   75&nbsp;års natureplus-certifierad livslängd
                 </Link>. Mineralull kan börja sjunka ihop efter 25–30&nbsp;år,
                 särskilt i vertikala applikationer, vilket skapar köldbryggor.
               </p>
               <p className="mt-4">
-                <strong>Pris</strong> — fårull kostar 2–3x mer per
+                <strong>Pris</strong> – fårull kostar 2–3x mer per
                 kvadratmeter. Men lägre monteringskostnader, ingen
                 skyddsutrustning och 75&nbsp;års livslängd utan byte
                 kompenserar. Sett över{" "}
@@ -300,19 +300,19 @@ export default function Jamforelse() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-8">
-            Fårull vs cellulosa — två biobaserade alternativ
+            Fårull vs cellulosa – två biobaserade alternativ
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80"
-                alt="Naturliga fibrer — cellulosa och fårull är biobaserade med olika styrkor"
+                alt="Naturliga fibrer – cellulosa och fårull är biobaserade med olika styrkor"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Cellulosa och fårull — biobaserade alternativ med olika styrkor
+                Cellulosa och fårull – biobaserade alternativ med olika styrkor
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -320,35 +320,35 @@ export default function Jamforelse() {
                 Cellulosa (returpapper) är det prisvärdaste biobaserade
                 alternativet. Lambda-värdet är liknande
                 (0,036–0,040&nbsp;W/m·K) och tillverkningsenergin ännu lägre
-                (3–5&nbsp;MJ/kg). Det är ett bra val — men fårull har
+                (3–5&nbsp;MJ/kg). Det är ett bra val – men fårull har
                 fördelar i flera viktiga dimensioner:
               </p>
               <ul className="mt-4 space-y-3 list-none">
                 <li>
-                  <strong>Fukthantering</strong> — cellulosa absorberar
+                  <strong>Fukthantering</strong> – cellulosa absorberar
                   10–15&nbsp;% fukt, fårull 35–40&nbsp;%. Vid långvarig
                   fuktbelastning riskerar cellulosa mögel. Fårull fungerar som
                   en aktiv fuktbuffert som skyddar konstruktionen.
                 </li>
                 <li className="mt-3">
-                  <strong>Luftrening</strong> — cellulosa binder inte
+                  <strong>Luftrening</strong> – cellulosa binder inte
                   formaldehyd eller VOC. Fårullens keratinprotein gör det
                   permanent och effektivt.
                 </li>
                 <li className="mt-3">
-                  <strong>Brandskydd</strong> — cellulosa kräver kemiska
+                  <strong>Brandskydd</strong> – cellulosa kräver kemiska
                   flamskyddsmedel (ammoniumsulfat och/eller borat) för att
                   uppnå brandklass B‑s2,d0. Fårull klarar B‑s1,d0 med enbart
-                  naturlig borax — utan syntetiska tillsatser.
+                  naturlig borax – utan syntetiska tillsatser.
                 </li>
                 <li className="mt-3">
-                  <strong>Formstabilitet</strong> — cellulosa kan sjunka ihop
+                  <strong>Formstabilitet</strong> – cellulosa kan sjunka ihop
                   med tiden i vertikala applikationer (väggar). Fårullens
-                  disulfidbindningar ger permanent fjädring — fibrerna håller
+                  disulfidbindningar ger permanent fjädring – fibrerna håller
                   formen i 75&nbsp;år.
                 </li>
                 <li className="mt-3">
-                  <strong>Montering</strong> — cellulosa kräver inblåsning med
+                  <strong>Montering</strong> – cellulosa kräver inblåsning med
                   specialutrustning (maskin, slang, tillslutning av hålrum).
                   Fårull klipps med sax och trycks på plats för hand.
                 </li>
@@ -364,19 +364,19 @@ export default function Jamforelse() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-8">
-            Fårull vs EPS/cellplast — helt olika filosofier
+            Fårull vs EPS/cellplast – helt olika filosofier
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80"
-                alt="Olika isoleringsmaterial — EPS och fårull representerar olika byggfilosofier"
+                alt="Olika isoleringsmaterial – EPS och fårull representerar olika byggfilosofier"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                EPS isolerar termiskt — men saknar fårullens fukt-, brand- och luftrenande egenskaper
+                EPS isolerar termiskt – men saknar fårullens fukt-, brand- och luftrenande egenskaper
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -388,24 +388,24 @@ export default function Jamforelse() {
               </p>
               <ul className="mt-4 space-y-3 list-none">
                 <li>
-                  <strong>Fukt</strong> — EPS absorberar ingen fukt och har
+                  <strong>Fukt</strong> – EPS absorberar ingen fukt och har
                   inga buffrande egenskaper. I konstruktioner med
                   fuktproblematik erbjuder det inget skydd.
                 </li>
                 <li className="mt-3">
-                  <strong>Brand</strong> — EPS smälter vid brand och avger
-                  giftig rök (styrengas). Brandklass E — den lägsta godkända.
+                  <strong>Brand</strong> – EPS smälter vid brand och avger
+                  giftig rök (styrengas). Brandklass E – den lägsta godkända.
                   Fårull kolnar och självslocknar vid B‑s1,d0.
                 </li>
                 <li className="mt-3">
-                  <strong>Miljö</strong> — EPS är 100&nbsp;% fossilbaserad
+                  <strong>Miljö</strong> – EPS är 100&nbsp;% fossilbaserad
                   (petroleumprodukt), kräver 101&nbsp;MJ/kg i
                   tillverkningsenergi och bryts inte ner biologiskt på
                   hundratals år. Fårull kräver 6&nbsp;MJ/kg och är helt
                   kompostbar.
                 </li>
                 <li className="mt-3">
-                  <strong>Inomhusklimat</strong> — EPS bidrar inte till
+                  <strong>Inomhusklimat</strong> – EPS bidrar inte till
                   luftrening, fuktreglering eller akustik. Fårull gör allt
                   tre.
                 </li>
@@ -413,8 +413,8 @@ export default function Jamforelse() {
               <p className="mt-4">
                 EPS har sin plats: grundisolering under mark, där
                 fukttålighet och tryckhållfasthet är avgörande. Men i väggar,
-                tak och bjälklag — där inomhusklimat, fukthantering och
-                brandsäkerhet spelar roll — erbjuder fårull ett helt annat
+                tak och bjälklag – där inomhusklimat, fukthantering och
+                brandsäkerhet spelar roll – erbjuder fårull ett helt annat
                 paket.
               </p>
             </div>
@@ -423,26 +423,26 @@ export default function Jamforelse() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-8">
-            Sammanfattning — när ska du välja fårull?
+            Sammanfattning – när ska du välja fårull?
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1763569003710-ddc3e690ebbf?w=800&q=80"
-                alt="Grönt landskap med betande får — fårull ger mer tillbaka i hälsa och hållbarhet"
+                alt="Grönt landskap med betande får – fårull ger mer tillbaka i hälsa och hållbarhet"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Fårull kostar mer — men ger mer tillbaka i luftkvalitet, hälsa och hållbarhet
+                Fårull kostar mer – men ger mer tillbaka i luftkvalitet, hälsa och hållbarhet
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
                 Fårull kostar mer per kvadratmeter. Det är ärligt. Men om du
-                väger in hela bilden — luftkvalitet, fukthantering,
-                arbetskomfort, livslängd, brandskydd och klimatpåverkan —
+                väger in hela bilden – luftkvalitet, fukthantering,
+                arbetskomfort, livslängd, brandskydd och klimatpåverkan –
                 förändras kalkylen.
               </p>
               <p className="mt-4">
@@ -570,7 +570,7 @@ export default function Jamforelse() {
                 </summary>
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Enbart fårull. Ullens keratinprotein binder formaldehyd,
-                  toluen, limonen och andra VOC kemiskt och permanent —
+                  toluen, limonen och andra VOC kemiskt och permanent –
                   80–87&nbsp;% reduktion inom 4&nbsp;timmar. Effekten varar
                   i upp till 30&nbsp;år. Varken mineralull, cellulosa eller
                   EPS har denna egenskap.
@@ -589,13 +589,13 @@ export default function Jamforelse() {
               <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-foreground/60 mt-1">Sju konkreta skäl — från luftrening till 75 års livslängd.</p>
+              <p className="text-foreground/60 mt-1">Sju konkreta skäl – från luftrening till 75 års livslängd.</p>
             </li>
             <li>
               <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-foreground/60 mt-1">Så tillverkas produkten du jämför — från fårrygg till vägg.</p>
+              <p className="text-foreground/60 mt-1">Så tillverkas produkten du jämför – från fårrygg till vägg.</p>
             </li>
             <li>
               <Link href="/pris" className="link-grow text-lg font-medium text-foreground">

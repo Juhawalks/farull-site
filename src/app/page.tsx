@@ -101,7 +101,7 @@ const utforskaFarull = [
   {
     title: "Svensk ull",
     href: "/svensk-ull",
-    text: "1\u00a0000 ton per år — en outnyttjad resurs som nu hittar nya användningsområden.",
+    text: "1\u00a0000 ton per år – en outnyttjad resurs som nu hittar nya användningsområden.",
     icon: MapPin,
   },
   {
@@ -312,7 +312,7 @@ export default function Home() {
           <div className="parallax-wrap rounded-xl h-64 md:h-80 mb-12">
             <Image
               src="/images/farull-video.png"
-              alt="Får som klias av hand — fårull är ett naturmaterial"
+              alt="Får som klias av hand – fårull är ett naturmaterial"
               width={800}
               height={1000}
               className="parallax-img w-full h-full object-cover scale-110"

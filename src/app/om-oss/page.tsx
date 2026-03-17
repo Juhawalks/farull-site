@@ -5,13 +5,13 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Om Farull.se och Byeco — Sveriges kunskapsresurs om fårull | Farull.se",
+  title: "Om Farull.se och Byeco – Sveriges kunskapsresurs om fårull | Farull.se",
   description:
-    "Farull.se är Sveriges mest kompletta kunskapsresurs om fårull och fårullsisolering. Drivs av Byeco AB i Rävlanda — Nordens specialist på Isolena fårullsisolering.",
+    "Farull.se är Sveriges mest kompletta kunskapsresurs om fårull och fårullsisolering. Drivs av Byeco AB i Rävlanda – Nordens specialist på Isolena fårullsisolering.",
   openGraph: {
-    title: "Om Farull.se och Byeco — Sveriges kunskapsresurs om fårull",
+    title: "Om Farull.se och Byeco – Sveriges kunskapsresurs om fårull",
     description:
-      "Farull.se är Sveriges mest kompletta kunskapsresurs om fårull och fårullsisolering. Drivs av Byeco AB i Rävlanda — Nordens specialist på Isolena fårullsisolering.",
+      "Farull.se är Sveriges mest kompletta kunskapsresurs om fårull och fårullsisolering. Drivs av Byeco AB i Rävlanda – Nordens specialist på Isolena fårullsisolering.",
   },
   alternates: {
     canonical: "/om-oss",
@@ -27,7 +27,7 @@ export default function OmOss() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Om Farull.se och Byeco — Sveriges kunskapsresurs om fårull",
+            headline: "Om Farull.se och Byeco – Sveriges kunskapsresurs om fårull",
             description:
               "Farull.se är Sveriges mest kompletta kunskapsresurs om fårull och fårullsisolering. Drivs av Byeco AB.",
             url: "https://farull.se/om-oss",
@@ -80,7 +80,7 @@ export default function OmOss() {
                 name: "Vem står bakom Farull.se?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Farull.se drivs av Byeco AB (org.nr 559346-1488), Nordens specialist på fårullsisolering. Byeco säljer produkter från österrikiska Isolena — Europas ledande tillverkare med över 20 års erfarenhet. Kontor i Rävlanda utanför Göteborg och i Helsingfors.",
+                  text: "Farull.se drivs av Byeco AB (org.nr 559346-1488), Nordens specialist på fårullsisolering. Byeco säljer produkter från österrikiska Isolena – Europas ledande tillverkare med över 20 års erfarenhet. Kontor i Rävlanda utanför Göteborg och i Helsingfors.",
                 },
               },
               {
@@ -88,7 +88,7 @@ export default function OmOss() {
                 name: "Varför finns Farull.se?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Det saknades bra, samlad information om fårull och fårullsisolering på svenska. Farull.se är en oberoende kunskapsresurs som samlar forskning, teknisk data och praktisk vägledning — för husägare, byggare och arkitekter som vill förstå materialet på djupet.",
+                  text: "Det saknades bra, samlad information om fårull och fårullsisolering på svenska. Farull.se är en oberoende kunskapsresurs som samlar forskning, teknisk data och praktisk vägledning – för husägare, byggare och arkitekter som vill förstå materialet på djupet.",
                 },
               },
               {
@@ -115,7 +115,7 @@ export default function OmOss() {
 
       <Image
         src="/images/farull-video.png"
-        alt="Får som klias — Byeco bryr sig om djuren bakom materialet"
+        alt="Får som klias – Byeco bryr sig om djuren bakom materialet"
         width={800}
         height={1000}
         priority
@@ -127,7 +127,7 @@ export default function OmOss() {
           <p className="text-lg leading-relaxed">
             <strong>Farull.se är Sveriges mest kompletta kunskapsresurs om
             fårull och fårullsisolering.</strong> Här samlar vi forskning,
-            teknisk data, praktiska guider och ärliga jämförelser — allt du
+            teknisk data, praktiska guider och ärliga jämförelser – allt du
             behöver för att förstå materialet på djupet. Sajten drivs av
             Byeco AB, Nordens specialist på fårullsisolering.
           </p>
@@ -141,7 +141,7 @@ export default function OmOss() {
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?w=800&q=80"
-                alt="Kunskapsresurs om fårull — det saknades bra information på svenska"
+                alt="Kunskapsresurs om fårull – det saknades bra information på svenska"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -174,7 +174,7 @@ export default function OmOss() {
                 och binder mer koldioxid än det släpper ut.
               </p>
               <p className="mt-4">
-                Farull.se är vårt sätt att dela den kunskapen — fritt
+                Farull.se är vårt sätt att dela den kunskapen – fritt
                 tillgänglig för alla som vill lära sig mer. Vi tror att bättre
                 kunskap leder till bättre beslut, oavsett om du sedan väljer
                 fårull eller ett annat material.
@@ -189,7 +189,7 @@ export default function OmOss() {
           </h2>
           <div className="mt-6">
             <p>
-              Farull.se täcker allt du behöver veta om fårull — från den
+              Farull.se täcker allt du behöver veta om fårull – från den
               grundläggande kemin till praktiska monteringsguider:
             </p>
             <ul className="mt-4 space-y-3">
@@ -197,41 +197,41 @@ export default function OmOss() {
                 <Link href="/farull" className="text-primary hover:text-primary/80 link-grow font-medium">
                   Fårull som material
                 </Link>{" "}
-                — keratinkemi, fiberstruktur, termiska och fuktreglerande
+                – keratinkemi, fiberstruktur, termiska och fuktreglerande
                 egenskaper
               </li>
               <li>
                 <Link href="/vad-ar-farullsisolering" className="text-primary hover:text-primary/80 link-grow font-medium">
                   Fårullsisolering
                 </Link>{" "}
-                — tillverkning, funktion, användningsområden och teknisk data
+                – tillverkning, funktion, användningsområden och teknisk data
               </li>
               <li>
                 <Link href="/jamforelse" className="text-primary hover:text-primary/80 link-grow font-medium">
                   Ärliga jämförelser
                 </Link>{" "}
-                — fårull mot mineralull, cellulosa och EPS med konkreta
+                – fårull mot mineralull, cellulosa och EPS med konkreta
                 siffror
               </li>
               <li>
                 <Link href="/montering" className="text-primary hover:text-primary/80 link-grow font-medium">
                   Praktiska guider
                 </Link>{" "}
-                — montering steg för steg, verktyg, vanliga misstag och
+                – montering steg för steg, verktyg, vanliga misstag och
                 konstruktionslösningar
               </li>
               <li>
                 <Link href="/hallbarhet" className="text-primary hover:text-primary/80 link-grow font-medium">
                   Hållbarhet och forskning
                 </Link>{" "}
-                — LCA-data, koldioxidbindning, EU-taxonomin och
+                – LCA-data, koldioxidbindning, EU-taxonomin och
                 vetenskapliga referenser
               </li>
               <li>
                 <Link href="/ullens-historia" className="text-primary hover:text-primary/80 link-grow font-medium">
                   Ullens historia
                 </Link>{" "}
-                — 10&nbsp;000 år av mänsklig användning, från antiken till
+                – 10&nbsp;000 år av mänsklig användning, från antiken till
                 modern byggisolering
               </li>
             </ul>
@@ -240,25 +240,25 @@ export default function OmOss() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Byeco — Nordens specialist på fårullsisolering
+            Byeco – Nordens specialist på fårullsisolering
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
-                alt="Byeco kontor — fri rådgivning och 30 dagars öppet köp"
+                alt="Byeco kontor – fri rådgivning och 30 dagars öppet köp"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Byeco — kontor i Rävlanda utanför Göteborg och i Helsingfors
+                Byeco – kontor i Rävlanda utanför Göteborg och i Helsingfors
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
               <p>
                 Byeco AB säljer fårullsisolering från österrikiska{" "}
-                <strong>Isolena</strong> — Europas ledande tillverkare med
+                <strong>Isolena</strong> – Europas ledande tillverkare med
                 över 20&nbsp;års erfarenhet av ullbaserad byggisolering.
                 Vi hjälper husägare, byggare och arkitekter i hela Norden
                 att välja rätt produkt och konstruktionslösning.
@@ -267,10 +267,10 @@ export default function OmOss() {
                 Vad vi erbjuder:
               </p>
               <ul className="mt-3 space-y-1 list-disc list-inside text-foreground/80">
-                <li><strong>Fri rådgivning</strong> — produktval, fuktdimensionering och konstruktionslösningar</li>
-                <li><strong>Materialberäkning</strong> — skicka dina ritningar så beräknar vi mängd och kostnad</li>
-                <li><strong>30&nbsp;dagars öppet köp</strong> — på alla produkter, utan förbindelse</li>
-                <li><strong>Leverans i hela Norden</strong> — Sverige, Finland, Norge och Danmark</li>
+                <li><strong>Fri rådgivning</strong> – produktval, fuktdimensionering och konstruktionslösningar</li>
+                <li><strong>Materialberäkning</strong> – skicka dina ritningar så beräknar vi mängd och kostnad</li>
+                <li><strong>30&nbsp;dagars öppet köp</strong> – på alla produkter, utan förbindelse</li>
+                <li><strong>Leverans i hela Norden</strong> – Sverige, Finland, Norge och Danmark</li>
               </ul>
             </div>
           </div>
@@ -284,7 +284,7 @@ export default function OmOss() {
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
                 src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=800&q=80"
-                alt="Kontakta Byeco — fri rådgivning om fårullsisolering"
+                alt="Kontakta Byeco – fri rådgivning om fårullsisolering"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -296,7 +296,7 @@ export default function OmOss() {
             <div className="md:flex-1 min-w-0">
               <p>
                 Har du frågor om fårullsisolering, materialet eller något du
-                läst på Farull.se? Hör av dig — vi hjälper gärna.
+                läst på Farull.se? Hör av dig – vi hjälper gärna.
               </p>
               <div className="mt-6 space-y-3">
                 <p>
@@ -354,7 +354,7 @@ export default function OmOss() {
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Farull.se drivs av Byeco AB (org.nr 559346-1488), Nordens
                   specialist på fårullsisolering. Byeco säljer produkter
-                  från österrikiska Isolena — Europas ledande tillverkare
+                  från österrikiska Isolena – Europas ledande tillverkare
                   med över 20&nbsp;års erfarenhet. Kontor i Rävlanda
                   utanför Göteborg och i Helsingfors.
                 </p>
@@ -369,7 +369,7 @@ export default function OmOss() {
                 <p className="mt-3 text-foreground/70 font-body leading-relaxed">
                   Nej. Farull.se är en kunskapsresurs. Vi samlar forskning,
                   teknisk data och praktisk vägledning om fårull och
-                  fårullsisolering — fritt tillgängligt för alla.
+                  fårullsisolering – fritt tillgängligt för alla.
                   Försäljning och rådgivning sker via{" "}
                   <a href="https://byeco.se" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 link-grow">
                     Byeco.se
@@ -407,7 +407,7 @@ export default function OmOss() {
               <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-foreground/60 mt-1">Tillverkning, funktion och alla egenskaper — vår mest kompletta guide.</p>
+              <p className="text-foreground/60 mt-1">Tillverkning, funktion och alla egenskaper – vår mest kompletta guide.</p>
             </li>
             <li>
               <Link href="/hallbarhet" className="link-grow text-lg font-medium text-foreground">
