@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState, useEffect, useRef, useCallback } from "react";
 
 const farullNav = [
@@ -56,10 +57,14 @@ function useDropdown() {
 }
 
 export function Header() {
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const farull = useDropdown();
   const isolering = useDropdown();
+
+  const farullActive = farullNav.some((item) => item.href === pathname);
+  const isoleringActive = isoleringNav.some((item) => item.href === pathname);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -93,7 +98,11 @@ export function Header() {
               onBlur={farull.handleBlur}
             >
               <button
-                className="link-grow uppercase text-xs tracking-wider font-body text-foreground/70 hover:text-foreground transition-colors px-4 py-2"
+                className={`link-grow uppercase text-xs tracking-wider font-body transition-colors px-4 py-2 ${
+                  farullActive
+                    ? "text-foreground"
+                    : "text-foreground/70 hover:text-foreground"
+                }`}
                 aria-expanded={farull.open}
                 aria-haspopup="true"
                 onClick={() => farull.setOpen(!farull.open)}
@@ -112,7 +121,12 @@ export function Header() {
                     key={item.href}
                     href={item.href}
                     tabIndex={farull.open ? 0 : -1}
-                    className="block px-4 py-2.5 text-sm font-body text-foreground/70 hover:text-foreground hover:bg-foreground/5 transition-colors"
+                    aria-current={pathname === item.href ? "page" : undefined}
+                    className={`block px-4 py-2.5 text-sm font-body transition-colors ${
+                      pathname === item.href
+                        ? "text-foreground bg-foreground/5"
+                        : "text-foreground/70 hover:text-foreground hover:bg-foreground/5"
+                    }`}
                   >
                     {item.label}
                   </Link>
@@ -130,7 +144,11 @@ export function Header() {
               onBlur={isolering.handleBlur}
             >
               <button
-                className="link-grow uppercase text-xs tracking-wider font-body text-foreground/70 hover:text-foreground transition-colors px-4 py-2"
+                className={`link-grow uppercase text-xs tracking-wider font-body transition-colors px-4 py-2 ${
+                  isoleringActive
+                    ? "text-foreground"
+                    : "text-foreground/70 hover:text-foreground"
+                }`}
                 aria-expanded={isolering.open}
                 aria-haspopup="true"
                 onClick={() => isolering.setOpen(!isolering.open)}
@@ -149,7 +167,12 @@ export function Header() {
                     key={item.href}
                     href={item.href}
                     tabIndex={isolering.open ? 0 : -1}
-                    className="block px-4 py-2.5 text-sm font-body text-foreground/70 hover:text-foreground hover:bg-foreground/5 transition-colors"
+                    aria-current={pathname === item.href ? "page" : undefined}
+                    className={`block px-4 py-2.5 text-sm font-body transition-colors ${
+                      pathname === item.href
+                        ? "text-foreground bg-foreground/5"
+                        : "text-foreground/70 hover:text-foreground hover:bg-foreground/5"
+                    }`}
                   >
                     {item.label}
                   </Link>
@@ -159,7 +182,12 @@ export function Header() {
 
             <Link
               href="/om-oss"
-              className="link-grow uppercase text-xs tracking-wider font-body text-foreground/70 hover:text-foreground transition-colors px-4 py-2"
+              aria-current={pathname === "/om-oss" ? "page" : undefined}
+              className={`link-grow uppercase text-xs tracking-wider font-body transition-colors px-4 py-2 ${
+                pathname === "/om-oss"
+                  ? "text-foreground"
+                  : "text-foreground/70 hover:text-foreground"
+              }`}
             >
               Om oss
             </Link>
@@ -214,7 +242,12 @@ export function Header() {
                     key={item.href}
                     href={item.href}
                     onClick={() => setIsOpen(false)}
-                    className="text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
+                    aria-current={pathname === item.href ? "page" : undefined}
+                    className={`text-base font-body transition-colors py-1.5 px-1 ${
+                      pathname === item.href
+                        ? "text-foreground font-medium"
+                        : "text-foreground/70 hover:text-foreground"
+                    }`}
                   >
                     {item.label}
                   </Link>
@@ -228,7 +261,12 @@ export function Header() {
                     key={item.href}
                     href={item.href}
                     onClick={() => setIsOpen(false)}
-                    className="text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
+                    aria-current={pathname === item.href ? "page" : undefined}
+                    className={`text-base font-body transition-colors py-1.5 px-1 ${
+                      pathname === item.href
+                        ? "text-foreground font-medium"
+                        : "text-foreground/70 hover:text-foreground"
+                    }`}
                   >
                     {item.label}
                   </Link>
@@ -238,7 +276,12 @@ export function Header() {
                   <Link
                     href="/om-oss"
                     onClick={() => setIsOpen(false)}
-                    className="block text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
+                    aria-current={pathname === "/om-oss" ? "page" : undefined}
+                    className={`block text-base font-body transition-colors py-1.5 px-1 ${
+                      pathname === "/om-oss"
+                        ? "text-foreground font-medium"
+                        : "text-foreground/70 hover:text-foreground"
+                    }`}
                   >
                     Om oss
                   </Link>
