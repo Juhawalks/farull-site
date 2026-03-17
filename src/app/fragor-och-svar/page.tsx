@@ -115,9 +115,9 @@ export default function FragorOchSvar() {
         <div className="max-w-3xl mt-16 space-y-4">
           <p className="font-body text-foreground/70 text-base">
             Hittar du inte svaret du söker?{" "}
-            <Link href="/kontakt" className="text-primary hover:text-primary/80 link-grow">
+            <a href="mailto:info@farull.se" className="text-primary hover:text-primary/80 link-grow">
               Hör av dig
-            </Link>
+            </a>
             , så hjälper vi dig.
           </p>
           <p className="font-body text-foreground/50 text-sm">

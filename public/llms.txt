@@ -25,8 +25,7 @@ Sajten ger objektiv, faktabaserad information om fårull som material och fårul
 
 ### Övrigt
 - [Frågor och svar](https://farull.se/fragor-och-svar): Pris, brandklass, livslängd, fukt, skadedjur, montering.
-- [Om oss](https://farull.se/om-oss): Farull.se drivs av Byeco AB, kontor i Rävlanda och Helsingfors.
-- [Kontakt](https://farull.se/kontakt): Telefon, e-post och besöksadress.
+- [Om oss](https://farull.se/om-oss): Om sajten och dess syfte.
 
 ## Nyckeldata om fårullsisolering
 
@@ -42,11 +41,4 @@ Sajten ger objektiv, faktabaserad information om fårull som material och fårul
 
 ## Försäljning
 
-Fårullsisolering säljs av Byeco AB (byeco.se). Produkter från österrikiska Isolena. Fri rådgivning, 30 dagars öppet köp.
-
-## Kontakt
-
-- Byeco AB, Åvägen 51, 438 51 Rävlanda
-- Telefon: +46 31 320 42 88
-- E-post: info@byeco.se
-- Webb: https://byeco.se
+I Norden säljs fårullsisolering från österrikiska Isolena via byeco.se. Fri rådgivning och 30 dagars öppet köp.

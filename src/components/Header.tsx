@@ -153,12 +153,6 @@ export function Header() {
             >
               Om oss
             </Link>
-            <Link
-              href="/kontakt"
-              className="link-grow uppercase text-xs tracking-wider font-body text-foreground/70 hover:text-foreground transition-colors px-4 py-2"
-            >
-              Kontakt
-            </Link>
           </nav>
 
           {/* Mobile menu button */}
@@ -232,13 +226,6 @@ export function Header() {
                   className="block text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
                 >
                   Om oss
-                </Link>
-                <Link
-                  href="/kontakt"
-                  onClick={() => setIsOpen(false)}
-                  className="block text-base font-body text-foreground/70 hover:text-foreground transition-colors py-1.5 px-1"
-                >
-                  Kontakt
                 </Link>
               </div>
             </div>

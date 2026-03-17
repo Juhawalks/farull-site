@@ -138,9 +138,9 @@ export default function OmOss() {
                 läst här? Hör av dig.
               </p>
               <p className="mt-4">
-                <Link href="/kontakt" className="text-primary hover:text-primary/80 link-grow">
-                  Till kontaktsidan
-                </Link>
+                <a href="mailto:info@byeco.se" className="text-primary hover:text-primary/80 link-grow">
+                  Skicka ett mejl →
+                </a>
               </p>
             </div>
           </div>

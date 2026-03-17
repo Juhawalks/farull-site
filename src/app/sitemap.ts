@@ -46,7 +46,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
     },
     { path: "/om-oss", priority: 0.5, changeFrequency: "monthly" as const },
-    { path: "/kontakt", priority: 0.5, changeFrequency: "monthly" as const },
   ];
 
   return pages.map((page) => ({
