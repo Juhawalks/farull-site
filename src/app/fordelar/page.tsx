@@ -283,7 +283,7 @@ export default function Fordelar() {
 
       <ScrollReveal>
         <aside className="max-w-3xl mx-auto px-6 py-12">
-          <div className="border border-surface p-6 bg-background">
+          <div className="border-l-2 border-accent p-6 bg-primary/5">
             <p className="font-body text-foreground/80 text-base leading-relaxed">
               Vill du prova själv? Byeco erbjuder fri rådgivning och hjälper dig räkna ut
               hur mycket material du behöver. 30 dagars öppet köp.{" "}

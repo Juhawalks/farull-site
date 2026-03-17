@@ -364,7 +364,7 @@ export default function Pris() {
       {/* BYECO CTA */}
       <ScrollReveal>
         <aside className="max-w-3xl mx-auto px-6 py-12">
-          <div className="border border-surface p-6 bg-background">
+          <div className="border-l-2 border-accent p-6 bg-primary/5">
             <p className="font-body text-foreground/80 text-base leading-relaxed">
               Vill du veta exakt vad det kostar för ditt hus? Byeco hjälper
               dig med en kostnadsfri beräkning baserad på dina ritningar.
