@@ -297,8 +297,8 @@ export default function Home() {
           </div>
           <div className="parallax-wrap rounded-xl h-64 md:h-80 mb-12">
             <Image
-              src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=800&q=80"
-              alt="Får som betar på en grön äng i solljus"
+              src="https://images.unsplash.com/photo-1758545508130-92152167d49d?w=800&q=80"
+              alt="Fårflock som betar utomhus på grön betesmark"
               width={800}
               height={533}
               className="parallax-img w-full h-full object-cover scale-110"

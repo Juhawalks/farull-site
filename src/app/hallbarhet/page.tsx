@@ -236,7 +236,7 @@ export default function Hallbarhet() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=800&q=80"
+                src="https://images.unsplash.com/photo-1758545508130-92152167d49d?w=800&q=80"
                 alt="Fårflock på betesmark"
                 width={800}
                 height={533}
