@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect, useRef, useCallback } from "react";
+import { FarullLogo } from "./FarullLogo";
 
 const farullNav = [
   { label: "Vad är fårull?", href: "/farull" },
@@ -82,7 +83,8 @@ export function Header() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link href="/" className="font-heading text-2xl font-semibold text-foreground">
+          <Link href="/" className="flex items-center gap-2.5 font-heading text-2xl font-semibold text-foreground">
+            <FarullLogo size={28} />
             Farull.se
           </Link>
 

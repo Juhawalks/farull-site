@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FarullLogo } from "./FarullLogo";
 
 const farullLinks = [
   { label: "Vad är fårull?", href: "/farull" },
@@ -25,7 +26,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Om sajten */}
           <div>
-            <Link href="/" className="font-heading text-2xl font-semibold text-white">
+            <Link href="/" className="flex items-center gap-2.5 font-heading text-2xl font-semibold text-white">
+              <FarullLogo size={28} />
               Farull.se
             </Link>
             <p className="text-sm font-body text-white/60 leading-relaxed mt-4">
