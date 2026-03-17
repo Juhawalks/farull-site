@@ -5,13 +5,13 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Teknisk data – fårullsisolering",
+  title: "Teknisk data fårullsisolering — lambda, brandklass, µ-värde, certifieringar | Farull.se",
   description:
-    "Lambda-värden, brandklass, densitet, fukthantering, akustik och certifieringar för fårullsisolering. Alla siffror du behöver för projektering.",
+    "Tekniska specifikationer för fårullsisolering: λ 0,033–0,040 W/m·K, Euroclass B-s1,d0, µ-värde 1–2, αw 0,90–1,00. ETA, BBR, natureplus och EPD.",
   openGraph: {
-    title: "Teknisk data – fårullsisolering",
+    title: "Teknisk data fårullsisolering — lambda, brandklass, µ-värde, certifieringar",
     description:
-      "Lambda-värden, brandklass, densitet, fukthantering, akustik och certifieringar för fårullsisolering. Alla siffror du behöver för projektering.",
+      "Tekniska specifikationer: λ 0,033–0,040, Euroclass B-s1,d0, µ-värde 1–2, αw 0,90–1,00. ETA, BBR, natureplus och EPD.",
   },
   alternates: {
     canonical: "/teknisk-data",
@@ -27,10 +27,13 @@ export default function TekniskData() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Teknisk data – fårullsisolering",
+            headline: "Teknisk data fårullsisolering — lambda, brandklass, µ-värde, certifieringar",
             description:
-              "Lambda-värden, brandklass, densitet, fukthantering, akustik och certifieringar för fårullsisolering. Alla siffror du behöver för projektering.",
+              "Tekniska specifikationer för fårullsisolering: λ 0,033–0,040 W/m·K, Euroclass B-s1,d0, µ-värde 1–2, αw 0,90–1,00. ETA, BBR, natureplus och EPD.",
             url: "https://farull.se/teknisk-data",
+            datePublished: "2025-03-01",
+            dateModified: "2026-03-17",
+            image: "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=1200&q=80",
             publisher: {
               "@type": "Organization",
               name: "Farull.se",
@@ -41,6 +44,57 @@ export default function TekniskData() {
               name: "Byeco AB",
               url: "https://byeco.se",
             },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Vad är lambda-värdet för fårullsisolering?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Fårullsisolering har ett lambda-värde (λ) på 0,033–0,040 W/m·K, jämförbart med mineralull (0,032–0,040) och EPS (0,031–0,038). Skillnaden är att fårull behåller sin isoleringsförmåga vid fukt, medan mineralull tappar prestanda redan vid 1–2 % fukthalt.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Vad är µ-värdet för fårullsisolering?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Fårullsisolering har ett µ-värde (ångdiffusionsmotståndsfaktor) på 1–2, nära stillastående luft. Det gör den till ett av de mest diffusionsöppna isoleringsmaterialen. Jämför med EPS (µ = 20–100) och XPS (µ = 80–250).",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Vilken brandklass har fårullsisolering?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Med boraxbehandling uppnår fårullsisolering Euroclass B-s1,d0 enligt EN 13501-1: svårantändlig, minimal rökutveckling, inga brinnande droppar. Antändningstemperaturen är 560–600 °C, mer än dubbelt så hög som trä (270 °C).",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Behöver fårullsisolering ETA för CE-märkning?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Ja, eftersom det inte finns någon harmoniserad europeisk standard specifikt för animalisk ullsisolering krävs ett ETA (European Technical Assessment) för CE-märkning. ETA utfärdas av EOTA och möjliggör prestandadeklaration (DoP) enligt EU:s byggproduktförordning.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Uppfyller fårullsisolering BBR (Boverkets byggregler)?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Ja. Fårullsisolering med Euroclass B-s1,d0 uppfyller BBR:s krav på brännbar isolering. Enligt BBR ska brännbar isolering med lägre klassning (D-s2,d2 eller sämre) skyddas av beklädnad klass K₁ 10 B-s1,d0 eller konstruktionsklass EI/REI 30.",
+                },
+              },
+            ],
           }),
         }}
       />
@@ -65,19 +119,25 @@ export default function TekniskData() {
 
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
-          <p>
-            Den här sidan samlar tekniska specifikationer för
-            fårullsisolering. Värdena gäller generellt för
-            kvalitetsprodukter som Isolena (som Byeco säljer i Norden),
-            men kan variera något mellan tillverkare. Kontakta leverantören
-            för produktspecifika datablad.
+          <p className="text-lg text-foreground/90">
+            <strong>Fårullsisolering presterar i paritet med
+            mineralull termiskt</strong> — men överträffar den i
+            fukthantering, luftkvalitet och hållbarhet. Här samlar vi alla
+            tekniska specifikationer, certifieringar och BBR-krav du
+            behöver för projektering.
+          </p>
+          <p className="mt-4">
+            Värdena gäller generellt för kvalitetsprodukter som Isolena
+            (som Byeco distribuerar i Norden), men kan variera något
+            mellan tillverkare. Kontakta leverantören för produktspecifika
+            datablad och prestandadeklarationer.
           </p>
         </ScrollReveal>
 
         {/* TERMISK PRESTANDA */}
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Termisk prestanda
+            Termisk prestanda — fårullsisoleringens lambda-värde
           </h2>
           <div className="mt-6">
             <p>
@@ -126,7 +186,7 @@ export default function TekniskData() {
         {/* BRANDEGENSKAPER */}
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Brandegenskaper
+            Brandegenskaper — fårullsisolering och Euroclass
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -189,7 +249,7 @@ export default function TekniskData() {
         {/* FUKTEGENSKAPER */}
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Fuktegenskaper
+            Fuktegenskaper och ånggenomsläpplighet
           </h2>
           <div className="mt-6">
             <div className="overflow-x-auto">
@@ -200,8 +260,20 @@ export default function TekniskData() {
                     <td className="py-3">Upp till 35–40&nbsp;% av egen vikt</td>
                   </tr>
                   <tr className="border-b border-foreground/5">
+                    <td className="py-3 pr-4 font-medium text-foreground">Standardåterfuktning</td>
+                    <td className="py-3">16&nbsp;% vid 20&nbsp;°C / 65&nbsp;% RH</td>
+                  </tr>
+                  <tr className="border-b border-foreground/5">
                     <td className="py-3 pr-4 font-medium text-foreground">Isoleringsförlust vid fukt</td>
                     <td className="py-3">Ingen mätbar förlust upp till 30&nbsp;% fukthalt</td>
+                  </tr>
+                  <tr className="border-b border-foreground/5">
+                    <td className="py-3 pr-4 font-medium text-foreground">Sorptionsvärme</td>
+                    <td className="py-3">~1,1&nbsp;kJ per gram absorberad fukt (exoterm)</td>
+                  </tr>
+                  <tr className="border-b border-foreground/5">
+                    <td className="py-3 pr-4 font-medium text-foreground">µ-värde (ångdiffusionsmotstånd)</td>
+                    <td className="py-3">1–2 (nära stillastående luft)</td>
                   </tr>
                   <tr className="border-b border-foreground/5">
                     <td className="py-3 pr-4 font-medium text-foreground">Fuktbuffrande</td>
@@ -219,12 +291,16 @@ export default function TekniskData() {
               </table>
             </div>
             <p className="mt-4">
-              Fårullens fukthantering är en av dess viktigaste tekniska{" "}
-              <Link href="/fordelar" className="text-primary hover:text-primary/80 link-grow">
-                fördelar
-              </Link>.
-              Den buffrar fuktvariationer i konstruktionen och bidrar till
-              ett stabilt inomhusklimat utan mekanisk ventilation.
+              µ-värdet 1–2 gör fårull till ett av de mest diffusionsöppna
+              isoleringsmaterialen — jämför med EPS (µ&nbsp;=&nbsp;20–100)
+              och XPS (µ&nbsp;=&nbsp;80–250). Det innebär att fukt passerar
+              fritt genom materialet istället för att kondensera inuti
+              konstruktionen. Kombinerat med{" "}
+              <Link href="/farull" className="text-primary hover:text-primary/80 link-grow">
+                sorptionsvärmen
+              </Link>{" "}
+              — som aktivt värmer väggen vid fuktupptagning — gör det
+              fårull idealisk för diffusionsöppna konstruktioner.
             </p>
           </div>
         </ScrollReveal>
@@ -232,7 +308,7 @@ export default function TekniskData() {
         {/* AKUSTIK */}
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Akustiska egenskaper
+            Akustiska egenskaper — fårullens ljudabsorption
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -279,7 +355,7 @@ export default function TekniskData() {
         {/* FYSISKA EGENSKAPER */}
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Fysiska egenskaper
+            Fysiska egenskaper — densitet, tjocklek och livslängd
           </h2>
           <div className="mt-6">
             <div className="overflow-x-auto">
@@ -307,7 +383,7 @@ export default function TekniskData() {
                   </tr>
                   <tr>
                     <td className="py-3 pr-4 font-medium text-foreground">Livslängd</td>
-                    <td className="py-3">50+ år (husets livstid)</td>
+                    <td className="py-3">75 år (natureplus-certifierad)</td>
                   </tr>
                 </tbody>
               </table>
@@ -318,7 +394,7 @@ export default function TekniskData() {
         {/* LUFTKVALITET */}
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Luftkvalitet och hälsa
+            Luftkvalitet och hälsa — fårullens VOC-bindning
           </h2>
           <div className="mt-6">
             <div className="overflow-x-auto">
@@ -349,7 +425,7 @@ export default function TekniskData() {
         {/* MILJÖ OCH HÅLLBARHET */}
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Miljö och hållbarhet
+            Miljö och hållbarhet — fårullsisoleringens klimatprofil
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -374,7 +450,11 @@ export default function TekniskData() {
                     </tr>
                     <tr className="border-b border-foreground/5">
                       <td className="py-3 pr-4 font-medium text-foreground">Tillverkningsenergi</td>
-                      <td className="py-3">~15&nbsp;kWh/m³ (mineralull: ~150–250&nbsp;kWh/m³)</td>
+                      <td className="py-3">~15&nbsp;kWh/m³ (~6&nbsp;MJ/kg) — mineralull: ~150–250&nbsp;kWh/m³ (~26&nbsp;MJ/kg)</td>
+                    </tr>
+                    <tr className="border-b border-foreground/5">
+                      <td className="py-3 pr-4 font-medium text-foreground">Biogent kol</td>
+                      <td className="py-3">50&nbsp;% av ren ulls vikt — 1&nbsp;kg ull lagrar ~1,8&nbsp;kg CO₂e</td>
                     </tr>
                     <tr className="border-b border-foreground/5">
                       <td className="py-3 pr-4 font-medium text-foreground">Råvara</td>
@@ -456,6 +536,18 @@ export default function TekniskData() {
                     <td className="py-3 pl-4">Nej</td>
                   </tr>
                   <tr className="border-b border-foreground/5">
+                    <td className="py-3 pr-4 font-medium text-foreground">µ-värde</td>
+                    <td className="py-3 px-4">1–2</td>
+                    <td className="py-3 px-4">1–2</td>
+                    <td className="py-3 pl-4">20–100</td>
+                  </tr>
+                  <tr className="border-b border-foreground/5">
+                    <td className="py-3 pr-4 font-medium text-foreground">Embodied energy</td>
+                    <td className="py-3 px-4">~6&nbsp;MJ/kg</td>
+                    <td className="py-3 px-4">~26&nbsp;MJ/kg</td>
+                    <td className="py-3 pl-4">~44–78&nbsp;MJ/FU</td>
+                  </tr>
+                  <tr className="border-b border-foreground/5">
                     <td className="py-3 pr-4 font-medium text-foreground">Biologiskt nedbrytbar</td>
                     <td className="py-3 px-4">Ja</td>
                     <td className="py-3 px-4">Nej</td>
@@ -463,7 +555,7 @@ export default function TekniskData() {
                   </tr>
                   <tr>
                     <td className="py-3 pr-4 font-medium text-foreground">Livslängd</td>
-                    <td className="py-3 px-4">50+ år</td>
+                    <td className="py-3 px-4">75 år</td>
                     <td className="py-3 px-4">25–40 år</td>
                     <td className="py-3 pl-4">30–50 år</td>
                   </tr>
@@ -476,13 +568,17 @@ export default function TekniskData() {
         {/* STANDARDER */}
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Standarder och certifieringar
+            Standarder, certifieringar och BBR-krav
           </h2>
           <div className="mt-6">
             <p className="mb-4">
               Fårullsisolering testas och certifieras enligt europeiska
               och internationella standarder:
             </p>
+
+            <h3 className="font-heading text-lg font-semibold text-foreground mt-6 mb-3">
+              Teststandarder
+            </h3>
             <ul className="space-y-3">
               <li>
                 <strong>EN 13162</strong> — Harmoniserad produktstandard
@@ -491,25 +587,71 @@ export default function TekniskData() {
               </li>
               <li>
                 <strong>EN 13501-1</strong> — Brandklassificering
-                av byggprodukter
+                av byggprodukter (Euroclass-systemet)
               </li>
               <li>
                 <strong>EN 12086</strong> — Bestämning av
-                ånggenomsläpplighet
+                ånggenomsläpplighet (µ-värde)
               </li>
               <li>
                 <strong>EN ISO 354</strong> — Mätning av
                 ljudabsorption i efterklangsrum
               </li>
-              <li>
-                <strong>ETA (European Technical Assessment)</strong> —
-                Tekniskt bedömningsdokument för CE-märkning
-              </li>
-              <li>
-                <strong>natureplus®</strong> — Internationellt
-                kvalitetsmärke för hållbara byggprodukter
-              </li>
             </ul>
+
+            <h3 className="font-heading text-lg font-semibold text-foreground mt-8 mb-3">
+              ETA och CE-märkning
+            </h3>
+            <p>
+              Eftersom det inte finns en harmoniserad europeisk standard
+              specifikt för animalisk ullsisolering krävs ett{" "}
+              <strong>ETA (European Technical Assessment)</strong> för
+              CE-märkning. ETA utfärdas av EOTA (European Organisation
+              for Technical Assessment) och möjliggör en
+              prestandadeklaration (DoP) enligt EU:s
+              byggproduktförordning. Med ETA och DoP kan produkten säljas
+              fritt inom hela EU/EES.
+            </p>
+
+            <h3 className="font-heading text-lg font-semibold text-foreground mt-8 mb-3">
+              Natureplus® och EPD
+            </h3>
+            <p>
+              <strong>Natureplus®</strong> är ett internationellt
+              kvalitetsmärke för hållbara byggprodukter. Certifierade
+              fårullsprodukter (t.ex. Isolena Optimal) har en{" "}
+              <strong>deklarerad livslängd på 75 år</strong> och är
+              verifierade fria från SVHC-ämnen (Substances of Very High
+              Concern).
+            </p>
+            <p className="mt-4">
+              <strong>EPD (Environmental Product Declaration)</strong>{" "}
+              krävs för beräkning av poäng inom BREEAM och LEED. Flera
+              tillverkare har publicerade EPD:er som redovisar
+              livscykelpåverkan från vagga till grav — inklusive det
+              negativa koldioxidavtrycket.
+            </p>
+
+            <h3 className="font-heading text-lg font-semibold text-foreground mt-8 mb-3">
+              BBR (Boverkets byggregler) — svenska krav
+            </h3>
+            <p>
+              BBR ställer krav på brandskydd och energiprestanda.
+              Fårullsisolering med <strong>Euroclass B‑s1,d0</strong>{" "}
+              uppfyller BBR:s krav direkt. Vid lägre brandklassning
+              (D‑s2,d2 eller sämre) ska brännbar isolering skyddas av
+              beklädnad klass K₁&nbsp;10 B‑s1,d0 eller
+              konstruktionsklass EI/REI&nbsp;30. BBR kräver dessutom
+              brandavskiljning vid varje våningsplan för brännbar
+              isolering.
+            </p>
+            <p className="mt-4">
+              Sveriges energikrav (BBR avsnitt 9) hör till de strängaste
+              i Europa. Fårullens lambda-värde på 0,033–0,040&nbsp;W/m·K
+              möter dessa krav med samma isoleringstjocklekar som
+              mineralull.
+            </p>
+
             <p className="mt-6 text-sm text-foreground/60 italic">
               Exakta certifieringar varierar per tillverkare. Kontakta
               Byeco för produktspecifika prestandadeklarationer och
@@ -518,6 +660,90 @@ export default function TekniskData() {
           </div>
         </ScrollReveal>
       </div>
+
+      {/* FAQ */}
+      <section className="py-16 md:py-24 border-t border-foreground/5">
+        <div className="max-w-3xl mx-auto px-6">
+          <ScrollReveal>
+            <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground mb-8">
+              Vanliga tekniska frågor om fårullsisolering
+            </h2>
+          </ScrollReveal>
+          <div className="space-y-6">
+            <ScrollReveal>
+              <details className="group border-b border-foreground/10 pb-4">
+                <summary className="cursor-pointer font-body font-medium text-foreground text-lg flex items-center justify-between">
+                  Vad är lambda-värdet för fårullsisolering?
+                  <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p className="mt-3 text-foreground/70 font-body leading-relaxed">
+                  Fårullsisolering har ett lambda-värde (λ) på
+                  0,033–0,040&nbsp;W/m·K, jämförbart med mineralull och EPS.
+                  Skillnaden är att fårull behåller sin isoleringsförmåga vid
+                  fukt, medan mineralull tappar prestanda redan vid
+                  1–2&nbsp;% fukthalt.
+                </p>
+              </details>
+            </ScrollReveal>
+            <ScrollReveal>
+              <details className="group border-b border-foreground/10 pb-4">
+                <summary className="cursor-pointer font-body font-medium text-foreground text-lg flex items-center justify-between">
+                  Vad är µ-värdet för fårullsisolering?
+                  <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p className="mt-3 text-foreground/70 font-body leading-relaxed">
+                  µ-värdet (ångdiffusionsmotståndsfaktor) är 1–2, nära
+                  stillastående luft. Det gör fårull till ett av de mest
+                  diffusionsöppna isoleringsmaterialen. Jämför med EPS
+                  (µ&nbsp;=&nbsp;20–100) och XPS (µ&nbsp;=&nbsp;80–250).
+                </p>
+              </details>
+            </ScrollReveal>
+            <ScrollReveal>
+              <details className="group border-b border-foreground/10 pb-4">
+                <summary className="cursor-pointer font-body font-medium text-foreground text-lg flex items-center justify-between">
+                  Vilken brandklass har fårullsisolering?
+                  <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p className="mt-3 text-foreground/70 font-body leading-relaxed">
+                  Med boraxbehandling: Euroclass B‑s1,d0 — svårantändlig,
+                  minimal rökutveckling, inga brinnande droppar.
+                  Antändningstemperatur 560–600&nbsp;°C, mer än dubbelt
+                  så hög som trä.
+                </p>
+              </details>
+            </ScrollReveal>
+            <ScrollReveal>
+              <details className="group border-b border-foreground/10 pb-4">
+                <summary className="cursor-pointer font-body font-medium text-foreground text-lg flex items-center justify-between">
+                  Behöver fårullsisolering ETA för CE-märkning?
+                  <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p className="mt-3 text-foreground/70 font-body leading-relaxed">
+                  Ja, eftersom det saknas en harmoniserad EU-standard för
+                  animalisk ullsisolering krävs ETA (European Technical
+                  Assessment) utfärdat av EOTA. Med ETA kan produkten
+                  CE-märkas och säljas i hela EU/EES.
+                </p>
+              </details>
+            </ScrollReveal>
+            <ScrollReveal>
+              <details className="group border-b border-foreground/10 pb-4">
+                <summary className="cursor-pointer font-body font-medium text-foreground text-lg flex items-center justify-between">
+                  Uppfyller fårullsisolering BBR?
+                  <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p className="mt-3 text-foreground/70 font-body leading-relaxed">
+                  Ja. Med Euroclass B‑s1,d0 uppfylls BBR:s brandkrav direkt.
+                  Lambda-värdet 0,033–0,040&nbsp;W/m·K möter Sveriges
+                  energikrav (BBR avsnitt 9) med samma tjocklekar som
+                  mineralull.
+                </p>
+              </details>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
 
       {/* BYECO CTA */}
       <ScrollReveal>
