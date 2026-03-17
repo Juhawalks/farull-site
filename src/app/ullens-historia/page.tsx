@@ -60,7 +60,7 @@ export default function UllensHistoriaPage() {
         width={800}
         height={533}
         priority
-        className="w-full h-64 object-cover rounded-2xl mb-12"
+        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-2xl mb-12"
       />
 
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
