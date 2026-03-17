@@ -5,13 +5,13 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Vad är fårull? Fibrernas egenskaper och uppbyggnad",
+  title: "Vad är fårull? Vetenskap, egenskaper och fiberstruktur",
   description:
-    "Lär dig allt om fårullens fiberstruktur, keratin, krusighet och naturliga egenskaper. Från lanolin till lambda-värde.",
+    "Komplett guide till fårull: keratins kemi, krusighet, fukthantering, sorptionsvärme, tovning, antibakteriella egenskaper, UV-skydd och biologisk nedbrytning. Sveriges mest utförliga resurs om ullfibrer.",
   openGraph: {
-    title: "Vad är fårull? Fibrernas egenskaper och uppbyggnad",
+    title: "Vad är fårull? Vetenskap, egenskaper och fiberstruktur",
     description:
-      "Lär dig allt om fårullens fiberstruktur, keratin, krusighet och naturliga egenskaper. Från lanolin till lambda-värde.",
+      "Komplett guide till fårull: keratins kemi, krusighet, fukthantering, sorptionsvärme, tovning, antibakteriella egenskaper, UV-skydd och biologisk nedbrytning.",
   },
   alternates: {
     canonical: "/farull",
@@ -27,9 +27,9 @@ export default function FarullPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Vad är fårull? Fibrernas egenskaper och uppbyggnad",
+            headline: "Vad är fårull? Vetenskap, egenskaper och fiberstruktur",
             description:
-              "Lär dig allt om fårullens fiberstruktur, keratin, krusighet och naturliga egenskaper. Från lanolin till lambda-värde.",
+              "Komplett guide till fårull: keratins kemi, krusighet, fukthantering, sorptionsvärme, tovning, antibakteriella egenskaper, UV-skydd och biologisk nedbrytning.",
             url: "https://farull.se/farull",
             publisher: {
               "@type": "Organization",
@@ -74,6 +74,59 @@ export default function FarullPage() {
             isoleringsförmågan. Det är denna tredimensionella uppbyggnad som
             gör ull så svår att kopiera syntetiskt.
           </p>
+          <p className="mt-4">
+            Kemiskt består ullfibern av cirka 45&nbsp;% kol, 28&nbsp;% syre,
+            15&nbsp;% kväve, 7&nbsp;% väte och 5&nbsp;% svavel. Det är
+            svavelinnehållet som gör ullen unik bland naturfibrer — det bildar
+            starka disulfidbindningar mellan keratinkedjorna som ger fibern
+            dess elasticitet, styrka och förmåga att återhämta sig efter
+            böjning och kompression.
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
+            Keratins kemi
+          </h2>
+          <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
+            <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
+              <Image
+                src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80"
+                alt="Vetenskaplig närbild – molekylstruktur"
+                width={800}
+                height={533}
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
+              />
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
+                Keratins molekylära uppbyggnad ger ullen dess unika egenskaper
+              </figcaption>
+            </figure>
+            <div className="md:flex-1 min-w-0">
+              <p>
+                Keratin utgör 80–85&nbsp;% av ullfibrens totala proteininnehåll
+                och innehåller alla nio essentiella aminosyror. Den viktigaste
+                aminosyran är <strong>cystin</strong> (17,5&nbsp;%), vars
+                svavelatomer bildar så kallade disulfidbindningar
+                (Cys‑S‑S‑Cys) mellan keratinkedjorna. Dessa tvärbindningar
+                fungerar som molekylära bryggor som håller fibrernas
+                tredimensionella struktur på plats.
+              </p>
+              <p className="mt-4">
+                Det är disulfidbindningarna som gör att ull kan töjas upp till
+                30&nbsp;% av sin längd och ändå återgå till ursprungsformen.
+                Samma bindningar ger fibern naturlig motståndskraft mot nötning.
+                Jämfört med bomull, som saknar svavelbindningar, är ullfibern
+                betydligt mer elastisk och formstabil.
+              </p>
+              <p className="mt-4">
+                Övriga viktiga aminosyror inkluderar serin (11,7&nbsp;%),
+                glutaminsyra (11,1&nbsp;%), treonin och arginin. Det är den
+                komplexa blandningen av hydrofila (vattendragande) och hydrofoba
+                (vattenavstötande) aminosyror som ger ullen dess paradoxala
+                förmåga att hantera fukt utan att förlora isoleringsförmåga.
+              </p>
+            </div>
+          </div>
         </ScrollReveal>
 
         <ScrollReveal>
@@ -113,6 +166,48 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
+            Tovning — fibrer som låser sig
+          </h2>
+          <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
+            <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
+              <Image
+                src="https://images.unsplash.com/photo-1582655299221-2b6bff351df0?w=800&q=80"
+                alt="Tovad ull i närbild"
+                width={800}
+                height={533}
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
+              />
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
+                Tovning är en irreversibel process som förändrar ullens struktur
+              </figcaption>
+            </figure>
+            <div className="md:flex-1 min-w-0">
+              <p>
+                En av ullens mest fascinerande egenskaper är dess förmåga att tova.
+                Ullens kutikula — det yttre fjällskiktet — har fjäll som
+                överlappar som tegelpannor på ett tak, alla riktade från rot till
+                spets. Det skapar vad forskare kallar <em>directional friction
+                effect</em>: mer friktion i en riktning än den andra.
+              </p>
+              <p className="mt-4">
+                När ull utsätts för fukt, värme och mekanisk rörelse svälljer
+                fibrerna och fjällen reser sig. Fibrer som rör sig hakar i
+                varandras fjäll som en spärrhake. Nya vätebindningar bildas
+                mellan fibrerna och låser dem i ett kompakt nätverk. Processen
+                är irreversibel — väl tovad ull kan inte tovas upp igen.
+              </p>
+              <p className="mt-4">
+                Tovning har använts i tusentals år för att skapa filt, hattar
+                och tätande material. I modern byggisolering är tovning däremot
+                något man vill undvika, varför tillverkningsprocessen
+                kontrolleras noggrant för att bevara fibrernas luftfickor.
+              </p>
+            </div>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
             Fukt och värme på samma gång
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
@@ -133,13 +228,25 @@ export default function FarullPage() {
                 Fårull kan ta upp 35–40&nbsp;% av sin egen vikt i fukt utan att kännas
                 våt. Det beror på att fibrernas kärna är hydrofil och drar till sig
                 vattenmolekyler, medan det yttre fjällskiktet är hydrofobt och
-                stöter bort vätskedroppar.
+                stöter bort vätskedroppar. Vid normala inomhusförhållanden
+                (20&nbsp;°C, 65&nbsp;% relativ fuktighet) har ull en
+                standardåterfuktning på cirka 16&nbsp;%.
               </p>
               <p className="mt-4">
-                När vattenmolekylerna absorberas av keratinet frigörs en liten mängd
-                värme i en exoterm reaktion. Det är därför ullkläder värmer även när
-                de är fuktiga. Inget syntetiskt material kan replikera den effekten
-                fullt ut.
+                När vattenmolekylerna absorberas av keratinet frigörs värme i en
+                exoterm reaktion — den så kallade <strong>sorptionsvärmen</strong>.
+                Forskning visar att ull frigör cirka <strong>1,1&nbsp;kJ värme per
+                gram absorberad fukt</strong>. I praktiken innebär det att 1&nbsp;kg
+                torr ull som placeras i fuktig luft avger ungefär lika mycket
+                värme som en elvärmedyna som körs i 8&nbsp;timmar.
+              </p>
+              <p className="mt-4">
+                Det är därför ullkläder värmer även när de är fuktiga, och
+                därför fårullsisolering i väggar bidrar till en jämnare
+                inomhustemperatur vid skiftande väderförhållanden. Inget
+                syntetiskt material kan replikera denna effekt fullt ut.
+                Mineralull tappar dessutom upp till 24 gånger i
+                isoleringsförmåga vid fukt, medan fårull behåller sin.
               </p>
             </div>
           </div>
@@ -167,7 +274,7 @@ export default function FarullPage() {
                 Ullens egenskaper varierar kraftigt beroende på ras.{" "}
                 <strong>Merinoull</strong> (under 20 mikron) är extremt fin och
                 mjuk. Perfekt för kläder närmast huden.{" "}
-                <strong>Crossbred-ull</strong> (25-35 mikron) är starkare och hamnar
+                <strong>Crossbred-ull</strong> (25–35 mikron) är starkare och hamnar
                 i mattor, möbeltyger och tekniska textilier.{" "}
                 <strong>Grovull</strong> (över 35 mikron) från <Link href="/farraser" className="text-primary hover:text-primary/80 link-grow">lantraser som
                 Gutefåret</Link> är tålig och naturligt motståndskraftig.
@@ -178,7 +285,12 @@ export default function FarullPage() {
                 för{" "}
                 <Link href="/vad-ar-farullsisolering" className="text-primary hover:text-primary/80 link-grow">
                   byggisolering
-                </Link>.
+                </Link>. Årlig ullproduktion per får varierar från 1–4&nbsp;kg
+                för köttraser till 5–13&nbsp;kg för merinobesättningar.{" "}
+                <Link href="/farraser" className="text-primary hover:text-primary/80 link-grow">
+                  Svenska raser
+                </Link>{" "}
+                producerar i genomsnitt 2–4&nbsp;kg per djur och år.
               </p>
             </div>
           </div>
@@ -211,7 +323,135 @@ export default function FarullPage() {
               </p>
               <p className="mt-4">
                 Lanolin är också en värdefull biprodukt i sig. Det används i
-                hudvård, läkemedel och smörjmedel.
+                hudvård, läkemedel och smörjmedel. Kemiskt är lanolin en komplex
+                blandning av vaxestrar, fettsyror och alkoholer — inte ett
+                vanligt fett, utan ett vax som smälter vid hudtemperatur. Det är
+                anledningen till att lanolin är så effektivt i hudvårdsprodukter
+                och varför det ger ullfibern ett naturligt vattenavvisande skikt.
+              </p>
+            </div>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
+            Antibakteriella egenskaper
+          </h2>
+          <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
+            <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
+              <Image
+                src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+                alt="Ren, naturlig miljö – symboliserar ullens hygieniska egenskaper"
+                width={800}
+                height={533}
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
+              />
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
+                Ullens ytstruktur skapar en ogynnsam miljö för bakterietillväxt
+              </figcaption>
+            </figure>
+            <div className="md:flex-1 min-w-0">
+              <p>
+                En vanlig missuppfattning är att ull aktivt dödar bakterier.
+                Forskningen visar en mer nyanserad bild: ullens hydrofoba
+                ytskikt skapar en ogynnsam miljö för bakterietillväxt. Bakterier
+                fastnar på fiberytan genom en biofilmmekanism och lyfts bort
+                från huden istället för att föröka sig.
+              </p>
+              <p className="mt-4">
+                Vad ull däremot gör exceptionellt bra är att{" "}
+                <strong>binda luktmolekyler kemiskt</strong>. Forskning från
+                AgResearch i Nya Zeeland visar att ullens reaktiva aminosyragrupper
+                permanent binder de ämnen som orsakar lukt. Det förklarar varför
+                ullplagg luktar mindre än syntetiska efter en dag — och varför{" "}
+                <Link href="/fordelar" className="text-primary hover:text-primary/80 link-grow">
+                  fårullsisolering renar inomhusluften
+                </Link>{" "}
+                från formaldehyd och flyktiga organiska föreningar.
+              </p>
+            </div>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
+            Naturligt UV-skydd
+          </h2>
+          <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
+            <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
+              <Image
+                src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
+                alt="Solljus över betesmark"
+                width={800}
+                height={533}
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
+              />
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
+                Keratins aromatiska aminosyror absorberar UV-strålning naturligt
+              </figcaption>
+            </figure>
+            <div className="md:flex-1 min-w-0">
+              <p>
+                Ullfibrer erbjuder ett naturligt skydd mot ultraviolett
+                strålning. Beroende på täthet och färg uppnår ulltyger ett
+                UV-skyddsfaktor (UPF) på <strong>20–50</strong>. Lätta
+                merinostickat når UPF 25–30, medan tätare och mörkare tyger kan
+                nå UPF 40–50+.
+              </p>
+              <p className="mt-4">
+                UV-absorptionen beror på aromatiska aminosyrastrukturer i
+                keratinproteinet, samt naturliga pigment i fibern. Mörkare ull
+                ger betydligt högre skydd. Det är en av anledningarna till att
+                fårets egen päls skyddar det effektivt mot intensiv sol, och
+                varför ullplagg är populära inom friluftsliv — de ger ett
+                inbyggt solskydd som syntetiska fibrer saknar.
+              </p>
+            </div>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
+            Biologisk nedbrytning
+          </h2>
+          <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
+            <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
+              <Image
+                src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80"
+                alt="Jord och grönska – naturens kretslopp"
+                width={800}
+                height={533}
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
+              />
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
+                Ull bryts ned till näring i jorden inom 3–6 månader
+              </figcaption>
+            </figure>
+            <div className="md:flex-1 min-w-0">
+              <p>
+                Till skillnad från syntetiska material är fårull{" "}
+                <strong>100&nbsp;% biologiskt nedbrytbar</strong>. I varm, fuktig
+                jord bryts ullfibrer ned inom 3–6 månader. Tester visar att
+                merinotyg kan vara 95&nbsp;% nedbrutet redan efter 15 veckor. Svampar
+                och bakterier bryter ned keratinproteinet och frigör kväve,
+                svavel och andra näringsämnen tillbaka till jorden.
+              </p>
+              <p className="mt-4">
+                Det innebär att fårull vid livslängdens slut fungerar som
+                gödning snarare än avfall. Jämför med mineralull (som inte
+                bryts ned) eller EPS (som kan ta hundratals år att sönderdelas
+                och frigör mikroplast under processen).
+              </p>
+              <p className="mt-4">
+                Viktigt: biologisk nedbrytning kräver fukt och
+                mikroorganismer. I en torr, skyddad byggnadskonstruktion bevaras
+                ullen i decennier. Det är den kontrollerade miljön som gör
+                att{" "}
+                <Link href="/vad-ar-farullsisolering" className="text-primary hover:text-primary/80 link-grow">
+                  fårullsisolering
+                </Link>{" "}
+                kan hålla i 50–75 år, samtidigt som den vid rivning kan
+                komposteras istället för deponeras.
               </p>
             </div>
           </div>
@@ -243,8 +483,16 @@ export default function FarullPage() {
                 för extra brandskydd. Alla naturliga egenskaper finns kvar.
               </p>
               <p className="mt-4">
+                Att isolera ett helt svenskt hus — väggar, tak och golv —
+                kräver den årliga ullklippet från ungefär 150–300 får, beroende
+                på husets storlek och isoleringstjocklek. Det sätter ullens
+                potential i perspektiv: med cirka 600&nbsp;000 får i Sverige
+                finns det tillräckligt med ull för att isolera tusentals hus
+                varje år — ull som idag till stor del går till spillo.
+              </p>
+              <p className="mt-4">
                 <Link href="/vad-ar-farullsisolering" className="text-primary hover:text-primary/80 link-grow">
-                  Läs mer om fårullsisolering
+                  Läs mer om fårullsisolering →
                 </Link>
               </p>
             </div>
