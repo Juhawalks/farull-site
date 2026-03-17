@@ -22,6 +22,8 @@ import {
   Recycle,
   Calculator,
   ClipboardList,
+  Scissors,
+  MapPin,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -89,6 +91,18 @@ const utforskaFarull = [
     href: "/farraser",
     text: "Gutefår, Gotlandsfår, Ryafår. Varje ras ger ull med helt olika karaktär.",
     icon: Heart,
+  },
+  {
+    title: "Fårklippning",
+    href: "/farklippning",
+    text: "Från fårrygg till råvara. Så går klippningen till och varför den är viktig.",
+    icon: Scissors,
+  },
+  {
+    title: "Svensk ull",
+    href: "/svensk-ull",
+    text: "1\u00a0000 ton per år — en outnyttjad resurs som nu hittar nya användningsområden.",
+    icon: MapPin,
   },
   {
     title: "Användningsområden",

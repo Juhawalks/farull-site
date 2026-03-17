@@ -4,6 +4,8 @@ import { FarullLogo } from "./FarullLogo";
 const farullLinks = [
   { label: "Vad är fårull?", href: "/farull" },
   { label: "Svenska fårraser", href: "/farraser" },
+  { label: "Fårklippning", href: "/farklippning" },
+  { label: "Svensk ull", href: "/svensk-ull" },
   { label: "Användningsområden", href: "/anvandningsomraden" },
   { label: "Ullens historia", href: "/ullens-historia" },
 ];
