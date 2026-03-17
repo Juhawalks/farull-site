@@ -22,7 +22,30 @@ export function Footer() {
   return (
     <footer className="bg-foreground text-white/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          {/* Om sajten */}
+          <div>
+            <Link href="/" className="font-heading text-2xl font-semibold text-white">
+              Farull.se
+            </Link>
+            <p className="text-sm font-body text-white/60 leading-relaxed mt-4">
+              Allt om fårull och fårullsisolering. Oberoende kunskap om
+              materialet, egenskaperna och varför det spelar roll.
+            </p>
+            <p className="text-sm font-body text-white/50 mt-4">
+              Drivs av{" "}
+              <a
+                href="https://byeco.se"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-accent/80 transition-colors"
+              >
+                Byeco AB
+              </a>
+              {" "}· Göteborg
+            </p>
+          </div>
+
           {/* Fårull */}
           <div>
             <h3 className="font-heading text-lg font-semibold text-white mb-4">
