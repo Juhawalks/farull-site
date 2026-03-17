@@ -230,7 +230,7 @@ export default function Jamforelse() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+                src="https://images.unsplash.com/photo-1704742950992-9815a104820c?w=800&q=80"
                 alt="Isoleringsarbete — mineralull kräver skyddsutrustning, fårull monteras med bara händerna"
                 width={800}
                 height={533}
@@ -428,7 +428,7 @@ export default function Jamforelse() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
+                src="https://images.unsplash.com/photo-1763569003710-ddc3e690ebbf?w=800&q=80"
                 alt="Grönt landskap med betande får — fårull ger mer tillbaka i hälsa och hållbarhet"
                 width={800}
                 height={533}

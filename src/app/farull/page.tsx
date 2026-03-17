@@ -143,8 +143,8 @@ export default function FarullPage() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80"
-                alt="Vetenskaplig närbild – molekylstruktur"
+                src="https://images.unsplash.com/photo-1647699926980-b7d360761521?w=800&q=80"
+                alt="Närbild på ullfibrer — keratinets tredimensionella struktur"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -355,8 +355,8 @@ export default function FarullPage() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=800&q=80"
-                alt="Får i regn – lanolinets naturliga skydd"
+                src="https://images.unsplash.com/photo-1757711334246-522df09efdc9?w=800&q=80"
+                alt="Närbild på får som betar utomhus — lanolinet skyddar ullen mot väder och vind"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -392,8 +392,8 @@ export default function FarullPage() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
-                alt="Ren, naturlig miljö – symboliserar ullens hygieniska egenskaper"
+                src="https://images.unsplash.com/photo-1642752054841-23ca828680d1?w=800&q=80"
+                alt="Närbild på vit fårull — naturligt motståndskraftig mot bakterier"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -432,8 +432,8 @@ export default function FarullPage() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
-                alt="Solljus över betesmark"
+                src="https://images.unsplash.com/photo-1700838712765-fad192553296?w=800&q=80"
+                alt="Fårflock som betar på grönt bete i solljus"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -516,7 +516,7 @@ export default function FarullPage() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+                src="https://images.unsplash.com/photo-1704742950992-9815a104820c?w=800&q=80"
                 alt="Byggarbetsplats med träregelverk"
                 width={800}
                 height={533}

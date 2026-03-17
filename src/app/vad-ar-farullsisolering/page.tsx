@@ -33,7 +33,7 @@ export default function VadArFarullsisolering() {
             url: "https://farull.se/vad-ar-farullsisolering",
             datePublished: "2025-03-01",
             dateModified: "2026-03-17",
-            image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80",
+            image: "https://images.unsplash.com/photo-1704742950992-9815a104820c?w=1200&q=80",
             publisher: {
               "@type": "Organization",
               name: "Farull.se",
@@ -117,7 +117,7 @@ export default function VadArFarullsisolering() {
       </ScrollReveal>
 
       <Image
-        src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+        src="https://images.unsplash.com/photo-1704742950992-9815a104820c?w=800&q=80"
         alt="Fårullsisolering installeras i träregelvägg — naturligt material utan skyddsutrustning"
         width={800}
         height={533}

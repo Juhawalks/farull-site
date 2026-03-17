@@ -139,8 +139,8 @@ export default function FarraserPage() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=800&q=80"
-                alt="Gutefår med horn på naturbete"
+                src="https://images.unsplash.com/photo-1661967898208-d90eb31d6223?w=800&q=80"
+                alt="Bagge med stora spiralhorn på naturbete — typisk för primitiva lantraser som Gutefår"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -322,8 +322,8 @@ export default function FarraserPage() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
-                alt="Betande fårflock i svenskt landskap"
+                src="https://images.unsplash.com/photo-1749136364184-5f7e5123b44f?w=800&q=80"
+                alt="Fårflock med lockig ull på naturbete — svenska lantraser"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -411,8 +411,8 @@ export default function FarraserPage() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
-                alt="Vidsträckta betesmarker"
+                src="https://images.unsplash.com/photo-1772215842204-3e5838af499c?w=800&q=80"
+                alt="Får som betar på gröna betesmarker — global ullproduktion"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"

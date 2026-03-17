@@ -321,7 +321,7 @@ export default function AnvandningsomradenPage() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+                src="https://images.unsplash.com/photo-1704742950992-9815a104820c?w=800&q=80"
                 alt="Fårullsisolering i regelvägg — termisk isolering, luftrening och fuktreglering i ett material"
                 width={800}
                 height={533}

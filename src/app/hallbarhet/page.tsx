@@ -136,7 +136,7 @@ export default function Hallbarhet() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
+                src="https://images.unsplash.com/photo-1763394556187-efd6ec4e3961?w=800&q=80"
                 alt="Grönt beteslandskap med djur"
                 width={800}
                 height={533}
