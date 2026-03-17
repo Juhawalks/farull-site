@@ -60,7 +60,7 @@ export default function Fordelar() {
         width={800}
         height={533}
         priority
-        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-2xl mb-12"
+        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />
 
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
@@ -82,7 +82,7 @@ export default function Fordelar() {
                 alt="Ljust rum med ren luft och naturligt ljus"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Fårull binder formaldehyd och renar luften i hemmet
@@ -111,7 +111,7 @@ export default function Fordelar() {
                 alt="Dimma och fukt i naturligt landskap"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Upp till 40&nbsp;% av sin vikt i fukt – utan att tappa prestanda
@@ -140,7 +140,7 @@ export default function Fordelar() {
                 alt="Eldflamma i närbild"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ull kolnar och självslocknar – brandklass B1/C utan kemikalier
@@ -169,7 +169,7 @@ export default function Fordelar() {
                 alt="Lugnt tyst rum med mjukt ljus"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Krusiga fibrer fångar ljudvågor i ett brett frekvensomfång
@@ -197,7 +197,7 @@ export default function Fordelar() {
                 alt="Grönt landskap med betande djur"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Gräs binder CO₂, fåret omvandlar det till ull – naturens egen kolsänka
@@ -225,7 +225,7 @@ export default function Fordelar() {
                 alt="Händer som arbetar med naturligt material"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ingen klåda, inget damm – montering med bara händerna
@@ -258,7 +258,7 @@ export default function Fordelar() {
                 alt="Vackert äldre hus i gott skick"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 50+ år utan att sjunka ihop – isolering som håller hela husets livstid

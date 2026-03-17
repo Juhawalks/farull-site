@@ -60,7 +60,7 @@ export default function AnvandningsomradenPage() {
         width={800}
         height={533}
         priority
-        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-2xl mb-12"
+        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />
 
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
@@ -85,7 +85,7 @@ export default function AnvandningsomradenPage() {
                 alt="Ullkläder och textilier"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Merinoull i baslager, grövre ull i kappor och kostymer
@@ -117,7 +117,7 @@ export default function AnvandningsomradenPage() {
                 alt="Skandinavisk inredning med ulldetaljer"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ullmattor, filtar och akustikpaneler – en nordisk tradition som lever vidare
@@ -150,7 +150,7 @@ export default function AnvandningsomradenPage() {
                 alt="Trädgårdsodling med naturliga material"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ullpellets håller fukten, förhindrar ogräs och ger näring åt jorden
@@ -183,7 +183,7 @@ export default function AnvandningsomradenPage() {
                 alt="Akustikbehandlat rum med mjukt ljus"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ullbaserade akustikpaneler – effektiv ljuddämpning som är helt biologiskt nedbrytbar
@@ -215,7 +215,7 @@ export default function AnvandningsomradenPage() {
                 alt="Byggarbetsplats med isoleringsarbete"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Termisk isolering, luftrening, brandsäkerhet och fuktreglering – allt i ett material

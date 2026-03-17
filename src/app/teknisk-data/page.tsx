@@ -60,7 +60,7 @@ export default function TekniskData() {
         width={800}
         height={533}
         priority
-        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-2xl mb-12"
+        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />
 
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
@@ -135,7 +135,7 @@ export default function TekniskData() {
                 alt="Eldflamma i närbild"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ull kolnar och självslocknar — sprider inte brand
@@ -241,7 +241,7 @@ export default function TekniskData() {
                 alt="Tyst rum med akustisk komfort"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Effektiv ljuddämpning över hela frekvensspektrat
@@ -358,7 +358,7 @@ export default function TekniskData() {
                 alt="Grön skog – hållbarhet och natur"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Förnybar råvara med negativt koldioxidavtryck

@@ -60,7 +60,7 @@ export default function UllensHistoriaPage() {
         width={800}
         height={533}
         priority
-        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-2xl mb-12"
+        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />
 
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
@@ -86,7 +86,7 @@ export default function UllensHistoriaPage() {
                 alt="Historiskt hantverk och textiltillverkning"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Vikingarna exporterade ulltyger – vadmal var Nordens viktigaste handelsvara
@@ -120,7 +120,7 @@ export default function UllensHistoriaPage() {
                 alt="Gammalt timmerhus med traditionell byggnadsteknik"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 I svenska timmerhus packades ulldrev mellan stockarna för att täta och isolera
@@ -154,7 +154,7 @@ export default function UllensHistoriaPage() {
                 alt="Industriell tillverkning"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Mineralull blev standard på 1930-talet – men kräver smältning vid 1 400 °C
@@ -191,7 +191,7 @@ export default function UllensHistoriaPage() {
                 alt="Modernt hållbart hus"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Sedan 2010-talet söker klimatmedvetna byggherrar material med lågt koldioxidavtryck
@@ -231,7 +231,7 @@ export default function UllensHistoriaPage() {
                 alt="Grön skog – naturens kretslopp"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 200 000 ton europeisk spillull per år – från avfall till hållbar resurs

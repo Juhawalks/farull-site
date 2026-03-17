@@ -60,7 +60,7 @@ export default function Hallbarhet() {
         width={800}
         height={533}
         priority
-        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-2xl mb-12"
+        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />
 
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
@@ -83,7 +83,7 @@ export default function Hallbarhet() {
                 alt="Grönt beteslandskap med djur"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Gräs binder CO₂, fåret gör det till ull – kolet stannar i byggnaden i 50+ år
@@ -112,7 +112,7 @@ export default function Hallbarhet() {
                 alt="Naturliga fibrer och hållbar process"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Tvätt och mekanisk kardning – ingen smältning, inga höga temperaturer
@@ -139,7 +139,7 @@ export default function Hallbarhet() {
                 alt="Fårflock på betesmark"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Europeisk spillull som idag saknar köpare kan bli morgondagens byggisolering
@@ -169,7 +169,7 @@ export default function Hallbarhet() {
                 alt="Grönt kretslopp i naturen"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 100&nbsp;% biologiskt nedbrytbar – vid rivning komposteras ullen och återgår till jorden
@@ -197,7 +197,7 @@ export default function Hallbarhet() {
                 alt="Modern hållbar arkitektur"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 EU:s taxonomiförordning ger starkare incitament att välja biobaserade material

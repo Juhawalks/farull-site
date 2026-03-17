@@ -60,7 +60,7 @@ export default function FarraserPage() {
         width={800}
         height={533}
         priority
-        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-2xl mb-12"
+        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />
 
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
@@ -90,7 +90,7 @@ export default function FarraserPage() {
                 alt="Gutefår med horn på naturbete"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Gutefår – Sveriges äldsta fårras med sina karakteristiska horn
@@ -128,7 +128,7 @@ export default function FarraserPage() {
                 alt="Gotlandsfår med lockig grå ull"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Gotlandsfårets lockiga, glansiga päls i naturligt grått
@@ -164,7 +164,7 @@ export default function FarraserPage() {
                 alt="Får med lång tjock ull"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ryafårets långa, luggiga ull har använts till ryor i århundraden
@@ -198,7 +198,7 @@ export default function FarraserPage() {
                 alt="Får med mjuk tät ullpäls"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Finullsfår – den finaste svenska ullen, nära merinoklassen
@@ -230,7 +230,7 @@ export default function FarraserPage() {
                 alt="Betande fårflock i svenskt landskap"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Svenska lantraser på naturbete – en ullresurs som väntar på att användas

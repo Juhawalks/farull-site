@@ -60,7 +60,7 @@ export default function VadArFarullsisolering() {
         width={800}
         height={533}
         priority
-        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-2xl mb-12"
+        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />
 
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
@@ -85,7 +85,7 @@ export default function VadArFarullsisolering() {
                 alt="Naturliga fibrer i närbild"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ullen tvättas, kardas och formas till skivor – en enkel process
@@ -120,7 +120,7 @@ export default function VadArFarullsisolering() {
                 alt="Närbild på ullfibrer som skapar luftfickor"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Miljontals små luftfickor i fibrerna – det är luften som isolerar
@@ -155,7 +155,7 @@ export default function VadArFarullsisolering() {
                 alt="Husbygge med synligt regelverk"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ytterväggar, snedtak, golv – fårull fungerar överallt i konstruktionen
@@ -189,7 +189,7 @@ export default function VadArFarullsisolering() {
                 alt="Modernt hus med hållbar profil"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Högre materialpris – men lägre totalkostnad sett över husets livstid

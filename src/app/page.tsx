@@ -185,7 +185,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="hidden lg:block parallax-wrap rounded-2xl shadow-2xl">
+            <div className="hidden lg:block parallax-wrap rounded-xl shadow-2xl">
               <Image
                 src="https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=800&q=80"
                 alt="Fårull - naturlig isolering"
@@ -215,7 +215,7 @@ export default function Home() {
             {fordelar.map((item) => (
               <div
                 key={item.title}
-                className="card-hover bg-white rounded-lg p-8 border border-foreground/5"
+                className="card-hover bg-white rounded-soft p-8 border border-foreground/5"
               >
                 <item.icon
                   size={32}
@@ -237,7 +237,7 @@ export default function Home() {
 
       {/* BRED BILD - ULL-TEXTUR */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="parallax-wrap rounded-2xl h-64 md:h-80">
+        <div className="parallax-wrap rounded-xl h-64 md:h-80">
           <Image
             src="https://images.unsplash.com/photo-1560781290-7dc94c0f8f4f?w=1200&q=80"
             alt="Närbild på ullfibrer med naturlig textur"
@@ -295,7 +295,7 @@ export default function Home() {
               Utforska fårullens värld
             </h2>
           </div>
-          <div className="parallax-wrap rounded-2xl h-64 md:h-80 mb-12">
+          <div className="parallax-wrap rounded-xl h-64 md:h-80 mb-12">
             <Image
               src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=800&q=80"
               alt="Får som betar på en grön äng i solljus"
@@ -309,7 +309,7 @@ export default function Home() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="group card-hover bg-white/50 border border-foreground/5 rounded-lg p-6 transition-colors duration-300"
+                className="group card-hover bg-white/50 border border-foreground/5 rounded-soft p-6 transition-colors duration-300"
               >
                 <item.icon
                   size={24}
@@ -346,7 +346,7 @@ export default function Home() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="group card-hover bg-white/50 border border-foreground/5 rounded-lg p-6 transition-colors duration-300"
+                className="group card-hover bg-white/50 border border-foreground/5 rounded-soft p-6 transition-colors duration-300"
               >
                 <item.icon
                   size={24}

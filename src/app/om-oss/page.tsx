@@ -37,7 +37,7 @@ export default function OmOss() {
         width={800}
         height={533}
         priority
-        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-2xl mb-12"
+        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />
 
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
@@ -61,7 +61,7 @@ export default function OmOss() {
                 alt="Skrivbord med dator och anteckningar"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Det saknades bra, samlad information om fårull på svenska – så vi byggde den
@@ -89,7 +89,7 @@ export default function OmOss() {
                 alt="Modernt kontor med naturligt ljus"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Byeco – kontor i Rävlanda utanför Göteborg och i Helsingfors
@@ -126,7 +126,7 @@ export default function OmOss() {
                 alt="Kommunikation och kontakt"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Vi svarar gärna på frågor om fårullsisolering och materialet

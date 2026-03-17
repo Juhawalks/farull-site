@@ -60,7 +60,7 @@ export default function Montering() {
         width={800}
         height={533}
         priority
-        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-2xl mb-12"
+        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />
 
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
@@ -84,7 +84,7 @@ export default function Montering() {
                 alt="Enkla handverktyg – sax och måttband"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Allt du behöver: sax, måttband och eventuellt en häftpistol
@@ -115,7 +115,7 @@ export default function Montering() {
                 alt="Väggkonstruktion med regelverk"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Klipp 10–20 mm bredare än regelavståndet – fibrerna fyller ut själva
@@ -147,7 +147,7 @@ export default function Montering() {
                 alt="Takkonstruktion med synliga takstolar"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 I snedtak kan isoleringen behöva fästas med häftklamrar eller nät
@@ -175,7 +175,7 @@ export default function Montering() {
                 alt="Öppet vindsutrymme"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Lägg skivorna direkt på bjälklaget – fårull hanterar fukten naturligt
@@ -202,7 +202,7 @@ export default function Montering() {
                 alt="Golvkonstruktion med reglar"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Fårull i mellanbjälklag ger både termisk och akustisk isolering
@@ -229,7 +229,7 @@ export default function Montering() {
                 alt="Noggrant hantverksarbete"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Hellre för brett än för smalt – och komprimera aldrig materialet

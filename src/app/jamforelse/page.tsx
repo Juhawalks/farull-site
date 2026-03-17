@@ -60,7 +60,7 @@ export default function Jamforelse() {
         width={800}
         height={533}
         priority
-        className="w-full h-56 object-cover rounded-2xl mb-12"
+        className="w-full h-56 object-cover rounded-xl mb-12"
       />
 
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
@@ -84,7 +84,7 @@ export default function Jamforelse() {
                 alt="Byggarbetsplats med isoleringsmaterial"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Mineralull kräver skyddsutrustning – fårull monteras med bara händerna
@@ -134,7 +134,7 @@ export default function Jamforelse() {
                 alt="Naturliga fibrer och material"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Cellulosa och fårull – två biobaserade alternativ med olika styrkor
@@ -168,7 +168,7 @@ export default function Jamforelse() {
                 alt="Byggmaterial i jämförelse"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 EPS isolerar termiskt – men saknar fårullens fukt- och brandegenskaper
@@ -202,7 +202,7 @@ export default function Jamforelse() {
                 alt="Grönt landskap med betande får"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Fårull kostar mer – men ger mer tillbaka i luftkvalitet, hälsa och hållbarhet

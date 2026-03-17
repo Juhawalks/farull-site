@@ -60,7 +60,7 @@ export default function FarullPage() {
         width={800}
         height={533}
         priority
-        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-2xl mb-12"
+        className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />
 
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
@@ -87,7 +87,7 @@ export default function FarullPage() {
                 alt="Närbild på krusiga ullfibrer"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ullens naturliga krusighet – nyckeln till dess isoleringsförmåga
@@ -122,7 +122,7 @@ export default function FarullPage() {
                 alt="Dimma över grönt landskap – fukt i naturen"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ull hanterar fukt som inget annat fibermaterial
@@ -156,7 +156,7 @@ export default function FarullPage() {
                 alt="Olika garnnystan i naturliga färger"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Merinoull, crossbred och grovull – tre helt olika karaktärer
@@ -195,7 +195,7 @@ export default function FarullPage() {
                 alt="Får i regn – lanolinets naturliga skydd"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Lanolin – fårets eget regnskydd som också skyddar isoleringen
@@ -228,7 +228,7 @@ export default function FarullPage() {
                 alt="Byggarbetsplats med träregelverk"
                 width={800}
                 height={533}
-                className="w-full h-48 md:h-56 object-cover rounded-2xl"
+                className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Fårull går från fiber till färdig byggisolering i väggar och tak
