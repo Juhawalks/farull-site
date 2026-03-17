@@ -137,7 +137,7 @@ export default function TekniskData() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ull kolnar och självslocknar — sprider inte brand
               </figcaption>
             </figure>
@@ -243,7 +243,7 @@ export default function TekniskData() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Effektiv ljuddämpning över hela frekvensspektrat
               </figcaption>
             </figure>
@@ -360,7 +360,7 @@ export default function TekniskData() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Förnybar råvara med negativt koldioxidavtryck
               </figcaption>
             </figure>
@@ -510,7 +510,7 @@ export default function TekniskData() {
                 kvalitetsmärke för hållbara byggprodukter
               </li>
             </ul>
-            <p className="mt-6 text-sm text-foreground/50 italic">
+            <p className="mt-6 text-sm text-foreground/60 italic">
               Exakta certifieringar varierar per tillverkare. Kontakta
               Byeco för produktspecifika prestandadeklarationer och
               datablad för Isolena-produkter.
@@ -549,19 +549,19 @@ export default function TekniskData() {
               <Link href="/jamforelse" className="link-grow text-lg font-medium text-foreground">
                 Fårull vs andra material →
               </Link>
-              <p className="text-foreground/50 mt-1">Fördjupad jämförelse av prestanda, pris och miljöpåverkan.</p>
+              <p className="text-foreground/60 mt-1">Fördjupad jämförelse av prestanda, pris och miljöpåverkan.</p>
             </li>
             <li>
               <Link href="/pris" className="link-grow text-lg font-medium text-foreground">
                 Vad kostar fårullsisolering? →
               </Link>
-              <p className="text-foreground/50 mt-1">Materialpris, totalkostnad och räkneexempel.</p>
+              <p className="text-foreground/60 mt-1">Materialpris, totalkostnad och räkneexempel.</p>
             </li>
             <li>
               <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-foreground/50 mt-1">De praktiska fördelarna bakom siffrorna.</p>
+              <p className="text-foreground/60 mt-1">De praktiska fördelarna bakom siffrorna.</p>
             </li>
           </ul>
         </div>

@@ -84,7 +84,7 @@ export default function Fordelar() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Fårull binder formaldehyd och renar luften i hemmet
               </figcaption>
             </figure>
@@ -113,7 +113,7 @@ export default function Fordelar() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Upp till 40&nbsp;% av sin vikt i fukt – utan att tappa prestanda
               </figcaption>
             </figure>
@@ -142,7 +142,7 @@ export default function Fordelar() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ull kolnar och självslocknar – brandklass B1/C utan kemikalier
               </figcaption>
             </figure>
@@ -171,7 +171,7 @@ export default function Fordelar() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Krusiga fibrer fångar ljudvågor i ett brett frekvensomfång
               </figcaption>
             </figure>
@@ -199,7 +199,7 @@ export default function Fordelar() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Gräs binder CO₂, fåret omvandlar det till ull – naturens egen kolsänka
               </figcaption>
             </figure>
@@ -227,7 +227,7 @@ export default function Fordelar() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ingen klåda, inget damm – montering med bara händerna
               </figcaption>
             </figure>
@@ -260,7 +260,7 @@ export default function Fordelar() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 50+ år utan att sjunka ihop – isolering som håller hela husets livstid
               </figcaption>
             </figure>
@@ -308,19 +308,19 @@ export default function Fordelar() {
               <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-foreground/50 mt-1">Från fårrygg till vägg – så blir ullen till isolering.</p>
+              <p className="text-foreground/60 mt-1">Från fårrygg till vägg – så blir ullen till isolering.</p>
             </li>
             <li>
               <Link href="/hallbarhet" className="link-grow text-lg font-medium text-foreground">
                 Hållbarhet →
               </Link>
-              <p className="text-foreground/50 mt-1">Koldioxidbindning, cirkulär ekonomi och EU-taxonomin.</p>
+              <p className="text-foreground/60 mt-1">Koldioxidbindning, cirkulär ekonomi och EU-taxonomin.</p>
             </li>
             <li>
               <Link href="/jamforelse" className="link-grow text-lg font-medium text-foreground">
                 Fårull vs andra material →
               </Link>
-              <p className="text-foreground/50 mt-1">Så står sig fårullen mot mineralull och cellplast.</p>
+              <p className="text-foreground/60 mt-1">Så står sig fårullen mot mineralull och cellplast.</p>
             </li>
           </ul>
         </div>

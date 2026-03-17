@@ -87,7 +87,7 @@ export default function Pris() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Isolena-skivor från Byeco — finns i flera tjocklekar
               </figcaption>
             </figure>
@@ -120,7 +120,7 @@ export default function Pris() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ingen skyddsutrustning behövs — snabbare och trevligare jobb
               </figcaption>
             </figure>
@@ -161,7 +161,7 @@ export default function Pris() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Fårull håller husets livstid — utan att sjunka ihop
               </figcaption>
             </figure>
@@ -239,7 +239,7 @@ export default function Pris() {
               </table>
             </div>
 
-            <p className="mt-6 text-sm text-foreground/50 italic">
+            <p className="mt-6 text-sm text-foreground/60 italic">
               Siffrorna är ungefärliga och baserade på genomsnittliga priser 2024/2025.
               Faktiska kostnader varierar beroende på tjocklek, typ av konstruktion
               och lokala arbetspriser. Kontakta Byeco för en beräkning baserad på
@@ -262,7 +262,7 @@ export default function Pris() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Tjocklek, densitet och area avgör slutpriset
               </figcaption>
             </figure>
@@ -391,19 +391,19 @@ export default function Pris() {
               <Link href="/jamforelse" className="link-grow text-lg font-medium text-foreground">
                 Fårull vs andra material →
               </Link>
-              <p className="text-foreground/50 mt-1">Detaljerad jämförelse av prestanda, hälsa och miljöpåverkan.</p>
+              <p className="text-foreground/60 mt-1">Detaljerad jämförelse av prestanda, hälsa och miljöpåverkan.</p>
             </li>
             <li>
               <Link href="/montering" className="link-grow text-lg font-medium text-foreground">
                 Monteringsguide →
               </Link>
-              <p className="text-foreground/50 mt-1">Steg för steg — så installerar du fårullsisolering själv.</p>
+              <p className="text-foreground/60 mt-1">Steg för steg — så installerar du fårullsisolering själv.</p>
             </li>
             <li>
               <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-foreground/50 mt-1">Åtta konkreta skäl att välja ull framför mineralull.</p>
+              <p className="text-foreground/60 mt-1">Åtta konkreta skäl att välja ull framför mineralull.</p>
             </li>
           </ul>
         </div>

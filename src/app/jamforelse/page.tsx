@@ -86,7 +86,7 @@ export default function Jamforelse() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Mineralull kräver skyddsutrustning – fårull monteras med bara händerna
               </figcaption>
             </figure>
@@ -136,7 +136,7 @@ export default function Jamforelse() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Cellulosa och fårull – två biobaserade alternativ med olika styrkor
               </figcaption>
             </figure>
@@ -170,7 +170,7 @@ export default function Jamforelse() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 EPS isolerar termiskt – men saknar fårullens fukt- och brandegenskaper
               </figcaption>
             </figure>
@@ -204,7 +204,7 @@ export default function Jamforelse() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Fårull kostar mer – men ger mer tillbaka i luftkvalitet, hälsa och hållbarhet
               </figcaption>
             </figure>
@@ -252,19 +252,19 @@ export default function Jamforelse() {
               <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-foreground/50 mt-1">Fördjupning i fårullens åtta styrkor.</p>
+              <p className="text-foreground/60 mt-1">Fördjupning i fårullens åtta styrkor.</p>
             </li>
             <li>
               <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-foreground/50 mt-1">Så tillverkas produkten du jämför.</p>
+              <p className="text-foreground/60 mt-1">Så tillverkas produkten du jämför.</p>
             </li>
             <li>
               <Link href="/fragor-och-svar" className="link-grow text-lg font-medium text-foreground">
                 Frågor och svar →
               </Link>
-              <p className="text-foreground/50 mt-1">Pris, brandklass och livslängd – raka svar.</p>
+              <p className="text-foreground/60 mt-1">Pris, brandklass och livslängd – raka svar.</p>
             </li>
           </ul>
         </div>

@@ -89,7 +89,7 @@ export default function FarullPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ullens naturliga krusighet – nyckeln till dess isoleringsförmåga
               </figcaption>
             </figure>
@@ -124,7 +124,7 @@ export default function FarullPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ull hanterar fukt som inget annat fibermaterial
               </figcaption>
             </figure>
@@ -158,7 +158,7 @@ export default function FarullPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Merinoull, crossbred och grovull – tre helt olika karaktärer
               </figcaption>
             </figure>
@@ -197,7 +197,7 @@ export default function FarullPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Lanolin – fårets eget regnskydd som också skyddar isoleringen
               </figcaption>
             </figure>
@@ -230,7 +230,7 @@ export default function FarullPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Fårull går från fiber till färdig byggisolering i väggar och tak
               </figcaption>
             </figure>
@@ -260,19 +260,19 @@ export default function FarullPage() {
               <Link href="/farraser" className="link-grow text-lg font-medium text-foreground">
                 Svenska fårraser →
               </Link>
-              <p className="text-foreground/50 mt-1">Gutefår, gotlandsfår och fler – lär känna raserna bakom ullen.</p>
+              <p className="text-foreground/60 mt-1">Gutefår, gotlandsfår och fler – lär känna raserna bakom ullen.</p>
             </li>
             <li>
               <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-foreground/50 mt-1">Från luftrening till fukthantering – åtta skäl att välja ull.</p>
+              <p className="text-foreground/60 mt-1">Från luftrening till fukthantering – åtta skäl att välja ull.</p>
             </li>
             <li>
               <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-foreground/50 mt-1">Så blir ullen till skivor och rullar för ditt hem.</p>
+              <p className="text-foreground/60 mt-1">Så blir ullen till skivor och rullar för ditt hem.</p>
             </li>
           </ul>
         </div>

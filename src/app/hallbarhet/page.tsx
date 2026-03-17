@@ -85,7 +85,7 @@ export default function Hallbarhet() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Gräs binder CO₂, fåret gör det till ull – kolet stannar i byggnaden i 50+ år
               </figcaption>
             </figure>
@@ -114,7 +114,7 @@ export default function Hallbarhet() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Tvätt och mekanisk kardning – ingen smältning, inga höga temperaturer
               </figcaption>
             </figure>
@@ -141,7 +141,7 @@ export default function Hallbarhet() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Europeisk spillull som idag saknar köpare kan bli morgondagens byggisolering
               </figcaption>
             </figure>
@@ -171,7 +171,7 @@ export default function Hallbarhet() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 100&nbsp;% biologiskt nedbrytbar – vid rivning komposteras ullen och återgår till jorden
               </figcaption>
             </figure>
@@ -199,7 +199,7 @@ export default function Hallbarhet() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 EU:s taxonomiförordning ger starkare incitament att välja biobaserade material
               </figcaption>
             </figure>
@@ -248,19 +248,19 @@ export default function Hallbarhet() {
               <Link href="/farraser" className="link-grow text-lg font-medium text-foreground">
                 Svenska fårraser →
               </Link>
-              <p className="text-foreground/50 mt-1">Raserna bakom ullen – och den outnyttjade resursen.</p>
+              <p className="text-foreground/60 mt-1">Raserna bakom ullen – och den outnyttjade resursen.</p>
             </li>
             <li>
               <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-foreground/50 mt-1">Från koldioxidbindning till luftrening i praktiken.</p>
+              <p className="text-foreground/60 mt-1">Från koldioxidbindning till luftrening i praktiken.</p>
             </li>
             <li>
               <Link href="/ullens-historia" className="link-grow text-lg font-medium text-foreground">
                 Ullens historia →
               </Link>
-              <p className="text-foreground/50 mt-1">Tusentals år av isolering – och en modern comeback.</p>
+              <p className="text-foreground/60 mt-1">Tusentals år av isolering – och en modern comeback.</p>
             </li>
           </ul>
         </div>

@@ -88,7 +88,7 @@ export default function UllensHistoriaPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Vikingarna exporterade ulltyger – vadmal var Nordens viktigaste handelsvara
               </figcaption>
             </figure>
@@ -122,7 +122,7 @@ export default function UllensHistoriaPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 I svenska timmerhus packades ulldrev mellan stockarna för att täta och isolera
               </figcaption>
             </figure>
@@ -156,7 +156,7 @@ export default function UllensHistoriaPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Mineralull blev standard på 1930-talet – men kräver smältning vid 1 400 °C
               </figcaption>
             </figure>
@@ -193,7 +193,7 @@ export default function UllensHistoriaPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Sedan 2010-talet söker klimatmedvetna byggherrar material med lågt koldioxidavtryck
               </figcaption>
             </figure>
@@ -233,7 +233,7 @@ export default function UllensHistoriaPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 200 000 ton europeisk spillull per år – från avfall till hållbar resurs
               </figcaption>
             </figure>
@@ -269,19 +269,19 @@ export default function UllensHistoriaPage() {
               <Link href="/farraser" className="link-grow text-lg font-medium text-foreground">
                 Svenska fårraser →
               </Link>
-              <p className="text-foreground/50 mt-1">Raserna som bevarar den nordiska ulltraditionen.</p>
+              <p className="text-foreground/60 mt-1">Raserna som bevarar den nordiska ulltraditionen.</p>
             </li>
             <li>
               <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-foreground/50 mt-1">Den moderna produkten som fortsätter en tusenårig tradition.</p>
+              <p className="text-foreground/60 mt-1">Den moderna produkten som fortsätter en tusenårig tradition.</p>
             </li>
             <li>
               <Link href="/hallbarhet" className="link-grow text-lg font-medium text-foreground">
                 Hållbarhet och cirkulär ekonomi →
               </Link>
-              <p className="text-foreground/50 mt-1">EU-taxonomin och framtidens hållbara byggande.</p>
+              <p className="text-foreground/60 mt-1">EU-taxonomin och framtidens hållbara byggande.</p>
             </li>
           </ul>
         </div>

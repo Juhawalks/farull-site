@@ -87,7 +87,7 @@ export default function VadArFarullsisolering() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ullen tvättas, kardas och formas till skivor – en enkel process
               </figcaption>
             </figure>
@@ -122,7 +122,7 @@ export default function VadArFarullsisolering() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Miljontals små luftfickor i fibrerna – det är luften som isolerar
               </figcaption>
             </figure>
@@ -157,7 +157,7 @@ export default function VadArFarullsisolering() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ytterväggar, snedtak, golv – fårull fungerar överallt i konstruktionen
               </figcaption>
             </figure>
@@ -191,7 +191,7 @@ export default function VadArFarullsisolering() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Högre materialpris – men lägre totalkostnad sett över husets livstid
               </figcaption>
             </figure>
@@ -245,19 +245,19 @@ export default function VadArFarullsisolering() {
               <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-foreground/50 mt-1">Åtta konkreta skäl att välja ull framför mineralull.</p>
+              <p className="text-foreground/60 mt-1">Åtta konkreta skäl att välja ull framför mineralull.</p>
             </li>
             <li>
               <Link href="/montering" className="link-grow text-lg font-medium text-foreground">
                 Monteringsguide →
               </Link>
-              <p className="text-foreground/50 mt-1">Steg-för-steg: så installerar du fårullsisolering.</p>
+              <p className="text-foreground/60 mt-1">Steg-för-steg: så installerar du fårullsisolering.</p>
             </li>
             <li>
               <Link href="/jamforelse" className="link-grow text-lg font-medium text-foreground">
                 Fårull vs andra material →
               </Link>
-              <p className="text-foreground/50 mt-1">Detaljerad jämförelse mot mineralull, cellulosa och cellplast.</p>
+              <p className="text-foreground/60 mt-1">Detaljerad jämförelse mot mineralull, cellulosa och cellplast.</p>
             </li>
           </ul>
         </div>

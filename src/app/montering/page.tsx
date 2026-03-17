@@ -86,7 +86,7 @@ export default function Montering() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Allt du behöver: sax, måttband och eventuellt en häftpistol
               </figcaption>
             </figure>
@@ -117,7 +117,7 @@ export default function Montering() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Klipp 10–20 mm bredare än regelavståndet – fibrerna fyller ut själva
               </figcaption>
             </figure>
@@ -149,7 +149,7 @@ export default function Montering() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 I snedtak kan isoleringen behöva fästas med häftklamrar eller nät
               </figcaption>
             </figure>
@@ -177,7 +177,7 @@ export default function Montering() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Lägg skivorna direkt på bjälklaget – fårull hanterar fukten naturligt
               </figcaption>
             </figure>
@@ -204,7 +204,7 @@ export default function Montering() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Fårull i mellanbjälklag ger både termisk och akustisk isolering
               </figcaption>
             </figure>
@@ -231,7 +231,7 @@ export default function Montering() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Hellre för brett än för smalt – och komprimera aldrig materialet
               </figcaption>
             </figure>
@@ -278,19 +278,19 @@ export default function Montering() {
               <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-foreground/50 mt-1">Bakgrunden till materialet du monterar.</p>
+              <p className="text-foreground/60 mt-1">Bakgrunden till materialet du monterar.</p>
             </li>
             <li>
               <Link href="/fordelar" className="link-grow text-lg font-medium text-foreground">
                 Fördelar med fårullsisolering →
               </Link>
-              <p className="text-foreground/50 mt-1">Därför är ullen så trevlig att jobba med.</p>
+              <p className="text-foreground/60 mt-1">Därför är ullen så trevlig att jobba med.</p>
             </li>
             <li>
               <Link href="/fragor-och-svar" className="link-grow text-lg font-medium text-foreground">
                 Frågor och svar →
               </Link>
-              <p className="text-foreground/50 mt-1">Vanliga funderingar om montering, pris och livslängd.</p>
+              <p className="text-foreground/60 mt-1">Vanliga funderingar om montering, pris och livslängd.</p>
             </li>
           </ul>
         </div>

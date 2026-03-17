@@ -33,7 +33,7 @@ export function Footer() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-sm font-body text-white/60 hover:text-accent transition-colors w-fit"
+                  className="text-sm font-body text-white/70 hover:text-accent transition-colors w-fit"
                 >
                   {item.label}
                 </Link>
@@ -51,7 +51,7 @@ export function Footer() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-sm font-body text-white/60 hover:text-accent transition-colors w-fit"
+                  className="text-sm font-body text-white/70 hover:text-accent transition-colors w-fit"
                 >
                   {item.label}
                 </Link>
@@ -61,7 +61,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-8 text-center">
-          <p className="text-xs font-body text-white/30">
+          <p className="text-xs font-body text-white/50">
             © {new Date().getFullYear()} Farull.se
           </p>
         </div>

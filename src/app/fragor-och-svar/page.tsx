@@ -120,7 +120,7 @@ export default function FragorOchSvar() {
             </a>
             , så hjälper vi dig.
           </p>
-          <p className="font-body text-foreground/50 text-sm">
+          <p className="font-body text-foreground/60 text-sm">
             Vill du gå vidare och beställa? Försäljning och rådgivning
             sker via{" "}
             <a
@@ -145,19 +145,19 @@ export default function FragorOchSvar() {
               <Link href="/montering" className="link-grow text-lg font-medium text-foreground">
                 Monteringsguide →
               </Link>
-              <p className="text-foreground/50 mt-1">Steg för steg – så monterar du fårullsisolering själv.</p>
+              <p className="text-foreground/60 mt-1">Steg för steg – så monterar du fårullsisolering själv.</p>
             </li>
             <li>
               <Link href="/jamforelse" className="link-grow text-lg font-medium text-foreground">
                 Fårull vs andra material →
               </Link>
-              <p className="text-foreground/50 mt-1">Detaljerad jämförelse mot mineralull och cellplast.</p>
+              <p className="text-foreground/60 mt-1">Detaljerad jämförelse mot mineralull och cellplast.</p>
             </li>
             <li>
               <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-foreground/50 mt-1">Allt om materialet, från tillverkning till funktion.</p>
+              <p className="text-foreground/60 mt-1">Allt om materialet, från tillverkning till funktion.</p>
             </li>
           </ul>
         </div>

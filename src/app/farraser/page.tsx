@@ -92,7 +92,7 @@ export default function FarraserPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Gutefår – Sveriges äldsta fårras med sina karakteristiska horn
               </figcaption>
             </figure>
@@ -130,7 +130,7 @@ export default function FarraserPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Gotlandsfårets lockiga, glansiga päls i naturligt grått
               </figcaption>
             </figure>
@@ -166,7 +166,7 @@ export default function FarraserPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ryafårets långa, luggiga ull har använts till ryor i århundraden
               </figcaption>
             </figure>
@@ -200,7 +200,7 @@ export default function FarraserPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Finullsfår – den finaste svenska ullen, nära merinoklassen
               </figcaption>
             </figure>
@@ -232,7 +232,7 @@ export default function FarraserPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Svenska lantraser på naturbete – en ullresurs som väntar på att användas
               </figcaption>
             </figure>
@@ -268,19 +268,19 @@ export default function FarraserPage() {
               <Link href="/farull" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårull? →
               </Link>
-              <p className="text-foreground/50 mt-1">Krusighet, keratin och lanolin – fibern som gör allt möjligt.</p>
+              <p className="text-foreground/60 mt-1">Krusighet, keratin och lanolin – fibern som gör allt möjligt.</p>
             </li>
             <li>
               <Link href="/hallbarhet" className="link-grow text-lg font-medium text-foreground">
                 Hållbarhet →
               </Link>
-              <p className="text-foreground/50 mt-1">200 000 ton spillull och vägen mot cirkulär ekonomi.</p>
+              <p className="text-foreground/60 mt-1">200 000 ton spillull och vägen mot cirkulär ekonomi.</p>
             </li>
             <li>
               <Link href="/ullens-historia" className="link-grow text-lg font-medium text-foreground">
                 Ullens historia →
               </Link>
-              <p className="text-foreground/50 mt-1">Från bronsåldern till modern byggisolering.</p>
+              <p className="text-foreground/60 mt-1">Från bronsåldern till modern byggisolering.</p>
             </li>
           </ul>
         </div>

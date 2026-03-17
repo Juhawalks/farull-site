@@ -63,7 +63,7 @@ export default function OmOss() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Det saknades bra, samlad information om fårull på svenska – så vi byggde den
               </figcaption>
             </figure>
@@ -91,7 +91,7 @@ export default function OmOss() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Byeco – kontor i Rävlanda utanför Göteborg och i Helsingfors
               </figcaption>
             </figure>
@@ -128,7 +128,7 @@ export default function OmOss() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Vi svarar gärna på frågor om fårullsisolering och materialet
               </figcaption>
             </figure>
@@ -155,19 +155,19 @@ export default function OmOss() {
               <Link href="/vad-ar-farullsisolering" className="link-grow text-lg font-medium text-foreground">
                 Vad är fårullsisolering? →
               </Link>
-              <p className="text-foreground/50 mt-1">Lär dig mer om materialet vi brinner för.</p>
+              <p className="text-foreground/60 mt-1">Lär dig mer om materialet vi brinner för.</p>
             </li>
             <li>
               <Link href="/hallbarhet" className="link-grow text-lg font-medium text-foreground">
                 Hållbarhet →
               </Link>
-              <p className="text-foreground/50 mt-1">Varför fårull är framtidens hållbara val.</p>
+              <p className="text-foreground/60 mt-1">Varför fårull är framtidens hållbara val.</p>
             </li>
             <li>
               <Link href="/fragor-och-svar" className="link-grow text-lg font-medium text-foreground">
                 Frågor och svar →
               </Link>
-              <p className="text-foreground/50 mt-1">Vanliga funderingar om fårullsisolering.</p>
+              <p className="text-foreground/60 mt-1">Vanliga funderingar om fårullsisolering.</p>
             </li>
           </ul>
         </div>

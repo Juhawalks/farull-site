@@ -149,13 +149,6 @@ const utforskaIsolering = [
   },
 ];
 
-function SectionDivider() {
-  return (
-    <div className="flex justify-center py-4">
-      <div className="w-24 h-px bg-accent/30" />
-    </div>
-  );
-}
 
 export default function Home() {
   return (
@@ -172,7 +165,7 @@ export default function Home() {
               <h1 className="hero-title font-heading text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight text-foreground mb-8">
                 Allt om fårull. Från fiber till byggisolering.
               </h1>
-              <p className="hero-desc text-lg text-foreground/60 max-w-lg leading-relaxed font-body mb-10">
+              <p className="hero-desc text-lg text-foreground/70 max-w-lg leading-relaxed font-body mb-10">
                 Fårull har hållit oss varma i tusentals år. Nu gör den samma sak
                 för våra hus. Här samlar vi allt du behöver veta om materialet,
                 isoleringen och varför det spelar roll.
@@ -206,16 +199,15 @@ export default function Home() {
         </div>
       </section>
 
-      <SectionDivider />
 
       {/* FÖRDELAR */}
-      <section className="py-32">
+      <section className="py-20 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="reveal">
             <p className="uppercase tracking-widest text-accent text-sm font-body mb-4">
               Varför fårull?
             </p>
-            <h2 className="font-heading text-4xl font-semibold text-foreground mb-16">
+            <h2 className="font-heading text-4xl font-semibold text-foreground mb-10 md:mb-12">
               Sex skäl att byta till ull
             </h2>
           </div>
@@ -234,7 +226,7 @@ export default function Home() {
                 <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
                   {item.title}
                 </h3>
-                <p className="text-foreground/60 leading-relaxed font-body text-sm">
+                <p className="text-foreground/70 leading-relaxed font-body text-sm">
                   {item.text}
                 </p>
               </div>
@@ -256,10 +248,9 @@ export default function Home() {
         </div>
       </div>
 
-      <SectionDivider />
 
       {/* NYCKELTAL */}
-      <section className="reveal py-32">
+      <section className="reveal py-20 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {nyckeltal.map((item, i) => (
@@ -283,7 +274,7 @@ export default function Home() {
                 <p className="font-heading text-5xl text-primary font-semibold mb-2">
                   {item.value}
                 </p>
-                <p className="text-sm text-foreground/50 font-body">
+                <p className="text-sm text-foreground/60 font-body">
                   {item.label}
                 </p>
               </div>
@@ -292,16 +283,15 @@ export default function Home() {
         </div>
       </section>
 
-      <SectionDivider />
 
       {/* UTFORSKA FÅRULL */}
-      <section className="py-32">
+      <section className="py-20 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="reveal">
             <p className="uppercase tracking-widest text-accent text-sm font-body mb-4">
               Fårull som material
             </p>
-            <h2 className="font-heading text-4xl font-semibold text-foreground mb-16">
+            <h2 className="font-heading text-4xl font-semibold text-foreground mb-10 md:mb-12">
               Utforska fårullens värld
             </h2>
           </div>
@@ -330,7 +320,7 @@ export default function Home() {
                 <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
                   {item.title}
                 </h3>
-                <p className="font-body text-foreground/60 text-sm leading-relaxed">
+                <p className="font-body text-foreground/70 text-sm leading-relaxed">
                   {item.text}
                 </p>
               </Link>
@@ -339,16 +329,15 @@ export default function Home() {
         </div>
       </section>
 
-      <SectionDivider />
 
       {/* UTFORSKA ISOLERING */}
-      <section className="py-32">
+      <section className="py-20 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="reveal">
             <p className="uppercase tracking-widest text-accent text-sm font-body mb-4">
               Byggisolering
             </p>
-            <h2 className="font-heading text-4xl font-semibold text-foreground mb-16">
+            <h2 className="font-heading text-4xl font-semibold text-foreground mb-10 md:mb-12">
               Lär dig mer om fårullsisolering
             </h2>
           </div>
@@ -368,7 +357,7 @@ export default function Home() {
                 <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
                   {item.title}
                 </h3>
-                <p className="font-body text-foreground/60 text-sm leading-relaxed">
+                <p className="font-body text-foreground/70 text-sm leading-relaxed">
                   {item.text}
                 </p>
               </Link>
@@ -377,20 +366,19 @@ export default function Home() {
         </div>
       </section>
 
-      <SectionDivider />
 
       {/* AVSLUTANDE */}
-      <section className="reveal py-32">
+      <section className="reveal py-20 md:py-24">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-heading text-4xl font-semibold text-foreground mb-6">
             Var kan man köpa fårullsisolering?
           </h2>
-          <p className="font-body text-foreground/60 text-base leading-relaxed mb-4">
+          <p className="font-body text-foreground/70 text-base leading-relaxed mb-4">
             I Norden säljer Byeco fårullsisolering från österrikiska Isolena.
             De har kontor i Göteborg och Helsingfors, erbjuder fri rådgivning
             och 30&nbsp;dagars öppet köp.
           </p>
-          <p className="font-body text-foreground/60 text-sm leading-relaxed mb-8">
+          <p className="font-body text-foreground/70 text-sm leading-relaxed mb-8">
             Farull.se drivs av Byeco. All information här är fristående och
             faktabaserad, men vill du gå vidare och beställa isolering
             är det hos dem du hamnar.

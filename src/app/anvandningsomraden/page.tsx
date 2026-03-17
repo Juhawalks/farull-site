@@ -87,7 +87,7 @@ export default function AnvandningsomradenPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Merinoull i baslager, grövre ull i kappor och kostymer
               </figcaption>
             </figure>
@@ -119,7 +119,7 @@ export default function AnvandningsomradenPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ullmattor, filtar och akustikpaneler – en nordisk tradition som lever vidare
               </figcaption>
             </figure>
@@ -152,7 +152,7 @@ export default function AnvandningsomradenPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ullpellets håller fukten, förhindrar ogräs och ger näring åt jorden
               </figcaption>
             </figure>
@@ -185,7 +185,7 @@ export default function AnvandningsomradenPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Ullbaserade akustikpaneler – effektiv ljuddämpning som är helt biologiskt nedbrytbar
               </figcaption>
             </figure>
@@ -217,7 +217,7 @@ export default function AnvandningsomradenPage() {
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-2xl"
               />
-              <figcaption className="text-sm text-foreground/50 font-body mt-3 text-center italic">
+              <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
                 Termisk isolering, luftrening, brandsäkerhet och fuktreglering – allt i ett material
               </figcaption>
             </figure>
@@ -264,19 +264,19 @@ export default function AnvandningsomradenPage() {
               <Link href="/montering" className="link-grow text-lg font-medium text-foreground">
                 Monteringsguide →
               </Link>
-              <p className="text-foreground/50 mt-1">Steg för steg – så installerar du fårullsisolering.</p>
+              <p className="text-foreground/60 mt-1">Steg för steg – så installerar du fårullsisolering.</p>
             </li>
             <li>
               <Link href="/jamforelse" className="link-grow text-lg font-medium text-foreground">
                 Fårull vs andra material →
               </Link>
-              <p className="text-foreground/50 mt-1">Så presterar fårullen jämfört med alternativen.</p>
+              <p className="text-foreground/60 mt-1">Så presterar fårullen jämfört med alternativen.</p>
             </li>
             <li>
               <Link href="/hallbarhet" className="link-grow text-lg font-medium text-foreground">
                 Hållbarhet →
               </Link>
-              <p className="text-foreground/50 mt-1">Biologiskt nedbrytbar, cirkulär och koldioxidbindande.</p>
+              <p className="text-foreground/60 mt-1">Biologiskt nedbrytbar, cirkulär och koldioxidbindande.</p>
             </li>
           </ul>
         </div>

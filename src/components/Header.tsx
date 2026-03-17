@@ -191,7 +191,7 @@ export function Header() {
         {isOpen && (
           <nav className="lg:hidden pb-6 border-t border-[rgba(26,25,22,0.06)] pt-4" aria-label="Mobilmeny">
             <div className="flex flex-col gap-1">
-              <p className="text-xs uppercase tracking-[0.15em] text-foreground/40 font-body px-1 pt-2 pb-1">
+              <p className="text-xs uppercase tracking-[0.15em] text-foreground/50 font-body px-1 pt-2 pb-1">
                 Fårull
               </p>
               {farullNav.map((item) => (
@@ -205,7 +205,7 @@ export function Header() {
                 </Link>
               ))}
 
-              <p className="text-xs uppercase tracking-[0.15em] text-foreground/40 font-body px-1 pt-4 pb-1">
+              <p className="text-xs uppercase tracking-[0.15em] text-foreground/50 font-body px-1 pt-4 pb-1">
                 Isolering
               </p>
               {isoleringNav.map((item) => (
