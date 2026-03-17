@@ -5,13 +5,13 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Vad är fårull? Vetenskap, egenskaper och fiberstruktur",
+  title: "Vad är fårull? Egenskaper, kemi och fiberstruktur | Farull.se",
   description:
-    "Komplett guide till fårull: keratins kemi, krusighet, fukthantering, sorptionsvärme, tovning, antibakteriella egenskaper, UV-skydd och biologisk nedbrytning. Sveriges mest utförliga resurs om ullfibrer.",
+    "Fårull är en keratinfiber med unika egenskaper: fukthantering, sorptionsvärme, UV-skydd och naturlig nedbrytning. Läs vår kompletta guide till ullens vetenskap.",
   openGraph: {
-    title: "Vad är fårull? Vetenskap, egenskaper och fiberstruktur",
+    title: "Vad är fårull? Egenskaper, kemi och fiberstruktur",
     description:
-      "Komplett guide till fårull: keratins kemi, krusighet, fukthantering, sorptionsvärme, tovning, antibakteriella egenskaper, UV-skydd och biologisk nedbrytning.",
+      "Fårull är en keratinfiber med unika egenskaper: fukthantering, sorptionsvärme, UV-skydd och naturlig nedbrytning. Komplett vetenskaplig guide.",
   },
   alternates: {
     canonical: "/farull",
@@ -27,10 +27,13 @@ export default function FarullPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Vad är fårull? Vetenskap, egenskaper och fiberstruktur",
+            headline: "Vad är fårull? Egenskaper, kemi och fiberstruktur",
             description:
-              "Komplett guide till fårull: keratins kemi, krusighet, fukthantering, sorptionsvärme, tovning, antibakteriella egenskaper, UV-skydd och biologisk nedbrytning.",
+              "Fårull är en keratinfiber med unika egenskaper: fukthantering, sorptionsvärme, UV-skydd och naturlig nedbrytning. Komplett vetenskaplig guide.",
             url: "https://farull.se/farull",
+            datePublished: "2025-03-01",
+            dateModified: "2026-03-17",
+            image: "https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=1200&q=80",
             publisher: {
               "@type": "Organization",
               name: "Farull.se",
@@ -41,6 +44,57 @@ export default function FarullPage() {
               name: "Byeco AB",
               url: "https://byeco.se",
             },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Vad är fårull gjord av?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Fårull består till 80–85 % av proteinet keratin och innehåller cirka 45 % kol, 28 % syre, 15 % kväve och 5 % svavel. Svavelatomerna bildar starka disulfidbindningar som ger fibern dess elasticitet och styrka.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Hur mycket fukt kan fårull absorbera?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Fårull kan ta upp 35–40 % av sin egen vikt i fukt utan att kännas våt. Vid absorption frigörs sorptionsvärme — cirka 1,1 kJ per gram fukt — vilket gör att ullen aktivt värmer när den tar upp fukt.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Är fårull biologiskt nedbrytbar?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Ja, fårull är 100 % biologiskt nedbrytbar. I fuktig jord bryts ullfibrer ned inom 3–6 månader och frigör kväve, svavel och andra näringsämnen. I en skyddad byggnadskonstruktion håller den däremot 50–75 år.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Har fårull antibakteriella egenskaper?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Ullens hydrofoba ytskikt skapar en ogynnsam miljö för bakterietillväxt. Dessutom binder ullens aminosyragrupper luktmolekyler kemiskt, vilket förklarar varför ullplagg och fårullsisolering motverkar dålig lukt.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Vad är skillnaden mellan merinoull, crossbred och grovull?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Merinoull (under 20 mikron) är extremt fin och används i kläder. Crossbred-ull (25–35 mikron) är starkare och används i mattor och möbeltyger. Grovull (över 35 mikron) från lantraser är tålig och lämpar sig bäst för byggisolering.",
+                },
+              },
+            ],
           }),
         }}
       />
@@ -65,28 +119,26 @@ export default function FarullPage() {
 
       <div className="max-w-5xl space-y-6 font-body text-foreground/80 text-base leading-relaxed">
         <ScrollReveal>
-          <p>
-            Fårull är en naturfiber som växer ur fårets hud. Den består av
-            keratin, samma protein som finns i mänskligt hår och naglar. Men
-            ullfibern är betydligt mer komplex. Varje fiber har en yttre
-            fjällstruktur (kutikula), en inre cortex med spiralformade
-            keratinceller, och i grövre ull en ihålig märg som bidrar till
-            isoleringsförmågan. Det är denna tredimensionella uppbyggnad som
-            gör ull så svår att kopiera syntetiskt.
+          <p className="text-lg text-foreground/90">
+            <strong>Fårull är en naturlig keratinfiber</strong> som reglerar
+            fukt, genererar värme, motstår eld, bryter ned luftföroreningar
+            och återgår till jorden som näring. Inget syntetiskt material
+            kommer i närheten av den kombinationen. På den här sidan förklarar
+            vi vetenskapen bakom varje egenskap.
           </p>
           <p className="mt-4">
-            Kemiskt består ullfibern av cirka 45&nbsp;% kol, 28&nbsp;% syre,
-            15&nbsp;% kväve, 7&nbsp;% väte och 5&nbsp;% svavel. Det är
-            svavelinnehållet som gör ullen unik bland naturfibrer — det bildar
-            starka disulfidbindningar mellan keratinkedjorna som ger fibern
-            dess elasticitet, styrka och förmåga att återhämta sig efter
-            böjning och kompression.
+            Varje ullfibrer har tre lager: en yttre fjällstruktur (kutikula)
+            som styr fukt och friktion, en inre cortex med spiralformade
+            keratinceller som ger styrka och elasticitet, och i grövre ull en
+            ihålig märg som förstärker isoleringsförmågan. Det är denna
+            tredimensionella uppbyggnad som gör ull så svår att kopiera
+            syntetiskt.
           </p>
         </ScrollReveal>
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Keratins kemi
+            Fårullens kemi — keratin och disulfidbindningar
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -131,7 +183,7 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Krusigheten gör jobbet
+            Ullens krusighet — nyckeln till isolering
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -166,7 +218,7 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Tovning — fibrer som låser sig
+            Tovning av fårull — hur fibrer låser sig
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -208,7 +260,7 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Fukt och värme på samma gång
+            Fårullens fukthantering och sorptionsvärme
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -254,7 +306,7 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Tre sorters ull
+            Tre typer av fårull — merino, crossbred och grovull
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -298,7 +350,7 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Lanolin skyddar fibern
+            Lanolin — fårullens naturliga skyddsvax
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -335,7 +387,7 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Antibakteriella egenskaper
+            Fårullens antibakteriella egenskaper
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -353,10 +405,10 @@ export default function FarullPage() {
             <div className="md:flex-1 min-w-0">
               <p>
                 En vanlig missuppfattning är att ull aktivt dödar bakterier.
-                Forskningen visar en mer nyanserad bild: ullens hydrofoba
-                ytskikt skapar en ogynnsam miljö för bakterietillväxt. Bakterier
-                fastnar på fiberytan genom en biofilmmekanism och lyfts bort
-                från huden istället för att föröka sig.
+                Verkligheten är mer nyanserad: ullens hydrofoba ytskikt skapar
+                en miljö där bakterier trivs dåligt. Istället för att föröka sig
+                fritt fastnar bakterierna på fiberytan och lyfts bort från huden
+                — ungefär som en mjuk skrubbing vid varje rörelse.
               </p>
               <p className="mt-4">
                 Vad ull däremot gör exceptionellt bra är att{" "}
@@ -375,7 +427,7 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Naturligt UV-skydd
+            Fårullens naturliga UV-skydd
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -412,7 +464,7 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Biologisk nedbrytning
+            Fårull och biologisk nedbrytning
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -459,7 +511,7 @@ export default function FarullPage() {
 
         <ScrollReveal>
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground pt-4">
-            Från fiber till hus
+            Från ullfibrer till byggisolering
           </h2>
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
@@ -499,6 +551,93 @@ export default function FarullPage() {
           </div>
         </ScrollReveal>
       </div>
+
+      <section className="py-16 md:py-24 border-t border-foreground/5">
+        <div className="max-w-3xl mx-auto px-6">
+          <ScrollReveal>
+            <h2 className="font-heading text-2xl md:text-3xl font-semibold text-foreground mb-8">
+              Vanliga frågor om fårull
+            </h2>
+          </ScrollReveal>
+          <div className="space-y-6">
+            <ScrollReveal>
+              <details className="group border-b border-foreground/10 pb-4">
+                <summary className="cursor-pointer font-body font-medium text-foreground text-lg flex items-center justify-between">
+                  Vad är fårull gjord av?
+                  <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p className="mt-3 text-foreground/70 font-body leading-relaxed">
+                  Fårull består till 80–85&nbsp;% av proteinet keratin och innehåller
+                  cirka 45&nbsp;% kol, 28&nbsp;% syre, 15&nbsp;% kväve och 5&nbsp;%
+                  svavel. Svavelatomerna bildar starka disulfidbindningar (Cys‑S‑S‑Cys)
+                  som ger fibern dess elasticitet och styrka. Ullen innehåller alla nio
+                  essentiella aminosyror.
+                </p>
+              </details>
+            </ScrollReveal>
+            <ScrollReveal>
+              <details className="group border-b border-foreground/10 pb-4">
+                <summary className="cursor-pointer font-body font-medium text-foreground text-lg flex items-center justify-between">
+                  Hur mycket fukt kan fårull absorbera?
+                  <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p className="mt-3 text-foreground/70 font-body leading-relaxed">
+                  Fårull kan ta upp 35–40&nbsp;% av sin egen vikt i fukt utan att
+                  kännas våt. Vid absorption frigörs sorptionsvärme — cirka 1,1&nbsp;kJ
+                  per gram fukt — vilket gör att ullen aktivt värmer när den tar upp
+                  fukt. Vid standardförhållanden (20&nbsp;°C, 65&nbsp;% RH) har ull
+                  en återfuktning på 16&nbsp;%.
+                </p>
+              </details>
+            </ScrollReveal>
+            <ScrollReveal>
+              <details className="group border-b border-foreground/10 pb-4">
+                <summary className="cursor-pointer font-body font-medium text-foreground text-lg flex items-center justify-between">
+                  Är fårull biologiskt nedbrytbar?
+                  <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p className="mt-3 text-foreground/70 font-body leading-relaxed">
+                  Ja, fårull är 100&nbsp;% biologiskt nedbrytbar. I fuktig jord bryts
+                  ullfibrer ned inom 3–6 månader och frigör kväve, svavel och
+                  näringsämnen. I en skyddad byggnadskonstruktion håller ullisoleringen
+                  däremot 50–75 år tack vare den torra, kontrollerade miljön.
+                </p>
+              </details>
+            </ScrollReveal>
+            <ScrollReveal>
+              <details className="group border-b border-foreground/10 pb-4">
+                <summary className="cursor-pointer font-body font-medium text-foreground text-lg flex items-center justify-between">
+                  Har fårull antibakteriella egenskaper?
+                  <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p className="mt-3 text-foreground/70 font-body leading-relaxed">
+                  Ullens hydrofoba ytskikt skapar en ogynnsam miljö för
+                  bakterietillväxt. Dessutom binder ullens aminosyragrupper
+                  luktmolekyler kemiskt och permanent, vilket förklarar varför
+                  ullplagg luktar mindre än syntetiska och varför fårullsisolering
+                  renar inomhusluften från formaldehyd.
+                </p>
+              </details>
+            </ScrollReveal>
+            <ScrollReveal>
+              <details className="group border-b border-foreground/10 pb-4">
+                <summary className="cursor-pointer font-body font-medium text-foreground text-lg flex items-center justify-between">
+                  Vad är skillnaden mellan merinoull, crossbred och grovull?
+                  <span className="text-accent ml-4 transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p className="mt-3 text-foreground/70 font-body leading-relaxed">
+                  Merinoull (under 20 mikron) är extremt fin och mjuk — perfekt
+                  för kläder närmast huden. Crossbred-ull (25–35 mikron) är
+                  starkare och används i mattor och möbeltyger. Grovull (över
+                  35 mikron) från lantraser som Gutefåret är tålig och lämpar
+                  sig bäst för byggisolering. Ullmängden varierar från 1–4&nbsp;kg
+                  (köttraser) till 5–13&nbsp;kg (merino) per får och år.
+                </p>
+              </details>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
 
       <section className="py-16 md:py-24 border-t border-foreground/5">
         <div className="max-w-3xl mx-auto px-6">
