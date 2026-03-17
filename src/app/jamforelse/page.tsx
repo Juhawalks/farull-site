@@ -244,7 +244,7 @@ export default function Jamforelse() {
         </aside>
       </ScrollReveal>
 
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-16 md:py-24 border-t border-foreground/5">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="font-heading text-2xl md:text-3xl mb-8">Läs vidare</h2>
           <ul className="space-y-4">
