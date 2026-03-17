@@ -26,6 +26,12 @@ const siteUrl = "https://farull.se";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  icons: {
+    icon: [
+      { url: "/icon-light.svg", media: "(prefers-color-scheme: light)", type: "image/svg+xml" },
+      { url: "/icon-dark.svg", media: "(prefers-color-scheme: dark)", type: "image/svg+xml" },
+    ],
+  },
   title: {
     default: "Fårullsisolering – Naturlig isolering för ditt hem",
     template: "%s – Farull.se",
