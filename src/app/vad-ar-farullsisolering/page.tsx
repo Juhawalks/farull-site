@@ -33,7 +33,7 @@ export default function VadArFarullsisolering() {
             url: "https://farull.se/vad-ar-farullsisolering",
             datePublished: "2025-03-01",
             dateModified: "2026-03-17",
-            image: "https://images.unsplash.com/photo-1704742950992-9815a104820c?w=1200&q=80",
+            image: "https://farull.se/images/farull-video-2.png",
             publisher: {
               "@type": "Organization",
               name: "Farull.se",
@@ -117,10 +117,10 @@ export default function VadArFarullsisolering() {
       </ScrollReveal>
 
       <Image
-        src="https://images.unsplash.com/photo-1704742950992-9815a104820c?w=800&q=80"
-        alt="Fårullsisolering installeras i träregelvägg — naturligt material utan skyddsutrustning"
+        src="/images/farull-video-2.png"
+        alt="Fårklippning — första steget i tillverkningen av fårullsisolering"
         width={800}
-        height={533}
+        height={1000}
         priority
         className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />
@@ -157,8 +157,8 @@ export default function VadArFarullsisolering() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80"
-                alt="Naturliga ullfibrer i närbild — råmaterial för fårullsisolering"
+                src="/images/farull-4.jpg"
+                alt="Får under klippning — råmaterial för fårullsisolering"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"

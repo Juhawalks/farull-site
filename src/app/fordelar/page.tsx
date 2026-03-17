@@ -33,7 +33,7 @@ export default function Fordelar() {
             url: "https://farull.se/fordelar",
             datePublished: "2025-03-01",
             dateModified: "2026-03-17",
-            image: "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=1200&q=80",
+            image: "https://farull.se/images/farull-6.jpg",
             publisher: {
               "@type": "Organization",
               name: "Farull.se",
@@ -101,10 +101,10 @@ export default function Fordelar() {
       </ScrollReveal>
 
       <Image
-        src="https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=1200&q=80"
-        alt="Grön natur och hållbar miljö"
+        src="/images/farull-6.jpg"
+        alt="Fårflock i snölandskap — ullen skyddar fåren i alla väderförhållanden"
         width={800}
-        height={533}
+        height={1200}
         priority
         className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />

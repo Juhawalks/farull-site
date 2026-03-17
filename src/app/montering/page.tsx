@@ -157,10 +157,10 @@ export default function Montering() {
       </ScrollReveal>
 
       <Image
-        src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80"
-        alt="Montering av fårullsisolering — enkel hantering utan skyddsutrustning"
+        src="/images/farull-video-2.png"
+        alt="Fårklippning — ullen som blir till isolering"
         width={800}
-        height={533}
+        height={1000}
         priority
         className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />

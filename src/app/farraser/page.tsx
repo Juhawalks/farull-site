@@ -33,7 +33,7 @@ export default function FarraserPage() {
             url: "https://farull.se/farraser",
             datePublished: "2025-03-01",
             dateModified: "2026-03-17",
-            image: "https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?w=1200&q=80",
+            image: "https://farull.se/images/farull-3.jpg",
             publisher: {
               "@type": "Organization",
               name: "Farull.se",
@@ -101,10 +101,10 @@ export default function FarraserPage() {
       </ScrollReveal>
 
       <Image
-        src="https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?w=800&q=80"
-        alt="Fårflock som betar på en äng"
+        src="/images/farull-3.jpg"
+        alt="Klassisk illustration av ledande fårraser — Southdown, Hampshire, Merino med flera"
         width={800}
-        height={533}
+        height={1100}
         priority
         className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />
@@ -322,8 +322,8 @@ export default function FarraserPage() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1749136364184-5f7e5123b44f?w=800&q=80"
-                alt="Fårflock med lockig ull på naturbete — svenska lantraser"
+                src="/images/farull-4.jpg"
+                alt="Får under klippning — ullen skiljs från kroppen"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"

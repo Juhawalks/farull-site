@@ -33,7 +33,7 @@ export default function FarullPage() {
             url: "https://farull.se/farull",
             datePublished: "2025-03-01",
             dateModified: "2026-03-17",
-            image: "https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=1200&q=80",
+            image: "https://farull.se/images/farull-5.jpg",
             publisher: {
               "@type": "Organization",
               name: "Farull.se",
@@ -109,10 +109,10 @@ export default function FarullPage() {
       </ScrollReveal>
 
       <Image
-        src="https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=800&q=80"
-        alt="Närbild på ett får med tjock ull"
+        src="/images/farull-5.jpg"
+        alt="Närbild på ett får med tjock ullig päls"
         width={800}
-        height={533}
+        height={1200}
         priority
         className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />
@@ -143,14 +143,14 @@ export default function FarullPage() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1647699926980-b7d360761521?w=800&q=80"
-                alt="Närbild på ullfibrer — keratinets tredimensionella struktur"
+                src="/images/farull-1.jpg"
+                alt="Ullfibrens anatomi — keratin, cortex, kutikula och protofibriller"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Keratins molekylära uppbyggnad ger ullen dess unika egenskaper
+                Ullfibrens uppbyggnad: keratin, cortex och kutikula i tvärsnitt
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -311,14 +311,14 @@ export default function FarullPage() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80"
-                alt="Olika garnnystan i naturliga färger"
+                src="/images/farull-2.jpg"
+                alt="Ulltyper jämförda: Lambs wool, Merino, Cashmere, Angora och Alpaca"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Merinoull, crossbred och grovull – tre helt olika karaktärer
+                Olika djur, olika ull — från lamm till merino och alpaca
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">
@@ -355,8 +355,8 @@ export default function FarullPage() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1757711334246-522df09efdc9?w=800&q=80"
-                alt="Närbild på får som betar utomhus — lanolinet skyddar ullen mot väder och vind"
+                src="/images/farull-video.png"
+                alt="Får som klias — lanolinets fettskikt känns tydligt i ullen"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
@@ -516,14 +516,14 @@ export default function FarullPage() {
           <div className="mt-6 flex flex-col md:flex-row-reverse md:gap-8 lg:gap-12 md:items-start">
             <figure className="mb-6 md:mb-0 md:w-72 lg:w-80 flex-shrink-0">
               <Image
-                src="https://images.unsplash.com/photo-1704742950992-9815a104820c?w=800&q=80"
-                alt="Byggarbetsplats med träregelverk"
+                src="/images/farull-video-2.png"
+                alt="Fårklippning pågår — ullen tas tillvara för vidare bearbetning"
                 width={800}
                 height={533}
                 className="w-full h-48 md:h-56 object-cover rounded-xl"
               />
               <figcaption className="text-sm text-foreground/60 font-body mt-3 text-center italic">
-                Fårull går från fiber till färdig byggisolering i väggar och tak
+                Fårklippning — första steget mot byggisolering
               </figcaption>
             </figure>
             <div className="md:flex-1 min-w-0">

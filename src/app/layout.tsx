@@ -42,7 +42,7 @@ export const metadata: Metadata = {
       "Allt om fårullsisolering: fördelar, montering, jämförelser och hållbarhet. Naturlig isolering som andas.",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=1200&h=630&fit=crop&q=80",
+        url: "https://farull.se/images/farull-5.jpg",
         width: 1200,
         height: 630,
         alt: "Fårull – naturlig isolering",

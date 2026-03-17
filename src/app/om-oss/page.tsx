@@ -114,10 +114,10 @@ export default function OmOss() {
       </ScrollReveal>
 
       <Image
-        src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
-        alt="Byeco — Nordens specialist på fårullsisolering från Isolena"
+        src="/images/farull-video.png"
+        alt="Får som klias — Byeco bryr sig om djuren bakom materialet"
         width={800}
-        height={533}
+        height={1000}
         priority
         className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover rounded-xl mb-12"
       />

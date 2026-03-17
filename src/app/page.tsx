@@ -187,10 +187,10 @@ export default function Home() {
             </div>
             <div className="hidden lg:block parallax-wrap rounded-xl shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=800&q=80"
-                alt="Fårull - naturlig isolering"
+                src="/images/farull-5.jpg"
+                alt="Närbild på ett får med tjock ullig päls mot blå himmel"
                 width={800}
-                height={600}
+                height={1200}
                 priority
                 className="parallax-img object-cover w-full h-auto scale-110"
               />
@@ -239,10 +239,10 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="parallax-wrap rounded-xl h-64 md:h-80">
           <Image
-            src="https://images.unsplash.com/photo-1560781290-7dc94c0f8f4f?w=1200&q=80"
-            alt="Närbild på ullfibrer med naturlig textur"
+            src="/images/farull-6.jpg"
+            alt="Fårflock som vandrar genom snölandskap mot stenmur"
             width={1200}
-            height={400}
+            height={800}
             className="parallax-img w-full h-full object-cover scale-110"
           />
         </div>
@@ -297,10 +297,10 @@ export default function Home() {
           </div>
           <div className="parallax-wrap rounded-xl h-64 md:h-80 mb-12">
             <Image
-              src="https://images.unsplash.com/photo-1758545508130-92152167d49d?w=800&q=80"
-              alt="Fårflock som betar utomhus på grön betesmark"
+              src="/images/farull-video.png"
+              alt="Får som klias av hand — fårull är ett naturmaterial"
               width={800}
-              height={533}
+              height={1000}
               className="parallax-img w-full h-full object-cover scale-110"
             />
           </div>
